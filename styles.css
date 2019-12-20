@@ -32,8 +32,12 @@ nav ul {
 }
 
 .footer {
-    text-align: center;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
     color: grey;
+    text-align: center;
 }
 
 nav ul li {
