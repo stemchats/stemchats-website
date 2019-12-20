@@ -1,0 +1,89 @@
+body {
+    font-family: system-ui, Helvetica, Arial, sans-serif;
+    background: #ff5959;
+}
+
+.container {
+    max-width: 1005px;
+    margin: 0 auto;
+    padding: 2 em 1em;
+}
+
+header {
+    text-align: center;
+}
+
+/* #stemchats-logo {
+    width: 180px;
+} */
+
+nav {
+    margin: 2em auto 0;
+    max-width: 600px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    font-size: 1.25em;
+    color: white;
+    font-weight: 700px;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    flex-flow: column;
+}
+
+.hero {
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    font-weight: 700;
+}
+
+.hero p {
+    font-size: 1.2em;
+    font-weight: 600;
+    max-width: 500px;
+    line-height: 1.8em;
+    margin: 3em auto;
+}
+
+.hero p::before {
+    content: "";
+    display: block;
+    width: 120px;
+    border: 2px solid white;
+}
+
+.hero a {
+    background: #4f9da6;
+    padding: 1em 3em;
+    border-radius: 50px;
+    color: white;
+    text-decoration: none;
+    font-size: 1.375em;
+    font-weight: 700;
+}
+
+figure {
+    text-align: center;
+}
+
+figure img {
+    margin: 3em auto 0;
+    width: 300px;
+}
