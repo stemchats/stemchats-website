@@ -52,24 +52,25 @@ main {
     padding-top: 5em;;
 }
 
-.hero {
+.welcome {
     text-align: center;
 }
 
-.hero h1 {
+.welcome h1 {
     font-size: 2.5em;
     font-weight: 700;
 }
 
-.hero p {
+.welcome p {
     font-size: 1.2em;
     font-weight: 600;
     max-width: 400px;
     line-height: 1.5em;
     margin: 1.5em auto;
+    margin-bottom: 2em;
 }
 
-.hero a {
+.welcome a {
     background: #ff5959;
     padding: 1em 3em;
     border-radius: 50px;
@@ -77,6 +78,44 @@ main {
     text-decoration: none;
     font-size: 1.375em;
     font-weight: 700;
+}
+
+
+.newsletter {
+    text-align: center;
+}
+
+.newsletter h1 {
+    font-size: 2.5em;
+    font-weight: 700;
+}
+
+.newsletter p {
+    font-size: 1.2em;
+    font-weight: 600;
+    max-width: 400px;
+    line-height: 1.5em;
+    margin: 1.5em auto;
+}
+
+.newsletter a {
+    background: #ff5959;
+    padding: 1em 3em;
+    border-radius: 50px;
+    color: white;
+    text-decoration: none;
+    font-size: 1.375em;
+    font-weight: 700;
+}
+
+.newsletter_signup {
+    margin-top: -1em;
+    margin-bottom: 3em;
+}
+
+::placeholder {
+    font-family: system-ui, Helvetica, Arial, sans-serif;
+    text-align: center;
 }
 
 figure {
@@ -152,6 +191,7 @@ figure img {
     margin: 1em auto;
 }
 
+
 @media screen and (min-width: 820px) {
     header {
         display: flex;
@@ -184,17 +224,32 @@ figure img {
     main {
         flex-flow: row;
     }
-    .hero {
+    .welcome {
         text-align: left;
     }
-    .hero h1 {
+    .welcome h1 {
         font-size: 4em;
     }
 
-    .hero p {
+    .welcome p {
         font-size: 1.3em;
         padding: 0;
-        margin: 0 0 3em 0;
+        margin: 0 0 2em 0;
+    }
+    .newsletter {
+        text-align: right;
+        padding-top: 4em;
+    }
+    .newslsetter h1 {
+        font-size: 4em;
+    }
+    .newsletter p {
+        font-size: 1.3em;
+        padding: 0;
+        margin: 0 0 2em 2em;
+    }
+    ::placeholder {
+        text-align: left;
     }
     .figure img {
         width: 120%;
