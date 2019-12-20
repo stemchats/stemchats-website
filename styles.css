@@ -31,6 +31,11 @@ nav ul {
     justify-content: space-between;
 }
 
+.footer {
+    text-align: center;
+    color: grey;
+}
+
 nav ul li {
     list-style: none;
 }
