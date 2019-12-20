@@ -21,6 +21,7 @@ header {
 nav {
     margin: 2em auto 0;
     max-width: 600px;
+    padding-top: 1em;;
 }
 
 nav ul {
@@ -44,6 +45,7 @@ nav ul li a {
 main {
     display: flex;
     flex-flow: column-reverse;
+    padding-top: 5em;;
 }
 
 .hero {
@@ -66,7 +68,7 @@ main {
 .hero p::before {
     content: "";
     display: block;
-    width: 120px;
+    width: 180px;
     border: 2px solid #ff5959;
 }
 
@@ -86,7 +88,7 @@ figure {
 
 figure img {
     margin: center;
-    width: 540px;
+    width: 100%;
 }
 
 @media screen and (min-width: 820px) {
@@ -128,7 +130,8 @@ figure img {
         font-size: 4em;
     }
     .hero p:before {
-        margin: 1em 0;
+        margin: 2em 0;
+        display: flex;
     }
     .hero p {
         font-size: 1.3em;
