@@ -1,6 +1,7 @@
 body {
     font-family: system-ui, Helvetica, Arial, sans-serif;
     background: #ff5959;
+    color: white;
 }
 
 .container {
@@ -42,7 +43,7 @@ nav ul li a {
 
 main {
     display: flex;
-    flex-flow: column;
+    flex-flow: column-reverse;
 }
 
 .hero {
@@ -84,6 +85,61 @@ figure {
 }
 
 figure img {
-    margin: 3em auto 0;
+    margin: center;
     width: 300px;
+}
+
+@media screen and (min-width: 820px) {
+    header {
+        display: flex;
+        justify-content: space-between;
+        flex-flow: wrap;
+        align-items: center;
+    }
+    nav {
+        margin: 0;
+    }
+    nav ul {
+        margin: 0;
+        padding: 0;
+        display: flex;
+    }
+    nav ul li {
+        list-style: none;
+        padding: 0.5em 2em;
+    }
+    nav ul li a {
+        font-size: 1.375em;
+        color: white;
+        font-weight: 700;
+        text-decoration: none;
+    }
+    .highlight {
+        border: 3px solid #4f9da6;
+        border-radius: 50px;
+    }
+    main {
+        flex-flow: row;
+    }
+    .hero {
+        text-align: left;
+    }
+    .hero h1 {
+        font-size: 4em;
+    }
+    .hero p:before {
+        margin: 1em 0;
+    }
+    .hero p {
+        font-size: 1.3em;
+        padding: 0;
+        margin: 0 0 3em 0;
+    }
+    /* .hero a {
+        background: #233142;
+    } */
+    .figure img {
+        width: 120%;
+        margin: 0;
+    }
 }
