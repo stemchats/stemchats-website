@@ -1,7 +1,7 @@
 body {
     font-family: system-ui, Helvetica, Arial, sans-serif;
-    background: #ff5959;
-    color: white;
+    background: white;
+    color: black;
 }
 
 .container {
@@ -36,7 +36,7 @@ nav ul li {
 
 nav ul li a {
     font-size: 1.25em;
-    color: white;
+    color: black;
     font-weight: 700px;
     text-decoration: none;
 }
@@ -67,7 +67,7 @@ main {
     content: "";
     display: block;
     width: 120px;
-    border: 2px solid white;
+    /* border: 2px solid white; */
 }
 
 .hero a {
@@ -110,7 +110,7 @@ figure img {
     }
     nav ul li a {
         font-size: 1.375em;
-        color: white;
+        color: black;
         font-weight: 700;
         text-decoration: none;
     }
