@@ -126,15 +126,28 @@ figure img {
     margin-right: auto;
 }
 
-.team_title h1 {
+.sub_title h1 {
     font-size: 2.5em;
     font-weight: 700;
 }
 
-.team_title p {    
-    font-size: 1.2em;
+.sub_title p {    
+    font-size: 1.25em;
     font-weight: 400;
     max-width: 500px;
+    line-height: 1.5em;
+    margin: 1em auto;
+}
+
+.border_title h1 {
+    font-size: 2.5em;
+    font-weight: 700;
+}
+
+.border_title p {
+    font-size: 1.25em;
+    font-weight: 400;
+    max-width: 750px;
     line-height: 1.5em;
     margin: 1em auto;
 }
