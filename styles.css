@@ -60,16 +60,9 @@ main {
 .hero p {
     font-size: 1.2em;
     font-weight: 600;
-    max-width: 500px;
-    line-height: 1.8em;
-    margin: 3em auto;
-}
-
-.hero p::before {
-    content: "";
-    display: block;
-    width: 180px;
-    border: 2px solid #ff5959;
+    max-width: 400px;
+    line-height: 1.5em;
+    margin: 1.5em auto;
 }
 
 .hero a {
@@ -89,6 +82,58 @@ figure {
 figure img {
     margin: center;
     width: 100%;
+}
+
+/* about page */
+
+.team {
+    text-align: center;
+    width: 100%;
+}
+
+.team_container {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    display: flex;
+    font-family: system-ui, Helvetica, Arial, sans-serif;
+    border-radius: 25px;
+    text-align: center;
+    /* max-width: 25%; */
+    box-shadow: 3px 0 8px rgba(122,134,142,.15), 0 4px 4px rgba(122,134,142,.15); */
+    flex: 1 0 100%;
+    max-width: 15em;
+    padding: 3%;
+    margin: 4%
+}
+
+.card-img-top {
+    border-radius: 75px;
+    width: 10em;
+    height: 10em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.team_title h1 {
+    font-size: 2.5em;
+    font-weight: 700;
+}
+
+.team_title p {    
+    font-size: 1.2em;
+    font-weight: 400;
+    max-width: 750px;
+    line-height: 1.5em;
+    margin: 1em auto;
 }
 
 @media screen and (min-width: 820px) {
@@ -129,58 +174,14 @@ figure img {
     .hero h1 {
         font-size: 4em;
     }
-    .hero p:before {
-        margin: 2em 0;
-        display: flex;
-    }
+
     .hero p {
         font-size: 1.3em;
         padding: 0;
         margin: 0 0 3em 0;
     }
-    /* .hero a {
-        background: #233142;
-    } */
     .figure img {
         width: 120%;
         margin: 0;
     }
-}
-
-/* about page */
-
-.team {
-    text-align: center;
-    width: 100%;
-}
-
-.team_container {
-    display: inline-block;
-    position: relative;
-    width: 100%;
-    margin: auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.card {
-    display: flex;
-    font-family: system-ui, Helvetica, Arial, sans-serif;
-    border-radius: 25px;
-    text-align: center;
-    max-width: 20em;
-    box-shadow: 3px 0 8px rgba(122,134,142,.15), 0 4px 4px rgba(122,134,142,.15); */
-    flex: 1 0 100%;
-    max-width: 15em;
-    padding: 3%;
-    margin: 4%
-}
-
-.card img {
-    border-radius: 75px;
-    margin-left: 5%;
-    width: 10em;
-    height: 10em;
-    justify-content: center;
 }
