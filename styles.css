@@ -63,7 +63,6 @@ main {
 
 .welcome {
     text-align: center;
-    margin-top: 4em;
 }
 
 .welcome h1 {
@@ -135,7 +134,7 @@ figure {
 
 figure img {
     margin: center;
-    width: 100%;
+    width:100%;
 }
 
 /* about page */
@@ -177,9 +176,39 @@ figure img {
     margin-right: auto;
 }
 
+.welcome_container {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+.programs {
+    text-align: center;
+    width: 100%;
+}
+
+.program_card {
+    max-width: 100%;
+}
+
+.program_card h3 {
+    font-size: 2em;
+    font-weight: 700;
+}
+
 .sub_title h1 {
     font-size: 2.5em;
     font-weight: 700;
+}
+
+.program_card p {
+    font-size: 120%;
+    font-weight: 400;
 }
 
 .sub_title p {    
@@ -238,6 +267,7 @@ figure img {
     }
     .welcome {
         text-align: left;
+        margin-top: 4em;
     }
     .welcome h1 {
         font-size: 4em;
