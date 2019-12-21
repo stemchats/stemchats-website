@@ -55,6 +55,11 @@ nav ul li a {
     text-decoration: none;
 }
 
+.optionalstuff {
+    display: none;
+}
+
+
 main {
     display: flex;
     flex-flow: column-reverse;
@@ -264,6 +269,9 @@ figure img {
     }
     main {
         flex-flow: row;
+    }
+    .optionalstuff {
+        display: inline;
     }
     .welcome {
         text-align: left;
