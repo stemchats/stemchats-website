@@ -18,13 +18,13 @@ header {
     width: 180px;
 } */
 
-.navbar {
+nav {
     margin: 2em auto 0;
     max-width: 600px;
     padding-top: 1em;;
 }
 
-.navbar ul {
+nav ul {
     margin: 0;
     padding: 0;
     display: flex;
@@ -40,7 +40,7 @@ header {
     text-align: center;
 }
 
-.navbar ul li {
+nav ul li {
     list-style: none;
 }
 
@@ -48,7 +48,7 @@ a:hover {
     color: #ff5959;
 }
 
-.navbar ul li a {
+nav ul li a {
     font-size: 1.25em;
     color: black;
     font-weight: 700px;
