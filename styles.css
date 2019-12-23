@@ -1,8 +1,8 @@
-body {
+/* body {
     font-family: system-ui, Helvetica, Arial, sans-serif;
     background: white;
     color: black;
-}
+} */
 
 .container {
     max-width: 1005px;
@@ -14,11 +14,23 @@ header {
     text-align: center;
 }
 
+.navbar-light {
+    color: #ff5959;
+}
+
 /* #stemchats-logo {
     width: 180px;
 } */
 
-nav {
+/* .navbar {
+    background-color: #ff5959;
+} */
+
+/* .navbar li {
+    font-family: system-ui, Helvetica, Arial, sans-serif;
+} */
+
+/* nav {
     margin: 2em auto 0;
     max-width: 600px;
     padding-top: 1em;;
@@ -29,7 +41,7 @@ nav ul {
     padding: 0;
     display: flex;
     justify-content: space-between;
-}
+} */
 
 .footer {
     left: 0;
@@ -40,7 +52,7 @@ nav ul {
     text-align: center;
 }
 
-nav ul li {
+/* nav ul li {
     list-style: none;
 }
 
@@ -53,7 +65,7 @@ nav ul li a {
     color: black;
     font-weight: 700px;
     text-decoration: none;
-}
+} */
 
 .optionalstuff {
     display: none;
@@ -244,7 +256,7 @@ figure img {
         flex-flow: wrap;
         align-items: center;
     }
-    nav {
+    /* nav {
         margin: 0;
     }
     nav ul {
@@ -261,7 +273,7 @@ figure img {
         color: black;
         font-weight: 700;
         text-decoration: none;
-    }
+    } */
     .highlight {
         border: 3px solid #ff5959;
         border-radius: 50px;
