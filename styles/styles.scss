@@ -9,8 +9,6 @@ $small-padding : 1em;
     display: flex;
     justify-content: center;
     align-items: center;
-    // flex-direction: $direction;
-    // background: $background;
 }
 
 .navbar {
@@ -50,6 +48,8 @@ $small-padding : 1em;
     background-color: white;
 
     padding: $small-padding;
+
+    text-align: center !important;
 
     // padding-top: 10em;
 
@@ -110,9 +110,12 @@ $small-padding : 1em;
     }
 }
 
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 720px) {
     .navbar .navbar-nav .nav-item {
         padding-right: 15px;
         padding-left: 15px;
+    }
+    #intro {
+        text-align: left !important;
     }
 }

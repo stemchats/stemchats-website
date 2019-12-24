@@ -44,6 +44,7 @@
   font-family: system-ui, Helvetica, Arial, sans-serif;
   background-color: white;
   padding: 1em;
+  text-align: center !important;
 }
 
 #intro .welcome-box-title {
@@ -123,10 +124,13 @@
   font-weight: 400;
 }
 
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 720px) {
   .navbar .navbar-nav .nav-item {
     padding-right: 15px;
     padding-left: 15px;
+  }
+  #intro {
+    text-align: left !important;
   }
 }
 /*# sourceMappingURL=styles.css.map */
