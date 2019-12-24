@@ -30,25 +30,30 @@ $small-padding : 1em;
 
 .navbar-brand {
     color: white !important;
-    font-size: 40px;
-    font-weight: 600;
+    font-size: 30px;
+    font-weight: 800;
 }
 
 .navbar .navbar-nav .nav-item {
     color: white !important;
     font-family: $main-font;
-    font-weight: 500;
-    font-size: 18px;
+    font-weight: 400;
+    font-size: 14px;
     padding-left: 5px;
+    margin: 0 1em 0 1em;
 }
 
 .navbar .navbar-nav .nav-button {
-    border-radius: 75px;
+    border-radius: 10px;
     background-color: $main-color;
     margin: 5px;
     border: 0;
     padding: 0.5em;
 }
+
+// .navbar .navbar-nav .nav-item .nav-link .active {
+//     color: #ff5959 !important;
+// }
 
 .navbar .navbar-toggler {
     background-color: rgb(226, 226, 226) !important;
@@ -79,8 +84,8 @@ $small-padding : 1em;
         font-size: $small-font-description;
     }
     .welcome-button {
-        font-weight: 600;
-        border-radius: 75px;
+        font-weight: 400;
+        border-radius: 10px;
         border-color: white;
         font-size: 20px;
         padding: 0.5em 1.5em 0.5em 1.5em;
@@ -89,6 +94,7 @@ $small-padding : 1em;
     }
     .top-img {
         max-width: 100%;
+        flex: column-reverse;
         display: none;
     }
 }
@@ -131,8 +137,8 @@ $small-padding : 1em;
 
 @media only screen and (min-width: 920px) {
     .navbar .navbar-nav .nav-item {
-        padding-right: 15px;
-        padding-left: -15px;
+        // padding-right: 30px;
+        // padding-left: -30px;
     }
     .navbar {
         margin-top: 10px;
@@ -144,13 +150,11 @@ $small-padding : 1em;
     .navbar-brand {
         color: black !important;
         font-size: 30px;
-        font-weight: 600;
     }
     
     .navbar .navbar-nav .nav-item {
         color: black!important;
         font-weight: 600;
-        font-size: 16px;
         padding: 1em; 
     }
     .navbar .navbar-nav .nav-button .nav-button-text {
@@ -158,27 +162,28 @@ $small-padding : 1em;
     }
     
     #intro {
-        
+        flex: row;
         @include largeFlexCenter();
-
+        margin-top: -2em;
         text-align: left !important;
-        margin-top: 0em;
         .welcome-box-title {
             font-size: 60px;
             font-weight: 800;
         }
         .welcome-box-description {
-            font-size: 22px;
+            font-size: 20px;
             font-weight: 400;
         }
         .welcome-button {
             margin-bottom: 0em;
         }
         .welcome-box {
-            margin-top: 2.5em;
+            margin-top: 2em;
+            float: left;
         }
         .top-img {
             display: inline;
+            max-width: 125%;
         }
     }
     #mission {

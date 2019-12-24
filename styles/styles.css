@@ -9,20 +9,21 @@
 
 .navbar-brand {
   color: white !important;
-  font-size: 40px;
-  font-weight: 600;
+  font-size: 30px;
+  font-weight: 800;
 }
 
 .navbar .navbar-nav .nav-item {
   color: white !important;
   font-family: system-ui, Helvetica, Arial, sans-serif;
-  font-weight: 500;
-  font-size: 18px;
+  font-weight: 400;
+  font-size: 14px;
   padding-left: 5px;
+  margin: 0 1em 0 1em;
 }
 
 .navbar .navbar-nav .nav-button {
-  border-radius: 75px;
+  border-radius: 10px;
   background-color: #ff5959;
   margin: 5px;
   border: 0;
@@ -68,8 +69,8 @@
 }
 
 #intro .welcome-button {
-  font-weight: 600;
-  border-radius: 75px;
+  font-weight: 400;
+  border-radius: 10px;
   border-color: white;
   font-size: 20px;
   padding: 0.5em 1.5em 0.5em 1.5em;
@@ -79,6 +80,9 @@
 
 #intro .top-img {
   max-width: 100%;
+  -webkit-box-flex: column-reverse;
+      -ms-flex: column-reverse;
+          flex: column-reverse;
   display: none;
 }
 
@@ -137,10 +141,6 @@
 }
 
 @media only screen and (min-width: 920px) {
-  .navbar .navbar-nav .nav-item {
-    padding-right: 15px;
-    padding-left: -15px;
-  }
   .navbar {
     margin-top: 10px;
     background-color: white !important;
@@ -150,18 +150,19 @@
   .navbar-brand {
     color: black !important;
     font-size: 30px;
-    font-weight: 600;
   }
   .navbar .navbar-nav .nav-item {
     color: black !important;
     font-weight: 600;
-    font-size: 16px;
     padding: 1em;
   }
   .navbar .navbar-nav .nav-button .nav-button-text {
     color: white !important;
   }
   #intro {
+    -webkit-box-flex: row;
+        -ms-flex: row;
+            flex: row;
     height: 100vh;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -172,25 +173,27 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    margin-top: -2em;
     text-align: left !important;
-    margin-top: 0em;
   }
   #intro .welcome-box-title {
     font-size: 60px;
     font-weight: 800;
   }
   #intro .welcome-box-description {
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 400;
   }
   #intro .welcome-button {
     margin-bottom: 0em;
   }
   #intro .welcome-box {
-    margin-top: 2.5em;
+    margin-top: 2em;
+    float: left;
   }
   #intro .top-img {
     display: inline;
+    max-width: 125%;
   }
   #mission {
     height: 100vh;
