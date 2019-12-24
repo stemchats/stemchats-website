@@ -1,0 +1,132 @@
+.navbar {
+  background-color: white !important;
+  padding-top: 0.75em;
+  padding-bottom: 0.75em;
+  padding-right: 2em;
+  padding-left: 2em;
+  -webkit-box-shadow: 0 2px 2px -2px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 2px 2px -2px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-brand {
+  color: #ff5959 !important;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.navbar .navbar-nav .nav-item {
+  color: gray !important;
+  font-family: system-ui, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  padding-left: 5px;
+}
+
+.navbar .navbar-toggler {
+  background-color: white !important;
+}
+
+.navbar .navbar-toggler .navbar-toggler-icon {
+  background-color: white !important;
+}
+
+#intro {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: system-ui, Helvetica, Arial, sans-serif;
+  background-color: white;
+  padding: 1em;
+}
+
+#intro .welcome-box-title {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+#intro .welcome-box-description {
+  font-weight: 400;
+  font-size: 20px;
+}
+
+#intro .welcome-button {
+  font-weight: 600;
+  border-radius: 75px;
+  border-color: white;
+  font-size: 20px;
+  padding: 0.5em 1.5em 0.5em 1.5em;
+  background-color: #ff5959;
+}
+
+#intro .top-img {
+  max-width: 100%;
+}
+
+#mission {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: system-ui, Helvetica, Arial, sans-serif;
+  padding: 1em;
+  background-color: #ff5959;
+  color: white;
+}
+
+#mission .info-box-title {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+#mission .info-box-description {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+#programs {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: system-ui, Helvetica, Arial, sans-serif;
+  padding: 1em;
+  background-color: #fdfdfd;
+  color: black;
+}
+
+#programs .info-box-title {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+#programs .info-box-description {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+@media only screen and (min-width: 992px) {
+  .navbar .navbar-nav .nav-item {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+}
+/*# sourceMappingURL=styles.css.map */

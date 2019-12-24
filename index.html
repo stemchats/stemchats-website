@@ -9,9 +9,61 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     
         <!-- Website CSS -->
-        <link rel = "stylesheet" href = "styles.css"/>
+        <link rel = "stylesheet" type = "text/css" href = "./styles/styles.css"/>
 </head>
 <body>
+    <nav class = "navbar navbar-expand-sm navbar-light bg-light static-top">
+        <a class="navbar-brand" href="#">stemchats+</a>
+        <button class = "navbar-toggler ml-auto" type = "button" data-toggle = "collapse" data-target = "#mainNav">
+            <span class = "navbar-toggler-icon"></span>
+        </button>
+        <div class = "collapse navbar-collapse mr-auto" id = "mainNav">
+            <div class = "navbar-nav ml-auto">
+                <a class = "nav-item nav-link" href = "#">Home</a>
+                <a class = "nav-item nav-link" href = "#">About Us</a>
+                <a class = "nav-item nav-link" href = "#">Our Programs</a>
+                <a class = "nav-item nav-link" href = "#">Get Involved</a>
+                <a class = "nav-item nav-link" href = "#">Contact</a>
+            </div>
+        </div>
+    </nav>
+    <section id = "intro">
+        <div class = "container">
+            <div class = "row">
+                <div class = "col-sm text-center welcome-box">
+                    <h1 class = "welcome-box-title">Welcome to STEMchats.</h1>
+                    <p class = "welcome-box-description">The global <b>student-run</b> nonprofit created to encourage disadvantaged students to celebrate, stimulate, and innovate through providing a transformative <b>peer-to-peer</b> STEM education.</p>
+                    <p class = "welcome-box-description"><b>Join our team today to bring impactful programs for students all around the world.</b></p>
+                    <button type = "button" class = "btn btn-primary welcome-button">Get Involved</button>
+                </div>
+                <!-- <div class = "col-md-6 text-center">
+                    <img class = "top-img" src = "images/home_new_ideas.png" alt = "girl with a new idea">
+                </div> -->
+            </div>
+        </div>
+    </section>
+    <section id = "mission">
+        <div class = "container">
+            <div class = "row info-box">
+                <div class = "col-md text-left">
+                    <h2 class = "info-box-title">Our programs are all created by-students, for-students.</h2>
+                    <p class = "info-box-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
+                    <p class = "info-box-description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id = "programs">
+        <div class = "container">
+            <div class = "row info-box">
+                <div class = "col-md text-left">
+                    <h2 class = "info-box-title">Our programs are all created by-students, for-students.</h2>
+                    <p class = "info-box-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
+                    <p class = "info-box-description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id.</p>
+                </div>
+            </div>
+        </div>
+    </section>
     <!-- <header class = "container">
         <div class = "logo"></div>
         <nav>
@@ -24,7 +76,7 @@
         </nav>
     </header> -->
     <!-- <header> -->
-        <div class = "logo"></div>
+        <!-- <div class = "logo"></div>
         <nav class="navbar navbar-expand-lg navbar-light bg-light" style = "background-color: #ff5959;">
             <a class="navbar-brand" href="#">STEMchats</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -46,7 +98,7 @@
                     </li>
                 </ul>
             </div>
-          </nav>
+          </nav> -->
         <!-- <nav class = "navbar navbar-expand-sm navbar-light">
             <a href = "#" class = "navbar-brand">STEMchats</a>
             <button class = "navbar-toggler ml-auto" data-toggle = "collapse" data-target = "#navbarMenu">
@@ -69,7 +121,7 @@
             </div>
         </nav> -->
     <!-- </header> -->
-    <main class = "container">
+    <!-- <main class = "container">
         <section class = "welcome container">
             <h1>Welcome to STEMchats.</h1>
             <p>The student-run nonprofit created to encourage disadvantaged students to celebrate, stimulate, and innovate through the STEM fields and networks.</p>
@@ -80,7 +132,7 @@
                 <img class = "optionalstuff" src = "images/home_new_ideas.png" alt = "girl with a new idea">
             </figure>
         </div>
-    </main>
+    </main> -->
     <!-- <main class = "container">
         <section class = "welcome container">
             <h1>Welcome to STEMchats.</h1>
@@ -93,7 +145,7 @@
             </figure>
         </div>
     </main> -->
-    <main class = "container">
+    <!-- <main class = "container">
         <div class = "home_image">
             <figure>
                 <img class = "optionalstuff" src = "images/home_up_to_date.png" alt = "girl with checklist">
@@ -102,19 +154,19 @@
         <section class = "newsletter container">
             <h1>Stay Updated.</h1>
             <p>Sign-up for STEMlights, our bi-weekly newsletter, to receive updates about upcoming oppurtunities, scientific breakthroughs, and STEMchats updates.</p>
-            <!-- <form class = "newsletter_signup">
+            <form class = "newsletter_signup">
                 <div class="form-group col-sm-12">
                   <input type="name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Your email">
                 </div>
-              </form> -->
+              </form>
             <a href = "https://confirmsubscription.com/h/t/CA358FEAE3B75319">Sign Me Up</a>
         </section>
-    </main>
-    <main class = "container">
+    </main> -->
+    <!-- <main class = "container">
         <div class = "footer">
             <p>@ 2020 STEMchats. All rights reserved.</p>
         </div>
-    </main>
+    </main> -->
     <!-- Bootstrap Javascript -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
