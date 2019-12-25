@@ -69,7 +69,7 @@ $small-padding : 1em;
     background-color: white;
     color: black;
     padding: 1em 1em 5em 1em;
-    margin: 0em 0em 0em 0em;
+    margin: 0em 1em 0em 1em;
     height: 80vh;
 
     text-align: center !important;
@@ -79,10 +79,12 @@ $small-padding : 1em;
     .welcome-box-title {
         font-size: $small-font-title;
         font-weight: 800;
+        font-size: 36px;
     }
     .welcome-box-description {
         font-weight: 400;
         font-size: $small-font-description;
+        color: black;
     }
     .welcome-button {
         font-weight: 400;
@@ -103,18 +105,38 @@ $small-padding : 1em;
 #mission {
     @include smallFlexCenter;
     font-family: $main-font;
+    height: 100%;
 
-    padding: 1em;
-    background-color: #ff5959;
-    color: white;
+    padding: 2em;
+    background-color: #FAFAFA;
+    color: black;
 
     .info-box-title {
         font-size: $small-font-title;
-        font-weight: 700;
+        font-weight: 800;
+        margin-top: 0em;
+        font-size: 40px;
     }
     .info-box-description {
         font-size: $small-font-description;
         font-weight: 400;
+        color: rgba(0, 0, 0, 0.7);
+        font-size: 18px;
+        margin: 1em 2em 1em 2em;
+    }
+
+    .mission-card {
+        padding: 2em;
+        margin: 1em;
+        border-radius: 25px;
+        .mission-card-title {
+            font-weight: 800 !important;
+            font-size: 36px;
+        }
+        .mission-card-description {
+            font-size: 18px;
+            color: rgba(0, 0, 0, 0.7);
+        }
     }
 }
 
