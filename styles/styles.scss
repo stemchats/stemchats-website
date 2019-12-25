@@ -44,7 +44,7 @@ $small-padding : 1em;
 }
 
 .navbar .navbar-nav .nav-button {
-    border-radius: 75px;
+    border-radius: 10px;
     background-color: $main-color;
     margin: 5px;
     border: 0;
@@ -89,7 +89,7 @@ $small-padding : 1em;
         border-radius: 10px;
         border-color: white;
         font-size: 20px;
-        padding: 0.5em 1.5em 0.5em 1.5em;
+        padding: 0.5em 2em 0.5em 2em;
         background-color: #ff5959;
         margin-bottom: 3em;
     }
@@ -168,18 +168,18 @@ $small-padding : 1em;
         margin-top: -2em;
         text-align: left !important;
         .welcome-box-title {
-            font-size: 60px;
+            font-size: 54px;
             font-weight: 800;
         }
         .welcome-box-description {
-            font-size: 20px;
+            font-size: 18px;
             font-weight: 400;
         }
         .welcome-button {
             margin-bottom: 0em;
         }
         .welcome-box {
-            margin-top: 4em;
+            margin-top: 8em;
             float: left;
         }
         .top-img {
