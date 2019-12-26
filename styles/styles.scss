@@ -251,12 +251,12 @@ $small-padding : 1em;
     }
 
     .team-divider {
-        background-color: #ff5959 !important;
+        background-color: #FAFAFA !important;
         text-align: center;
         font-size: 32px !important;
 
         .team-divider-header {
-            color: white !important;
+            color: black !important;
             font-weight: 800;
         }
     }
@@ -407,5 +407,79 @@ $small-padding : 1em;
     #programs {
         @include largeFlexCenter();
         height: 50vh;
+    }
+
+    // ABOUT US PAGE STYLES
+
+    .aboutus {
+
+        margin-top: 0em;
+        margin-bottom: -7.5em;
+    
+        // .aboutus-box-title {
+        //     font-size: $small-font-title;
+        //     font-weight: 800;
+        //     font-size: 42px;
+        // }
+        .aboutus-box-description {
+            margin: 0 5em 0.5em 5em;
+        }
+    }
+    
+    .team {
+        @include smallFlexCenter;
+        font-family: $main-font;
+        height: 100%;
+    
+        padding: 2em;
+        background-color: white;
+        color: black;
+    
+        .team-box-title {
+            font-size: $small-font-title;
+            font-weight: 800;
+            margin-top: 0em;
+            font-size: 40px;
+        }
+        .team-box-description {
+            font-size: $small-font-description;
+            font-weight: 400;
+            color: rgba(0, 0, 0, 0.7);
+            font-size: 18px;
+            margin: 1em 12.5em 1em 12.5em;
+        }
+    
+        .team-divider {
+            background-color: #FAFAFA !important;
+            text-align: center;
+            font-size: 32px !important;
+    
+            .team-divider-header {
+                color: black !important;
+                font-weight: 800;
+            }
+        }
+    
+        .teamcard {
+            padding: 2em;
+            margin-bottom: -3em;
+            border-radius: 10px;
+            border: 1px white;ss
+    
+            .teamcard-image {
+                border-radius: 100px;
+                max-width: 50%;
+            }
+            .teamcard-title {
+                font-weight: 700 !important;
+                font-size: 24px;
+                text-align: center;
+            }
+            .teamcard-description {
+                font-size: 18px;
+                color: rgba(0, 0, 0, 0.7);
+                text-align: center;
+            }
+        }
     }
 }

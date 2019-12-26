@@ -240,13 +240,13 @@
 }
 
 .team .team-divider {
-  background-color: #ff5959 !important;
+  background-color: #FAFAFA !important;
   text-align: center;
   font-size: 32px !important;
 }
 
 .team .team-divider .team-divider-header {
-  color: white !important;
+  color: black !important;
   font-weight: 800;
 }
 
@@ -414,6 +414,73 @@
         -ms-flex-align: center;
             align-items: center;
     height: 50vh;
+  }
+  .aboutus {
+    margin-top: 0em;
+    margin-bottom: -7.5em;
+  }
+  .aboutus .aboutus-box-description {
+    margin: 0 5em 0.5em 5em;
+  }
+  .team {
+    height: 75vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-family: system-ui, Helvetica, Arial, sans-serif;
+    height: 100%;
+    padding: 2em;
+    background-color: white;
+    color: black;
+  }
+  .team .team-box-title {
+    font-size: 30px;
+    font-weight: 800;
+    margin-top: 0em;
+    font-size: 40px;
+  }
+  .team .team-box-description {
+    font-size: 20px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 18px;
+    margin: 1em 12.5em 1em 12.5em;
+  }
+  .team .team-divider {
+    background-color: #FAFAFA !important;
+    text-align: center;
+    font-size: 32px !important;
+  }
+  .team .team-divider .team-divider-header {
+    color: black !important;
+    font-weight: 800;
+  }
+  .team .teamcard {
+    padding: 2em;
+    margin-bottom: -3em;
+    border-radius: 10px;
+    border: 1px white;
+  }
+  .team .teamcard ss
+.teamcard-image {
+    border-radius: 100px;
+    max-width: 50%;
+  }
+  .team .teamcard .teamcard-title {
+    font-weight: 700 !important;
+    font-size: 24px;
+    text-align: center;
+  }
+  .team .teamcard .teamcard-description {
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.7);
+    text-align: center;
   }
 }
 /*# sourceMappingURL=styles.css.map */
