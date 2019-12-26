@@ -245,8 +245,8 @@ $small-padding : 1em;
     .team-box-description {
         font-size: $small-font-description;
         font-weight: 400;
-        color: rgba(0, 0, 0, 0.7);
-        font-size: 18px;
+        color: black;
+        // font-size: 18px;
         margin: 1em 1em 1em 1em;
     }
 
@@ -267,8 +267,8 @@ $small-padding : 1em;
         border-radius: 10px;
         border: 1px white;ss
 
-        .teamcard-image {
-            border-radius: 100px;
+        .teamcard-img {
+            border-radius: 10px;
             max-width: 50%;
         }
         .teamcard-title {
@@ -278,7 +278,7 @@ $small-padding : 1em;
         }
         .teamcard-description {
             font-size: 18px;
-            color: rgba(0, 0, 0, 0.7);
+            color: black;
             text-align: center;
         }
     }
@@ -444,8 +444,8 @@ $small-padding : 1em;
         .team-box-description {
             font-size: $small-font-description;
             font-weight: 400;
-            color: rgba(0, 0, 0, 0.7);
-            font-size: 18px;
+            // color: rgba(0, 0, 0, 0.7);
+            // font-size: 18px;
             margin: 1em 12.5em 1em 12.5em;
         }
     
