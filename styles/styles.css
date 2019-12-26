@@ -220,7 +220,7 @@
   font-family: system-ui, Helvetica, Arial, sans-serif;
   height: 100%;
   padding: 2em;
-  background-color: #FAFAFA;
+  background-color: white;
   color: black;
 }
 
@@ -239,6 +239,17 @@
   margin: 1em 1em 1em 1em;
 }
 
+.team .team-divider {
+  background-color: #ff5959 !important;
+  text-align: center;
+  font-size: 32px !important;
+}
+
+.team .team-divider .team-divider-header {
+  color: white !important;
+  font-weight: 800;
+}
+
 .team .teamcard {
   padding: 2em;
   margin-bottom: -3em;
@@ -247,8 +258,9 @@
 }
 
 .team .teamcard ss
-.teamcard-img {
-  border-radius: 10px;
+.teamcard-image {
+  border-radius: 100px;
+  max-width: 50%;
 }
 
 .team .teamcard .teamcard-title {
