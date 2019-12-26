@@ -252,6 +252,41 @@ $small-padding : 1em;
         //     margin-right: 1em;
         // }
     }
+
+    #mission {
+        @include largeFlexCenter();
+        height: 100vh;
+
+        padding: 2em;        
+        
+        .info-box-title {
+            margin-top: -1em;
+        }
+
+        .info-box-description {
+            font-size: 18px;
+            margin: 1em 10em 2em 10em;
+        }
+        
+        .mission-card {
+            padding: 2em;
+            margin: 0em;
+                
+            .mission-card-img-top {
+                max-height: 160px;
+            }
+
+            .mission-card-title {
+                font-weight: 800 !important;
+                font-size: 36px;
+            }
+                        
+            // .mission-card-description {
+            //     font-size: 18px;
+            // }
+        }
+    }
+
     #newsletter {
         flex: row;
         @include largeFlexCenter();
@@ -281,50 +316,7 @@ $small-padding : 1em;
             margin-left: -15em;
         }
     }
-    #mission {
-        @include largeFlexCenter();
-        height: 50vh;
-
-        padding: 2em;        
-            
-        .info-box-title {
-            font-size: $small-font-title;
-            font-weight: 800;
-            margin-top: 0em;
-            font-size: 40px;
-        }
-            
-        .info-box-description {
-            font-size: $small-font-description;
-            font-weight: 400;
-            color: rgba(0, 0, 0, 0.7);
-            font-size: 18px;
-            margin: 1em 2em 1em 2em;
-        }
         
-        .mission-card {
-            padding: 2em;
-            margin: 0em;
-            border-radius: 100px;
-                
-            .mission-card-img-top {
-                max-height: 20px;
-            }
-
-            .mission-card-title {
-                font-weight: 800 !important;
-                font-size: 36px;
-            }
-                        
-            .mission-card-description {
-                font-size: 18px;
-                color: rgba(0, 0, 0, 0.7);
-            }
-        }
-    }
-        
-
-    }
     #programs {
         @include largeFlexCenter();
         height: 50vh;
