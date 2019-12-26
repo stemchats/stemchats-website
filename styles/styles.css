@@ -199,6 +199,40 @@
   font-weight: 400;
 }
 
+.aboutus {
+  height: 75vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: system-ui, Helvetica, Arial, sans-serif;
+  background-color: white;
+  color: black;
+  padding: 1em 1em 5em 1em;
+  margin: 0em 1em 0em 1em;
+  height: 50vh;
+  text-align: center !important;
+  margin-top: 7.5em;
+}
+
+.aboutus .aboutus-box-title {
+  font-size: 30px;
+  font-weight: 800;
+  font-size: 42px;
+  margin-bottom: 0.5em;
+}
+
+.aboutus .aboutus-box-description {
+  font-weight: 400;
+  font-size: 20px;
+  color: black;
+}
+
 @media only screen and (min-width: 920px) {
   .navbar {
     margin-top: 10px;

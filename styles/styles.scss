@@ -4,6 +4,8 @@ $small-font-title: 30px;
 $small-font-description: 20px;
 $small-padding : 1em;
 
+// HOME PAGE STYLES
+
 @mixin smallFlexCenter {
     height: 75vh;
     display: flex;
@@ -194,6 +196,34 @@ $small-padding : 1em;
     .info-box-description {
         font-size: $small-font-description;
         font-weight: 400;
+    }
+}
+
+// ABOUT US PAGE STYLES
+
+.aboutus {
+    @include smallFlexCenter;
+    font-family: $main-font;
+    background-color: white;
+    color: black;
+    padding: 1em 1em 5em 1em;
+    margin: 0em 1em 0em 1em;
+    height: 50vh;
+
+    text-align: center !important;
+
+    margin-top: 7.5em;
+
+    .aboutus-box-title {
+        font-size: $small-font-title;
+        font-weight: 800;
+        font-size: 42px;
+        margin-bottom: 0.5em;
+    }
+    .aboutus-box-description {
+        font-weight: 400;
+        font-size: $small-font-description;
+        color: black;
     }
 }
 

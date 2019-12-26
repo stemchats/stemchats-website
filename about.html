@@ -9,21 +9,41 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
     <!-- Website CSS -->
-    <link rel = "stylesheet" href = "styles.css"/>
+    <link rel = "stylesheet" href = "./styles/styles.css"/>
 </head>
 <body>
-    <header class = "container">
-        <div class = "logo"></div>
-        <nav>
-            <ul>
-                <li><a href = "index.html">Home</a></li>
-                <li><a href = "about.html">About</a></li>
-                <li><a href = "programs.html">Programs</a></li>
-                <li class = "highlight"><a href = "#">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main class = "container">
+    <nav class = "navbar navbar-expand-sm navbar-light bg-light static-top">
+        <a class="navbar-brand" href="#">stemchats+</a>
+        <button class = "navbar-toggler ml-auto" type = "button" data-toggle = "collapse" data-target = "#mainNav">
+            <span class = "navbar-toggler-icon"></span>
+        </button>
+        <div class = "collapse navbar-collapse mr-auto" id = "mainNav">
+            <div class = "navbar-nav ml-auto">
+                <a class = "nav-item nav-link" href = "index.html">HOME</a>
+                <a class = "nav-item nav-link active" href = "#">ABOUT US</a>
+                <a class = "nav-item nav-link" href = "programs.html">OUR PROGRAMS</a>
+                <a class = "nav-item nav-link" href = "#">GET INVOLVED</a>
+                <button class = "nav-button">
+                    <a class = "nav-item nav-button-text" href = "#">CONTACT US</a>
+                </button>
+            </div>
+        </div>
+    </nav>
+   <section class = "aboutus">
+        <div class = "container">
+            <div class = "row">
+                <div class = "col-md-12">
+                    <h1 class = "aboutus-box-title">Our Story</h1>
+                    <p class = "aboutus-box-description">As a student-led nonprofit, STEMchats aims to democratize STEM (science, technology, engineering, and math) education for all by bringing impactful STEM programming as a way to provide equal opportunities for women and disadvantaged minorities. We are guided by our four core values: inclusive, collabrative, encouraging, and laidback.</p>                
+                    <p class = "aboutus-box-description">We emphasize these values through both our workplace culture as well as our programs, which are geared towards empowering disadvantaged students to use the power of STEM for social good.
+                    <!-- <p class = "aboutus-box-description">Many STEM outreach organizations exist, including both student-led and adult-led; however, STEMchats is unlike any of them. Our student-led organization allow us to capitalize off of youth insights and enterprise to drive bottom-up social change in order to offer two unique business propositions: diversity and exponential impact.</p>                
+                    <p class = "aboutus-box-description">DIVERSITY. Our team is mostly first-generation, low-income students (FGLI), as well as women and LGBTQ+ students. This puts us in a unique position to fully understand the problems that these disadvantaged communities face and allows us to build groundbreaking educational initiatives to tackle the root of the problem.</p>
+                    <p class = "aboutus-box-description">EXPONENTIAL IMPACT. Our funneling model builds long-lasting relationships between STEMchats members and our target communities. Through our selective fellowship program, the most promising students impacted by our initiatives join us as full team members and eventually create their own STEM outreach programs.</p> -->
+                </div>
+            </div>
+        </div>
+   </section>
+    <!-- <main class = "container">
         <div class = "team">
             <div class = "border_header"></div>
             <div class = "border_title">
@@ -100,7 +120,7 @@
                         <h3 class="card-title">Zane Giordano</h3>
                         <p class="card-text">Technology Lead</p>
                     </div>
-                </div>
+                </div> -->
                 <!-- <div class="card" style="width: 1000%">
                     <img class="card-img-top" src="images/headshots/example_headshot.jpg" alt="Card image cap">
                     <div class="card-body">
@@ -458,16 +478,16 @@
                         <p class="card-text">VP of Programming</p>
                     </div>
                 </div> -->
-            <div class = "border_header"></div>
+            <!-- <div class = "border_header"></div>
             <div class = "border_title">
                 <h1>Our Partners</h1>
                 <p>STEMchats would not be able to do the impactful work that we do without the support of individuals, business, and foundations. We are extremely thankful for the organizations listed below for their generous donations to help keep STEMchats programs completely free of charge for students.</p>
             </div>
             </div>
         </div>
-    </main>
+    </main> -->
     <main class = "container">
-        <div class = "footer">
+        <div class = "footer text-center">
             <p>@ 2020 STEMchats. All rights reserved.</p>
         </div>
     </main>
