@@ -284,6 +284,32 @@ $small-padding : 1em;
     }
 }
 
+.partners {
+    @include smallFlexCenter;
+    font-family: $main-font;
+    background-color: white;
+    color: black;
+    padding: 1em 1em 5em 1em;
+    margin: 0em 1em 0em 1em;
+    height: 50vh;
+
+    text-align: center !important;
+
+    margin-top: 0em;
+
+    .partners-box-title {
+        font-size: $small-font-title;
+        font-weight: 800;
+        font-size: 42px;
+        margin-bottom: 0.5em;
+    }
+    .partners-box-description {
+        font-weight: 400;
+        font-size: $small-font-description;
+        color: black;
+    }
+}
+
 @media only screen and (min-width: 920px) {
     // .navbar .navbar-nav .nav-item {
     //     padding-right: 30px;
