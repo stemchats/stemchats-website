@@ -201,9 +201,9 @@ b {
   color: black;
   padding: 1em 1em 5em 1em;
   margin: 0em 1em 0em 1em;
-  height: 50vh;
+  height: 100%;
   text-align: center !important;
-  margin-top: 7.5em;
+  margin-top: 2.5em;
 }
 
 .aboutus .aboutus-box-title {
@@ -216,6 +216,19 @@ b {
 .aboutus .aboutus-box-description {
   font-weight: 400;
   font-size: 20px;
+  color: black;
+}
+
+.aboutus .stats-box .stats-box-title {
+  font-size: 30px;
+  font-weight: 800;
+  font-size: 120px;
+  color: #4f9da6;
+}
+
+.aboutus .stats-box .stats-box-description {
+  font-weight: 400;
+  font-size: 24px;
   color: black;
 }
 
@@ -235,6 +248,7 @@ b {
   padding: 2em;
   background-color: white;
   color: black;
+  margin-top: -5em;
 }
 
 .team .team-box-title {
@@ -303,7 +317,7 @@ b {
   color: black;
   padding: 1em 1em 5em 1em;
   margin: 0em 1em 0em 1em;
-  height: 80vh;
+  height: 100%;
   text-align: center !important;
   margin-top: 0em;
 }
