@@ -1,6 +1,10 @@
+b {
+  color: #ff5959;
+}
+
 .navbar {
   font-family: system-ui, Helvetica, Arial, sans-serif !important;
-  background-color: white !important;
+  background-color: #ff5959 !important;
   padding-top: 0.75em;
   padding-bottom: 0.75em;
   padding-right: 2em;
@@ -10,17 +14,18 @@
 }
 
 .navbar-brand {
-  color: black !important;
+  color: white !important;
   font-size: 30px;
   font-weight: 800;
 }
 
 .navbar .navbar-nav .nav-item {
-  color: black !important;
+  color: white !important;
   font-family: system-ui, Helvetica, Arial, sans-serif;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 16px;
   margin: 0 1em 0 1em;
+  text-align: center;
 }
 
 .navbar .navbar-nav .nav-button {
@@ -29,6 +34,14 @@
   margin: 5px;
   border: 0;
   padding: 0.5em;
+}
+
+.custom-toggler.navbar-toggler {
+  border-color: white;
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
 #intro {
@@ -290,7 +303,7 @@
   color: black;
   padding: 1em 1em 5em 1em;
   margin: 0em 1em 0em 1em;
-  height: 50vh;
+  height: 80vh;
   text-align: center !important;
   margin-top: 0em;
 }
@@ -306,6 +319,10 @@
   font-weight: 400;
   font-size: 20px;
   color: black;
+}
+
+.partners .partners-img {
+  max-width: 100%;
 }
 
 @media only screen and (min-width: 920px) {
@@ -449,11 +466,23 @@
     height: 50vh;
   }
   .aboutus {
+    height: 50vh;
     margin-top: 0em;
     margin-bottom: -7.5em;
   }
   .aboutus .aboutus-box-description {
     margin: 0 5em 0.5em 5em;
+  }
+  .partners {
+    height: 50vh;
+    margin-top: 0em;
+    margin-bottom: 0em;
+  }
+  .partners .partners-box-description {
+    margin: 0 5em 0.5em 5em;
+  }
+  .partners .partners-img {
+    max-width: 100%;
   }
   .team {
     height: 75vh;

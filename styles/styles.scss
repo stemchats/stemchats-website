@@ -20,9 +20,17 @@ $small-padding : 1em;
     align-items: center;
 }
 
+b {
+    color: $main-color;
+}
+
+// h1 {
+//     color: #4f9da6;
+// }
+
 .navbar {
     font-family: $main-font !important;
-    background-color: white !important;
+    background-color: $main-color !important;
     padding-top: 0.75em;
     padding-bottom: 0.75em;
     padding-right: 2em;
@@ -31,18 +39,19 @@ $small-padding : 1em;
 }
 
 .navbar-brand {
-    color: black !important;
+    color: white !important;
     font-size: 30px;
     font-weight: 800;
 }
 
 .navbar .navbar-nav .nav-item {
-    color: black !important;
+    color: white !important;
     font-family: $main-font;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 16px;
     // padding-left: 5px;
     margin: 0 1em 0 1em;
+    text-align: center;
 }
 
 .navbar .navbar-nav .nav-button {
@@ -58,12 +67,19 @@ $small-padding : 1em;
 // }
 
 // .navbar .navbar-toggler {
-//     background-color: rgb(226, 226, 226) !important;
+//     background-color: white !important;
 // }
 
 // .navbar .navbar-toggler .navbar-toggler-icon {
-//     background-color: rgb(226, 226, 226) !important;
+//     background-color: white !important;
 // }
+
+.custom-toggler.navbar-toggler {
+    border-color: white;
+}
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
 
 #intro {
     @include smallFlexCenter;
@@ -291,7 +307,7 @@ $small-padding : 1em;
     color: black;
     padding: 1em 1em 5em 1em;
     margin: 0em 1em 0em 1em;
-    height: 50vh;
+    height: 80vh;
 
     text-align: center !important;
 
@@ -307,6 +323,11 @@ $small-padding : 1em;
         font-weight: 400;
         font-size: $small-font-description;
         color: black;
+    }
+    .partners-img {
+        max-width: 100%;
+        // flex: column-reverse;
+        // display: none;
     }
 }
 
@@ -439,6 +460,8 @@ $small-padding : 1em;
 
     .aboutus {
 
+        height: 50vh;
+
         margin-top: 0em;
         margin-bottom: -7.5em;
     
@@ -449,6 +472,43 @@ $small-padding : 1em;
         // }
         .aboutus-box-description {
             margin: 0 5em 0.5em 5em;
+        }
+    }
+    
+    // .team {
+    
+    // }
+    
+    .partners {
+        // @include smallFlexCenter;
+        // font-family: $main-font;
+        // background-color: white;
+        // color: black;
+        // padding: 1em 1em 5em 1em;
+        // margin: 0em 1em 0em 1em;
+        height: 50vh;
+
+        margin-top: 0em;
+        margin-bottom: 0em;
+    
+        // text-align: center !important;
+    
+        // margin-top: 0em;
+    
+        // .partners-box-title {
+        //     font-size: $small-font-title;
+        //     font-weight: 800;
+        //     font-size: 42px;
+        //     margin-bottom: 0.5em;
+        // }
+        .partners-box-description {
+            margin: 0 5em 0.5em 5em;
+
+        }
+        .partners-img {
+            max-width: 100%;
+            // flex: column-reverse;
+            // display: none;
         }
     }
     
