@@ -9,21 +9,66 @@
        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
    
        <!-- Website CSS -->
-       <link rel = "stylesheet" href = ".images/styles.css"/>
+       <link rel = "stylesheet" href = "./styles/styles.css"/>
 </head>
 <body>
-    <header class = "container">
-        <div class = "logo"></div>
-        <nav>
-            <ul>
-                <li><a href = "index.html">Home</a></li>
-                <li><a href = "about.html">About</a></li>
-                <li><a href = "programs.html">Programs</a></li>
-                <li class = "highlight"><a href = "#">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main class = "container">
+    <nav class = "navbar navbar-expand-lg navbar-light bg-light static-top">
+        <a class="navbar-brand" href="#">stemchat(s)</a>
+        <button class = "navbar-toggler ml-auto custom-toggler" type = "button" data-toggle = "collapse" data-target = "#mainNav">
+            <span class = "navbar-toggler-icon my-toggler"></span>
+        </button>
+        <div class = "collapse navbar-collapse mr-auto" id = "mainNav">
+            <div class = "navbar-nav ml-auto">
+                <a class = "nav-item nav-link" href = "index.html">HOME</a>
+                <a class = "nav-item nav-link active" href = "about.html">ABOUT US</a>
+                <a class = "nav-item nav-link" href = "#.html">OUR PROGRAMS</a>
+                <a class = "nav-item nav-link" href = "#">GET INVOLVED</a>
+                <button class = "nav-button">
+                    <a class = "nav-item nav-button-text" href = "#">CONTACT US</a>
+                </button>
+            </div>
+        </div>
+    </nav>
+    <section id = "breakdown">
+        <div class = "container">
+            <div class = "row info-box">
+                <div class = "col-lg-12 text-center">
+                    <h2 class = "info-box-title">The Breakdown</h2>
+                    <p class = "info-box-description">Our programs are divided into the categories of <b>Celebrate, Stimulate, and Innovate</b>. STEMchats programs are uniquely designed to impact all students, especially those from disadvantaged and minority backgrounds, by providing a transformative peer-to-peer STEM education.</p>
+                </div>
+            </div>
+            <div class = "row">
+                <div class = "col-lg-4 text-center"> 
+                    <div class = "card breakdown-card">
+                        <img class="card-img-top breakdown-card-img-top" src="/images/home_undraw_winners_ao2o.png" alt="Card image cap">
+                        <div class = "card-body">
+                            <h3 class = "card-title breakdown-card-title">Celebrate</h3>
+                            <p class = "card-text breakdown-card-description">Celebrate programs are designed to inspire students by highlighting the impactful things that students with strong STEM backgrounds are capable of through written journals and newsletters, bridging the divide between science and society.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class = "col-lg-4 text-center"> 
+                    <div class = "card breakdown-card">
+                        <img class="card-img-top breakdown-card-img-top" src="images/home_undraw_teacher_35j2.png" alt="Card image cap">
+                        <div class = "card-body">
+                            <h3 class = "card-title breakdown-card-title">Stimulate</h3>
+                            <p class = "card-text breakdown-card-description">Stimulate programs teach students about fascinating scientific concepts through hands-on workshops, taught with the peer-to-peer technique, at underserved schools that demonstrate the positive and transformative real-life applications of STEM.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class = "col-lg-4 text-center"> 
+                    <div class = "card  breakdown-card">
+                        <img class="card-img-top breakdown-card-img-top" src="images/home_undraw_Group_chat_unwm.png" alt="Card image cap">
+                        <div class = "card-body">
+                            <h3 class = "card-title breakdown-card-title">Innovate</h3>
+                            <p class = "card-text breakdown-card-description">Innovate programs connect students’ natural curiosity to opportunities that help them apply it through producing their own original work, such as the opportunity to conduct lab-based research projects and to write engaging articles about topics in science.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- <main class = "container">
         <div class = "programs">
             <div class = "border_header"></div>
             <div class = "border_title">
@@ -35,39 +80,39 @@
             </div>
             <div class = "welcome_container">
                 <div class="card program_card" style="width: 100%">
-                    <!-- <img class="card-img-top" src="images/headshots/MinhPhucTran.jpg" alt="Card image cap"> -->
+                    <img class="card-img-top" src="images/headshots/MinhPhucTran.jpg" alt="Card image cap">
                     <div class="card-body">
                         <h3 class="card-title">STEMlights</h3>
                         <p class="card-text">A bi-weekly email based newsletter that highlights upcoming opportunities (i.e. summer programs, research internships, STEM scholarships etc), scientific breakthroughs, and updates about STEMchats’ many programs. A few things that will be in each edition of the newsletter include a "STEM Spotlight" of a teenager making big moves in the STEM field, a short video showing something groundbreaking scientific phenomenons, and at least 3 summaries of STEM breakthroughs. Ultimately, the goal of STEMlights is to provide teens with important STEM information in a creative and interesting way.</p>
                         <script type="text/javascript" src="http://stemchats.createsend.com/t/t/p/jdhrul/0/0/1/1/1/"></script>
-                        <!-- <section class = "welcome container">
+                        <section class = "welcome container">
                             <a href = "#">Learn More</a>
-                        </section> -->
+                        </section>
                     </div>
                 </div>
                 <div class="card program_card" style="width: 100%">
-                    <!-- <img class="card-img-top" src="images/headshots/MinhPhucTran.jpg" alt="Card image cap"> -->
+                    <img class="card-img-top" src="images/headshots/MinhPhucTran.jpg" alt="Card image cap">
                     <div class="card-body">
                         <h3 class="card-title">IJOYIS</h3>
                         <p class="card-text">With the acronym representing the International Journal of Youth in Science, this program aims to be the premier scientific journal for that showcases the highest levels of pre-collegiate research from high school students around the globe. A double-blind review process ensures that all segments of submissions are equally represented , to help accommodate for the fact that some students may not have access to high-quality labs or other resources to leverage. Finalists selected for publication to the journal are invited to get involved with internships and volunteer opportunities at scientific research institutions.</p>
                     </div>
                 </div>
                 <div class="card program_card" style="width: 100%">
-                    <!-- <img class="card-img-top" src="images/headshots/MinhPhucTran.jpg" alt="Card image cap"> -->
+                    <img class="card-img-top" src="images/headshots/MinhPhucTran.jpg" alt="Card image cap">
                     <div class="card-body">
                         <h3 class="card-title">STEMchats Institute</h3>
                         <p class="card-text">This program conducts science curriculums and STEM-related career workshops at public middle schools in Chicago, IL, and San Francisco, California with other volunteer STEMchats members at these sites. The program will be a six-weeks long urban STEM themed workshop series titled “What’s in a City” that aims to cultivate curiosity in the STEM fields. Workshops would be taught using a peer-to-peer technique at underserved schools in order to demonstrate the positive and transformative applications of STEM through hands-on activities, engaged discussion, and real time feedback.</p>
                     </div>
                 </div>
                 <div class="card program_card" style="width: 100%">
-                    <!-- <img class="card-img-top" src="images/headshots/MinhPhucTran.jpg" alt="Card image cap"> -->
+                    <img class="card-img-top" src="images/headshots/MinhPhucTran.jpg" alt="Card image cap">
                     <div class="card-body">
                         <h3 class="card-title">United Engineers</h3>
                         <p class="card-text">This program conducts design thinking and engineering-related career workshops at public middle schools in Philadelphia, PA and New York City, NY with other volunteer STEMchats members at these sites. The program will be a six-weeks long workshop series based on three of the United Nations’ Sustainable Development Goals that aims to cultivate curiosity in the STEM fields. Workshops would be taught using a peer-to-peer technique at underserved schools in order to demonstrate the positive and transformative applications of STEM through hands-on activities, engaged discussion, and real time feedback.</p>
                     </div>
                 </div>
                 <div class="card program_card" style="width: 100%">
-                    <!-- <img class="card-img-top" src="images/headshots/MinhPhucTran.jpg" alt="Card image cap"> -->
+                    <img class="card-img-top" src="images/headshots/MinhPhucTran.jpg" alt="Card image cap">
                     <div class="card-body">
                         <h3 class="card-title">i-STEM Scholars</h3>
                         <p class="card-text">A research program that will connect underprivileged high school students with local professors to perform high-quality, pre-collegiate research. Selected students will be provided with additional mentorship and funding through STEMchats. This program will target these communities and expose students from underrepresented backgrounds to what the STEM field offers. The program hopes to directly impact students by not only offering lab positions but also the ability for them to prepare for college and beyond by having mentors to offer advice that will prepare them for higher education as well as their careers.</p>
@@ -75,9 +120,9 @@
                 </div>
             <div class = "border_header"></div>
         </div>
-    </main>
+    </main> -->
     <main class = "container">
-        <div class = "footer">
+        <div class = "footer text-center">
             <p>@ 2020 STEMchats. All rights reserved.</p>
         </div>
     </main>
