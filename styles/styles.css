@@ -23,7 +23,7 @@ b {
   color: white !important;
   font-family: system-ui, Helvetica, Arial, sans-serif;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 20px;
   margin: 0 1em 0 1em;
   text-align: center;
 }
@@ -342,6 +342,7 @@ b {
     color: black !important;
     font-weight: 600;
     padding: 1em;
+    font-size: 16px;
   }
   .navbar .navbar-nav .nav-button .nav-button-text {
     color: white !important;

@@ -48,7 +48,7 @@ b {
     color: white !important;
     font-family: $main-font;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 20px;
     // padding-left: 5px;
     margin: 0 1em 0 1em;
     text-align: center;
@@ -351,7 +351,8 @@ b {
     .navbar .navbar-nav .nav-item {
         color: black!important;
         font-weight: 600;
-        padding: 1em; 
+        padding: 1em;         
+        font-size: 16px;
     }
     .navbar .navbar-nav .nav-button .nav-button-text {
         color: white !important;
