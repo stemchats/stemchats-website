@@ -323,7 +323,7 @@ b {
 }
 
 .breakdown .breakdown-card {
-  padding: 2em;
+  padding: 1em;
   margin: 1em;
   border-radius: 10px;
 }
@@ -359,6 +359,73 @@ b {
   font-family: system-ui, Helvetica, Arial, sans-serif;
   height: 100%;
   padding: 2em;
+  background-color: white;
+  color: black;
+  margin-top: -5em;
+}
+
+.programs .programs-box-title {
+  font-size: 30px;
+  font-weight: 800;
+  margin-top: 0em;
+  font-size: 40px;
+}
+
+.programs .programs-box-description {
+  font-size: 20px;
+  font-weight: 400;
+  color: black;
+  margin: 1em 1em 1em 1em;
+}
+
+.programs .programs-divider {
+  background-color: #FAFAFA !important;
+  text-align: center;
+  font-size: 32px !important;
+}
+
+.programs .programs-divider .programs-divider-header {
+  color: black !important;
+  font-weight: 800;
+}
+
+.programs .programs-card {
+  border-radius: 10px;
+  border: 0px white;
+}
+
+.programs .programs-card ss
+.programs-card-img {
+  border-radius: 10px;
+  max-width: 50%;
+}
+
+.programs .programs-card .programs-card-title {
+  font-weight: 800 !important;
+  font-size: 32px;
+  text-align: center;
+}
+
+.programs .programs-card .programs-card-description {
+  font-size: 18px;
+  color: black;
+  text-align: center;
+}
+
+.programs {
+  height: 75vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: system-ui, Helvetica, Arial, sans-serif;
+  height: 100%;
+  padding: 2em;
   color: black;
   margin-top: 1.5em;
 }
@@ -378,9 +445,9 @@ b {
 }
 
 .programs .program-card {
-  padding: 2em;
-  margin: 1em;
+  padding: 0em;
   border-radius: 10px;
+  border: 0 white;
 }
 
 .programs .program-card .program-card-title {
@@ -389,7 +456,7 @@ b {
 }
 
 .programs .program-card .program-card-description {
-  font-size: 24px;
+  font-size: 18px;
   color: black;
 }
 
