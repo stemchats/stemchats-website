@@ -91,6 +91,10 @@ b {
   max-width: 100%;
 }
 
+.button-link {
+  color: white;
+}
+
 #newsletter {
   height: 75vh;
   display: -webkit-box;
@@ -308,18 +312,18 @@ b {
   margin-top: 1.5em;
 }
 
-.breakdown .info-box-title {
+.breakdown .breakdown-box-title {
   font-size: 30px;
   font-weight: 800;
   margin-top: 0em;
   font-size: 40px;
 }
 
-.breakdown .info-box-description {
+.breakdown .breakdown-box-description {
   font-size: 20px;
   font-weight: 400;
   color: black;
-  margin: 1em 2em 1em 2em;
+  margin: 1em 0em 1em 0em;
 }
 
 .breakdown .breakdown-card {
@@ -646,7 +650,7 @@ b {
     color: rgba(0, 0, 0, 0.7);
     text-align: center;
   }
-  #breakdown {
+  .breakdown {
     height: 100vh;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -660,22 +664,32 @@ b {
     height: 100vh;
     padding: 0em;
   }
-  #breakdown .info-box-title {
-    margin-top: -1em;
+  .breakdown .breakdown-box-title {
+    margin-top: -4em;
   }
-  #breakdown .info-box-description {
-    margin: 1em 10em 2em 10em;
+  .breakdown .breakdown-box-description {
+    margin: 1em 5em 2em 5em;
   }
-  #breakdown .breakdown-card {
+  .breakdown .breakdown-card {
     padding: 2em;
     margin: 0em;
   }
-  #breakdown .breakdown-card .breakdown-card-img-top {
+  .breakdown .breakdown-card .breakdown-card-img-top {
     max-height: 150px;
   }
-  #breakdown .breakdown-card .breakdown-card-title {
+  .breakdown .breakdown-card .breakdown-card-title {
     font-weight: 800 !important;
     font-size: 36px;
+  }
+  .programs {
+    height: 100vh;
+    padding: 0em;
+    background-color: white;
+    color: black;
+    margin-top: -7.5em;
+  }
+  .programs .programs-box-description {
+    margin: 1em 12.5em 1em 12.5em;
   }
 }
 /*# sourceMappingURL=styles.css.map */

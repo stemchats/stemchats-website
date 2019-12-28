@@ -24,10 +24,6 @@ b {
     color: $main-color;
 }
 
-// h1 {
-//     color: #4f9da6;
-// }
-
 .navbar {
     font-family: $main-font !important;
     background-color: $main-color !important;
@@ -61,18 +57,6 @@ b {
     border: 0;
     padding: 0.5em;
 }
-
-// .navbar .navbar-nav .nav-item .nav-link .active {
-//     color: #ff5959 !important;
-// }
-
-// .navbar .navbar-toggler {
-//     background-color: white !important;
-// }
-
-// .navbar .navbar-toggler .navbar-toggler-icon {
-//     background-color: white !important;
-// }
 
 .custom-toggler.navbar-toggler {
     border-color: white;
@@ -115,9 +99,11 @@ b {
     }
     .top-img {
         max-width: 100%;
-        // flex: column-reverse;
-        // display: none;
     }
+}
+
+.button-link {
+    color: white;
 }
 
 #newsletter {
@@ -152,30 +138,8 @@ b {
     }
     .newsletter-img {
         max-width: 100%;
-        // padding-right: 20em;
-        // margin-right: 20em;
-        // flex: column-reverse;
-        // display: none;
     }
 }
-
-// #programs {
-//     @include smallFlexCenter;
-//     font-family: $main-font;
-
-//     padding: 1em;
-//     background-color: white;
-//     color: black;
-
-//     .info-box-title {
-//         font-size: $small-font-title;
-//         font-weight: 700;
-//     }
-//     .info-box-description {
-//         font-size: $small-font-description;
-//         font-weight: 400;
-//     }
-// }
 
 // ABOUT US PAGE STYLES
 
@@ -321,17 +285,17 @@ b {
     color: black;
     margin-top: 1.5em;
 
-    .info-box-title {
+    .breakdown-box-title {
         font-size: $small-font-title;
         font-weight: 800;
         margin-top: 0em;
         font-size: 40px;
     }
-    .info-box-description {
+    .breakdown-box-description {
         font-size: $small-font-description;
         font-weight: 400;
         color: black;
-        margin: 1em 2em 1em 2em;
+        margin: 1em 0em 1em 0em;
     }
 
     .breakdown-card {
@@ -457,10 +421,6 @@ b {
 }
 
 @media only screen and (min-width: 920px) {
-    // .navbar .navbar-nav .nav-item {
-    //     padding-right: 30px;
-    //     padding-left: -30px;
-    // }
     .navbar {
         margin-top: 10px;
         background-color: white!important;
@@ -663,19 +623,19 @@ b {
 
     // OUR PROGRAMS STYLES 
 
-    #breakdown {
+    .breakdown {
         @include largeFlexCenter();
         height: 100vh;
 
         padding: 0em;        
         
-        .info-box-title {
-            margin-top: -1em;
+        .breakdown-box-title {
+            margin-top: -4em;
         }
 
-        .info-box-description {
+        .breakdown-box-description {
             // font-size: 18px;
-            margin: 1em 10em 2em 10em;
+            margin: 1em 5em 2em 5em;
         }
         
         .breakdown-card {
@@ -690,10 +650,20 @@ b {
                 font-weight: 800 !important;
                 font-size: 36px;
             }
-                        
-            // .breakdown-card-description {
-            //     font-size: 18px;
-            // }
+        }
+    }
+    
+    .programs {
+        height: 100vh;
+    
+        padding: 0em;
+        background-color: white;
+        color: black;
+    
+        margin-top: -7.5em;
+    
+        .programs-box-description {
+            margin: 1em 12.5em 1em 12.5em;
         }
     }
 }
