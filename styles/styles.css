@@ -290,7 +290,7 @@ b {
   max-width: 100%;
 }
 
-#breakdown {
+.breakdown {
   height: 75vh;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -308,41 +308,89 @@ b {
   margin-top: 1.5em;
 }
 
-#breakdown .info-box-title {
+.breakdown .info-box-title {
   font-size: 30px;
   font-weight: 800;
   margin-top: 0em;
   font-size: 40px;
 }
 
-#breakdown .info-box-description {
+.breakdown .info-box-description {
   font-size: 20px;
   font-weight: 400;
   color: black;
   margin: 1em 2em 1em 2em;
 }
 
-#breakdown .breakdown-card {
-  padding: 1em;
+.breakdown .breakdown-card {
+  padding: 2em;
   margin: 1em;
-  border-radius: 20px;
+  border-radius: 10px;
 }
 
-#breakdown .breakdown-card .breakdown-card-title {
+.breakdown .breakdown-card .breakdown-card-title {
   font-weight: 800 !important;
   font-size: 36px;
 }
 
-#breakdown .breakdown-card .breakdown-card-description {
+.breakdown .breakdown-card .breakdown-card-description {
   font-size: 18px;
   color: black;
 }
 
-#breakdown .breakdown-card .breakdown-card-img-top {
+.breakdown .breakdown-card .breakdown-card-img-top {
   max-height: 250px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.programs {
+  height: 75vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: system-ui, Helvetica, Arial, sans-serif;
+  height: 100%;
+  padding: 2em;
+  color: black;
+  margin-top: 1.5em;
+}
+
+.programs .info-box-title {
+  font-size: 30px;
+  font-weight: 800;
+  margin-top: 0em;
+  font-size: 40px;
+}
+
+.programs .info-box-description {
+  font-size: 20px;
+  font-weight: 400;
+  color: black;
+  margin: 1em 2em 1em 2em;
+}
+
+.programs .program-card {
+  padding: 2em;
+  margin: 1em;
+  border-radius: 10px;
+}
+
+.programs .program-card .program-card-title {
+  font-weight: 800 !important;
+  font-size: 30px;
+}
+
+.programs .program-card .program-card-description {
+  font-size: 24px;
+  color: black;
 }
 
 @media only screen and (min-width: 920px) {
@@ -543,7 +591,7 @@ b {
         -ms-flex-align: center;
             align-items: center;
     height: 100vh;
-    padding: 2em;
+    padding: 0em;
   }
   #breakdown .info-box-title {
     margin-top: -1em;
@@ -556,7 +604,7 @@ b {
     margin: 0em;
   }
   #breakdown .breakdown-card .breakdown-card-img-top {
-    max-height: 165px;
+    max-height: 150px;
   }
   #breakdown .breakdown-card .breakdown-card-title {
     font-weight: 800 !important;

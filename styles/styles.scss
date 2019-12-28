@@ -311,7 +311,7 @@ b {
 
 // OUR PROGRAMS STYLES
 
-#breakdown {
+.breakdown {
     @include smallFlexCenter;
     font-family: $main-font;
     height: 100%;
@@ -335,9 +335,9 @@ b {
     }
 
     .breakdown-card {
-        padding: 1em;
+        padding: 2em;
         margin: 1em;
-        border-radius: 20px;
+        border-radius: 10px;
         .breakdown-card-title {
             font-weight: 800 !important;
             font-size: 36px;
@@ -351,6 +351,49 @@ b {
             max-height: 250px;
             justify-content: center;
         }
+    }
+}
+
+.programs {
+    @include smallFlexCenter;
+    font-family: $main-font;
+    height: 100%;
+
+    padding: 2em;
+    // background-color: #FAFAFA;
+    color: black;
+    margin-top: 1.5em;
+
+    .info-box-title {
+        font-size: $small-font-title;
+        font-weight: 800;
+        margin-top: 0em;
+        font-size: 40px;
+    }
+    .info-box-description {
+        font-size: $small-font-description;
+        font-weight: 400;
+        color: black;
+        margin: 1em 2em 1em 2em;
+    }
+
+    .program-card {
+        padding: 2em;
+        margin: 1em;
+        border-radius: 10px;
+        .program-card-title {
+            font-weight: 800 !important;
+            font-size: 30px;
+        }
+        .program-card-description {
+            font-size: 18px;
+            color: black;
+            // color: rgba(0, 0, 0, 0.7);
+        }
+        // .program-card-img-top {
+        //     max-height: 250px;
+        //     justify-content: center;
+        // }
     }
 }
 
@@ -565,7 +608,7 @@ b {
         @include largeFlexCenter();
         height: 100vh;
 
-        padding: 2em;        
+        padding: 0em;        
         
         .info-box-title {
             margin-top: -1em;
@@ -581,7 +624,7 @@ b {
             margin: 0em;
                 
             .breakdown-card-img-top {
-                max-height: 165px;
+                max-height: 150px;
             }
 
             .breakdown-card-title {
