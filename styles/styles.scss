@@ -149,7 +149,7 @@ b {
     font-family: $main-font;
     background-color: white;
     color: black;
-    padding: 1em 1em 5em 1em;
+    padding: 1em 0em 5em 0em;
     margin: 0em 1em 0em 1em;
     height: 100%;
 
@@ -467,7 +467,7 @@ b {
         .top-img {
             display: inline;
             max-width: 130%;
-            margin-left: -5em;
+            margin-left: -2.5em;
         }
     }
 
@@ -496,7 +496,7 @@ b {
         .newsletter-img {
             display: inline;
             max-width: 130%;
-            margin-right: -5em;
+            margin-left: -12.5em;
         }
     }
         
