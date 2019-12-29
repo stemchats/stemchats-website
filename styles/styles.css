@@ -58,11 +58,11 @@ b {
   font-family: system-ui, Helvetica, Arial, sans-serif;
   background-color: white;
   color: black;
-  padding: 1em 1em 5em 1em;
+  padding: 1em 1em 1em 1em;
   margin: 0em 1em 0em 1em;
   height: 80vh;
   text-align: center !important;
-  margin-top: 7.5em;
+  margin-top: 6em;
 }
 
 #intro .welcome-box-title {
@@ -469,7 +469,7 @@ b {
     margin-top: 10px;
     background-color: white !important;
     padding-right: 10em;
-    padding-left: 15em;
+    padding-left: 10em;
     -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
             box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
   }
@@ -481,7 +481,7 @@ b {
     color: black !important;
     font-weight: 600;
     padding: 1em;
-    font-size: 16px;
+    font-size: 14px;
   }
   .navbar .navbar-nav .nav-button .nav-button-text {
     color: white !important;
@@ -500,11 +500,11 @@ b {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    margin-top: -2em;
+    margin-top: 0em;
     text-align: left !important;
   }
   #intro .welcome-box-title {
-    font-size: 54px;
+    font-size: 50px;
     font-weight: 800;
   }
   #intro .welcome-box-description {
@@ -521,7 +521,7 @@ b {
   #intro .top-img {
     display: inline;
     max-width: 130%;
-    margin-right: -10em;
+    margin-left: -5em;
   }
   #newsletter {
     -webkit-box-flex: row;
@@ -558,7 +558,7 @@ b {
   #newsletter .newsletter-img {
     display: inline;
     max-width: 130%;
-    margin-left: -15em;
+    margin-right: -5em;
   }
   #programs {
     height: 100vh;

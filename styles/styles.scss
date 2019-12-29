@@ -70,13 +70,13 @@ b {
     font-family: $main-font;
     background-color: white;
     color: black;
-    padding: 1em 1em 5em 1em;
+    padding: 1em 1em 1em 1em;
     margin: 0em 1em 0em 1em;
     height: 80vh;
 
     text-align: center !important;
 
-    margin-top: 7.5em;
+    margin-top: 6em;
 
     .welcome-box-title {
         font-size: $small-font-title;
@@ -99,6 +99,7 @@ b {
     }
     .top-img {
         max-width: 100%;
+
     }
 }
 
@@ -425,7 +426,7 @@ b {
         margin-top: 10px;
         background-color: white!important;
         padding-right: 10em;
-        padding-left: 15em;
+        padding-left: 10em;
         box-shadow: 0 0 0 0 rgba(0,0,0,0);
     }
     .navbar-brand {
@@ -437,7 +438,7 @@ b {
         color: black!important;
         font-weight: 600;
         padding: 1em;         
-        font-size: 16px;
+        font-size: 14px;
     }
     .navbar .navbar-nav .nav-button .nav-button-text {
         color: white !important;
@@ -446,10 +447,10 @@ b {
     #intro {
         flex: row;
         @include largeFlexCenter();
-        margin-top: -2em;
+        margin-top: 0em;
         text-align: left !important;
         .welcome-box-title {
-            font-size: 54px;
+            font-size: 50px;
             font-weight: 800;
         }
         .welcome-box-description {
@@ -466,17 +467,13 @@ b {
         .top-img {
             display: inline;
             max-width: 130%;
-            margin-right: -10em;
+            margin-left: -5em;
         }
-        // .home-img {
-        //     margin-right: 1em;
-        // }
     }
 
     #newsletter {
         flex: row;
         @include largeFlexCenter();
-        // margin-top: -2em;
         text-align: left !important;
         
         height: 85vh;
@@ -499,7 +496,7 @@ b {
         .newsletter-img {
             display: inline;
             max-width: 130%;
-            margin-left: -15em;
+            margin-right: -5em;
         }
     }
         
@@ -516,12 +513,7 @@ b {
 
         margin-top: 0em;
         margin-bottom: -7.5em;
-    
-        // .aboutus-box-title {
-        //     font-size: $small-font-title;
-        //     font-weight: 800;
-        //     font-size: 42px;
-        // }
+
         .aboutus-box-description {
             margin: 0 5em 0.5em 5em;
         }
@@ -532,35 +524,17 @@ b {
     // }
     
     .partners {
-        // @include smallFlexCenter;
-        // font-family: $main-font;
-        // background-color: white;
-        // color: black;
-        // padding: 1em 1em 5em 1em;
-        // margin: 0em 1em 0em 1em;
         height: 50vh;
 
         margin-top: 0em;
         margin-bottom: 0em;
     
-        // text-align: center !important;
-    
-        // margin-top: 0em;
-    
-        // .partners-box-title {
-        //     font-size: $small-font-title;
-        //     font-weight: 800;
-        //     font-size: 42px;
-        //     margin-bottom: 0.5em;
-        // }
         .partners-box-description {
             margin: 0 5em 0.5em 5em;
 
         }
         .partners-img {
             max-width: 100%;
-            // flex: column-reverse;
-            // display: none;
         }
     }
     
@@ -582,8 +556,6 @@ b {
         .team-box-description {
             font-size: $small-font-description;
             font-weight: 400;
-            // color: rgba(0, 0, 0, 0.7);
-            // font-size: 18px;
             margin: 1em 12.5em 1em 12.5em;
         }
     
