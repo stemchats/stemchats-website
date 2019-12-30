@@ -44,7 +44,7 @@ b {
     color: white !important;
     font-family: $main-font;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 16px;
     // padding-left: 5px;
     margin: 0 1em 0 1em;
     text-align: center;
@@ -449,6 +449,7 @@ b {
         @include largeFlexCenter();
         margin-top: 0em;
         text-align: left !important;
+
         .welcome-box-title {
             font-size: 50px;
             font-weight: 800;
@@ -602,7 +603,7 @@ b {
         padding: 0em;        
         
         .breakdown-box-title {
-            margin-top: -4em;
+            margin-top: 0em;
         }
 
         .breakdown-box-description {
@@ -632,7 +633,7 @@ b {
         background-color: white;
         color: black;
     
-        margin-top: -7.5em;
+        margin: 5em 0 5em 0;
     
         .programs-box-description {
             margin: 1em 12.5em 1em 12.5em;

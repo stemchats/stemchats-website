@@ -23,7 +23,7 @@ b {
   color: white !important;
   font-family: system-ui, Helvetica, Arial, sans-serif;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 16px;
   margin: 0 1em 0 1em;
   text-align: center;
 }
@@ -58,7 +58,7 @@ b {
   font-family: system-ui, Helvetica, Arial, sans-serif;
   background-color: white;
   color: black;
-  padding: 4em 1em 1em 1em;
+  padding: 5em 1em 5em 1em;
   margin: 0em 1em 0em 1em;
   height: 80vh;
   text-align: center !important;
@@ -109,7 +109,7 @@ b {
   font-family: system-ui, Helvetica, Arial, sans-serif;
   background-color: white;
   color: black;
-  padding: 6em 1em 5em 1em;
+  padding: 3em 1em 5em 1em;
   margin: 0em 0em 0em 0em;
   height: 90vh;
   text-align: center !important;
@@ -665,7 +665,7 @@ b {
     padding: 0em;
   }
   .breakdown .breakdown-box-title {
-    margin-top: -4em;
+    margin-top: 0em;
   }
   .breakdown .breakdown-box-description {
     margin: 1em 5em 2em 5em;
@@ -686,7 +686,7 @@ b {
     padding: 0em;
     background-color: white;
     color: black;
-    margin-top: -7.5em;
+    margin: 5em 0 5em 0;
   }
   .programs .programs-box-description {
     margin: 1em 12.5em 1em 12.5em;
