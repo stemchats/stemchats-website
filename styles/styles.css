@@ -58,7 +58,7 @@ b {
   font-family: system-ui, Helvetica, Arial, sans-serif;
   background-color: white;
   color: black;
-  padding: 2em 0em 5em 0em;
+  padding: 3em 0em 5em 0em;
   margin: 4em 1em 5em 1em;
   height: 100vh;
   text-align: center !important;
@@ -232,7 +232,7 @@ b {
 }
 
 .team .teamcard {
-  padding: 2em;
+  padding: 0.5em;
   margin-bottom: -3em;
   border-radius: 10px;
   border: 1px white;
@@ -241,7 +241,7 @@ b {
 .team .teamcard ss
 .teamcard-img {
   border-radius: 10px;
-  max-width: 120%;
+  max-width: 100%;
 }
 
 .team .teamcard .teamcard-title {
