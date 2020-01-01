@@ -222,7 +222,7 @@ b {
 
     .teamcard {
         padding: 0.5em;
-        margin-bottom: -3em;
+        margin-bottom: 0em;
         border-radius: 10px;
         border: 1px white;ss
 
@@ -281,7 +281,7 @@ b {
     font-family: $main-font;
     height: 100%;
 
-    padding: 2em;
+    padding: 1em;
     // background-color: #FAFAFA;
     color: black;
     margin-top: 1.5em;
@@ -301,7 +301,7 @@ b {
 
     .breakdown-card {
         padding: 0.5em;
-        margin: 0em;
+        margin: 1em 0 1em 0;
         border-radius: 10px;
         .breakdown-card-title {
             font-weight: 800 !important;
