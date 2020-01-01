@@ -70,7 +70,7 @@ b {
     font-family: $main-font;
     background-color: white;
     color: black;
-    padding: 0em 0em 5em 0em;
+    padding: 2em 0em 5em 0em;
     margin: 4em 1em 5em 1em;
     height: 100vh;
 
@@ -228,7 +228,7 @@ b {
 
         .teamcard-img {
             border-radius: 10px;
-            max-width: 100%;
+            max-width: 120%;
         }
         .teamcard-title {
             font-weight: 700 !important;
@@ -300,8 +300,8 @@ b {
     }
 
     .breakdown-card {
-        padding: 1em;
-        margin: 1em;
+        padding: 0.5em;
+        margin: 0em;
         border-radius: 10px;
         .breakdown-card-title {
             font-weight: 800 !important;
@@ -319,64 +319,64 @@ b {
     }
 }
 
-.programs {
-    @include smallFlexCenter;
-    font-family: $main-font;
-    height: 100%;
+// .programs {
+//     @include smallFlexCenter;
+//     font-family: $main-font;
+//     height: 100%;
 
-    padding: 2em;
-    background-color: white;
-    color: black;
+//     padding: 2em;
+//     background-color: white;
+//     color: black;
 
-    margin-top: -5em;
+//     margin-top: -5em;
 
-    .programs-box-title {
-        font-size: $small-font-title;
-        font-weight: 800;
-        margin-top: 0em;
-        font-size: 40px;
-    }
-    .programs-box-description {
-        font-size: $small-font-description;
-        font-weight: 400;
-        color: black;
-        // font-size: 18px;
-        margin: 1em 1em 1em 1em;
-    }
+//     .programs-box-title {
+//         font-size: $small-font-title;
+//         font-weight: 800;
+//         margin-top: 0em;
+//         font-size: 40px;
+//     }
+//     .programs-box-description {
+//         font-size: $small-font-description;
+//         font-weight: 400;
+//         color: black;
+//         // font-size: 18px;
+//         margin: 1em 1em 1em 1em;
+//     }
 
-    .programs-divider {
-        background-color: #FAFAFA !important;
-        text-align: center;
-        font-size: 32px !important;
+//     .programs-divider {
+//         background-color: #FAFAFA !important;
+//         text-align: center;
+//         font-size: 32px !important;
 
-        .programs-divider-header {
-            color: black !important;
-            font-weight: 800;
-        }
-    }
+//         .programs-divider-header {
+//             color: black !important;
+//             font-weight: 800;
+//         }
+//     }
 
-    .programs-card {
-        // padding: 2em;
-        // margin-bottom: -3em;
-        border-radius: 10px;
-        border: 0px white;ss
+//     .programs-card {
+//         // padding: 2em;
+//         // margin-bottom: -3em;
+//         border-radius: 10px;
+//         border: 0px white;ss
 
-        .programs-card-img {
-            border-radius: 10px;
-            max-width: 50%;
-        }
-        .programs-card-title {
-            font-weight: 800 !important;
-            font-size: 32px;
-            text-align: center;
-        }
-        .programs-card-description {
-            font-size: 18px;
-            color: black;
-            text-align: center;
-        }
-    }
-}
+//         .programs-card-img {
+//             border-radius: 10px;
+//             max-width: 50%;
+//         }
+//         .programs-card-title {
+//             font-weight: 800 !important;
+//             font-size: 32px;
+//             text-align: center;
+//         }
+//         .programs-card-description {
+//             font-size: 18px;
+//             color: black;
+//             text-align: center;
+//         }
+//     }
+// }
 
 .programs {
     @include smallFlexCenter;
@@ -412,12 +412,12 @@ b {
         .program-card-description {
             font-size: 18px;
             color: black;
-            // color: rgba(0, 0, 0, 0.7);
+            color: rgba(0, 0, 0, 0.7);
         }
-        // .program-card-img-top {
-        //     max-height: 250px;
-        //     justify-content: center;
-        // }
+        .program-card-img-top {
+            max-height: 250px;
+             justify-content: center;
+        }
     }
 }
 
