@@ -70,7 +70,7 @@ b {
     font-family: $main-font;
     background-color: white;
     color: black;
-    padding: 5em 0em 5em 0em;
+    padding: 0em 0em 5em 0em;
     margin: 4em 1em 5em 1em;
     height: 100vh;
 
@@ -228,7 +228,7 @@ b {
 
         .teamcard-img {
             border-radius: 10px;
-            max-width: 50%;
+            max-width: 100%;
         }
         .teamcard-title {
             font-weight: 700 !important;
