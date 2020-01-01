@@ -233,7 +233,7 @@ b {
 
 .team .teamcard {
   padding: 0.5em;
-  margin-bottom: -3em;
+  margin-bottom: 0em;
   border-radius: 10px;
   border: 1px white;
 }
@@ -307,7 +307,7 @@ b {
           align-items: center;
   font-family: system-ui, Helvetica, Arial, sans-serif;
   height: 100%;
-  padding: 2em;
+  padding: 1em;
   color: black;
   margin-top: 1.5em;
 }
@@ -328,7 +328,7 @@ b {
 
 .breakdown .breakdown-card {
   padding: 0.5em;
-  margin: 0em;
+  margin: 1em 0 1em 0;
   border-radius: 10px;
 }
 
@@ -363,46 +363,57 @@ b {
   font-family: system-ui, Helvetica, Arial, sans-serif;
   height: 100%;
   padding: 2em;
+  background-color: white;
   color: black;
-  margin-top: 1.5em;
+  margin-top: 1em;
 }
 
-.programs .info-box-title {
+.programs .programs-box-title {
   font-size: 30px;
   font-weight: 800;
   margin-top: 0em;
   font-size: 40px;
 }
 
-.programs .info-box-description {
+.programs .programs-box-description {
   font-size: 20px;
   font-weight: 400;
   color: black;
-  margin: 1em 2em 1em 2em;
+  margin: 1em 1em 1em 1em;
 }
 
-.programs .program-card {
-  padding: 0em;
+.programs .programs-divider {
+  background-color: #FAFAFA !important;
+  text-align: center;
+  font-size: 32px !important;
+}
+
+.programs .programs-divider .programs-divider-header {
+  color: black !important;
+  font-weight: 800;
+}
+
+.programs .programs-card {
   border-radius: 10px;
-  border: 0 white;
+  border: 0px white;
 }
 
-.programs .program-card .program-card-title {
+.programs .programs-card ss
+.programs-card-img {
+  border-radius: 10px;
+  max-width: 50%;
+}
+
+.programs .programs-card .programs-card-title {
   font-weight: 800 !important;
-  font-size: 30px;
+  font-size: 32px;
+  text-align: center;
 }
 
-.programs .program-card .program-card-description {
+.programs .programs-card .programs-card-description {
   font-size: 18px;
   color: black;
-  color: rgba(0, 0, 0, 0.7);
-}
-
-.programs .program-card .program-card-img-top {
-  max-height: 250px;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  text-align: center;
 }
 
 @media only screen and (min-width: 920px) {

@@ -319,107 +319,107 @@ b {
     }
 }
 
-// .programs {
-//     @include smallFlexCenter;
-//     font-family: $main-font;
-//     height: 100%;
-
-//     padding: 2em;
-//     background-color: white;
-//     color: black;
-
-//     margin-top: -5em;
-
-//     .programs-box-title {
-//         font-size: $small-font-title;
-//         font-weight: 800;
-//         margin-top: 0em;
-//         font-size: 40px;
-//     }
-//     .programs-box-description {
-//         font-size: $small-font-description;
-//         font-weight: 400;
-//         color: black;
-//         // font-size: 18px;
-//         margin: 1em 1em 1em 1em;
-//     }
-
-//     .programs-divider {
-//         background-color: #FAFAFA !important;
-//         text-align: center;
-//         font-size: 32px !important;
-
-//         .programs-divider-header {
-//             color: black !important;
-//             font-weight: 800;
-//         }
-//     }
-
-//     .programs-card {
-//         // padding: 2em;
-//         // margin-bottom: -3em;
-//         border-radius: 10px;
-//         border: 0px white;ss
-
-//         .programs-card-img {
-//             border-radius: 10px;
-//             max-width: 50%;
-//         }
-//         .programs-card-title {
-//             font-weight: 800 !important;
-//             font-size: 32px;
-//             text-align: center;
-//         }
-//         .programs-card-description {
-//             font-size: 18px;
-//             color: black;
-//             text-align: center;
-//         }
-//     }
-// }
-
 .programs {
     @include smallFlexCenter;
     font-family: $main-font;
     height: 100%;
 
     padding: 2em;
-    // background-color: #FAFAFA;
+    background-color: white;
     color: black;
-    margin-top: 1.5em;
 
-    .info-box-title {
+    margin-top: 1em;
+
+    .programs-box-title {
         font-size: $small-font-title;
         font-weight: 800;
         margin-top: 0em;
         font-size: 40px;
     }
-    .info-box-description {
+    .programs-box-description {
         font-size: $small-font-description;
         font-weight: 400;
         color: black;
-        margin: 1em 2em 1em 2em;
+        // font-size: 18px;
+        margin: 1em 1em 1em 1em;
     }
 
-    .program-card {
-        padding: 0em;
-        border-radius: 10px;
-        border: 0 white;
-        .program-card-title {
-            font-weight: 800 !important;
-            font-size: 30px;
+    .programs-divider {
+        background-color: #FAFAFA !important;
+        text-align: center;
+        font-size: 32px !important;
+
+        .programs-divider-header {
+            color: black !important;
+            font-weight: 800;
         }
-        .program-card-description {
+    }
+
+    .programs-card {
+        // padding: 2em;
+        // margin-bottom: -3em;
+        border-radius: 10px;
+        border: 0px white;ss
+
+        .programs-card-img {
+            border-radius: 10px;
+            max-width: 50%;
+        }
+        .programs-card-title {
+            font-weight: 800 !important;
+            font-size: 32px;
+            text-align: center;
+        }
+        .programs-card-description {
             font-size: 18px;
             color: black;
-            color: rgba(0, 0, 0, 0.7);
-        }
-        .program-card-img-top {
-            max-height: 250px;
-             justify-content: center;
+            text-align: center;
         }
     }
 }
+
+// .programs {
+//     @include smallFlexCenter;
+//     font-family: $main-font;
+//     height: 100%;
+
+//     padding: 2em;
+//     // background-color: #FAFAFA;
+//     color: black;
+//     margin-top: 1.5em;
+
+//     .info-box-title {
+//         font-size: $small-font-title;
+//         font-weight: 800;
+//         margin-top: 0em;
+//         font-size: 40px;
+//     }
+//     .info-box-description {
+//         font-size: $small-font-description;
+//         font-weight: 400;
+//         color: black;
+//         margin: 1em 2em 1em 2em;
+//     }
+
+//     .program-card {
+//         padding: 0em;
+//         border-radius: 10px;
+//         border: 0 white;
+//         .program-card-title {
+//             font-weight: 800 !important;
+//             font-size: 30px;
+//         }
+//         .program-card-description {
+//             font-size: 18px;
+//             color: black;
+//             color: rgba(0, 0, 0, 0.7);
+//         }
+//         .program-card-img-top {
+//             max-height: 250px;
+//              justify-content: center;
+//         }
+//     }
+// }
 
 @media only screen and (min-width: 920px) {
     .navbar {
