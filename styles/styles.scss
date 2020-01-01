@@ -27,8 +27,8 @@ b {
 .navbar {
     font-family: $main-font !important;
     background-color: $main-color !important;
-    padding-top: 0.75em;
-    padding-bottom: 0.75em;
+    padding-top: 1em;
+    padding-bottom: 1em;
     padding-right: 2em;
     padding-left: 2em;
     box-shadow: 0 2px 2px -2px rgba(0,0,0,.2);
@@ -70,8 +70,8 @@ b {
     font-family: $main-font;
     background-color: white;
     color: black;
-    padding: 5em 1em 5em 1em;
-    margin: 0em 1em 0em 1em;
+    padding: 5em 0em 5em 0em;
+    margin: 2em 1em 5em 1em;
     height: 80vh;
 
     text-align: center !important;
@@ -113,7 +113,7 @@ b {
     background-color: white;
     color: black;
     padding: 3em 1em 5em 1em;
-    margin: 0em 0em 0em 0em;
+    margin: 1em 0em 0em 0em;
     height: 90vh;
 
     text-align: center !important;
