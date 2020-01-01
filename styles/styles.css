@@ -59,8 +59,8 @@ b {
   background-color: white;
   color: black;
   padding: 5em 0em 5em 0em;
-  margin: 2em 1em 5em 1em;
-  height: 80vh;
+  margin: 4em 1em 5em 1em;
+  height: 100vh;
   text-align: center !important;
   margin-top: 6em;
 }
@@ -110,8 +110,8 @@ b {
   background-color: white;
   color: black;
   padding: 3em 1em 5em 1em;
-  margin: 1em 0em 0em 0em;
-  height: 90vh;
+  margin: 4em 0em 0em 0em;
+  height: 100vh;
   text-align: center !important;
   margin-top: 7.5em;
 }
