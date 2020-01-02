@@ -202,7 +202,7 @@ body {
           align-items: center;
   font-family: system-ui, Helvetica, Arial, sans-serif;
   height: 100%;
-  padding: 2em;
+  padding: 1em;
   background-color: white;
   color: black;
 }
@@ -362,7 +362,7 @@ body {
           align-items: center;
   font-family: system-ui, Helvetica, Arial, sans-serif;
   height: 100%;
-  padding: 2em;
+  padding: 1em;
   background-color: white;
   color: black;
   margin-top: 1em;
