@@ -416,6 +416,10 @@ b {
   text-align: center;
 }
 
+.footer {
+  margin-top: 1em;
+}
+
 @media only screen and (min-width: 920px) {
   .navbar {
     background-color: white !important;
@@ -452,7 +456,7 @@ b {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    margin-top: 0em;
+    margin-top: 3em;
     text-align: left !important;
   }
   #intro .welcome-box-title {

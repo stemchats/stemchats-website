@@ -421,6 +421,10 @@ b {
 //     }
 // }
 
+.footer {
+    margin-top: 1em;
+}
+
 @media only screen and (min-width: 920px) {
     .navbar {
         background-color: white!important;
@@ -447,7 +451,7 @@ b {
     #intro {
         flex: row;
         @include largeFlexCenter();
-        margin-top: 0em;
+        margin-top: 3em;
         text-align: left !important;
 
         .welcome-box-title {
