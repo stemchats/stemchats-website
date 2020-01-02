@@ -91,7 +91,7 @@ body {
 }
 
 #intro .top-img {
-  max-width: 100%;
+  max-width: 90%;
 }
 
 .button-link {
@@ -476,8 +476,8 @@ body {
   }
   #intro .top-img {
     display: inline;
-    max-width: 130%;
-    margin-left: -2.5em;
+    max-width: 110%;
+    margin-left: 2.5em;
   }
   #newsletter {
     -webkit-box-flex: row;
