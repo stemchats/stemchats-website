@@ -24,6 +24,10 @@ b {
     color: $main-color;
 }
 
+body {
+    padding-top: 6em;
+}
+
 .navbar {
     font-family: $main-font !important;
     background-color: $main-color !important;
@@ -31,7 +35,6 @@ b {
     padding-bottom: 0.5em;
     padding-right: 2em;
     padding-left: 2em;
-    margin-bottom: 2em;
     box-shadow: 0 2px 2px -2px rgba(0,0,0,.2);
 }
 
@@ -76,8 +79,6 @@ b {
     height: 100vh;
 
     text-align: center !important;
-
-    margin-top: 6em;
 
     .welcome-box-title {
         font-size: $small-font-title;
@@ -156,8 +157,6 @@ b {
 
     text-align: center !important;
 
-    margin-top: 2.5em;
-
     .aboutus-box-title {
         font-size: $small-font-title;
         font-weight: 800;
@@ -193,8 +192,6 @@ b {
     padding: 2em;
     background-color: white;
     color: black;
-
-    margin-top: -5em;
 
     .team-box-title {
         font-size: $small-font-title;
@@ -285,7 +282,6 @@ b {
     padding: 1em;
     // background-color: #FAFAFA;
     color: black;
-    margin-top: 1.5em;
 
     .breakdown-box-title {
         font-size: $small-font-title;
@@ -409,8 +405,8 @@ b {
     #intro {
         flex: row;
         @include largeFlexCenter();
-        margin-top: 3em;
         text-align: left !important;
+        margin-top: -2em;
 
         .welcome-box-title {
             font-size: 50px;
