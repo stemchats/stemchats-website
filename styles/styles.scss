@@ -31,8 +31,8 @@ body {
 .navbar {
     font-family: $main-font !important;
     background-color: $main-color !important;
-    padding-top: 0.5em;
-    padding-bottom: 0.5em;
+    padding-top: 0.25em;
+    padding-bottom: 0.25em;
     padding-right: 2em;
     padding-left: 2em;
     box-shadow: 0 2px 2px -2px rgba(0,0,0,.2);
@@ -67,6 +67,7 @@ body {
 }
 .custom-toggler .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  max-height: 80% !important;
 }
 
 #intro {
