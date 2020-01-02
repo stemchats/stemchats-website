@@ -31,6 +31,7 @@ b {
     padding-bottom: 0.5em;
     padding-right: 2em;
     padding-left: 2em;
+    margin-bottom: 2em;
     box-shadow: 0 2px 2px -2px rgba(0,0,0,.2);
 }
 
@@ -377,49 +378,6 @@ b {
         }
     }
 }
-
-// .programs {
-//     @include smallFlexCenter;
-//     font-family: $main-font;
-//     height: 100%;
-
-//     padding: 2em;
-//     // background-color: #FAFAFA;
-//     color: black;
-//     margin-top: 1.5em;
-
-//     .info-box-title {
-//         font-size: $small-font-title;
-//         font-weight: 800;
-//         margin-top: 0em;
-//         font-size: 40px;
-//     }
-//     .info-box-description {
-//         font-size: $small-font-description;
-//         font-weight: 400;
-//         color: black;
-//         margin: 1em 2em 1em 2em;
-//     }
-
-//     .program-card {
-//         padding: 0em;
-//         border-radius: 10px;
-//         border: 0 white;
-//         .program-card-title {
-//             font-weight: 800 !important;
-//             font-size: 30px;
-//         }
-//         .program-card-description {
-//             font-size: 18px;
-//             color: black;
-//             color: rgba(0, 0, 0, 0.7);
-//         }
-//         .program-card-img-top {
-//             max-height: 250px;
-//              justify-content: center;
-//         }
-//     }
-// }
 
 .footer {
     margin-top: 1em;
