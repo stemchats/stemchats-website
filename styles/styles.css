@@ -7,7 +7,7 @@ body {
 }
 
 .navbar {
-  font-family: system-ui, Helvetica, Arial, sans-serif !important;
+  font-family: 'Karla' !important;
   background-color: #ff5959 !important;
   padding-top: 0.25em;
   padding-bottom: 0.25em;
@@ -25,7 +25,7 @@ body {
 
 .navbar .navbar-nav .nav-item {
   color: white !important;
-  font-family: system-ui, Helvetica, Arial, sans-serif;
+  font-family: 'Karla';
   font-weight: 400;
   font-size: 16px;
   margin: 0 1em 0 1em;

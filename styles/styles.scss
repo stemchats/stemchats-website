@@ -1,5 +1,5 @@
 $main-color : #ff5959;
-$main-font :  'Montserrat', sans-serif;
+$main-font :  'Karla';
 $small-font-title: 30px;
 $small-font-description: 20px;
 $small-padding : 1em;
@@ -11,6 +11,7 @@ $small-padding : 1em;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: 'Karla';
 }
 
 @mixin largeFlexCenter {
@@ -18,6 +19,7 @@ $small-padding : 1em;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: 'Karla';
 }
 
 b {
@@ -26,6 +28,7 @@ b {
 
 body {
     padding-top: 5em;
+    font-family: 'Karla' !important;
 }
 
 .navbar {
@@ -78,6 +81,7 @@ body {
     padding: 0em 0em 5em 0em;
     margin: 4em 1em 5em 1em;
     height: 100vh;
+    font-family: 'Karla';
 
     text-align: center !important;
 
