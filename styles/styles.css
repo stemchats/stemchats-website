@@ -8,7 +8,7 @@ body {
 
 .navbar {
   font-family: 'Karla' !important;
-  background-color: #ff5959 !important;
+  background-color: white !important;
   padding-top: 0.25em;
   padding-bottom: 0.25em;
   padding-right: 2em;
@@ -18,13 +18,13 @@ body {
 }
 
 .navbar-brand {
-  color: white !important;
+  color: black !important;
   font-size: 28px;
   font-weight: 800;
 }
 
 .navbar .navbar-nav .nav-item {
-  color: white !important;
+  color: grey !important;
   font-family: 'Karla';
   font-weight: 400;
   font-size: 16px;
@@ -34,18 +34,18 @@ body {
 
 .navbar .navbar-nav .nav-button {
   border-radius: 10px;
-  background-color: #ff5959;
+  background-color: white;
   margin: 5px;
   border: 0;
   padding: 0.5em;
 }
 
 .custom-toggler.navbar-toggler {
-  border-color: white;
+  border-color: black;
 }
 
 .custom-toggler .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='32 32 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,0,0, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
   max-height: 80% !important;
 }
 

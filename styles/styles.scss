@@ -35,7 +35,7 @@ body {
 
 .navbar {
     font-family: $main-font !important;
-    background-color: $main-color !important;
+    background-color: white !important;
     padding-top: 0.25em;
     padding-bottom: 0.25em;
     padding-right: 2em;
@@ -44,13 +44,13 @@ body {
 }
 
 .navbar-brand {
-    color: white !important;
+    color: black !important;
     font-size: 28px;
     font-weight: 800;
 }
 
 .navbar .navbar-nav .nav-item {
-    color: white !important;
+    color: grey!important;
     font-family: $main-font;
     font-weight: 400;
     font-size: 16px;
