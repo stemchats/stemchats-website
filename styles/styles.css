@@ -550,7 +550,7 @@ body {
   }
   .partners {
     height: 50vh;
-    margin-top: 0em;
+    margin-top: 2em;
     margin-bottom: 0em;
   }
   .partners .partners-box-description {
@@ -602,7 +602,7 @@ body {
     border-radius: 10px;
     border: 1px white;
   }
-  .team .teamcard ss
+  
 .teamcard-image {
     border-radius: 100px;
     max-width: 50%;
@@ -653,7 +653,7 @@ body {
     padding: 0em;
     background-color: white;
     color: black;
-    margin: 5em 0 5em 0;
+    margin: 10em 0 8em 0;
   }
   .programs .programs-box-description {
     margin: 1em 12.5em 1em 12.5em;
