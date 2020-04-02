@@ -426,6 +426,7 @@ body {
 
 .footer {
   margin-top: 1em;
+  font-family: "Karla";
 }
 
 @media only screen and (min-width: 920px) {
