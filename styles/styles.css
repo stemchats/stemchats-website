@@ -35,7 +35,7 @@ body {
 .navbar .navbar-nav .nav-button {
   border-radius: 10px;
   background-color: white;
-  margin: 5px;
+  margin: 0px;
   border: 0;
   padding: 0.5em;
 }
@@ -440,6 +440,16 @@ body {
     padding: 1em;
     font-size: 14px;
   }
+
+  
+.navbar .navbar-nav .nav-button {
+  border-radius: 10px;
+  background-color: #ff5959;
+  margin: 5px;
+  border: 0;
+  padding: 0.5em;
+}
+
   .navbar .navbar-nav .nav-button .nav-button-text {
     color: white !important;
   }
