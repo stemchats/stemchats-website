@@ -404,6 +404,18 @@ body {
         padding: 1em;         
         font-size: 14px;
     }
+
+    .navbar .navbar-nav .nav-button {
+        background-color: #ff5959;
+        font-weight: 400;
+        border-radius: 10px;
+        border-color: white;
+        font-size: 20px;
+        padding: 0.5em 0.5em 0.5em 0.5em;
+        margin-bottom: 0em;
+        margin-left: 1.5em;
+    }
+
     .navbar .navbar-nav .nav-button .nav-button-text {
         color: white !important;
     }
@@ -412,7 +424,7 @@ body {
         flex: row;
         @include largeFlexCenter();
         text-align: left !important;
-        margin-top: -2em;
+        margin-top: 0em;
 
         .welcome-box-title {
             font-size: 50px;
@@ -489,7 +501,7 @@ body {
     // }
     
     .partners {
-        height: 50vh;
+        height: 60vh;
 
         margin-top: 0em;
         margin-bottom: 0em;
@@ -564,6 +576,7 @@ body {
         @include largeFlexCenter();
         height: 100vh;
 
+        margin-top: 4em;
         padding: 0em;        
         
         .breakdown-box-title {
@@ -591,7 +604,7 @@ body {
     }
     
     .programs {
-        height: 100vh;
+        height: 125vh;
     
         padding: 0em;
         background-color: white;
