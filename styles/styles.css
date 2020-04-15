@@ -30,15 +30,16 @@ body {
   font-family: "Karla", sans-serif;
   font-weight: 400;
   font-size: 16px;
+  margin: 0em;
   text-align: center;
 }
 
 .navbar .navbar-nav .nav-button {
   border-radius: 0;
   background-color: white;
-  margin: 0em;
+  margin: 0.5em;
   border: 0;
-  padding: 0em 0.5em 0em 0.5em;
+  padding: 0em 0em 0em 0em;
 }
 
 .custom-toggler.navbar-toggler {
@@ -449,6 +450,7 @@ body {
     background-color: #ff5959;
     border-radius: 10px;
     font-size: 20px;
+    margin: 0em;
     margin-bottom: 0em;
     margin-left: 1.5em;
   }
