@@ -1,17 +1,15 @@
 // $(function(){
 //       $("#footer").load("footer.html");
 //     });
-
-$(function(){
-  function loadFooter() {
-    var xhttp = new XMLHttpRequest();
-    xhttp.onreadystatechange = function() {
+let request = new XMLHttpRequest();
+let url = "footer.html";
+request.open("GET", url, true);
+request.onload = function() {
+    request.onreadystatechange = function() {
       if (this.readyState == 4 && this.status == 200) {
         document.getElementById("footer").innerHTML =
         this.responseText;
-      }
+      } 
     };
-    xhttp.open("GET", "footer.html", true);
-    xhttp.send();
+    request.send();
   }
-    });
