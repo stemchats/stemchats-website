@@ -10,7 +10,7 @@
         this.responseText;
       }
     };
-    request.open("GET", "footer.html", true);
+    request.open("GET", "/footer.html", true);
     request.send();
   }
 loadFooter();
