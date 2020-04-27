@@ -397,11 +397,8 @@ body {
     transition: all .3s;
   }
 .contact {
-  p a:hover, p a:focus {
+  a:hover, a:focus {
     border-bottom: 1px dashed #856dc0;
-  }
-  p {
-    word-wrap: break-word;
   }
   a {
     border-bottom: 1px dashed #ccc;
@@ -420,6 +417,11 @@ body {
     color: #555; margin-left: 3px;
   }
 }
+.subscribe {
+  p {
+    word-wrap: break-word;
+  }
+}
 .social {
   a {
     margin: 0 10px;
@@ -434,6 +436,9 @@ body {
     font-size: 24px;
     vertical-align: middle;
     }
+  }
+  #CR {
+    margin: 0 10px;
   }
 }
 
