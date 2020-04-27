@@ -380,7 +380,7 @@ body {
 // FOOTER STYLES
 
 .footer {
-    margin-top: 2em;
+    margin: 1.5em;
 }
 
 #footer {
@@ -390,14 +390,14 @@ body {
     padding-top: 3em;
   }
   a {
-    color: #856dc0;
-    border-bottom: 1px dashed #856dc0;
+    color: $main-color;
+    border-bottom: 1px dashed $main-color;
     text-decoration: none;
     transition: all .3s;
   }
 .contact {
   a:hover, a:focus {
-    border-bottom: 1px dashed #856dc0;
+    border-bottom: 1px dashed $main-color;
   }
   a {
     border-bottom: 1px dashed #ccc;
@@ -441,7 +441,7 @@ body {
     border: 0;
   }
   a:hover, a:focus {
-    color: #856dc0;
+    color: $main-color;
     border: 0;
   }
   i {
@@ -450,8 +450,12 @@ body {
     }
   }
   #CR {
-    margin: 1em 0;
+    margin: 2em 0;
   }
+}
+
+.footer-section {
+    margin: 1em;
 }
 
 @media only screen and (min-width: 920px) {
