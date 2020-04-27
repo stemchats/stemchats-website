@@ -380,7 +380,7 @@ body {
 // FOOTER STYLES
 
 .footer {
-    margin-top: 1em;
+    margin: 1.5em;
 }
 
 #footer {
@@ -448,8 +448,12 @@ body {
     }
   }
   #CR {
-    margin: 1em 0;
+    margin: 2em 0;
   }
+}
+
+.footer-section {
+    margin: 1em;
 }
 
 @media only screen and (min-width: 920px) {
