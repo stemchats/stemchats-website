@@ -381,12 +381,53 @@ body {
     margin-top: 1em;
 }
 
-footer {
+#footer {
   background-color: #ff5959;
-  
-  .top {
+  #top {
     padding-left: 60px 0 40px 0;
     text-align: left;
+  }
+  #bottom {
+    padding: 0 0 60px 0;
+  }
+.contact {
+  p a:hover, p a:focus {
+    border-bottom: 1px dashed #856dc0;
+  }
+  p {
+    word-wrap: break-word;
+  }
+  a {
+    border-bottom: 1px dashed #ccc;
+  }
+  i {
+    padding-right: 10px;
+    font-size: 18px;
+    color: #ddd;
+  }
+}
+.links {
+  a {
+    color: #888; border: 0;
+  }
+  a:hover, a:focus {
+    color: #555; margin-left: 3px;
+  }
+}
+.social {
+  a {
+    margin: 0 10px;
+    color: #bbb;
+    border: 0;
+  }
+  a:hover, a:focus {
+    color: #856dc0;
+    border: 0;
+  }
+  i {
+    font-size: 24px;
+    vertical-align: middle;
+    }
   }
 }
 
