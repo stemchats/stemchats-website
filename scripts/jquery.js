@@ -1,7 +1,4 @@
-// $(function(){
-//       $("#footer").load("footer.html");
-//     });
-
+new WOW().init();
   function loadFooter() {
     let request = new XMLHttpRequest();
     request.onreadystatechange = function() {
