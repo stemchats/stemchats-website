@@ -426,10 +426,10 @@ body {
     font-weight: 400;
     border-radius: 10px;
     border-color: white;
+    color: white;
     font-size: 20px;
-    padding: 0.5em 2em 0.5em 2em;
-    background-color: #ff5959;
-    margin-bottom: 3em;
+    padding: 0.3em 1.7em 0.3em 1.7em;
+    background-color: $main-color;
   }
 }
 .social {
