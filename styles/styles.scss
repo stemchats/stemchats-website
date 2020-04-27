@@ -381,6 +381,15 @@ body {
     margin-top: 1em;
 }
 
+footer {
+  background-color: #ff5959;
+  
+  .top {
+    padding-left: 60px 0 40px 0;
+    text-align: left;
+  }
+}
+
 @media only screen and (min-width: 920px) {
     .navbar {
         background-color: white!important;
@@ -393,11 +402,11 @@ body {
         color: black !important;
         font-size: 30px;
     }
-    
+
     .navbar .navbar-nav .nav-item {
         color: black!important;
         font-weight: 600;
-        padding: 1em;         
+        padding: 1em;
         font-size: 14px;
         margin: -0.2em 1em -0.2em 1em;
     }
@@ -414,7 +423,7 @@ body {
     .navbar .navbar-nav .nav-button .nav-button-text {
         color: white !important;
     }
-    
+
     #intro {
         flex: row;
         @include largeFlexCenter();
@@ -447,7 +456,7 @@ body {
         flex: row;
         @include largeFlexCenter();
         text-align: left !important;
-        
+
         height: 85vh;
 
         .newsletter-box-title {
@@ -471,7 +480,7 @@ body {
             margin-left: -12.5em;
         }
     }
-        
+
     #programs {
         @include largeFlexCenter();
         height: 50vh;
@@ -490,13 +499,13 @@ body {
             margin: 0 5em 0.5em 5em;
         }
     }
-    
+
     .partners {
         height: 60vh;
 
         margin-top: 0em;
         margin-bottom: 0em;
-    
+
         .partners-box-description {
             margin: 0 5em 0.5em 5em;
 
@@ -505,16 +514,16 @@ body {
             max-width: 100%;
         }
     }
-    
+
     .team {
         @include smallFlexCenter;
         font-family: $main-font;
         height: 100%;
-    
+
         padding: 2em;
         background-color: white;
         color: black;
-    
+
         .team-box-title {
             font-size: $small-font-title;
             font-weight: 800;
@@ -526,24 +535,24 @@ body {
             font-weight: 400;
             margin: 1em 12.5em 1em 12.5em;
         }
-    
+
         .team-divider {
             background-color: #FAFAFA !important;
             text-align: center;
             font-size: 32px !important;
-    
+
             .team-divider-header {
                 color: black !important;
                 font-weight: 800;
             }
         }
-    
+
         .teamcard {
             padding: 2em;
             margin-bottom: -3em;
             border-radius: 10px;
             border: 1px white;ss
-    
+
             .teamcard-image {
                 border-radius: 100px;
                 max-width: 50%;
@@ -561,15 +570,15 @@ body {
         }
     }
 
-    // OUR PROGRAMS STYLES 
+    // OUR PROGRAMS STYLES
 
     .breakdown {
         @include largeFlexCenter();
         height: 100vh;
 
         margin-top: 4em;
-        padding: 0em;        
-        
+        padding: 0em;
+
         .breakdown-box-title {
             margin-top: 0em;
         }
@@ -578,11 +587,11 @@ body {
             // font-size: 18px;
             margin: 1em 5em 2em 5em;
         }
-        
+
         .breakdown-card {
             padding: 2em;
             margin: 0em;
-                
+
             .breakdown-card-img-top {
                 max-height: 150px;
             }
@@ -593,16 +602,16 @@ body {
             }
         }
     }
-    
+
     .programs {
         height: 125vh;
-    
+
         padding: 0em;
         background-color: white;
         color: black;
-    
+
         margin: 5em 0 5em 0;
-    
+
         .programs-box-description {
             margin: 1em 12.5em 1em 12.5em;
         }
