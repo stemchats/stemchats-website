@@ -377,12 +377,13 @@ body {
     }
 }
 
+// FOOTER STYLES
+
 .footer {
     margin-top: 1em;
 }
 
 #footer {
-
   #top {
     padding-left: 60px 0 40px 0;
     text-align: left;
@@ -421,6 +422,15 @@ body {
   p {
     word-wrap: break-word;
   }
+  button {
+    font-weight: 400;
+    border-radius: 10px;
+    border-color: white;
+    font-size: 20px;
+    padding: 0.5em 2em 0.5em 2em;
+    background-color: #ff5959;
+    margin-bottom: 3em;
+  }
 }
 .social {
   a {
@@ -438,7 +448,7 @@ body {
     }
   }
   #CR {
-    margin: 0 10px;
+    margin: 10px 0;
   }
 }
 
