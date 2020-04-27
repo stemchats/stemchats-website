@@ -426,6 +426,10 @@ body {
     font-size: 20px;
     padding: 0.3em 1.7em 0.3em 1.7em;
     background-color: $main-color;
+    margin-bottom: 1em;
+  }
+  button:hover {
+    background-color: #C72121;
   }
 }
 .social {
