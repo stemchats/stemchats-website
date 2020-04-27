@@ -382,14 +382,19 @@ body {
 }
 
 #footer {
-  background-color: #ff5959;
-  color: #fff;
+
   #top {
     padding-left: 60px 0 40px 0;
     text-align: left;
   }
   #bottom {
     padding: 0 0 60px 0;
+  }
+  a {
+    color: #856dc0;
+    border-bottom: 1px dashed #856dc0;
+    text-decoration: none;
+    transition: all .3s;
   }
 .contact {
   p a:hover, p a:focus {
@@ -404,25 +409,25 @@ body {
   i {
     padding-right: 10px;
     font-size: 18px;
-    color: #fff;
+    color: #ddd;
   }
 }
 .links {
   a {
-    color: #fff; border: 0;
+    color: #888; border: 0;
   }
   a:hover, a:focus {
-    color: #fff; margin-left: 3px;
+    color: #555; margin-left: 3px;
   }
 }
 .social {
   a {
     margin: 0 10px;
-    color: #fff;
+    color: #bbb;
     border: 0;
   }
   a:hover, a:focus {
-    color: #fff;
+    color: #856dc0;
     border: 0;
   }
   i {
