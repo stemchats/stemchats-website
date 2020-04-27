@@ -431,15 +431,15 @@ body {
 }
 
 #footer a {
-  color: #856dc0;
-  border-bottom: 1px dashed #856dc0;
+  color: #ff5959;
+  border-bottom: 1px dashed #ff5959;
   text-decoration: none;
   -webkit-transition: all .3s;
   transition: all .3s;
 }
 
 #footer .contact a:hover, #footer .contact a:focus {
-  border-bottom: 1px dashed #856dc0;
+  border-bottom: 1px dashed #ff5959;
 }
 
 #footer .contact a {
@@ -488,7 +488,7 @@ body {
 }
 
 #footer .social a:hover, #footer .social a:focus {
-  color: #856dc0;
+  color: #ff5959;
   border: 0;
 }
 

@@ -388,14 +388,14 @@ body {
     text-align: left;
   }
   a {
-    color: #856dc0;
-    border-bottom: 1px dashed #856dc0;
+    color: $main-color;
+    border-bottom: 1px dashed $main-color;
     text-decoration: none;
     transition: all .3s;
   }
 .contact {
   a:hover, a:focus {
-    border-bottom: 1px dashed #856dc0;
+    border-bottom: 1px dashed $main-color;
   }
   a {
     border-bottom: 1px dashed #ccc;
@@ -439,7 +439,7 @@ body {
     border: 0;
   }
   a:hover, a:focus {
-    color: #856dc0;
+    color: $main-color;
     border: 0;
   }
   i {
