@@ -423,11 +423,16 @@ body {
 }
 
 .footer {
-  margin: 1.5em;
+  margin-top: 2em;
+}
+
+#footer {
+  background-color: #f8f8f8;
 }
 
 #footer #top {
   text-align: left;
+  padding-top: 3em;
 }
 
 #footer a {
@@ -498,11 +503,11 @@ body {
 }
 
 #footer #CR {
-  margin: 2em 0;
+  margin: 2em 0 0;
 }
 
 .footer-section {
-  margin: 1em;
+  margin: 0.5em;
 }
 
 @media only screen and (min-width: 920px) {
