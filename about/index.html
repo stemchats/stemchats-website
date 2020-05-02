@@ -117,6 +117,7 @@
                } else if(i==1) { //append img element to teamCard
                   teamCard = document.createElement(divElements[i].tagName); //create teamCard element
                   teamCard.className = divElements[i].className;
+                  teamCard.setAttribute("style","width: 100%");
                   cardImg = document.createElement(nestedElements[2].tagName); //create cardImg element
                   cardImg.className = nestedElements[2].className;
                   cardImg.setAttribute("src", execObj[k].src); //assign proper attributes
@@ -198,33 +199,7 @@
                         <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
                            <div class="card-body">
                                 <div class = "row" id="Executives">
-                                    <!-- <div class = "col-md-4">
-                                        <div class="card teamcard" style="width: 100%">
-                                            <img class="card-img-top teamcard-img" src="/images/headshots/MinhPhucTran.jpg" alt="Card image cap">
-                                            <div class="card-body teamcard-body">
-                                                <h3 class="card-title teamcard-title">Minh Phuc Tran</h3>
-                                                <p class="card-text teamcard-description">Founder & CEO</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class = "col-md-4">
-                                        <div class="card teamcard" style="width: 100%">
-                                            <img class="card-img-top teamcard-img" src="/images/headshots/NicoleFelixTovar.jpg" alt="Card image cap">
-                                            <div class="card-body teamcard-body">
-                                                <h3 class="card-title teamcard-title">Nicole Felix-Tovar</h3>
-                                                <p class="card-text teamcard-description">VP of Programming</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class = "col-md-4">
-                                        <div class="card teamcard" style="width: 100%">
-                                            <img class="card-img-top teamcard-img" src="/images/headshots/SashaKolesnikov.jpg" alt="Card image cap">
-                                            <div class="card-body teamcard-body">
-                                                <h3 class="card-title teamcard-title">Sasha Kolesnikov</h3>
-                                                <p class="card-text teamcard-description">VP of Biz-Development</p>
-                                            </div>
-                                        </div>
-                                    </div> -->
+                                  <!--headshot script -->
                                 </div>
                             </div>
                         </div>
