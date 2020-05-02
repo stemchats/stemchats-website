@@ -43,6 +43,109 @@
          gtag('js', new Date());
          gtag('config', 'UA-163788059-1');
      </script>
+     <script>
+     window.onload = function() {
+       let column;
+       let teamCard;
+       let cardImg;
+       let teamCardBody;
+       let cardTitle;
+       let cardText;
+
+       let leads = [
+         [],
+         []
+       ];
+       let coordinators = [
+         [],
+         []
+       ];
+       let divElements = [  //array of each repeatable element as objects
+         {
+           tagName: "div",
+           className: "col-md-4"
+         },
+         {
+           tagName:"div",
+           className:"card teamcard"
+         },
+         {
+           tagName: "div",
+           className:"card-body teamcard-body"
+         }
+       ];
+       let nestedElements = [
+         {
+           tagName: "h3",
+           className:"card-title teamcard-title"
+         },
+         {
+           tagName: "p",
+           className: "card-text teamcard-description"
+         },
+         {
+           tagName: "img",
+           className: "card-img-top teamcard-img"
+         }
+       ];
+       let execObj = [
+         {
+           name: "Minh Phuc Tran",
+           position: "Founder & CEO",
+           src: "/images/headshots/MinhPhucTran.jpg"
+         },
+         {
+           name: "Nicole Felix-Tovar",
+           position: "VP of Programming",
+           src: "/images/headshots/NicoleFelixTovar.jpg"
+         },
+         {
+           name: "Sasha Kolesnikov",
+           position: "VP of Biz-Development",
+           src: "/images/headshots/SashaKolesnikov.jpg"
+         }
+       ];
+         const exec = document.getElementById("Executives");
+
+           for(let k=0;k<execObj.length;k++) { //runs everything for x-amount of headshots
+
+             for(let i=0;i<3;i++) { //creates first three divs
+               if(i==0){ //if first element, append to loadExec; if second or third element, append to parent element
+                 column = document.createElement(divElements[i].tagName);
+                 column.className = divElements[i].className;
+                 exec.appendChild(column);
+               } else if(i==1) { //append img element to teamCard
+                  teamCard = document.createElement(divElements[i].tagName); //create teamCard element
+                  teamCard.className = divElements[i].className;
+                  cardImg = document.createElement(nestedElements[2].tagName); //create cardImg element
+                  cardImg.className = nestedElements[2].className;
+                  cardImg.setAttribute("src", execObj[k].src); //assign proper attributes
+                  cardImg.setAttribute("alt", "Card image cap");
+                  teamCard.appendChild(cardImg); //append elements
+                  column.appendChild(teamCard);
+                } else if(i==2) {
+                  teamCardBody = document.createElement(divElements[i].tagName); //create teamCardBody element
+                  teamCardBody.className = divElements[i].className;
+                  cardTitle = document.createElement(nestedElements[0].tagName); //create h3 element
+                  cardTitle.className = nestedElements[0].className;
+                  cardTitle.innerText = execObj[k].name;
+                  cardText = document.createElement(nestedElements[1].tagName); //create p element
+                  cardText.className = nestedElements[1].className;
+                  cardText.innerText = execObj[k].position;
+                  teamCardBody.appendChild(cardTitle); //append h3 element
+                  teamCardBody.appendChild(cardText); //append p element
+                  teamCard.appendChild(teamCardBody); //append teamCardBody to teamCard element
+               }
+             }
+           }
+           function loadLeads() {
+
+           }
+           function loadCoordinators(){
+
+           }
+        }
+     </script>
 </head>
 <body>
     <nav class = "navbar navbar-expand-lg navbar-light bg-light fixed-top">
@@ -92,12 +195,10 @@
                                 </button>
                             </h2>
                         </div>
-                        <div onload="loadExecutives()">
-                        </div>
-                        <!-- <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
-                            <div class="card-body">
-                                <div class = "row">
-                                    <div class = "col-md-4">
+                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                           <div class="card-body">
+                                <div class = "row" id="Executives">
+                                    <!-- <div class = "col-md-4">
                                         <div class="card teamcard" style="width: 100%">
                                             <img class="card-img-top teamcard-img" src="/images/headshots/MinhPhucTran.jpg" alt="Card image cap">
                                             <div class="card-body teamcard-body">
@@ -123,10 +224,10 @@
                                                 <p class="card-text teamcard-description">VP of Biz-Development</p>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div> -->
                                 </div>
                             </div>
-                        </div> -->
+                        </div>
                     </div>
 
                     <div class="card">
@@ -666,7 +767,7 @@
 
     <!--scripts -->
     <script type="text/javascript" src="/scripts/footer.js"></script>
-    <script type="text/javascript" src="/scripts/headshot.js"></script>
+
     <script src="https://embed.small.chat/TCLJDSZFTG012QLYS0TC.js" async></script>
 </body>
 </html>
