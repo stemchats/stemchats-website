@@ -15,8 +15,7 @@ body {
   padding-bottom: 0.25em;
   padding-right: 2em;
   padding-left: 2em;
-  -webkit-box-shadow: 0 2px 2px -2px rgba(0, 0, 0, 0.2);
-          box-shadow: 0 2px 2px -2px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 2px -2px rgba(0, 0, 0, 0.2);
 }
 
 .navbar-brand {
@@ -48,15 +47,9 @@ body {
 
 #intro {
   height: 75vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   font-family: 'Karla';
   font-family: "Karla", sans-serif;
   background-color: white;
@@ -100,15 +93,9 @@ body {
 
 #newsletter {
   height: 75vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   font-family: 'Karla';
   font-family: "Karla", sans-serif;
   background-color: white;
@@ -146,15 +133,9 @@ body {
 
 .aboutus {
   height: 75vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   font-family: 'Karla';
   font-family: "Karla", sans-serif;
   background-color: white;
@@ -193,15 +174,9 @@ body {
 
 .team {
   height: 75vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   font-family: 'Karla';
   font-family: "Karla", sans-serif;
   height: 100%;
@@ -262,15 +237,9 @@ body {
 
 .partners {
   height: 75vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   font-family: 'Karla';
   font-family: "Karla", sans-serif;
   background-color: white;
@@ -302,15 +271,9 @@ body {
 
 .breakdown {
   height: 75vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   font-family: 'Karla';
   font-family: "Karla", sans-serif;
   height: 100%;
@@ -350,22 +313,14 @@ body {
 
 .breakdown .breakdown-card .breakdown-card-img-top {
   max-height: 250px;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
 
 .programs {
   height: 75vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   font-family: 'Karla';
   font-family: "Karla", sans-serif;
   height: 100%;
@@ -440,7 +395,6 @@ body {
   color: #ff5959;
   border-bottom: 1px dashed #ff5959;
   text-decoration: none;
-  -webkit-transition: all .3s;
   transition: all .3s;
 }
 
@@ -517,8 +471,7 @@ body {
     padding-top: 10px;
     padding-right: 10em;
     padding-left: 10em;
-    -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
-            box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
   }
   .navbar-brand {
     color: black !important;
@@ -543,19 +496,11 @@ body {
     color: white !important;
   }
   #intro {
-    -webkit-box-flex: row;
-        -ms-flex: row;
-            flex: row;
+    flex: row;
     height: 100vh;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    justify-content: center;
+    align-items: center;
     font-family: 'Karla';
     text-align: left !important;
     margin-top: 0em;
@@ -581,19 +526,11 @@ body {
     margin-left: -2.5em;
   }
   #newsletter {
-    -webkit-box-flex: row;
-        -ms-flex: row;
-            flex: row;
+    flex: row;
     height: 100vh;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    justify-content: center;
+    align-items: center;
     font-family: 'Karla';
     text-align: left !important;
     height: 85vh;
@@ -620,15 +557,9 @@ body {
   }
   #programs {
     height: 100vh;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    justify-content: center;
+    align-items: center;
     font-family: 'Karla';
     height: 50vh;
   }
@@ -653,15 +584,9 @@ body {
   }
   .team {
     height: 75vh;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    justify-content: center;
+    align-items: center;
     font-family: 'Karla';
     font-family: "Karla", sans-serif;
     height: 100%;
@@ -711,15 +636,9 @@ body {
   }
   .breakdown {
     height: 100vh;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    justify-content: center;
+    align-items: center;
     font-family: 'Karla';
     height: 100vh;
     margin-top: 4em;
@@ -753,4 +672,3 @@ body {
     margin: 1em 12.5em 1em 12.5em;
   }
 }
-/*# sourceMappingURL=styles.css.map */
