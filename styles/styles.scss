@@ -261,6 +261,7 @@ body {
         font-weight: 800;
         font-size: 42px;
         margin-bottom: 0.5em;
+        margin-top: 2em;
     }
     .partners-box-description {
         font-weight: 400;
@@ -268,9 +269,7 @@ body {
         color: black;
     }
     .partners-img {
-        max-width: 100%;
-        // flex: column-reverse;
-        // display: none;
+        max-width: 90%;
     }
 }
 
@@ -569,7 +568,7 @@ body {
     }
 
     .partners {
-        height: 60vh;
+        height: 80vh;
 
         margin-top: 0em;
         margin-bottom: 0em;
@@ -579,7 +578,7 @@ body {
 
         }
         .partners-img {
-            max-width: 100%;
+            max-width: 80%;
         }
     }
 

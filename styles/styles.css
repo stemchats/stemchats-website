@@ -287,6 +287,7 @@ body {
   font-weight: 800;
   font-size: 42px;
   margin-bottom: 0.5em;
+  margin-top: 2em;
 }
 
 .partners .partners-box-description {
@@ -296,7 +297,7 @@ body {
 }
 
 .partners .partners-img {
-  max-width: 100%;
+  max-width: 90%;
 }
 
 .breakdown {
@@ -640,7 +641,7 @@ body {
     margin: 0 5em 0.5em 5em;
   }
   .partners {
-    height: 60vh;
+    height: 80vh;
     margin-top: 0em;
     margin-bottom: 0em;
   }
@@ -648,7 +649,7 @@ body {
     margin: 0 5em 0.5em 5em;
   }
   .partners .partners-img {
-    max-width: 100%;
+    max-width: 80%;
   }
   .team {
     height: 75vh;
