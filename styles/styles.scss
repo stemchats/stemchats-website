@@ -111,6 +111,37 @@ body {
     color: white;
 }
 
+.info-section {
+    // @include smallFlexCenter;
+    text-align: left;
+    padding: 0.5em 2em 0.5em 2em;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    .section-title {
+        margin-top: 3em;
+        margin-bottom: 1em;
+        font-weight: 700;
+    }
+    .section-description {
+        margin-bottom: 1em;
+        font-size: 18px;
+        font-weight: 400;
+    }
+    .last-section-description {
+        margin-bottom: 5em;
+    }
+}
+
+.section-gray-bg {
+    background-color: #f8f8f8;
+}
+
+/* Color not working - need to fix*/
+.section-link {
+    color: #ff5959 !important;
+}
+
 #newsletter {
     @include smallFlexCenter;
     font-family: $main-font;
