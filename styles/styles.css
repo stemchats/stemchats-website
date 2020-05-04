@@ -61,7 +61,7 @@ body {
   font-family: "Karla", sans-serif;
   background-color: white;
   color: black;
-  padding: 0em 0em 5em 0em;
+  padding: 0em 0em 0em 0em;
   margin: 4em 0em 5em 1em;
   height: 100vh;
   font-family: 'Karla';
@@ -69,14 +69,14 @@ body {
 }
 
 #intro .welcome-box-title {
-  font-size: 30px;
+  font-size: 32px;
   font-weight: 800;
-  font-size: 36px;
+  font-size: 32px;
 }
 
 #intro .welcome-box-description {
   font-weight: 400;
-  font-size: 20px;
+  font-size: 18px;
   color: black;
 }
 
@@ -91,7 +91,7 @@ body {
 }
 
 #intro .top-img {
-  max-width: 90%;
+  max-width: 100%;
 }
 
 .button-link {
@@ -100,7 +100,7 @@ body {
 
 .info-section {
   text-align: left;
-  padding: 0.5em 2em 0.5em 2em;
+  padding: 0em 0em 1em 2em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -115,7 +115,7 @@ body {
 .info-section .section-title {
   margin-top: 3em;
   margin-bottom: 1em;
-  font-weight: 700;
+  font-weight: 400;
 }
 
 .info-section .section-description {
@@ -160,13 +160,13 @@ body {
 }
 
 #newsletter .newsletter-box-title {
-  font-size: 30px;
+  font-size: 32px;
   font-weight: 800;
 }
 
 #newsletter .newsletter-box-description {
   font-weight: 400;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 #newsletter .newsletter-button {
@@ -205,7 +205,7 @@ body {
 }
 
 .aboutus .aboutus-box-title {
-  font-size: 30px;
+  font-size: 32px;
   font-weight: 800;
   font-size: 42px;
   margin-bottom: 0.5em;
@@ -213,12 +213,12 @@ body {
 
 .aboutus .aboutus-box-description {
   font-weight: 400;
-  font-size: 20px;
+  font-size: 18px;
   color: black;
 }
 
 .aboutus .stats-box .stats-box-title {
-  font-size: 30px;
+  font-size: 32px;
   font-weight: 800;
   font-size: 120px;
   color: #4f9da6;
@@ -250,14 +250,14 @@ body {
 }
 
 .team .team-box-title {
-  font-size: 30px;
+  font-size: 32px;
   font-weight: 800;
   margin-top: 0em;
   font-size: 40px;
 }
 
 .team .team-box-description {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 400;
   color: black;
   margin: 1em 1em 1em 1em;
@@ -322,7 +322,7 @@ body {
 }
 
 .partners .partners-box-title {
-  font-size: 30px;
+  font-size: 32px;
   font-weight: 800;
   font-size: 42px;
   margin-bottom: 0.5em;
@@ -331,7 +331,7 @@ body {
 
 .partners .partners-box-description {
   font-weight: 400;
-  font-size: 20px;
+  font-size: 18px;
   color: black;
 }
 
@@ -358,14 +358,14 @@ body {
 }
 
 .breakdown .breakdown-box-title {
-  font-size: 30px;
+  font-size: 32px;
   font-weight: 800;
   margin-top: 0em;
   font-size: 40px;
 }
 
 .breakdown .breakdown-box-description {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 400;
   color: black;
   margin: 1em 0em 1em 0em;
@@ -415,14 +415,14 @@ body {
 }
 
 .programs .programs-box-title {
-  font-size: 30px;
+  font-size: 32px;
   font-weight: 800;
   margin-top: 0em;
   font-size: 40px;
 }
 
 .programs .programs-box-description {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 400;
   color: black;
   margin: 1em 1em 1em 1em;
@@ -709,13 +709,13 @@ body {
     color: black;
   }
   .team .team-box-title {
-    font-size: 30px;
+    font-size: 32px;
     font-weight: 800;
     margin-top: 0em;
     font-size: 40px;
   }
   .team .team-box-description {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 400;
     margin: 1em 12.5em 1em 12.5em;
   }

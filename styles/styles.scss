@@ -2,8 +2,8 @@
 
 $main-color : #ff5959;
 $main-font :  'Karla', sans-serif;
-$small-font-title: 30px;
-$small-font-description: 20px;
+$small-font-title: 32px;
+$small-font-description: 18px;
 $small-padding : 1em;
 
 // HOME PAGE STYLES
@@ -76,7 +76,7 @@ body {
     font-family: $main-font;
     background-color: white;
     color: black;
-    padding: 0em 0em 5em 0em;
+    padding: 0em 0em 0em 0em;
     margin: 4em 0em 5em 1em;
     height: 100vh;
     font-family: 'Karla';
@@ -86,11 +86,11 @@ body {
     .welcome-box-title {
         font-size: $small-font-title;
         font-weight: 800;
-        font-size: 36px;
+        font-size: 32px;
     }
     .welcome-box-description {
         font-weight: 400;
-        font-size: 20px;
+        font-size: 18px;
         color: black;
     }
     .welcome-button {
@@ -103,7 +103,7 @@ body {
         margin-bottom: 3em;
     }
     .top-img {
-        max-width: 90%;
+        max-width: 100%;
     }
 }
 
@@ -114,14 +114,14 @@ body {
 .info-section {
     // @include smallFlexCenter;
     text-align: left;
-    padding: 0.5em 2em 0.5em 2em;
+    padding: 0em 0em 1em 2em;
     justify-content: center;
     align-items: center;
     display: flex;
     .section-title {
         margin-top: 3em;
         margin-bottom: 1em;
-        font-weight: 700;
+        font-weight: 400;
     }
     .section-description {
         margin-bottom: 1em;
