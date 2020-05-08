@@ -1,0 +1,212 @@
+/* Only media queries */
+
+@media only screen and (min-width: 920px) {
+  .navbar {
+    background-color: white !important;
+    padding-top: 10px;
+    padding-right: 10em;
+    padding-left: 10em;
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+  }
+  .navbar-brand {
+    color: black !important;
+    font-size: 30px;
+  }
+  .navbar .navbar-nav .nav-item {
+    color: black !important;
+    font-weight: 600;
+    padding: 1em;
+    font-size: 14px;
+    margin: -0.2em 1em -0.2em 1em;
+  }
+  .navbar .navbar-nav .nav-button {
+    background-color: #ff5959;
+    border-radius: 10px;
+    font-size: 20px;
+    margin: 0em;
+    margin-bottom: 0em;
+    margin-left: 1.5em;
+  }
+  .navbar .navbar-nav .nav-button .nav-button-text {
+    color: white !important;
+  }
+  #intro {
+    flex: row;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Karla';
+    text-align: left !important;
+    margin-top: 0em;
+  }
+  #intro .welcome-box-title {
+    font-size: 50px;
+    font-weight: 800;
+  }
+  #intro .welcome-box-description {
+    font-size: 18px;
+    font-weight: 400;
+  }
+  #intro .welcome-button {
+    margin-bottom: 0em;
+  }
+  #intro .welcome-box {
+    margin-top: 8em;
+    float: left;
+  }
+  #intro .top-img {
+    display: inline;
+    max-width: 130%;
+    margin-left: -2.5em;
+  }
+  #newsletter {
+    flex: row;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Karla';
+    text-align: left !important;
+    height: 85vh;
+  }
+  #newsletter .newsletter-box-title {
+    font-size: 54px;
+    font-weight: 800;
+  }
+  #newsletter .newsletter-box-description {
+    font-size: 18px;
+    font-weight: 400;
+  }
+  #newsletter .newsletter-button {
+    margin-bottom: 0em;
+  }
+  #newsletter .newsletter-box {
+    margin-top: 10em;
+    float: left;
+  }
+  #newsletter .newsletter-img {
+    display: inline;
+    max-width: 130%;
+    margin-left: -12.5em;
+  }
+  #programs {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Karla';
+    height: 50vh;
+  }
+  .aboutus {
+    height: 50vh;
+    margin-top: 0em;
+    margin-bottom: -7.5em;
+  }
+  .aboutus .aboutus-box-description {
+    margin: 0 5em 0.5em 5em;
+  }
+  .partners {
+    height: 80vh;
+    margin-top: 0em;
+    margin-bottom: 0em;
+  }
+  .partners .partners-box-description {
+    margin: 0 5em 0.5em 5em;
+  }
+  .partners .partners-img {
+    max-width: 80%;
+  }
+  .team {
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Karla';
+    font-family: "Karla", sans-serif;
+    height: 100%;
+    padding: 2em;
+    background-color: white;
+    color: black;
+  }
+  .team .team-box-title {
+    font-size: 32px;
+    font-weight: 800;
+    margin-top: 0em;
+    font-size: 40px;
+  }
+  .team .team-box-description {
+    font-size: 18px;
+    font-weight: 400;
+    margin: 1em 12.5em 1em 12.5em;
+  }
+  .team .team-divider {
+    background-color: #FAFAFA !important;
+    text-align: center;
+    font-size: 32px !important;
+  }
+  .team .team-divider .team-divider-header {
+    color: black !important;
+    font-weight: 800;
+  }
+  .team .teamcard {
+    padding: 2em;
+    margin-bottom: -3em;
+    border-radius: 10px;
+    border: 1px white;
+  }
+  .team .teamcard .teamcard-image {
+    border-radius: 100px;
+    max-width: 50%;
+  }
+  .team .teamcard .teamcard-title {
+    font-weight: 700 !important;
+    font-size: 24px;
+    text-align: center;
+  }
+  .team .teamcard .teamcard-description {
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.7);
+    text-align: center;
+  }
+  #modal {
+    cursor: pointer;
+  }
+  .breakdown {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Karla';
+    height: 100vh;
+    margin-top: 4em;
+    padding: 0em;
+  }
+  .breakdown .breakdown-box-title {
+    margin-top: 0em;
+  }
+  .breakdown .breakdown-box-description {
+    margin: 1em 5em 2em 5em;
+  }
+  .breakdown .breakdown-card {
+    padding: 2em;
+    margin: 0em;
+  }
+  .breakdown .breakdown-card .breakdown-card-img-top {
+    max-height: 150px;
+  }
+  .breakdown .breakdown-card .breakdown-card-title {
+    font-weight: 800 !important;
+    font-size: 36px;
+  }
+  .programs {
+    height: 125vh;
+    padding: 0em;
+    background-color: white;
+    color: black;
+    margin: 5em 0 5em 0;
+  }
+  .programs .programs-box-description {
+    margin: 1em 12.5em 1em 12.5em;
+  }
+}
