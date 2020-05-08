@@ -32,6 +32,7 @@
 
     <!-- Website CSS -->
     <link rel = "stylesheet" href = "/styles/styles.css"/>
+    <link rel = "stylesheet" href = "/styles/media.css"/>
     <link href='https://fonts.googleapis.com/css?family=Karla:400,400i,700,700i' rel='stylesheet'>
     <title>STEMchats: About Us</title>
 
@@ -42,92 +43,6 @@
          function gtag(){dataLayer.push(arguments);}
          gtag('js', new Date());
          gtag('config', 'UA-163788059-1');
-     </script>
-     <script>
-     window.onload = function() {
-       //predefined variables for each element of the card
-       let column;
-       let teamCard;
-       let cardImg;
-       let teamCardBody;
-       let cardTitle;
-       let cardText;
-
-       let divElements = [  //divs (repeatable) in each card
-         {
-           tagName: "div",
-           className: "col-md-4"
-         },
-         {
-           tagName:"div",
-           className:"card teamcard"
-         },
-         {
-           tagName: "div",
-           className:"card-body teamcard-body"
-         }
-       ];
-       let nestedElements = [   //elements inside divs (repeatable) in each card
-         {
-           tagName: "h3",
-           className:"card-title teamcard-title"
-         },
-         {
-           tagName: "p",
-           className: "card-text teamcard-description"
-         },
-         {
-           tagName: "img",
-           className: "card-img-top teamcard-img"
-         }
-       ];
-//data structures [0] = exec, [1] = leads, [2] = coords
-let membersObj=[[{name:"Minh Phuc Tran",position:"Founder & CEO",src:"/images/headshots/MinhPhucTran.jpg"},{name:"Nicole Felix-Tovar",position:"VP of Programming",src:"/images/headshots/NicoleFelixTovar.jpg"},{name:"Sasha Kolesnikov",position:"VP of Biz-Development",src:"/images/headshots/SashaKolesnikov.jpg"}],[{name:"Katrina Overillo",position:"Marketing Lead",src:"/images/headshots/KatrinaOverillo.jpg"},{name:"Joseph Chiang",position:"Technology Lead",src:"/images/headshots/JosephChiang.jpg"},{name:"Mahir Rahman",position:"Program Lead",src:"/images/headshots/MahirRahman.jpg"},{name:"Ethan McFarlin",position:"Program Lead",src:"/images/headshots/EthanMcFarlin.jpg"},{name:"Alexej Latimer",position:"Program Lead",src:"/images/headshots/AlexejLatimer.jpg"},{name:"Sidra Nadeem",position:"Program Lead",src:"/images/headshots/SidraNadeem.jpg"},{name:"Ege Yalcindag",position:"Program Lead",src:"/images/headshots/EgeYalcindag.jpg"},{name:"Sanja Kirova",position:"Program Lead",src:"/images/headshots/SanjaKirova.jpg"},{name:"Jasmine Li",position:"Program Lead",src:"/images/headshots/JasmineLi.jpg"},{name:"Amel Saied-Hassan",position:"Program Lead",src:"/images/headshots/AmelSaiedHassan.jpg"},{name:"Tatum Wilhelm",position:"Program Lead",src:"/images/headshots/TatumWilhelm.jpg"}],[{name:"Anum Ahmad",position:"Marketing Coordinator",src:"/images/headshots/AnumAhmad.jpg"},{name:"Snoe Castillo",position:"Marketing Coordinator",src:"/images/headshots/SnoeCastillo.jpg"},{name:"Vivienne Nguyen",position:"Marketing Coordinator",src:"/images/headshots/VivienneNguyen.jpg"},{name:"Manvir Bhandal",position:"Development Coordinator",src:"/images/headshots/ManvirBhandal.jpg"},{name:"Arielle Fernandez",position:"Development Coordinator",src:"/images/headshots/ArielleGlennFernandez.jpg"},{name:"Eleanor Liu",position:"Development Coordinator",src:"/images/headshots/EleanorLiu.jpg"},{name:"Samuel Dennis",position:"Development Coordinator",src:"/images/headshots/SamuelDennis.jpg"},{name:"Alexa Ramirez",position:"Funding Coordinator",src:"/images/headshots/AlexaRamirez.jpg"},{name:"Taruni Tangirala",position:"Technology Coordinator",src:"/images/headshots/TaruniTangirala.jpg"},{name:"Justin Lin",position:"Program Coordinator",src:"/images/headshots/JustinLin.jpg"},{name:"Eliza Martin",position:"Program Coordinator",src:"/images/headshots/ElizaMartin.jpg"},{name:"Hana Memon",position:"Program Coordinator",src:"/images/headshots/HanaMemon.jpg"},{name:"Anusha Puri",position:"Program Coordinator",src:"/images/headshots/AnushaPuri.jpg"},{name:"Sekinat Aliu",position:"Program Coordinator",src:"/images/headshots/SekinatAliu.jpg"},{name:"Lauren Chong",position:"Program Coordinator",src:"/images/headshots/LaurenChong.jpg"},{name:"Amanda Edwards",position:"Program Coordinator",src:"/images/headshots/AmandaEdwards.jpg"},{name:"Lucia Paulsen",position:"Program Coordinator",src:"/images/headshots/LuciaPaulsen.jpg"},{name:"Karthik Iyer",position:"Program Coordinator",src:"/images/headshots/KarthikIyer.jpg"},{name:"Sonali Joshi",position:"Program Coordinator",src:"/images/headshots/SonaliJoshi.jpg"},{name:"Mary Laplante",position:"Program Coordinator",src:"/images/headshots/MaryLaplante.jpg"},{name:"Bianca Luansing",position:"Program Coordinator",src:"/images/headshots/BiancaMoniqueLuansing.jpg"},{name:"Carina Ly",position:"Program Coordinator",src:"/images/headshots/CarinaLy.jpg"},{name:"Estrella Popoca",position:"Program Coordinator",src:"/images/headshots/EstrellaPopoca.jpg"},{name:"Isabella Siu",position:"Program Coordinator",src:"/images/headshots/IsabellaSiu.jpg"},{name:"Patricia Wei",position:"Program Coordinator",src:"/images/headshots/PatriciaWei.jpg"},{name:"David Zhou",position:"Program Coordinator",src:"/images/headshots/DavidZhou.jpg"},{name:"Natalie Zhou",position:"Program Coordinator",src:"/images/headshots/NatalieZhou.jpg"},{name:"Swan Yee Aung",position:"Program Coordinator",src:"/images/headshots/SwanYeeAung.jpg"},{name:"Ayo Bravo",position:"Program Coordinator",src:"/images/headshots/AyoBravo.jpg"},{name:"Michael Coyle",position:"Program Coordinator",src:"/images/headshots/MichaelCoyle.jpg"},{name:"Lola Rustamova",position:"Program Coordinator",src:"/images/headshots/LolaRustamova.jpg"},{name:"Teddy Smith",position:"Program Coordinator",src:"/images/headshots/TeddySmith.jpg"},{name:"Haoren Wen",position:"Program Coordinator",src:"/images/headshots/HaorenWen.jpg"},{name:"Amy Xi",position:"Program Coordinator",src:"/images/headshots/AmyXi.jpg"},{name:"Sarah Young",position:"Program Coordinator",src:"/images/headshots/SarahYoung.jpg"},{name:"Carson Bohl",position:"Program Coordinator",src:"/images/headshots/CarsonBohl.jpg"},{name:"Angela Easterling",position:"Program Coordinator",src:"/images/headshots/AngelaEasterling.jpg"},{name:"Abigail Jiang",position:"Program Coordinator",src:"/images/headshots/AbigailJiang.jpg"},{name:"Daniel Low",position:"Program Coordinator",src:"/images/headshots/DanielLow.jpg"},{name:"Grace Pluemacher",position:"Program Coordinator",src:"/images/headshots/GracePluemacher.jpg"}]];
-
-const exec = document.getElementById("Executives");
-const lead = document.getElementById("Leads");
-const coord = document.getElementById("Coordinators");
-
-for(let x=0;x<3;x++) { //run three times for exec, leads, coord
-           for(let k=0;k<membersObj[x].length;k++) { //runs everything for x-amount of headshots
-             for(let i=0;i<3;i++) { //creates first three divs
-               if(i==0){ //if first element, append to loadExec; if second or third element, append to parent element
-                 column = document.createElement(divElements[i].tagName);
-                 column.className = divElements[i].className;
-                 if(x==0) {
-                   exec.appendChild(column);//append to executives section
-                 } else if(x==1) {
-                   lead.appendChild(column); //append to leads section
-                 } else if(x==2) {
-                   coord.appendChild(column); //append to coordinators section
-                 }
-               } else if(i==1) { //append img element to teamCard
-                  teamCard = document.createElement(divElements[i].tagName); //create teamCard element
-                  teamCard.className = divElements[i].className;
-                  teamCard.setAttribute("style","width: 100%");
-                  cardImg = document.createElement(nestedElements[2].tagName); //create cardImg element
-                  cardImg.className = nestedElements[2].className;
-                  cardImg.setAttribute("src", membersObj[x][k].src); //assign proper attributes
-                  cardImg.setAttribute("alt", "Card image cap");
-                  teamCard.appendChild(cardImg); //append elements
-                  column.appendChild(teamCard);
-                } else if(i==2) {
-                  teamCardBody = document.createElement(divElements[i].tagName); //create teamCardBody element
-                  teamCardBody.className = divElements[i].className;
-                  cardTitle = document.createElement(nestedElements[0].tagName); //create h3 element
-                  cardTitle.className = nestedElements[0].className;
-                  cardTitle.innerText = membersObj[x][k].name;
-                  cardText = document.createElement(nestedElements[1].tagName); //create p element
-                  cardText.className = nestedElements[1].className;
-                  cardText.innerText = membersObj[x][k].position;
-                  teamCardBody.appendChild(cardTitle); //append h3 element
-                  teamCardBody.appendChild(cardText); //append p element
-                  teamCard.appendChild(teamCardBody); //append teamCardBody to teamCard element
-               }
-             }
-           }
-         }
-        }
      </script>
 </head>
 <body>
@@ -181,11 +96,79 @@ for(let x=0;x<3;x++) { //run three times for exec, leads, coord
                         <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
                            <div class="card-body">
                                 <div class = "row" id="Executives">
-                                  <!-- load headshot script -->
-                                </div>
+                                  <!--<a data-toggle="modal" class="team-modal col-12 col-sm-6 col-md-4 text-center px-4 mb-5" data-target="#modal-popup" body="the text" name="Chelsea Dixon">
+                                    <div>
+                                      <img alt="Chelsea Dixon" class="mb-2" src="../assets/teamphotos/Chelsea_Dixon.jpg">
+                                      <h3 class="text-dark">Chelsea Dixon</h3>
+                                    </div>
+                                  </a>-->
+
+			<!-- Modal Content -->
+			<!-- <div class="modal fade" id="modal-popup" role="dialog" aria-hidden="true">
+				<div class="modal-dialog full-modal">
+					<div class="vertical-alignment-helper">
+						<div class="modal-dialog vertical-align-center">
+							<div class="modal-content">
+								<div class="modal-header">
+									<a class="close" data-dismiss="modal" aria-hidden="true">
+										<span aria-hidden="true">&times;</span>
+									</a>
+								</div>
+								<div class="modal-body">
+									<div class="row bio-row">
+										<div class="col-12 col-md-4 text-center">
+											<img alt="Team Member Photo" class="bio-img mb-5" />
+										</div>
+										<div class="col-12 col-md-8 pl-md-5 pb-5">
+											<h3 class="bio-name"></h3>
+											<p class="font-italic"></p>
+											<p></p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div> -->
+
+                                  <!-- <div class = "col-md-4">
+                                        <div class="card teamcard" style="width: 100%">
+                                          <a id="modal" data-toggle="modal" data-target="#modal-popup">
+                                            <img class="card-img-top teamcard-img" src="/images/headshots/MinhPhucTran.jpg" alt="Card image cap">
+                                            <div class="card-body teamcard-body">
+                                                <h3 class="card-title teamcard-title">Minh Phuc Tran</h3>
+                                                <p class="card-text teamcard-description">Founder & CEO</p>
+                                            </div>
+                                          </a>
+                                        </div>
+                                    
+                                      <div class="modal fade" id="modal-popup" tabindex="-1" role="dialog" aria-labelledby="modal-popup" aria-hidden="true">
+                                        <div class="modal-dialog full-modal">
+                                          <div class="modal-content">
+                                            <div class="modal-header">
+                                              <a id="modal" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                              </a>
+                                            </div>
+                                            <div class="modal-body">
+                                              <div class="row bio-row">
+                                                <div class="col-12 col-md-4 text-center">
+                                                  <img alt="Team Member Photo" class="bio-img mb-5" src='/images/headshots/MinhPhucTran.jpg'/>
+                                                </div>
+                                                <div class="col-12 col-md-8 pl-md-5 pb-5">
+                                                  <h3 class="bio-name"></h3>
+                                                  <p class="text"></p>
+                                                </div>
+                                              </div>
+                                            </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                </div> -->
+                              </div>
                             </div>
-                        </div>
-                    </div>
+                          </div>
 
                     <div class="card">
                         <div class="card-header team-divider">
@@ -198,17 +181,7 @@ for(let x=0;x<3;x++) { //run three times for exec, leads, coord
                         <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
                             <div class="card-body">
                                 <div class = "row" id="Leads">
-                                  <!-- load headshot script -->
-                                  <!-- Example Card html -->
-                                    <!-- <div class = "col-md-4">
-                                        <div class="card teamcard" style="width: 100%">
-                                            <img class="card-img-top teamcard-img" src="/images/headshots/KatrinaOverillo.jpg" alt="Card image cap">
-                                            <div class="card-body teamcard-body">
-                                                <h3 class="card-title teamcard-title">Katrina Overillo</h3>
-                                                <p class="card-text teamcard-description">Marketing Lead</p>
-                                            </div>
-                                        </div>
-                                    </div> -->
+
                                 </div>
                             </div>
                         </div>
@@ -224,7 +197,7 @@ for(let x=0;x<3;x++) { //run three times for exec, leads, coord
                         <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
                             <div class="card-body">
                                 <div class = "row" id="Coordinators">
-                                  <!-- load headshot script -->
+
                                 </div>
                             </div>
                         </div>
@@ -275,7 +248,7 @@ for(let x=0;x<3;x++) { //run three times for exec, leads, coord
 
     <!--scripts -->
     <script type="text/javascript" src="/scripts/footer.js"></script>
-
+    <script type="text/javascript" src="/scripts/headshot.js"></script>
     <script src="https://embed.small.chat/TCLJDSZFTG012QLYS0TC.js" async></script>
 </body>
 </html>
