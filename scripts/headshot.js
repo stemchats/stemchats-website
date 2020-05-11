@@ -1,18 +1,4 @@
-function loadFooter() {
-    let request = new XMLHttpRequest();
-    request.onreadystatechange = function() {
-      if (this.readyState == 4 && this.status == 200) {
-        document.getElementById("footerHTML").innerHTML =
-        this.responseText;
-      }
-    };
-    request.open("GET", "/footer.html", true);
-    request.send();
-  }
-loadFooter();
 
-/* old headshot scripts
-window.onload = function() {
   //predefined variables for each element of the card
   let column;
   let teamCard;
@@ -59,6 +45,7 @@ const lead = document.getElementById("Leads");
 const coord = document.getElementById("Coordinators");
 let url = "/images/headshots/";
 
+attachCard = () => {
 for(let x=0;x<3;x++) { //run three times for exec, leads, coord
       for(let k=0;k<membersObj[x].length;k++) { //runs everything for x-amount of headshots
         for(let i=0;i<3;i++) { //creates first three divs
@@ -100,4 +87,4 @@ for(let x=0;x<3;x++) { //run three times for exec, leads, coord
       }
     }
    }
-*/
+   window.onload = attachCard();
