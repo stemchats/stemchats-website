@@ -45,6 +45,12 @@ body {
   border-color: white;
 }
 
+.dropdown-item:hover {
+  color: #ff5959;
+  background-color: #ffffff;
+  transition: .3s;
+}
+
 #intro {
   height: 75vh;
   display: flex;
