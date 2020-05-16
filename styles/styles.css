@@ -510,3 +510,45 @@ body {
 #modal {
   cursor: pointer;
 }
+
+#modal .row {
+  margin-bottom: 32px;
+}
+
+.modal-body {
+  margin-top: -10px;
+}
+
+.modal-header {
+  border-bottom: 0 none;
+  height: 48px;
+}
+
+.modal-dialog {
+  width: 800px;
+  max-width: 100%;
+  height: 450px;
+  max-height: 100%;
+}
+
+.modal-content {
+  border-radius: 15px;
+}
+
+.modal-body {
+  margin: 0 16px 0 16px;
+}
+
+.modal-footer {
+  border-top: 0 none;
+  height: 48px;
+}
+
+.modal-backdrop {
+  background-color: #000000;
+  opacity: 0.2;
+}
+
+.img-fluid {
+  border-radius: 15px;
+}
