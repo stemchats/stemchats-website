@@ -476,6 +476,14 @@ body {
   background-color: white;
 }
 
+.program-box .program-link {
+  color: #ff5959;
+  background-color: transparent;
+  text-decoration: none;
+  border-bottom: 1px solid;
+  font-weight: bold;
+}
+
 .program-box .program-box-title {
   font-weight: 800;
   text-align: center;
