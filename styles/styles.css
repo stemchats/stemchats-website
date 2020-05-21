@@ -468,6 +468,35 @@ body {
   text-align: center;
 }
 
+.program-box {
+  font-family: "Karla", sans-serif;
+  height: 100%;
+  font-family: 'Karla';
+  padding: 2em;
+  background-color: white;
+}
+
+.program-box .program-box-title {
+  font-weight: 800;
+  text-align: center;
+}
+
+.program-box .program-box-subtitle {
+  font-weight: 800;
+  text-align: center;
+}
+
+.program-box .program-box-description {
+  text-justify: inter-word;
+}
+
+.program-box .program-img {
+  max-width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 .footer {
   margin-top: 2em;
 }
