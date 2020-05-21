@@ -413,6 +413,42 @@ body {
     }
 }
 
+.program-box {
+    // @include smallFlexCenter;
+    font-family: $main-font;
+    height: 100%;
+
+    font-family: 'Karla';
+
+    padding: 2em;
+    background-color: white;
+
+    .program-link {
+        color: #ff5959;
+        background-color: transparent;
+        text-decoration: none;
+        border-bottom: 1px solid;
+        font-weight: bold;
+      }
+    
+    .program-box-title {
+        font-weight: 800;
+        text-align: center;
+    }
+    .program-box-subtitle {
+        font-weight: 800;
+        text-align: center;
+
+    }
+    .program-box-description {
+        text-justify: inter-word;
+    }
+    .program-img {
+        max-width: 100%;
+        justify-content: center;
+    }
+}
+
 // FOOTER STYLES
 
 .footer {
