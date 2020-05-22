@@ -665,4 +665,37 @@ body {
   text-align: center;
   font-weight: 800 !important;
 }
+
+.intern {
+  padding: 2em;
+}
+
+.intern .intern-title {
+  text-align: center;
+  font-weight: 800;
+}
+
+.intern .intern-text {
+  font-size: 18px;
+}
+
+.intern-faq-question {
+  font-weight: 400;
+  color: black;
+  text-align: center;
+  font-size: 18px !important;
+}
+
+.intern-faq-question .intern-faq-question-header {
+  color: black !important;
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.intern-img {
+  max-width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
 /*# sourceMappingURL=styles.css.map */

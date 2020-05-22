@@ -601,3 +601,32 @@ border-radius: 15px;
         font-weight: 800 !important;
     }
 }
+
+.intern {
+    padding: 2em;
+    .intern-title {
+        text-align: center;
+        font-weight: 800;
+    }
+    .intern-text {
+        font-size: 18px;
+    }
+}
+
+.intern-faq-question {
+    font-weight: 400;
+    color: black;
+    text-align: center;
+    font-size: 18px !important;
+
+    .intern-faq-question-header {
+        color: black !important;
+        font-size: 18px;
+        font-weight: 800;
+    }
+}
+
+.intern-img {
+    max-width: 100%;
+    justify-content: center;
+}
