@@ -53,13 +53,32 @@
         </button>
         <div class = "collapse navbar-collapse mr-auto" id = "mainNav">
             <div class = "navbar-nav ml-auto">
-                <a class = "nav-item nav-link" href = "/index.html">HOME</a>
-                <a class = "nav-item nav-link active" href = "/about/">ABOUT US</a>
-                <a class = "nav-item nav-link" href = "/programs/overview/">OUR PROGRAMS</a>
-                <a class = "nav-item nav-link" href = "https://docs.google.com/document/d/13t3Pz_H-WPZ-QrFf4RXBsszp5Sezv5DOnyRtV5kxq7E/edit?usp=sharing">STEM RESOURCES</a>
-                <button class = "nav-button" onClick = "parent.location = 'mailto:stemchats@gmail.com?subject= ' ">
-                    <a class = "nav-item nav-button-text" href = "#">CONTACT US</a>
-                </button>
+                <ul class = "navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class = "nav-link" href = "/index.html">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class = "nav-link active" href = "/about/">ABOUT US</a>
+                    </li>
+                <!-- dropdown -->
+                <li class="nav-item dropdown">
+                  <a class = "dropdown-toggle nav-link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" href = "/programs/">OUR PROGRAMS</a>
+                  <div class="dropdown-menu">
+                      <a class="dropdown-item" href="/programs/overview/">Overview</a>
+                      <a class="dropdown-item" href="/programs/STEMlights/">STEMlights</a>
+                      <a class="dropdown-item" href="#">Blueprint</a>
+                      <a class="dropdown-item" href="/programs/stemchats-institute/">STEMchats Institute</a>
+                      <a class="dropdown-item" href="/programs/united-engineers/">United Engineers</a>
+                      <a class="dropdown-item" href="/programs/istem-scholars/">i-STEM Scholars</a>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a class = "nav-link" href = "https://docs.google.com/document/d/13t3Pz_H-WPZ-QrFf4RXBsszp5Sezv5DOnyRtV5kxq7E/edit?usp=sharing">SCI RESOURCES</a>
+                </li>
+                <li class="nav-item">
+                    <a class = "nav-link" href="/get-involved/">GET INVOLVED</a>
+                </li>
+              </ul>
             </div>
         </div>
     </nav>
@@ -68,8 +87,7 @@
             <div class = "row">
                 <div class = "col-lg-12 aboutus-box">
                     <h1 class = "aboutus-box-title">About Us</h1>
-                    <p class = "aboutus-box-description">STEMchats aims to democratize STEM (science, technology, engineering, and math) education for all by bringing impactful STEM programming to all students, especially disadvantaged students. We are guided by our core values: <b>inclusiveness, collaboration, encouragement, and laidback.</b></p>
-                    <p class = "aboutus-box-description">We emphasize these values through both our workplace culture as well as our programs, which are geared towards empowering disadvantaged students to use the power of STEM for social good.</p>
+                    <p class = "aboutus-box-description">STEMchats aims to democratize STEM (science, technology, engineering, and math) education for all by bringing impactful STEM programming to all students, especially disadvantaged students. We are guided by our core values: <b>inclusiveness, collaboration, encouragement, and laidback.</b> We emphasize these values through both our workplace culture as well as our programs, which are geared towards empowering disadvantaged students to use the power of STEM for social good.</p>
                 </div>
             </div>
         </div>
@@ -79,7 +97,8 @@
             <div class = "row">
                 <div class = "col-lg-12 team-box text-center">
                     <h1 class = "team-box-title">Our Team</h1>
-                    <p class = "team-box-description">STEMchats is a completely <b>student-led organization</b>. Meet our team of the most creative, diligent, and passionate students.</p>
+                    <p class = "team-box-description">STEMchats is a completely <b>student-led organization</b>. Meet our team of the most creative, diligent, and passionate students across the United States.</p>
+                    <!-- <p class = "team-box-description">The STEMchats team consists mostly of first-generation, low-income, minority, LGBTQ+, and/or female students. Being educated at mostly underfunded schools and identifying as underrepresented in the fields of STEM, we understand the struggles of trying to find STEM immersion and education opportunities at a young age. Most importantly, our team’s background helps us relate to the students we aim to impact.</p> -->
                 </div>
             </div>
             <div class = "team_container">

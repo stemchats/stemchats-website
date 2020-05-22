@@ -30,7 +30,11 @@ body {
   font-weight: 400;
   font-size: 16px;
   margin: 0em;
-  text-align: center;
+  margin-right: 20em;
+  -webkit-box-align: center !important;
+      -ms-flex-align: center !important;
+          align-items: center !important;
+  text-align: left !important;
 }
 
 .navbar .navbar-nav .nav-button {
@@ -61,7 +65,7 @@ body {
   background-color: white;
   color: black;
   padding: 0em 0em 5em 0em;
-  margin: 4em 0em 5em 1em;
+  margin: 2em 0em 5em 1em;
   height: 100vh;
   font-family: 'Karla';
   text-align: center !important;
@@ -236,6 +240,7 @@ body {
   font-weight: 400;
   color: black;
   margin: 1em 1em 1em 1em;
+  text-justify: inter-word;
 }
 
 .team .team-divider {
@@ -257,7 +262,7 @@ body {
 }
 
 .team .teamcard .teamcard-img {
-  border-radius: 10px;
+  border-radius: 5px;
   max-width: 100%;
 }
 
@@ -442,8 +447,8 @@ body {
   text-align: center;
 }
 
-.program-box .program-box-description {
-  text-justify: inter-word;
+.program-box .program-box-text {
+  font-size: 18px;
 }
 
 .program-box .program-img {
@@ -607,4 +612,56 @@ body {
 
 .img-fluid {
   border-radius: 15px;
+}
+
+
+.culture {
+  font-family: 'Karla';
+}
+
+.culture .culture-box {
+  padding: 2em;
+  margin: 1em 0em 1em 0em;
+  font-size: 18px;
+  border-style: solid;
+  border-radius: 10px;
+  border-color: #f5f5f5;
+}
+
+.culture .culture-title {
+  text-align: center;
+  font-weight: 800 !important;
+}
+
+.intern {
+  padding: 2em;
+}
+
+.intern .intern-title {
+  text-align: center;
+  font-weight: 800;
+}
+
+.intern .intern-text {
+  font-size: 18px;
+}
+
+.intern-faq-question {
+  font-weight: 400;
+  color: black;
+  text-align: center;
+  font-size: 18px !important;
+}
+
+.intern-faq-question .intern-faq-question-header {
+  color: black !important;
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.intern-img {
+  max-width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
