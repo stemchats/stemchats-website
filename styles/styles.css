@@ -31,9 +31,7 @@ body {
   font-size: 16px;
   margin: 0em;
   margin-right: 20em;
-  -webkit-box-align: center !important;
-      -ms-flex-align: center !important;
-          align-items: center !important;
+  align-items: center !important;
   text-align: left !important;
 }
 
@@ -614,7 +612,6 @@ body {
   border-radius: 15px;
 }
 
-
 .culture {
   font-family: 'Karla';
 }
@@ -661,7 +658,5 @@ body {
 
 .intern-img {
   max-width: 100%;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
