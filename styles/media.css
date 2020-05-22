@@ -4,8 +4,7 @@
     padding-top: 10px;
     padding-right: 10em;
     padding-left: 10em;
-    -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
-            box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
   }
   .navbar-brand {
     color: black !important;
@@ -30,19 +29,11 @@
     color: white !important;
   }
   #intro {
-    -webkit-box-flex: row;
-        -ms-flex: row;
-            flex: row;
+    flex: row;
     height: 100vh;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    justify-content: center;
+    align-items: center;
     font-family: 'Karla';
     text-align: left !important;
     margin-top: 0em;
@@ -68,19 +59,11 @@
     margin-left: -2.5em;
   }
   #newsletter {
-    -webkit-box-flex: row;
-        -ms-flex: row;
-            flex: row;
+    flex: row;
     height: 100vh;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    justify-content: center;
+    align-items: center;
     font-family: 'Karla';
     text-align: left !important;
     height: 85vh;
@@ -107,15 +90,9 @@
   }
   #programs {
     height: 100vh;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    justify-content: center;
+    align-items: center;
     font-family: 'Karla';
     height: 50vh;
   }
@@ -140,15 +117,9 @@
   }
   .team {
     height: 75vh;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    justify-content: center;
+    align-items: center;
     font-family: 'Karla';
     font-family: "Karla", sans-serif;
     height: 100%;
@@ -196,20 +167,11 @@
     color: rgba(0, 0, 0, 0.7);
     text-align: center;
   }
-  #modal {
-    cursor: pointer;
-  }
   .breakdown {
     height: 100vh;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    justify-content: center;
+    align-items: center;
     font-family: 'Karla';
     height: 100vh;
     margin-top: 4em;
@@ -242,5 +204,48 @@
   .programs .programs-box-description {
     margin: 1em 12.5em 1em 12.5em;
   }
+  /* Modals */
+  .left {
+    text-align: left;
+  }
 }
-/*# sourceMappingURL=media.css.map */
+
+@media screen and (max-width: 991px) {
+  /* start of large tablet styles */
+  .center {
+    /* for text */
+    text-align: center;
+  }
+  .img-fluid {
+    max-width: 386px;
+    max-height: 386px;
+  }
+  .left {
+    text-align: left;
+  }
+  .name {
+    padding-top: 10px;
+  }
+  .modal:before {
+    content: '';
+    display: inline-block;
+    height: 10%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  /* start of medium tablet styles */
+  .modal:before {
+    height: 15%;
+  }
+  .modal-header .close {
+    margin: 8px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  /* start of phone styles */
+  .modal:before {
+    height: 20%;
+  }
+}

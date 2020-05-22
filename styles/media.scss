@@ -200,11 +200,6 @@ $small-padding : 1em;
             }
         }
     }
-        //MODAL SECTION
-      #modal {
-          cursor:pointer;
-      }
-
 
     // OUR PROGRAMS STYLES
 
@@ -252,4 +247,50 @@ $small-padding : 1em;
             margin: 1em 12.5em 1em 12.5em;
         }
     }
+
+    /* Modals */
+    .left {
+      text-align:left;
+    }
+}
+
+@media screen and (max-width: 991px) {
+/* start of large tablet styles */
+   .center { /* for text */
+     text-align:center;
+   }
+  .img-fluid {
+    max-width: 386px;
+    max-height:386px;
+  }
+  .left {
+    text-align:left;
+  }
+  .name {
+    padding-top: 10px;
+  }
+  .modal:before { //scroll modal
+    content: '';
+    display: inline-block;
+    height: 10%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+/* start of medium tablet styles */
+  .modal:before {
+    height: 15%;
+  }
+  .modal-header {
+    .close {  //style close when screen resizes
+      margin: 8px;
+    }
+  }
+}
+
+@media screen and (max-width: 479px) {
+/* start of phone styles */
+  .modal:before {
+    height:20%;
+  }
 }
