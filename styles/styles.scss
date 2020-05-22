@@ -646,6 +646,41 @@ body {
     }
 }
 
+.intern-button-box-button {
+    font-weight: 400;
+    border-radius: 10px;
+    border-color: white;
+    font-size: 20px;
+    padding: 0.5em 2em 0.5em 2em;
+    background-color: $main-color;
+    justify-content: center;
+    background-color: #ff5959;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    // .button:hover {
+    //     color: #ffffff !important;
+    //     text-decoration: none;
+    // }
+}
+
+.intern-button-box {
+    margin: 0;
+    height: 4em;
+    position: relative;
+}
+
+.intern-link {
+    color: #ff5959;
+    background-color: transparent;
+    text-decoration: none;
+    border-bottom: 1px solid;
+    font-weight: bold;
+}
+
 .intern-img {
     max-width: 100%;
     justify-content: center;
