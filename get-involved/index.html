@@ -1,12 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <!-- Bootstrap Meta Tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="The student-run nonprofit organization on a mission to shatter barriers in the STEM fields through providing a transformative peer-to-peer education for all students.">
+    <meta name="keywords" content="stem, stemchast, stemchats, nonprofit, students, programs">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Archivo&display=swap" rel="stylesheet">
 
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/72d227a617.js" crossorigin="anonymous"></script>
@@ -34,7 +40,7 @@
     <link rel = "stylesheet" href = "/styles/styles.css"/>
     <link rel = "stylesheet" href = "/styles/media.css"/>
     <link href='https://fonts.googleapis.com/css?family=Karla:400,400i,700,700i' rel='stylesheet'>
-    <title>STEMchats: Get Involved</title>
+    <title>STEMchats: i-STEM Scholars</title>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-163788059-1"></script>
@@ -44,6 +50,7 @@
         gtag('js', new Date());
         gtag('config', 'UA-163788059-1');
     </script>
+</head>
 <body>
     <nav class = "navbar navbar-expand-lg navbar-light bg-light fixed-top">
         <a class="navbar-brand" href="/index.html">STEMchats</a>
@@ -52,36 +59,78 @@
         </button>
         <div class = "collapse navbar-collapse mr-auto" id = "mainNav">
             <div class = "navbar-nav ml-auto">
-                <a class = "nav-item nav-link" href = "/index.html">HOME</a>
-                <a class = "nav-item nav-link" href = "/about/">ABOUT US</a>
-                <a class = "nav-item nav-link" href = "/programs/">OUR PROGRAMS</a>
-                <a class = "nav-item nav-link active" href = "/get-involved/">GET INVOLVED</a>
-                <a class = "nav-item nav-link" href = "https://docs.google.com/document/d/13t3Pz_H-WPZ-QrFf4RXBsszp5Sezv5DOnyRtV5kxq7E/edit?usp=sharing">STEM RESOURCES</a>
-                <button class = "nav-button" onClick = "parent.location = 'mailto:stemchats@gmail.com?subject= ' ">
-                    <a class = "nav-item nav-button-text" href = "#">CONTACT US</a>
-                </button>
+                <ul class = "navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class = "nav-link" href = "/index.html">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class = "nav-link" href = "/about/">ABOUT US</a>
+                    </li>
+                <!-- dropdown -->
+                <li class="nav-item active dropdown">
+                  <a class = "dropdown-toggle nav-link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" href = "/programs/">OUR PROGRAMS</a>
+                  <div class="dropdown-menu">
+                      <a class="dropdown-item" href="/programs/overview/">Overview</a>
+                      <a class="dropdown-item" href="/programs/STEMlights/">STEMlights</a>
+                      <a class="dropdown-item" href="#">Blueprint</a>
+                      <a class="dropdown-item" href="/programs/stemchats-institute">STEMchats Institute</a>
+                      <a class="dropdown-item" href="/programs/united-engineers/">United Engineers</a>
+                      <a class="dropdown-item" href="/programs/istem-scholars/">i-STEM Scholars</a>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a class = "nav-link" href = "https://docs.google.com/document/d/13t3Pz_H-WPZ-QrFf4RXBsszp5Sezv5DOnyRtV5kxq7E/edit?usp=sharing">SCI RESOURCES</a>
+                </li>
+                <li class="nav-item">
+                  <a class = "nav-link" onClick = "parent.location = 'mailto:stemchats@gmail.com?subject= ' ">CONTACT US</a>
+                </li>
+              </ul>
             </div>
         </div>
     </nav>
-
-    <!-- content -->
-
-<section id="footer">
-  <div class = "container">
-    <div id="footerHTML" class = "footer text-center">
-        <!-- insert footer code -->
-    </div>
-  </div>
-</section>
-
-    <!-- Bootstrap Javascript -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-
-    <!--scripts -->
-    <script type="text/javascript" src="/scripts/footer.js"></script>
-    <script src="https://embed.small.chat/TCLJDSZFTG012QLYS0TC.js" async></script>
+    <sectio class = "culture">
+        <div class = "container"> 
+            <div class = "row flex-column flex-md-row">
+                <div class = "col-lg-12">
+                    <h1 class = "culture-title">Workplace Culture</h1>
+                </div>
+                <div class = "col-lg-12 culture-box">
+                    <h3>We are <b>Inclusive.</b></h3>
+                    <p>STEMchats thrives on its diversity of backgrounds, experiences, and ideas! This means that we have a zero-tolerance policy on discrimination, hate, or bullying. All of our team members are expected to be inclusive of others on the team and make everyone feel valued regardless of race, ethnicity, sexual orientation, location, sex, gender, or any other factors.</p>
+                </div>
+                <div class = "col-lg-12 culture-box">
+                    <h3>We are <b>Collaborative.</b></h3>
+                    <p>STEMchats relies on teamwork and collaboration between all members of the organization to uphold our founding principles: celebrate, stimulate, innovate. We encourage appropriate collaboration, both within each team and across both programming and business-development departments.</p>
+                    <p>All team members are expected to actively participate in assigned collaborations or work to come up with new ways to work with members outside their direct team. The  Leadership Team does their best to facilitate this kind of interaction through transparency, connection, Slack, and in-person meetups.</p>
+                </div>
+                <div class = "col-lg-12 culture-box">
+                    <h3>We are <b>Encouraging.</b></h3>
+                    <p>STEMchats succeeds thanks to positive energy and reinforcement from everyone on our team! We often hype each other up on social media, on calls, and in our dedicated #random Slack channel. Every team member is encouraged to contribute to discussions with the assurance that their opinions will always be valued. We feel that this is the best way to build up both individual and collective confidence, helping us break out of our shells!</p>
+                    <p>STEMchats works on uplifting underrepresented students while creating a close and supportive network in the process. Our STEMchats team members who are in college are always down to answer any questions about the admissions process. Since many of us are first-generation, low-income (FGLI) college students, we understand the confusion. We are all here to support and encourage one another across personal and professional spheres</p>
+                </div>
+                <div class = "col-lg-12 culture-box">
+                    <h3>We are <b>Laidback.</b></h3>
+                    <p>STEMchats is chill. No, really! Just like most startups and modern GenZ organizations, we love sharing memes over Slack and keeping a light, laidback mood during video calls. We have non-work related channels that every team member can join: #college, #opportunities, #memes, & more.</p>
+                    <p>This doesn’t mean we don’t get our work done. In fact, we’ve found that sometimes getting off-topic ultimately increases our productivity, making any long calls or action items more manageable through building team comradery! We are all friends and hope that everyone on the team can build strong bonds beyond work and geographic location.</p>
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
+<section id="footer">
+    <div class = "container">
+      <div id="footerHTML" class = "footer text-center">
+          <!-- insert footer code -->
+      </div>
+    </div>
+  </section>
+  <!-- Bootstrap Javascript -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+  <!--scripts -->
+  <script type="text/javascript" src="/scripts/footer.js"></script>
+  <script src="https://embed.small.chat/TCLJDSZFTG012QLYS0TC.js" async></script>
 </html>
