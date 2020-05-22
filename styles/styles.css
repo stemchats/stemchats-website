@@ -272,6 +272,7 @@ body {
   font-weight: 400;
   color: black;
   margin: 1em 1em 1em 1em;
+  text-justify: inter-word;
 }
 
 .team .team-divider {
