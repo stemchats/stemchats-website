@@ -52,13 +52,32 @@
         </button>
         <div class = "collapse navbar-collapse mr-auto" id = "mainNav">
             <div class = "navbar-nav ml-auto">
-                <a class = "nav-item nav-link" href = "/index.html">HOME</a>
-                <a class = "nav-item nav-link active" href = "/about/">ABOUT US</a>
-                <a class = "nav-item nav-link" href = "/programs/overview/">OUR PROGRAMS</a>
-                <a class = "nav-item nav-link" href = "https://docs.google.com/document/d/13t3Pz_H-WPZ-QrFf4RXBsszp5Sezv5DOnyRtV5kxq7E/edit?usp=sharing">STEM RESOURCES</a>
-                <button class = "nav-button" onClick = "parent.location = 'mailto:stemchats@gmail.com?subject= ' ">
-                    <a class = "nav-item nav-button-text" href = "#">CONTACT US</a>
-                </button>
+                <ul class = "navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class = "nav-link" href = "/index.html">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class = "nav-link" href = "/about/">ABOUT US</a>
+                    </li>
+                <!-- dropdown -->
+                <li class="nav-item active dropdown">
+                  <a class = "dropdown-toggle nav-link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" href = "/programs/">OUR PROGRAMS</a>
+                  <div class="dropdown-menu">
+                      <a class="dropdown-item" href="/programs/overview/">Overview</a>
+                      <a class="dropdown-item" href="/programs/stemlights/">STEMlights</a>
+                      <a class="dropdown-item" href="#">Blueprint</a>
+                      <a class="dropdown-item" href="/programs/stemchats-institute/">STEMchats Institute</a>
+                      <a class="dropdown-item" href="/programs/united-engineers/">United Engineers</a>
+                      <a class="dropdown-item" href="#">i-STEM Scholars</a>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a class = "nav-link" href = "https://docs.google.com/document/d/13t3Pz_H-WPZ-QrFf4RXBsszp5Sezv5DOnyRtV5kxq7E/edit?usp=sharing">SCI RESOURCES</a>
+                </li>
+                <li class="nav-item">
+                  <a class = "nav-link" onClick = "parent.location = 'mailto:stemchats@gmail.com?subject= ' ">CONTACT US</a>
+                </li>
+              </ul>
             </div>
         </div>
     </nav>

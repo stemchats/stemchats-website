@@ -31,7 +31,11 @@ body {
   font-weight: 400;
   font-size: 16px;
   margin: 0em;
-  text-align: center;
+  margin-right: 20em;
+  -webkit-box-align: center !important;
+      -ms-flex-align: center !important;
+          align-items: center !important;
+  text-align: left !important;
 }
 
 .navbar .navbar-nav .nav-button {
