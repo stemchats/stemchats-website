@@ -499,8 +499,9 @@ body {
   text-align: center;
 }
 
-.program-box .program-box-description {
+.program-box .program-box-text {
   text-justify: inter-word;
+  font-size: 18px;
 }
 
 .program-box .program-img {
