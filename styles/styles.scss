@@ -266,7 +266,7 @@ body {
         border: 1px white;
 
         .teamcard-img {
-            border-radius: 5px;
+            border-radius: 15px;
             max-width: 100%;
         }
         .teamcard-title {
@@ -506,7 +506,8 @@ body {
     margin-bottom: 1em;
   }
   button:hover {
-    background-color: #C72121;
+    background-color: #B80000;
+    transition: 0.3s;
   }
 }
 .social {
