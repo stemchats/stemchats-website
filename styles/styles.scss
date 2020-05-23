@@ -580,7 +580,9 @@ body {
 
 .modal-body {
   margin: 16px 0;
-  overflow: auto;
+  // overflow: auto;
+  max-height: calc(100vh - 200px);
+    overflow-y: auto;
 }
 .modal-backdrop {
   background-color: #000000;
