@@ -377,7 +377,6 @@ body {
         font-size: $small-font-description;
         font-weight: 400;
         color: black;
-        // font-size: 18px;
         margin: 1em 1em 1em 1em;
     }
 
@@ -393,8 +392,6 @@ body {
     }
 
     .programs-card {
-        // padding: 2em;
-        // margin-bottom: -3em;
         border-radius: 10px;
         border: 0px white;ss
 
@@ -633,6 +630,7 @@ body {
     color: black;
     text-align: center;
     font-size: 18px !important;
+    justify-content: center;
 
     .intern-faq-question-header {
         color: black !important;
@@ -646,20 +644,16 @@ body {
     border-radius: 10px;
     border-color: white;
     font-size: 20px;
-    padding: 0.5em 2em 0.5em 2em;
     background-color: $main-color;
     justify-content: center;
     background-color: #ff5959;
-    margin: 0;
     position: absolute;
+    margin: 0.5em 0em 1em 0em;
+    padding: 0.5em 2em 0.5em 2em;
     top: 50%;
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-    // .button:hover {
-    //     color: #ffffff !important;
-    //     text-decoration: none;
-    // }
 }
 
 .intern-button-box {
@@ -677,6 +671,7 @@ body {
 }
 
 .intern-img {
+    margin-top: 0.5em;
     max-width: 100%;
     justify-content: center;
 }
