@@ -595,6 +595,10 @@ body {
   opacity: 0.2;
 }
 
+.name {
+  font-weight: 700;
+}
+
 .img-fluid {
   border-radius: 15px;
 }

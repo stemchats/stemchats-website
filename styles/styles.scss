@@ -580,14 +580,14 @@ body {
   max-height: calc(100vh - 200px);
   overflow-y: auto;
   overflow-x: hidden;
-
-
 }
 .modal-backdrop {
   background-color: #000000;
   opacity: 0.2;
 }
-
+.name {
+  font-weight: 700;
+}
 .img-fluid {
   border-radius: 15px;
 }
