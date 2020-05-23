@@ -546,10 +546,6 @@ body {
   margin: 0.5em;
 }
 
-#modal {
-  cursor: pointer;
-}
-
 .modal {
   overflow: inherit;
   overflow-y: inherit;
@@ -599,11 +595,6 @@ body {
   overflow: auto;
 }
 
-.modal-footer {
-  border: 0;
-  padding: 0;
-}
-
 .modal-backdrop {
   background-color: #000000;
   opacity: 0.2;
@@ -611,6 +602,10 @@ body {
 
 .img-fluid {
   border-radius: 15px;
+}
+
+.modal-trigger {
+  cursor: pointer;
 }
 
 .culture {

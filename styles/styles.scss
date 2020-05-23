@@ -537,10 +537,6 @@ body {
 
 //MODAL STYLE
 
-#modal {
-    cursor:pointer;
-}
-
 .modal {
   overflow: inherit;
   overflow-y: inherit;
@@ -589,11 +585,6 @@ body {
   margin: 16px 0;
   overflow: auto;
 }
-.modal-footer {
-  border: 0;
-  padding: 0;
-}
-
 .modal-backdrop {
   background-color: #000000;
   opacity: 0.2;
@@ -601,6 +592,9 @@ body {
 
 .img-fluid {
   border-radius: 15px;
+}
+.modal-trigger { //hover over image
+  cursor:pointer;
 }
 // MODAL STYLES END
 
