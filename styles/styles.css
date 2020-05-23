@@ -546,13 +546,6 @@ body {
   margin: 0.5em;
 }
 
-.modal {
-  overflow: inherit;
-  overflow-y: inherit;
-  text-align: center;
-  padding: 0;
-}
-
 .modal-header {
   border: 0;
   padding: 0;
@@ -592,8 +585,9 @@ body {
 
 .modal-body {
   margin: 16px 0;
-  max-height: calc(100vh - 100px);
+  max-height: calc(100vh - 200px);
   overflow-y: auto;
+  overflow-x: hidden;
 }
 
 .modal-backdrop {

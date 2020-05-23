@@ -259,10 +259,6 @@ $small-padding : 1em;
    .center { /* for text */
      text-align:center;
    }
-  .img-fluid {
-    max-width: 386px;
-    max-height:386px;
-  }
   .left {
     text-align:left;
   }
@@ -272,7 +268,7 @@ $small-padding : 1em;
   .modal:before { //scroll modal
     content: '';
     display: inline-block;
-    height: 10%;
+    // height: 10%;
   }
 }
 
@@ -281,16 +277,21 @@ $small-padding : 1em;
   // .modal:before {
   //   height: 10%;
   // }
+
   .modal-header {
     .close {  //style close when screen resizes
-      margin: 8px;
+      margin: 4px;
     }
   }
 }
 
 @media screen and (max-width: 479px) {
 /* start of phone styles */
-  // .modal:before {
-  //   height:20%;
-  // }
+
+  .modal .modal-dialog {
+        position:relative;
+        width:auto;
+    }
+
+
 }

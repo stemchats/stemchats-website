@@ -216,10 +216,6 @@
     /* for text */
     text-align: center;
   }
-  .img-fluid {
-    max-width: 386px;
-    max-height: 386px;
-  }
   .left {
     text-align: left;
   }
@@ -229,17 +225,20 @@
   .modal:before {
     content: '';
     display: inline-block;
-    height: 10%;
   }
 }
 
 @media screen and (max-width: 767px) {
   /* start of medium tablet styles */
   .modal-header .close {
-    margin: 8px;
+    margin: 4px;
   }
 }
 
 @media screen and (max-width: 479px) {
   /* start of phone styles */
+  .modal .modal-dialog {
+    position: relative;
+    width: auto;
+  }
 }
