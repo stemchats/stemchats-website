@@ -278,9 +278,9 @@ $small-padding : 1em;
 
 @media screen and (max-width: 767px) {
 /* start of medium tablet styles */
-  .modal:before {
-    height: 15%;
-  }
+  // .modal:before {
+  //   height: 10%;
+  // }
   .modal-header {
     .close {  //style close when screen resizes
       margin: 8px;
@@ -290,7 +290,7 @@ $small-padding : 1em;
 
 @media screen and (max-width: 479px) {
 /* start of phone styles */
-  .modal:before {
-    height:20%;
-  }
+  // .modal:before {
+  //   height:20%;
+  // }
 }
