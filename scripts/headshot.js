@@ -6,7 +6,7 @@ let membersObj = [
 	position: "Founder & CEO",
 	home: "Louisville, KY",
 	src: "MinhPhucTran.jpg",
-	bio: "Minh is a social entrepreneur and a rising second-year student double majoring in Computer Science & Sociology at the University of San Francisco in the Bay Area. He started STEMchats as a first-generation, low-income student to empower other historically represented students in STEM. In addition to educational equity, he is also passionate about using technology for social good. In his free time, he enjoys dancing to hip-hop & k-pop choreographies, using public transportation, and studying languages.",
+	bio: "Minh is a social entrepreneur and a rising second-year student studying Computer Science & Sociology at the University of San Francisco in the Bay Area. He started STEMchats as a first-generation, low-income student to empower other historically underrepresented students in STEM like himself. In addition to educational equity, he is also passionate about using technology for social good. In his free time, he enjoys dancing to hip-hop & k-pop choreographies, using public transportation, and studying languages.",
 }, {
 	name: "Nicole Felix-Tovar",
 	position: "VP of Programming",
@@ -92,7 +92,7 @@ let membersObj = [
 }, {
 	name: "Vivienne Nguyen",
 	position: "Marketing Coordinator",
-	home: "",
+	home: "Las Vegas, NV",
 	src: "VivienneNguyen.jpg",
 	bio: "Vivienne is a passionate entrepreneur and rising second-year student majoring in Business Administration at the University of Nevada, Las Vegas. She was eager to join STEMchats because she believes in its mission and wants to use her marketing experience to help expand it to the next level! In her spare time, she enjoys taking photos, traveling, and spending time with friends."
 }, {
