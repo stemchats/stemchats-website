@@ -33,6 +33,10 @@ body {
     font-family: 'Karla' !important;
 }
 
+#hidden {
+  display: none;
+}
+
 .navbar {
     font-family: $main-font !important;
     background-color: white !important;

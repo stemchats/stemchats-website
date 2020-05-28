@@ -316,6 +316,11 @@ let membersObj = [
 
 let url = "/images/headshots/";
 
+//show body-element (once modals/cards load)
+show = () => {
+	$('#hidden').show();
+}
+
 //create all the team members
 createMembers = () => {
   membersObj.forEach(function(value, i) {
@@ -418,10 +423,10 @@ createMembers = () => {
       modal.appendChild(modalDialog);
       return modal;
     }
-
     team.appendChild(createCard());
     team.appendChild(createModal());
   });
+	show();
 }
 
 window.onload = createMembers();
