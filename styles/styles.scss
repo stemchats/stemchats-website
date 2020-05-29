@@ -23,7 +23,12 @@ $small-padding : 1em;
     align-items: center;
     font-family: 'Karla';
 }
-
+* {
+  a:hover {
+    text-decoration: none;
+    color:$main-color;
+  }
+}
 b {
     color: $main-color;
 }
@@ -498,16 +503,21 @@ body {
   button {
     font-weight: 400;
     border-radius: 10px;
-    border-color: white;
+    // border-color: white;
     color: white;
     font-size: 20px;
     padding: 0.3em 1.7em 0.3em 1.7em;
-    background-color: $main-color;
+    // background-color: $main-color;
     margin-bottom: 1em;
+    background: linear-gradient(to right, $main-color 50%, #f8f8f8 50%);
+    background-size: 200% 100%;
+    background-position: left bottom;
+    transition: all 0.5s ease;
   }
   button:hover {
-    background-color: #B80000;
-    transition: 0.3s;
+    border: solid $main-color 1px;
+    color:$main-color;
+    background-position: right bottom;
   }
 }
 .social {
@@ -646,11 +656,15 @@ body {
 .intern-button-box-button {
     font-weight: 400;
     border-radius: 10px;
-    border-color: white;
+    border: solid white 1px;
     font-size: 20px;
-    background-color: $main-color;
+    // background-color: $main-color;
     justify-content: center;
-    background-color: #ff5959;
+    // background-color: #ff5959;
+    background: linear-gradient(to right, $main-color 50%, #ffffff 50%);
+    background-size: 200% 100%;
+    background-position: left bottom;
+    transition: all 0.5s ease;
     position: absolute;
     margin: 0.5em 0em 1em 0em;
     padding: 0.5em 2em 0.5em 2em;
@@ -659,7 +673,11 @@ body {
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
-
+.intern-button-box-button:hover {
+    border: solid $main-color 1px;
+    color:$main-color;
+    background-position: right bottom;
+}
 .intern-button-box {
     margin: 0;
     height: 4em;
