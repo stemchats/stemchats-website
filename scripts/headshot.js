@@ -316,11 +316,6 @@ let membersObj = [
 
 let url = "/images/headshots/";
 
-//show body-element (once modals/cards load)
-show = () => {
-	$('#hidden').show();
-}
-
 //create all the team members
 createMembers = () => {
   membersObj.forEach(function(value, i) {
@@ -426,7 +421,7 @@ createMembers = () => {
     team.appendChild(createCard());
     team.appendChild(createModal());
   });
-	show();
 }
 
-window.onload = createMembers();
+window.onload=createMembers();
+AOS.init(); //animation

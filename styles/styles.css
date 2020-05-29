@@ -8,10 +8,6 @@ body {
   font-family: 'Karla' !important;
 }
 
-#hidden {
-  display: none;
-}
-
 .navbar {
   font-family: "Karla", sans-serif !important;
   background-color: white !important;
@@ -278,6 +274,10 @@ body {
   font-size: 18px;
   color: black;
   text-align: center;
+}
+
+.team #team_container {
+  height: 2000px;
 }
 
 .partners {

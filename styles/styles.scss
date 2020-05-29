@@ -33,10 +33,6 @@ body {
     font-family: 'Karla' !important;
 }
 
-#hidden {
-  display: none;
-}
-
 .navbar {
     font-family: $main-font !important;
     background-color: white !important;
@@ -283,6 +279,9 @@ body {
             color: black;
             text-align: center;
         }
+    }
+    #team_container {
+      height:2000px; //hide bottom of page before animation
     }
 }
 
