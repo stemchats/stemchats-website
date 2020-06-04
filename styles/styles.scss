@@ -83,6 +83,15 @@ body {
   transition: .3s;
 }
 
+.instagram-feed {
+    margin-top: 5em;
+    padding: 0em 2em 0em 2em;
+}
+
+.instagram-feed-tag {
+    margin-top: 2em !important;
+    justify-content: center !important;
+}
 #intro {
     @include smallFlexCenter;
     font-family: $main-font;
