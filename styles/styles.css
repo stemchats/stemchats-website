@@ -90,7 +90,7 @@ body {
   background-color: white;
   color: black;
   padding: 0em 0em 5em 0em;
-  margin: 2em 0em 5em 1em;
+  margin: 0em 0.5em 0em 0.5em;
   height: 100vh;
   font-family: 'Karla';
   text-align: center !important;
@@ -100,12 +100,14 @@ body {
   font-size: 32px;
   font-weight: 800;
   font-size: 32px;
+  text-align: center !important;
 }
 
 #intro .welcome-box-description {
   font-weight: 400;
   font-size: 18px;
   color: black;
+  text-align: center !important;
 }
 
 #intro .welcome-button {
@@ -120,6 +122,10 @@ body {
 
 #intro .top-img {
   max-width: 100%;
+  margin-top: -2em;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .button-link {
