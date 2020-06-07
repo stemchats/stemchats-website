@@ -3,7 +3,7 @@ let membersObj = [
 //execs
 {
 	name: "Nicole Felix-Tovar",
-	position: "COO",
+	position: "Chief Operating Officer",
 	home: "Saint Cloud, FL",
 	src: "NicoleFelixTovar.jpg",
 	bio: "Nicole is a driven advocate for equitable opportunity and is a rising second-year student double majoring in Anthropology & Human Biology and Human Health at Emory University in Atlanta, Georgia. She joined STEMchats to help make opportunities in various STEM disciplines attainable to low income, first-generation youth such as herself. She is proudly Colombian-Ecuadorian and wants to inspire and expose minority communities everywhere to STEM research and immersion pursuits. In her free time, Nicole loves to play tennis, watch and critique movies, nap, and travel."
