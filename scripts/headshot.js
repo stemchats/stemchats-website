@@ -2,14 +2,8 @@
 let membersObj = [
 //execs
 {
-	name: "Minh Phuc Tran",
-	position: "Founder & CEO",
-	home: "Louisville, KY",
-	src: "MinhPhucTran.jpg",
-	bio: "Minh is a social entrepreneur and a rising second-year student studying Computer Science & Sociology at the University of San Francisco in the Bay Area. He started STEMchats as a first-generation, low-income student to empower other historically underrepresented students in STEM like himself. In addition to educational equity, he is also passionate about using technology for social good. In his free time, he enjoys dancing to hip-hop & k-pop choreographies, using public transportation, and learning new languages.",
-}, {
 	name: "Nicole Felix-Tovar",
-	position: "VP of Programming",
+	position: "COO",
 	home: "Saint Cloud, FL",
 	src: "NicoleFelixTovar.jpg",
 	bio: "Nicole is a driven advocate for equitable opportunity and is a rising second-year student double majoring in Anthropology & Human Biology and Human Health at Emory University in Atlanta, Georgia. She joined STEMchats to help make opportunities in various STEM disciplines attainable to low income, first-generation youth such as herself. She is proudly Colombian-Ecuadorian and wants to inspire and expose minority communities everywhere to STEM research and immersion pursuits. In her free time, Nicole loves to play tennis, watch and critique movies, nap, and travel."
@@ -113,18 +107,6 @@ let membersObj = [
 	home: "El Paso, TX",
 	src: "AlexaRamirez.jpg",
 	bio: "Alexa is an aspiring tech entrepreneur/aerospace engineer who has a passion for space, and is currently a junior at Clint Early College Academy, TX. She joined STEMchats because as a fellow Latina, she would love to see, and inspire other latinas to pursue engineering and become business owners. In her free time she enjoys learning about space and physics, horseback riding, archery, and dancing."
-}, {
-	name: "Taruni Tangirala",
-	position: "Technology Coordinator",
-	home: "Sugar Land, TX",
-	src: "TaruniTangirala.jpg",
-	bio: "Taruni is a senior at Dulles High School in Sugar Land, Texas and is passionate about applied computing and writing. She joined STEMchats because she wants to pursue her own passions in computing and activism; but more importantly,  she hopes to help others discover their interests in STEM-related fields. In her free time, she can be found writing political critiques, playing the ukulele, going to her local archery range, or photographing her travels around the world."
-}, {
-	name: "Justin Lin",
-	position: "Program Coordinator",
-	home: "Cypress, CA",
-	src: "JustinLin.jpg",
-	bio: "Justin is a passionate researcher/entrepreneur and a junior at Oxford Academy in Cypress, CA. He joined STEMchats in order to facilitate meaningful STEM activities and connect students to STEM opportunities. Outside of STEMchats he is the Co-President of OA Coding, researcher at the USC IPILab & UCLA Visual Machines Group, and Co-Founder of RELU Labs LLC."
 }, {
 	name: "Eliza Martin",
 	position: "Program Coordinator",
