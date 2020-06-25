@@ -70,6 +70,14 @@ let membersObj = [
 	src: "AmelSaiedHassan.jpg",
 	bio: "Amel is an advocate for opportunities for low-income & minority students and a rising third-year student majoring in Anthropology and Human Biology at Emory University in Atlanta, GA. She joined STEMchats to work to solve the issue of access and representation that many FGLI students and under-represented communities face when looking at research and STEM opportunities.  Outside of STEMchats, Amel enjoys watching shows, listening to all types of music, messing with her five siblings and parents, and cooking new foods!"
 },
+//senior advisors
+{
+	name: "Tatum Wilhelm",
+	position: "Senior Advisor",
+	home: "Orange County, CA",
+	src: "TatumWilhelm.jpg",
+	bio: "Tatum is a rising sophomore at the Massachusetts Institute of Technology majoring in Chemical Engineering and minoring in Biomedical Engineering. She joined STEMchats to help inspire and provide equal opportunity to fellow first-generation, low income students through mentorship and leadership. Outside of STEMchats, she is heavily involved in research, rowing, and being outdoors."
+},
 //coords
 {
 	name: "Anum Ahmad",
@@ -287,12 +295,6 @@ let membersObj = [
 	home: "Point Pleasant Beach, NJ",
 	src: "GracePluemacher.jpg",
 	bio: "Grace Pluemacher is a passionate researcher and a rising senior at the Marine Academy of Technology and Environmental Science. She joined STEMchats to inspire future students, especially women, to explore fields in STEM through independent research. In her free time, she enjoys playing various sports, watching Netflix and playing the drums."
-}, {
-	name: "Tatum Wilhelm",
-	position: "Program Coordinator",
-	home: "Orange County, CA",
-	src: "TatumWilhelm.jpg",
-	bio: "Tatum is a rising second year-student studying Bio-Chemical Engineering next year at the Massachusetts Institute of Technology in Cambridge, MA. Tatum joined STEMchats to inspire future generations of scientists, notable first-generation low income students who deserve exposure to such technical fields. During her free time, Tatum is an avid rower, baker, and loves playing trivia. She is a Questbridge Scholar and hopes to empower fellow underprivileged students through STEM education."
 }
 ];
 
