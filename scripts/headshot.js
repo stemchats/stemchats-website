@@ -471,9 +471,9 @@ leadership = () => {
 }
 STEMlights = () => {
 		let array = membersObj.filter(function(member) {
-		department.innerHTML = "STEMlights";
 		return member.team == "STEMlights";
 	})
+	department.innerHTML = "STEMlights";
 	return array;
 }
 blueprint = () => {
