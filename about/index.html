@@ -8,6 +8,9 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
+    <!-- Semantic UI -->
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css"> -->
+
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/72d227a617.js" crossorigin="anonymous"></script>
 
@@ -104,9 +107,53 @@
             <div class = "row">
                 <div class = "col-lg-12 team-box text-center">
                     <h1 class = "team-box-title">Our Team</h1>
-                    <p class = "team-box-description">STEMchats is a completely <b>student-led organization</b>. Meet our team of the most creative, diligent, and passionate students across the United States.</p>
+                    <p class = "team-box-description">STEMchats is a completely <b>student-led organization</b>. Meet our team of the most creative, diligent, and passionate students across the United States. Click on our team members' profile pictures to learn more about them!</p>
+                    <h1 class = "team-box-title"></h1>
                 </div>
             </div>
+            <div class = "row justify-content-end">
+                <div class = "col-sm-2">
+                  <div class="show dropdown">
+                    <a id="department" class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownSelectTeam" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Select Team
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="dropdownSelectTeam">
+                      <a class="dropdown-item" href="#" onclick="hide(), ourTeam(), createMembers(membersObj)">Our Team</a>
+                      <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#" onclick="hide(), createMembers(leadership())">Leadership</a>
+                      <a class="dropdown-item" href="#" onclick="hide(), createMembers(STEMlights())">STEMlights</a>
+                      <a class="dropdown-item" href="#" onclick="hide(), createMembers(blueprint())">Blueprint</a>
+                      <a class="dropdown-item" href="#" onclick="hide(), createMembers(institute())">STEMchats Institute</a>
+                      <a class="dropdown-item" href="#" onclick="hide(), createMembers(ue())">United Engineers</a>
+                      <a class="dropdown-item" href="#" onclick="hide(), createMembers(scholars())">i-STEM Scholars</a>
+                      <a class="dropdown-item" href="#" onclick="hide(), createMembers(marketing())">Marketing</a>
+                      <a class="dropdown-item" href="#" onclick="hide(), createMembers(funding())">Funding</a>
+                      <a class="dropdown-item" href="#" onclick="hide(), createMembers(dev())">Development</a>
+                      <a class="dropdown-item" href="#" onclick="hide(), createMembers(tech())">Technology</a>
+                      <a class="dropdown-item" href="#" onclick="hide(), createMembers(seniorAdvisor())">Senior Advisors</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            <!-- <div class="ui compact menu">
+              <div class="ui simple dropdown item">
+                Select Team
+                <i class="dropdown icon"></i>
+                <div class="menu">
+                  <div class="item">Leadership</div>
+                  <div class="item">STEMlights</div>
+                  <div class="item">Blueprint</div>
+                  <div class="item">STEMchats Institute</div>
+                  <div class="item">United Engineers</div>
+                  <div class="item">i-STEM Scholars</div>
+                  <div class="item">Marketing</div>
+                  <div class="item">Funding</div>
+                  <div class="item">Development</div>
+                  <div class="item">Technology</div>
+                  <div class="item">Senior Advisors</div>
+                </div>
+              </div>
+            </div> -->
             <div id = "team_container">
               <!--data-aos="fade-up" data-aos-delay="300"-->
               <div class = "row" id="team">
@@ -117,6 +164,7 @@
    </section>
    <section id="footer">
      <div class = "container">
+
        <div id="footerHTML" class = "footer text-center">
            <!-- insert footer code -->
        </div>
@@ -128,6 +176,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- Semantic UI -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script> -->
 
     <!--scripts -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
