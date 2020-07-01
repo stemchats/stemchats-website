@@ -58,13 +58,13 @@ body {
   transition: .3s;
 }
 
-#department {
+#dropdownSelectTeam {
   background-color: #ff5959;
   border-color: #ff5959;
   color: #fff;
 }
 
-#department:focus {
+#dropdownSelectTeam:focus {
   box-shadow: inset 0 0 0 #ddd;
 }
 
