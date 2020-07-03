@@ -478,65 +478,65 @@ STEMlights = () => {
 }
 blueprint = () => {
 			let array = membersObj.filter(function(member) {
-			department.innerHTML = "Blueprint";
 			return member.team == "blueprint";
 		})
+		department.innerHTML = "Blueprint";
 		return array;
 	}
 institute = () => {
 			let array = membersObj.filter(function(member) {
-			department.innerHTML = "STEMchats Institute";
 			return member.team == "STEMchats Institute";
 		})
+		department.innerHTML = "STEMchats Institute";
 		return array;
 	}
 ue = () => {
 			let array = membersObj.filter(function(member) {
-			department.innerHTML = "United Engineers";
 			return member.team == "United Engineers";
 		})
+		department.innerHTML = "United Engineers";
 		return array;
 	}
 scholars = () => {
 			let array = membersObj.filter(function(member) {
-			department.innerHTML = "i-STEM Scholars";
 			return member.team == "i-STEM Scholars";
 		})
+		department.innerHTML = "i-STEM Scholars";
 		return array;
 }
 marketing = () => {
 			let array = membersObj.filter(function(member) {
-			department.innerHTML = "Marketing";
 			return member.team == "marketing";
 		})
+		department.innerHTML = "Marketing";
 		return array;
 	}
 funding = () => {
 		let array = membersObj.filter(function(member) {
-		department.innerHTML = "Funding";
 		return member.team == "funding";
 	})
+	department.innerHTML = "Funding";
 	return array;
 }
 dev = () => {
 			let array = membersObj.filter(function(member) {
-			department.innerHTML = "Development";
 			return member.team == "development";
 		})
+		department.innerHTML = "Development";
 		return array;
 	}
 tech = () => {
 		let array = membersObj.filter(function(member) {
-			department.innerHTML = "Technology";
 			return member.team == "technology";
 		})
+		department.innerHTML = "Technology";
 		return array;
 	}
 seniorAdvisor = () => {
 		let array = membersObj.filter(function(member) {
-			department.innerHTML = "Senior Advisors";
 		return member.team == "senior advisors";
 	})
+	department.innerHTML = "Senior Advisors";
 	return array;
 }
 
