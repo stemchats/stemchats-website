@@ -275,6 +275,13 @@ let membersObj = [
 	src: "LolaRustamova.jpg",
 	bio: "Lola is a rising second-year student at Baruch College in New York City. She joined STEMchats because she's passionate about helping disadvantaged students discover and learn more about STEM and provide more opportunities to them. In her spare time she loves spending time with kids, reading, baking, and exploring New York City."
 }, {
+	name: "Ekta Singh",
+	position: "Program Coordinator",
+	home: "Edison, NJ",
+	team: "United Engineers",
+	src: "EktaSingh.jpg",
+	bio: "Ekta is a passionate advocate for equal opportunities among all and is a rising third-year student pursuing biological engineering with a minor in biotechnology at Purdue University in West Lafayette, Indiana. She wanted to join STEMchats because as a woman and person of color in STEM, she finds that there needs to be a higher representation of those groups leading in STEM, through increased awareness and literacy of STEM. Outside of STEMchats, you will find her watching documentaries, being a social butterfly, volunteering in her community, and traveling to explore new cultures and hidden artifacts around the world."
+}, {
 	name: "Teddy Smith",
 	position: "Program Coordinator",
 	home: "Stratford, CT",
