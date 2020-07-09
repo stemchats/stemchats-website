@@ -4,6 +4,7 @@ let membersObj = [
 {
 	name: "Nicole Felix-Tovar",
 	position: "Chief Executive Officer",
+	linkedIn: "nfelixtovar/",
 	home: "Saint Cloud, FL",
 	team: "leadership",
 	src: "NicoleFelixTovar.jpg",
@@ -11,6 +12,7 @@ let membersObj = [
 }, {
 	name: "Sasha Kolesnikov",
 	position: "VP of Biz-Development",
+	linkedIn: "sasha-kolesnikov-profile/",
 	team: "leadership",
 	home: "Santa Cruz, CA",
 	src: "SashaKolesnikov.jpg",
@@ -20,6 +22,7 @@ let membersObj = [
 {
 	name: "Katrina Orevillo",
 	position: "Marketing Lead",
+	linkedIn: "korevillo/",
 	home: "Las Vegas, NV",
 	team: "marketing",
 	src: "KatrinaOverillo.jpg",
@@ -27,6 +30,7 @@ let membersObj = [
 }, {
 	name: "Joseph Chiang",
 	position: "Technology Lead",
+	linkedIn: "joseph-chiang/",
 	home: "Vancouver, Canada",
 	team: "technology",
 	src: "JosephChiang.jpg",
@@ -34,6 +38,7 @@ let membersObj = [
 }, {
 	name: "Mahir Rahman",
 	position: "Program Lead",
+	linkedIn: "mahir-rahman-8605201a7/",
 	home: "Kissimmee, FL",
 	team: "STEMlights",
 	src: "MahirRahman.jpg",
@@ -41,6 +46,7 @@ let membersObj = [
 }, {
 	name: "Alexej Latimer",
 	position: "Program Lead",
+	linkedIn: "alexejlatimer/",
 	home: "Sumner, WA",
 	team: "STEMchats Institute",
 	src: "AlexejLatimer.jpg",
@@ -48,6 +54,7 @@ let membersObj = [
 }, {
 	name: "Ege Yalcindag",
 	position: "Program Lead",
+	linkedIn: "selin-yalcindag-13bb80164/",
 	home: "Boston, MA",
 	team: "STEMchats Institute",
 	src: "EgeYalcindag.jpg",
@@ -55,6 +62,7 @@ let membersObj = [
 }, {
 	name: "Jasmine Li",
 	position: "Program Lead",
+	linkedIn: "jasmine-li-66821596/",
 	home: "Philadelphia, PA",
 	team: "United Engineers",
 	src: "JasmineLi.jpg",
@@ -62,6 +70,7 @@ let membersObj = [
 }, {
 	name: "Amel Saied-Hassan",
 	position: "Program Lead",
+	linkedIn: "amel-hassan-895615192/",
 	home: "Paterson, NJ",
 	team: "i-STEM Scholars",
 	src: "AmelSaiedHassan.jpg",
@@ -71,6 +80,7 @@ let membersObj = [
 {
 	name: "Tatum Wilhelm",
 	position: "Senior Advisor",
+	linkedIn: "tatum-wilhelm-203340177/",
 	home: "Orange County, CA",
 	team: "senior advisors",
 	src: "TatumWilhelm.jpg",
@@ -79,6 +89,7 @@ let membersObj = [
 {
 	name: "Sanja Kirova",
 	position: "Program Lead",
+	linkedIn: "sanja-kirova-cur10u5/",
 	home: "Portage, IN",
 	team: "United Engineers",
 	src: "SanjaKirova.jpg",
@@ -88,6 +99,7 @@ let membersObj = [
 {
 	name: "Anum Ahmad",
 	position: "Marketing Coordinator",
+	linkedIn: "anumqahmad/",
 	home: "Township, NJ",
 	team: "marketing",
 	src: "AnumAhmad.jpg",
@@ -95,6 +107,7 @@ let membersObj = [
 }, {
 	name: "Snoe Castillo",
 	position: "Marketing Coordinator",
+	linkedIn: "snoe-castillo/",
 	home: "San Jose, CA",
 	team: "marketing",
 	src: "SnoeCastillo.jpg",
@@ -102,6 +115,7 @@ let membersObj = [
 }, {
 	name: "Vivienne Nguyen",
 	position: "Marketing Coordinator",
+	linkedIn: "vivienne-nguyen-7703b6163/",
 	home: "Las Vegas, NV",
 	team: "marketing",
 	src: "VivienneNguyen.jpg",
@@ -109,6 +123,7 @@ let membersObj = [
 }, {
 	name: "Manvir Bhandal",
 	position: "Internal Development Coordinator",
+	linkedIn: null,
 	home: "Astoria, NY",
 	team: "development",
 	src: "ManvirBhandal.jpg",
@@ -116,6 +131,7 @@ let membersObj = [
 }, {
 	name: "Eleanor Liu",
 	position: "External Development Coordinator",
+	linkedIn: "eleanor-l-58a24b112/",
 	home: "Lexington, KY",
 	team: "development",
 	src: "EleanorLiu.jpg",
@@ -123,6 +139,7 @@ let membersObj = [
 }, {
 	name: "Alexa Ramirez",
 	position: "Funding Coordinator",
+	linkedIn: null,
 	home: "El Paso, TX",
 	team: "funding",
 	src: "AlexaRamirez.jpg",
@@ -130,6 +147,7 @@ let membersObj = [
 }, {
 	name: "Eliza Martin",
 	position: "Program Coordinator",
+	linkedIn: null,
 	home: "Sydney, Australia",
 	team: "blueprint",
 	src: "ElizaMartin.jpg",
@@ -137,6 +155,7 @@ let membersObj = [
 }, {
 	name: "Hana Memon",
 	position: "Program Coordinator",
+	linkedIn: "hanamemon/",
 	home: "Yardley, PA",
 	team: "blueprint",
 	src: "HanaMemon.jpg",
@@ -144,6 +163,7 @@ let membersObj = [
 }, {
 	name: "Anusha Puri",
 	position: "Program Coordinator",
+	linkedIn: "anusha-p-04bb59190/",
 	home: "Richmond, VA",
 	team: "blueprint",
 	src: "AnushaPuri.jpg",
@@ -151,6 +171,7 @@ let membersObj = [
 }, {
 	name: "Sekinat Aliu",
 	position: "Program Coordinator",
+	linkedIn: "sekinat-aliu-748aba16b/",
 	home: "Los Angeles, CA",
 	team: "STEMlights",
 	src: "SekinatAliu.jpg",
@@ -158,6 +179,7 @@ let membersObj = [
 }, {
 	name: "Lauren Chong",
 	position: "Program Coordinator",
+	linkedIn: "lauren-chong-792648163/",
 	home: "Irvine, CA",
 	team: "STEMlights",
 	src: "LaurenChong.jpg",
@@ -165,6 +187,7 @@ let membersObj = [
 }, {
 	name: "Amanda Edwards",
 	position: "Program Coordinator",
+	linkedIn: null,
 	home: "Wilmington, NC",
 	team: "STEMlights",
 	src: "AmandaEdwards.jpg",
@@ -172,6 +195,7 @@ let membersObj = [
 }, {
 	name: "Lucia Paulsen",
 	position: "Program Coordinator",
+	linkedIn: null,
 	home: "Matthews, NC",
 	team: "STEMlights",
 	src: "LuciaPaulsen.jpg",
@@ -179,6 +203,7 @@ let membersObj = [
 }, {
 	name: "Karthik Iyer",
 	position: "Program Coordinator",
+	linkedIn: "karthik-raghu-iyer/",
 	home: "Sunnyvale, CA",
 	team: "STEMchats Institute",
 	src: "KarthikIyer.jpg",
@@ -186,6 +211,7 @@ let membersObj = [
 }, {
 	name: "Sonali Joshi",
 	position: "Program Coordinator",
+	linkedIn: null,
 	home: "Cerritos, CA",
 	team: "STEMchats Institute",
 	src: "SonaliJoshi.jpg",
@@ -193,6 +219,7 @@ let membersObj = [
 }, {
 	name: "Mary Laplante",
 	position: "Program Coordinator",
+	linkedIn: null,
 	home: "Mount Prospect, IL",
 	team: "STEMchats Institute",
 	src: "MaryLaplante.jpg",
@@ -200,6 +227,7 @@ let membersObj = [
 }, {
 	name: "Bianca Luansing",
 	position: "Program Coordinator",
+	linkedIn: "bluansing/",
 	home: "San Diego, CA",
 	team: "STEMchats Institute",
 	src: "BiancaMoniqueLuansing.jpg",
@@ -207,6 +235,7 @@ let membersObj = [
 }, {
 	name: "Carina Ly",
 	position: "Program Coordinator",
+	linkedIn: "lycarina/",
 	home: "Seattle, WA",
 	team: "STEMchats Institute",
 	src: "CarinaLy.jpg",
@@ -214,6 +243,7 @@ let membersObj = [
 }, {
 	name: "Estrella Popoca",
 	position: "Program Coordinator",
+	linkedIn: "Estrella-2021/",
 	home: "Chicago, IL",
 	team: "STEMchats Institute",
 	src: "EstrellaPopoca.jpg",
@@ -221,6 +251,7 @@ let membersObj = [
 }, {
 	name: "Isabella Siu",
 	position: "Program Coordinator",
+	linkedIn: "isabellasiu/",
 	home: "Castro Valley, CA",
 	team: "STEMchats Institute",
 	src: "IsabellaSiu.jpg",
@@ -228,6 +259,7 @@ let membersObj = [
 }, {
 	name: "Patricia Wei",
 	position: "Program Coordinator",
+	linkedIn: null,
 	home: "San Jose, CA",
 	team: "STEMchats Institute",
 	src: "PatriciaWei.jpg",
@@ -235,6 +267,7 @@ let membersObj = [
 }, {
 	name: "David Zhou",
 	position: "Program Coordinator",
+	linkedIn: "david-zhou-5a8162181/",
 	home: "Chicago, IL",
 	team: "STEMchats Institute",
 	src: "DavidZhou.jpg",
@@ -242,6 +275,7 @@ let membersObj = [
 }, {
 	name: "Natalie Zhou",
 	position: "Program Coordinator",
+	linkedIn: null,
 	home: "Cupertino, CA",
 	team: "STEMchats Institute",
 	src: "NatalieZhou.jpg",
@@ -249,6 +283,7 @@ let membersObj = [
 }, {
 	name: "Swan Yee Aung",
 	position: "Program Coordinator",
+	linkedIn: null,
 	home: "Yangon, Burma",
 	team: "United Engineers",
 	src: "SwanYeeAung.jpg",
@@ -256,6 +291,7 @@ let membersObj = [
 }, {
 	name: "Ayo Bravo",
 	position: "Program Coordinator",
+	linkedIn: "ayotzin-bravo/",
 	home: "Salem, OR",
 	team: "United Engineers",
 	src: "AyoBravo.jpg",
@@ -263,6 +299,7 @@ let membersObj = [
 }, {
 	name: "Michael Coyle",
 	position: "Program Coordinator",
+	linkedIn: null,
 	home: "St. Louis, MO",
 	team: "United Engineers",
 	src: "MichaelCoyle.jpg",
@@ -270,6 +307,7 @@ let membersObj = [
 }, {
 	name: "Lola Rustamova",
 	position: "Program Coordinator",
+	linkedIn: "lolarustamova/",
 	home: "Brooklyn, NY",
 	team: "United Engineers",
 	src: "LolaRustamova.jpg",
@@ -277,6 +315,7 @@ let membersObj = [
 }, {
 	name: "Ekta Singh",
 	position: "Program Coordinator",
+	linkedIn: null,
 	home: "Edison, NJ",
 	team: "United Engineers",
 	src: "EktaSingh.jpg",
@@ -284,6 +323,7 @@ let membersObj = [
 }, {
 	name: "Teddy Smith",
 	position: "Program Coordinator",
+	linkedIn: null,
 	home: "Stratford, CT",
 	team: "United Engineers",
 	src: "TeddySmith.jpg",
@@ -291,6 +331,7 @@ let membersObj = [
 }, {
 	name: "Haoren Wen",
 	position: "Program Coordinator",
+	linkedIn: null,
 	home: "Guangzhou, China",
 	team: "United Engineers",
 	src: "HaorenWen.jpg",
@@ -298,6 +339,7 @@ let membersObj = [
 }, {
 	name: "Amy Xi",
 	position: "Program Coordinator",
+	linkedIn: null,
 	home: "Philadelphia, PA",
 	team: "United Engineers",
 	src: "AmyXi.jpg",
@@ -305,6 +347,7 @@ let membersObj = [
 }, {
 	name: "Sarah Young",
 	position: "Program Coordinator",
+	linkedIn: "sarah-young-955b451a1/",
 	home: "Philadelphia, PA",
 	team: "United Engineers",
 	src: "SarahYoung.jpg",
@@ -312,6 +355,7 @@ let membersObj = [
 }, {
 	name: "Carson Bohl",
 	position: "Program Coordinator",
+	linkedIn: null,
 	home: "Lake Tapps, WA",
 	team: "i-STEM Scholars",
 	src: "CarsonBohl.jpg",
@@ -319,6 +363,7 @@ let membersObj = [
 }, {
 	name: "Angela Easterling",
 	position: "Program Coordinator",
+	linkedIn: null,
 	home: "Melbourne, FL",
 	team: "i-STEM Scholars",
 	src: "AngelaEasterling.jpg",
@@ -326,6 +371,7 @@ let membersObj = [
 }, {
 	name: "Abigail Jiang",
 	position: "Program Coordinator",
+	linkedIn: "abigailyjiang/",
 	home: "Camas, WA",
 	team: "i-STEM Scholars",
 	src: "AbigailJiang.jpg",
@@ -333,6 +379,7 @@ let membersObj = [
 }, {
 	name: "Daniel Low",
 	position: "Program Coordinator",
+	linkedIn: null,
 	home: "Marion, IA",
 	team: "i-STEM Scholars",
 	src: "DanielLow.jpg",
@@ -340,6 +387,7 @@ let membersObj = [
 }, {
 	name: "Grace Pluemacher",
 	position: "Program Coordinator",
+	linkedIn: null,
 	home: "Point Pleasant Beach, NJ",
 	team: "i-STEM Scholars",
 	src: "GracePluemacher.jpg",
@@ -429,9 +477,16 @@ createMembers = (members) => {
       name.className="center name";
       nameText = document.createTextNode(members[i].name);
       name.appendChild(nameText);  //create text node + element node for the name
+			//add linkedIn
+			if(typeof members[i].linkedIn === "string") {
+				linkedIn = "<a href=\"https://www.linkedin.com/in/" + members[i].linkedIn + "\" target=\"_blank\"><i class=\"fab fa-linkedin fa-2x\"></i></a>";
+				name.innerHTML += linkedIn;
+			} else {
+				console.log(typeof members[i].linkedIn);
+			}
       position=document.createElement("p");
       position.className="center";
-      position.textContent=members[i].position;
+      position.innerHTML="<strong>" + members[i].position + "</strong>";
       hometown=document.createElement("p");
       hometown.className="center";
       hometown.textContent="Hometown: ";
@@ -464,7 +519,7 @@ hide = () => {
 	team.innerHTML = "";
 }
 
-//show specific departments
+//select Team
 ourTeam = () => {
 	department.innerHTML = "Our Team";
 }

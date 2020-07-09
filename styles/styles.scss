@@ -613,7 +613,18 @@ body {
   max-height: calc(100vh - 200px);
   overflow-y: auto;
   overflow-x: hidden;
+
+  i {
+    padding-left: 10px;
+    font-size: 1.17em;
+    color: #ddd;
+    transition: all .3s;
+  }
+  i:hover, i:focus {
+    color: $main-color;
+  }
 }
+
 .modal-backdrop {
   background-color: #000000;
   opacity: 0.2;

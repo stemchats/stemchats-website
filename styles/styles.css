@@ -624,6 +624,17 @@ body {
   overflow-x: hidden;
 }
 
+.modal-body i {
+  padding-left: 10px;
+  font-size: 1.17em;
+  color: #ddd;
+  transition: all .3s;
+}
+
+.modal-body i:hover, .modal-body i:focus {
+  color: #ff5959;
+}
+
 .modal-backdrop {
   background-color: #000000;
   opacity: 0.2;
