@@ -607,12 +607,10 @@ body {
 
 .modal-body {
   margin: 16px 0;
-  //overflow: auto;
+
   // max-height: calc(100vh - 200px);
   // overflow-y: auto;
-  max-height: calc(100vh - 200px);
-  overflow-y: auto;
-  overflow-x: hidden;
+  // overflow-x: hidden;
 
   i {
     padding-left: 10px;

@@ -118,19 +118,19 @@
                       <span id="department">Select Team</span>
                     </a>
                     <div class="dropdown-menu" aria-labelledby="dropdownSelectTeam">
-                      <a class="dropdown-item" href="#" onclick="hide(), ourTeam(), createMembers(membersObj)">Our Team</a>
+                      <a class="dropdown-item" href="#" onclick="loadAnimate(), hide(), ourTeam(), createMembers(membersObj)">Our Team</a>
                       <div class="dropdown-divider"></div>
-                      <a class="dropdown-item" href="#" onclick="hide(), createMembers(leadership())">Leadership</a>
-                      <a class="dropdown-item" href="#" onclick="hide(), createMembers(STEMlights())">STEMlights</a>
-                      <a class="dropdown-item" href="#" onclick="hide(), createMembers(blueprint())">Blueprint</a>
-                      <a class="dropdown-item" href="#" onclick="hide(), createMembers(institute())">STEMchats Institute</a>
-                      <a class="dropdown-item" href="#" onclick="hide(), createMembers(ue())">United Engineers</a>
-                      <a class="dropdown-item" href="#" onclick="hide(), createMembers(scholars())">i-STEM Scholars</a>
-                      <a class="dropdown-item" href="#" onclick="hide(), createMembers(marketing())">Marketing</a>
-                      <a class="dropdown-item" href="#" onclick="hide(), createMembers(funding())">Funding</a>
-                      <a class="dropdown-item" href="#" onclick="hide(), createMembers(dev())">Development</a>
-                      <a class="dropdown-item" href="#" onclick="hide(), createMembers(tech())">Technology</a>
-                      <a class="dropdown-item" href="#" onclick="hide(), createMembers(seniorAdvisor())">Senior Advisors</a>
+                      <a class="dropdown-item" href="#" onclick="loadAnimate(), hide(), createMembers(leadership())">Leadership</a>
+                      <a class="dropdown-item" href="#" onclick="loadAnimate(), hide(), createMembers(STEMlights())">STEMlights</a>
+                      <a class="dropdown-item" href="#" onclick="loadAnimate(), hide(), createMembers(blueprint())">Blueprint</a>
+                      <a class="dropdown-item" href="#" onclick="loadAnimate(), hide(), createMembers(institute())">STEMchats Institute</a>
+                      <a class="dropdown-item" href="#" onclick="loadAnimate(), hide(), createMembers(ue())">United Engineers</a>
+                      <a class="dropdown-item" href="#" onclick="loadAnimate(), hide(), createMembers(scholars())">i-STEM Scholars</a>
+                      <a class="dropdown-item" href="#" onclick="loadAnimate(), hide(), createMembers(marketing())">Marketing</a>
+                      <a class="dropdown-item" href="#" onclick="loadAnimate(), hide(), createMembers(funding())">Funding</a>
+                      <a class="dropdown-item" href="#" onclick="loadAnimate(), hide(), createMembers(dev())">Development</a>
+                      <a class="dropdown-item" href="#" onclick="loadAnimate(), hide(), createMembers(tech())">Technology</a>
+                      <a class="dropdown-item" href="#" onclick="loadAnimate(), hide(), createMembers(seniorAdvisor())">Senior Advisors</a>
                     </div>
                   </div>
                 </div>
@@ -154,8 +154,7 @@
                 </div>
               </div>
             </div> -->
-            <div id = "team_container">
-              <!--data-aos="fade-up" data-aos-delay="300"-->
+            <div data-aos="fade-up" id = "team_container">
               <div class = "row" id="team">
                 <!-- all team members -->
               </div>

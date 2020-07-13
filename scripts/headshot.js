@@ -1,3 +1,12 @@
+// AOS.init(); //animation
+AOS.init({
+		// offset: 200, // offset (in px) from the original trigger point
+
+		easing: 'ease-in-out', // default easing for AOS animations
+		once: false, // whether animation should happen only once - while scrolling down
+		// anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
+	});
+
 //data structures
 let membersObj = [
 //executives
@@ -398,6 +407,7 @@ let membersObj = [
 const url = "/images/headshots/";
 const team = document.getElementById("team");
 const department = document.getElementById("department");
+const animate = document.getElementById("team_container");
 
 //create all the team members
 createMembers = (members) => {
@@ -410,6 +420,7 @@ createMembers = (members) => {
       divTwo.className="card teamcard";
       img = document.createElement("img");
       img.className="modal-trigger card-img-top teamcard-img";
+			img.setAttribute("onClick", "removeAnimate()"); // remove aos animation/styling for modals
       img.setAttribute("alt", "Card image cap");
       img.setAttribute("data-toggle", "modal");
       img.setAttribute("src", url + members[i].src);
@@ -449,6 +460,7 @@ createMembers = (members) => {
       modalHeader.className="modal-header";
       button = document.createElement("button");
       button.className="close";
+			button.setAttribute("onclick", "addAnimate()"); //add aos animation/styling again after exiting modal
       button.setAttribute("type", "button");
       button.setAttribute("data-dismiss", "modal");
       button.setAttribute("aria-label", "Close");
@@ -513,6 +525,40 @@ createMembers = (members) => {
   });
 }
 
+//animation on click for the select
+loadAnimate = () => {
+	animate.style.visibility = "hidden";
+	// animate.style.display = "none";
+	window.scrollTo(0, 0);
+	setTimeout(function() {
+			animate.classList.remove("aos-animate");
+			// animate.style.display = "block";
+				setTimeout(function(){
+					animate.style.visibility = "visible";
+					animate.classList.add("aos-animate");
+				}, 600);
+		}, 50);
+}
+
+//remove styling/animation onclick modals
+removeAnimate = () => {
+	animate.removeAttribute("data-aos");
+}
+
+//add aos styling/animation after exiting modal
+addAnimate = () => {
+	setTimeout(function() {
+		animate.setAttribute("data-aos","fade-up");
+	}, 200)
+}
+
+//add the onload delay
+animateOnload = () => {
+	animate.setAttribute("data-aos-delay", "800");
+		setTimeout(function() {
+			animate.removeAttribute("data-aos-delay");
+		}, 500);
+	}
 
 //hide other members
 hide = () => {
@@ -603,13 +649,5 @@ seniorAdvisor = () => {
 }
 
 //load all at onload
-window.onload=createMembers(membersObj);
-
-// AOS.init(); //animation
-AOS.init({
-		offset: 200, // offset (in px) from the original trigger point
-		duration: 500, // values from 0 to 3000, with step 50ms
-		easing: 'ease-out', // default easing for AOS animations
-		once: false, // whether animation should happen only once - while scrolling down
-		anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
-	});
+window.onload = createMembers(membersObj);
+window.onload =	animateOnload();
