@@ -564,7 +564,6 @@ animateOnload = () => {
 hide = () => {
 	team.innerHTML = "";
 }
-
 //select Team
 ourTeam = () => {
 	department.innerHTML = "Our Team";
