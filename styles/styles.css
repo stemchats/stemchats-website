@@ -619,6 +619,9 @@ body {
 
 .modal-body {
   margin: 16px 0;
+  max-height: calc(100vh - 200px);
+  overflow-y: auto;
+  overflow-x: hidden;
 }
 
 .modal-body i {
