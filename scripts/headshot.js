@@ -421,10 +421,11 @@ createMembers = (members) => {
       img = document.createElement("img");
       img.className="modal-trigger card-img-top teamcard-img";
 			img.setAttribute("onClick", "removeAnimate()"); // remove aos animation/styling for modals
-      img.setAttribute("alt", "Card image cap");
+      img.setAttribute("alt", members[i].name);
       img.setAttribute("data-toggle", "modal");
       img.setAttribute("src", url + members[i].src);
       img.setAttribute("data-target", "#modal" + i); // the specific modal trigger
+			img.setAttribute("loading", "lazy");
       divThree = document.createElement("div");
       divThree.className="card-body teamcard-body";
       title = document.createElement("h3");
