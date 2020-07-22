@@ -26,17 +26,25 @@ let membersObj = [
 	home: "Santa Cruz, CA",
 	src: "SashaKolesnikov.jpg",
 	bio: "Sasha is a social justice advocate and a rising second-year student majoring in Environmental Economics & Policy at UC Berkeley in the Bay Area. She joined STEMchats as a first generation, low-income student with a goal of supporting historically disadvantaged groups in STEM and socially responsible organizations. In her free time, she enjoys finding unusual books to read, exploring new places with friends, listening to a variety of podcasts in an attempt to feel smart, and trying anything matcha flavored."
-},
-//leads
-{
+}, {
 	name: "Katrina Orevillo",
-	position: "Marketing Lead",
+	position: "VP of Biz-Development",
 	linkedIn: "korevillo/",
 	home: "Las Vegas, NV",
-	team: "marketing",
+	team: "leadership",
 	src: "KatrinaOverillo.jpg",
 	bio: "Katrina is a graphic designer and rising second-year computer science student attending California State University in Long Beach, California. She joined STEMchats to have an active role in pushing for equitable education while engaging her love for STEM. In her free time, she loves to bullet journal, go to concerts, and embark on foodie adventures around the city."
 }, {
+	name: "Amel Saied-Hassan",
+	position: "VP of Programming",
+	linkedIn: "amel-hassan-895615192/",
+	home: "Paterson, NJ",
+	team: "leadership",
+	src: "AmelSaiedHassan.jpg",
+	bio: "Amel is an advocate for opportunities for low-income & minority students and a rising third-year student majoring in Anthropology and Human Biology at Emory University in Atlanta, GA. She joined STEMchats to work to solve the issue of access and representation that many FGLI students and under-represented communities face when looking at research and STEM opportunities.  Outside of STEMchats, Amel enjoys watching shows, listening to all types of music, messing with her five siblings and parents, and cooking new foods!"
+},
+//leads
+{
 	name: "Joseph Chiang",
 	position: "Technology Lead",
 	linkedIn: "joseph-chiang/",
@@ -76,25 +84,8 @@ let membersObj = [
 	team: "United Engineers",
 	src: "JasmineLi.jpg",
 	bio: "Jasmine is an advocate for equitable education and a rising first-year at Dartmouth College. She joined STEMchats because everyone deserves the opportunity to thrive in STEM regardless of their individual backgrounds. In her free time, she enjoys singing, playing the ukulele, and spending way too long clicking through the endless void that is Youtube."
-}, {
-	name: "Amel Saied-Hassan",
-	position: "Program Lead",
-	linkedIn: "amel-hassan-895615192/",
-	home: "Paterson, NJ",
-	team: "i-STEM Scholars",
-	src: "AmelSaiedHassan.jpg",
-	bio: "Amel is an advocate for opportunities for low-income & minority students and a rising third-year student majoring in Anthropology and Human Biology at Emory University in Atlanta, GA. She joined STEMchats to work to solve the issue of access and representation that many FGLI students and under-represented communities face when looking at research and STEM opportunities.  Outside of STEMchats, Amel enjoys watching shows, listening to all types of music, messing with her five siblings and parents, and cooking new foods!"
 },
 //senior advisors
-{
-	name: "Tatum Wilhelm",
-	position: "Senior Advisor",
-	linkedIn: "tatum-wilhelm-203340177/",
-	home: "Orange County, CA",
-	team: "senior advisors",
-	src: "TatumWilhelm.jpg",
-	bio: "Tatum is a rising sophomore at the Massachusetts Institute of Technology majoring in Chemical Engineering and minoring in Biomedical Engineering. She joined STEMchats to help inspire and provide equal opportunity to fellow first-generation, low income students through mentorship and leadership. Outside of STEMchats, she is heavily involved in research, rowing, and being outdoors."
-},
 {
 	name: "Sanja Kirova",
 	position: "Program Lead",
@@ -103,6 +94,14 @@ let membersObj = [
 	team: "United Engineers",
 	src: "SanjaKirova.jpg",
 	bio: "Sanja is a robotics enthusiast and rising second-year student majoring in Mechanical Engineering at Columbia University in New York, NY. In her junior year of high school, Sanja started She Can Tech, a local computer science and technology program for middle school girls. As part of STEMchats, she is excited about sharing STEM with students from underserved communities. Sanja has been competing in robotics for the past 5 years, and she is part of Columbia’s motorsports (Formula SAE) team. Fun fact: Sanja is vegetarian and does not watch TV. She also enjoys photography, biking, travel, and reading."
+}, {
+	name: "Tatum Wilhelm",
+	position: "Senior Advisor",
+	linkedIn: "tatum-wilhelm-203340177/",
+	home: "Orange County, CA",
+	team: "senior advisors",
+	src: "TatumWilhelm.jpg",
+	bio: "Tatum is a rising sophomore at the Massachusetts Institute of Technology majoring in Chemical Engineering and minoring in Biomedical Engineering. She joined STEMchats to help inspire and provide equal opportunity to fellow first-generation, low income students through mentorship and leadership. Outside of STEMchats, she is heavily involved in research, rowing, and being outdoors."
 },
 //coords
 {
