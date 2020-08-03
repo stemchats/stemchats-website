@@ -208,7 +208,7 @@ body {
   font-family: "Karla", sans-serif;
   background-color: white;
   color: black;
-  padding: 1em 0em 5em 0em;
+  padding: 1em 0em 1em 0em;
   margin: 0em 1em 0em 1em;
   height: 100%;
   text-align: center !important;
@@ -256,7 +256,6 @@ body {
 .team .team-box-title {
   font-size: 32px;
   font-weight: 800;
-  margin-top: 0em;
   font-size: 40px;
 }
 

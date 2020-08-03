@@ -1,4 +1,8 @@
 @media only screen and (min-width: 920px) {
+  /*computer */
+  #temp {
+    height: 100px;
+  }
   .navbar {
     background-color: white !important;
     padding-top: 10px;
@@ -230,6 +234,9 @@
 
 @media screen and (max-width: 767px) {
   /* start of medium tablet styles */
+  #temp {
+    height: 0px;
+  }
   .modal-header .close {
     margin: -6px;
   }
