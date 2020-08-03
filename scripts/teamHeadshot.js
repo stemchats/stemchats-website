@@ -1,12 +1,3 @@
-// AOS.init(); //animation
-AOS.init({
-		// offset: 200, // offset (in px) from the original trigger point
-
-		easing: 'ease-in-out', // default easing for AOS animations
-		once: false, // whether animation should happen only once - while scrolling down
-		// anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
-	});
-
 //data structures
 let membersObj = [
 //executives
@@ -45,6 +36,14 @@ let membersObj = [
 },
 //leads
 {
+	name: "Snoe Castillo",
+	position: "Marketing Lead",
+	linkedIn: "snoe-castillo/",
+	home: "San Jose, CA",
+	team: "marketing",
+	src: "SnoeCastillo.jpg",
+	bio: "Snoe is a rising second-year majoring in Film/Cinema/Video Studies at San Jose State University. She joined STEMchats because she wanted to help provide the same support and opportunities to minorities and show the potential of the younger generations. In her free time, she enjoys watching animation, editing graphics/videos, and eating asian cuisine."
+}, {
 	name: "Joseph Chiang",
 	position: "Technology Lead",
 	linkedIn: "joseph-chiang/",
@@ -60,6 +59,14 @@ let membersObj = [
 	team: "STEMlights",
 	src: "MahirRahman.jpg",
 	bio: "Mahir is a proponent advocate for equitable educational and medicinal opportunities and is an IB senior at Gateway High School in Kissimmee, Florida. He aspires to study Public Health and joined STEMchats to introduce medicinal aspects to the program, to provide awareness towards, and include underprivileged, FGLI (first-generation, low-income), women, & minorities, in a global manner. In his free time, he enjoys reading about politics, exploring fashion and makeup, and listening to music."
+}, {
+	name: "Amanda Edwards",
+	position: "Program Lead",
+	linkedIn: null,
+	home: "Wilmington, NC",
+	team: "STEMlights",
+	src: "AmandaEdwards.jpg",
+	bio: "Amanda is an environmental science activist and currently a senior at Cape Fear Academy in Wilmington, NC. She joined STEMchats as a program coordinator for STEMlights to give underrepresented students the opportunity to pursue STEM careers and spark change in their communities. In her free time, she enjoys travelling, collecting rocks, and listening to all types of music. She will be attending Cornell University in the fall majoring in Environment and Sustainability."
 }, {
 	name: "Alexej Latimer",
 	position: "Program Lead",
@@ -84,14 +91,70 @@ let membersObj = [
 	team: "United Engineers",
 	src: "JasmineLi.jpg",
 	bio: "Jasmine is an advocate for equitable education and a rising first-year at Dartmouth College. She joined STEMchats because everyone deserves the opportunity to thrive in STEM regardless of their individual backgrounds. In her free time, she enjoys singing, playing the ukulele, and spending way too long clicking through the endless void that is Youtube."
+}, {
+	name: "Ekta Singh",
+	position: "Program Lead",
+	linkedIn: null,
+	home: "Edison, NJ",
+	team: "United Engineers",
+	src: "EktaSingh.jpg",
+	bio: "Ekta is a passionate advocate for equal opportunities among all and is a rising third-year student pursuing biological engineering with a minor in biotechnology at Purdue University in West Lafayette, Indiana. She wanted to join STEMchats because as a woman and person of color in STEM, she finds that there needs to be a higher representation of those groups leading in STEM, through increased awareness and literacy of STEM. Outside of STEMchats, you will find her watching documentaries, being a social butterfly, volunteering in her community, and traveling to explore new cultures and hidden artifacts around the world."
+}, {
+	name: "Haoren Wen",
+	position: "Program Lead",
+	linkedIn: null,
+	home: "Guangzhou, China",
+	team: "United Engineers",
+	src: "HaorenWen.jpg",
+	bio: "Haoran is an enthusiast in engineering and is a rising first year student at the Massachusetts Institute of Technology. He joined STEMchats in hopes of providing greater opportunities to first generation, low income students and help inspire a new wave of future engineers. In his free time, he enjoys exercising, playing the piano, and learning about new technologies."
+}, {
+	name: "Lola Rustamova",
+	position: "Program Lead",
+	linkedIn: "lolarustamova/",
+	home: "Brooklyn, NY",
+	team: "United Engineers",
+	src: "LolaRustamova.jpg",
+	bio: "Lola is a rising second-year student at Baruch College in New York City. She joined STEMchats because she's passionate about helping disadvantaged students discover and learn more about STEM and provide more opportunities to them. In her spare time she loves spending time with kids, reading, baking, and exploring New York City."
+}, {
+	name: "Abigail Jiang",
+	position: "Program Lead",
+	linkedIn: "abigailyjiang/",
+	home: "Camas, WA",
+	team: "i-STEM Scholars",
+	src: "AbigailJiang.jpg",
+	bio: "Abigail is a scientist, activist, and a rising second-year student at Caltech studying Materials Science with a focus on Physics. She joined STEMchats to create tangible community impact and empower youth, specifically by providing quality educational opportunities alongside personal mentorship. She is passionate about scientific research, peer mental health advising, and sustainable living. In her free time, she loves hiking, photographing the world, and exploring museums."
+}, {
+	name: "Hana Memon",
+	position: "Program Lead",
+	linkedIn: "hanamemon/",
+	home: "Yardley, PA",
+	team: "blueprint",
+	src: "HanaMemon.jpg",
+	bio: "Hana is a rising freshman at the College of New Jersey where she plans to study Computer Science, Business, and Arabic. Hana actively uses her technical skills to empower marginalized communities through technology. Hana first joined STEMchats to give FGLI students a platform to creatively express their scientific interests. Outside of STEMchats, Hana is involved with various other student run nonprofits dedicated towards making the tech industry more inclusive. In her free time, you can find Hana drinking iced coffee and discovering new music on Spotify."
+}, {
+	name: "Manvir Bhandal",
+	position: "Internal Development Lead",
+	linkedIn: null,
+	home: "Astoria, NY",
+	team: "development",
+	src: "ManvirBhandal.jpg",
+	bio: "Manvir is a passionate researcher/entrepreneur and a rising first-year  student majoring in Biochemistry at Columbia University in NYC and a graduating senior at the Bronx High School of Science in the Bronx, NY. He joined STEMchats to help provide underprivileged students, such as low income, first generation youth, with more opportunities in STEM and to help connect the STEM world with underrepresented groups. In his free time, he enjoys conducting scientific research, buying and reselling streetwear, and playing basketball."
+}, {
+	name: "Alexa Ramirez",
+	position: "Funding Lead",
+	linkedIn: null,
+	home: "El Paso, TX",
+	team: "funding",
+	src: "AlexaRamirez.jpg",
+	bio: "Alexa is an aspiring tech entrepreneur/aerospace engineer who has a passion for space, and is currently a junior at Clint Early College Academy, TX. She joined STEMchats because as a fellow Latina, she would love to see, and inspire other latinas to pursue engineering and become business owners. In her free time she enjoys learning about space and physics, horseback riding, archery, and dancing."
 },
 //senior advisors
 {
 	name: "Sanja Kirova",
-	position: "Program Lead",
+	position: "Senior Advisor",
 	linkedIn: "sanja-kirova-cur10u5/",
 	home: "Portage, IN",
-	team: "United Engineers",
+	team: "senior advisors",
 	src: "SanjaKirova.jpg",
 	bio: "Sanja is a robotics enthusiast and rising second-year student majoring in Mechanical Engineering at Columbia University in New York, NY. In her junior year of high school, Sanja started She Can Tech, a local computer science and technology program for middle school girls. As part of STEMchats, she is excited about sharing STEM with students from underserved communities. Sanja has been competing in robotics for the past 5 years, and she is part of Columbia’s motorsports (Formula SAE) team. Fun fact: Sanja is vegetarian and does not watch TV. She also enjoys photography, biking, travel, and reading."
 }, {
@@ -113,14 +176,6 @@ let membersObj = [
 	src: "AnumAhmad.jpg",
 	bio: "Anum is an activist with a love for technology, and is a sophomore at Noor Ul Iman School.  She wanted to join STEMchats because as an hijabi girl, she often finds a lack of representation in the technology field, and hopes to change that!  When she is not coding, she is usually reading, designing, or working on her card business!"
 }, {
-	name: "Snoe Castillo",
-	position: "Marketing Coordinator",
-	linkedIn: "snoe-castillo/",
-	home: "San Jose, CA",
-	team: "marketing",
-	src: "SnoeCastillo.jpg",
-	bio: "Snoe is a rising second-year majoring in Film/Cinema/Video Studies at San Jose State University. She joined STEMchats because she wanted to help provide the same support and opportunities to minorities and show the potential of the younger generations. In her free time, she enjoys watching animation, editing graphics/videos, and eating asian cuisine."
-}, {
 	name: "Vivienne Nguyen",
 	position: "Marketing Coordinator",
 	linkedIn: "vivienne-nguyen-7703b6163/",
@@ -128,14 +183,6 @@ let membersObj = [
 	team: "marketing",
 	src: "VivienneNguyen.jpg",
 	bio: "Vivienne is a passionate entrepreneur and rising second-year student majoring in Business Administration at the University of Nevada, Las Vegas. She was eager to join STEMchats because she believes in its mission and wants to use her marketing experience to help expand it to the next level! In her spare time, she enjoys taking photos, traveling, and spending time with friends."
-}, {
-	name: "Manvir Bhandal",
-	position: "Internal Development Coordinator",
-	linkedIn: null,
-	home: "Astoria, NY",
-	team: "development",
-	src: "ManvirBhandal.jpg",
-	bio: "Manvir is a passionate researcher/entrepreneur and a rising first-year  student majoring in Biochemistry at Columbia University in NYC and a graduating senior at the Bronx High School of Science in the Bronx, NY. He joined STEMchats to help provide underprivileged students, such as low income, first generation youth, with more opportunities in STEM and to help connect the STEM world with underrepresented groups. In his free time, he enjoys conducting scientific research, buying and reselling streetwear, and playing basketball."
 }, {
 	name: "Eleanor Liu",
 	position: "External Development Coordinator",
@@ -145,14 +192,6 @@ let membersObj = [
 	src: "EleanorLiu.jpg",
 	bio: "Eleanor Liu is a first-year student at Oxford College of Emory University studying business. She is excited to be a part of the STEMchats mission and is passionate about quality public education, enthusiasm attributed to her fortunate experience in an accelerated STEM program during high school and seeing the challenges other students have endured while attending public school throughout her life. Eleanor's favorite shape is the triangle and love music from 88Rising artists."
 }, {
-	name: "Alexa Ramirez",
-	position: "Funding Coordinator",
-	linkedIn: null,
-	home: "El Paso, TX",
-	team: "funding",
-	src: "AlexaRamirez.jpg",
-	bio: "Alexa is an aspiring tech entrepreneur/aerospace engineer who has a passion for space, and is currently a junior at Clint Early College Academy, TX. She joined STEMchats because as a fellow Latina, she would love to see, and inspire other latinas to pursue engineering and become business owners. In her free time she enjoys learning about space and physics, horseback riding, archery, and dancing."
-}, {
 	name: "Eliza Martin",
 	position: "Program Coordinator",
 	linkedIn: null,
@@ -160,14 +199,6 @@ let membersObj = [
 	team: "blueprint",
 	src: "ElizaMartin.jpg",
 	bio: "Eliza is a passionate scientist/innovator and a high school senior from Sydney, Australia. She joined STEMchats to assist others in gaining access to crucial resources to help achieve their STEM goals. In her free time she enjoys playing jazz on her saxophone as well as riding kangaroos and eating Vegemite."
-}, {
-	name: "Hana Memon",
-	position: "Program Coordinator",
-	linkedIn: "hanamemon/",
-	home: "Yardley, PA",
-	team: "blueprint",
-	src: "HanaMemon.jpg",
-	bio: "Hana is a rising freshman at the College of New Jersey where she plans to study Computer Science, Business, and Arabic. Hana actively uses her technical skills to empower marginalized communities through technology. Hana first joined STEMchats to give FGLI students a platform to creatively express their scientific interests. Outside of STEMchats, Hana is involved with various other student run nonprofits dedicated towards making the tech industry more inclusive. In her free time, you can find Hana drinking iced coffee and discovering new music on Spotify."
 }, {
 	name: "Anusha Puri",
 	position: "Program Coordinator",
@@ -192,14 +223,6 @@ let membersObj = [
 	team: "STEMlights",
 	src: "LaurenChong.jpg",
 	bio: "Lauren is a senior at Woodbridge High School in California. She joined STEMchats because it was the perfect opportunity to combine her love for publications and goal of increasing opportunities for underserved students. In her free time, she enjoys playing with her rabbit, bullet journaling, and sleeping."
-}, {
-	name: "Amanda Edwards",
-	position: "Program Coordinator",
-	linkedIn: null,
-	home: "Wilmington, NC",
-	team: "STEMlights",
-	src: "AmandaEdwards.jpg",
-	bio: "Amanda is an environmental science activist and currently a senior at Cape Fear Academy in Wilmington, NC. She joined STEMchats as a program coordinator for STEMlights to give underrepresented students the opportunity to pursue STEM careers and spark change in their communities. In her free time, she enjoys travelling, collecting rocks, and listening to all types of music. She will be attending Cornell University in the fall majoring in Environment and Sustainability."
 }, {
 	name: "Lucia Paulsen",
 	position: "Program Coordinator",
@@ -313,22 +336,6 @@ let membersObj = [
 	src: "MichaelCoyle.jpg",
 	bio: "Mike is a freshman student at the University of Pennsylvania. He joined STEMchats to spread passion for STEM to a younger generation. In his free time, Mike enjoys skateboarding, taking pictures, and reading fiction."
 }, {
-	name: "Lola Rustamova",
-	position: "Program Coordinator",
-	linkedIn: "lolarustamova/",
-	home: "Brooklyn, NY",
-	team: "United Engineers",
-	src: "LolaRustamova.jpg",
-	bio: "Lola is a rising second-year student at Baruch College in New York City. She joined STEMchats because she's passionate about helping disadvantaged students discover and learn more about STEM and provide more opportunities to them. In her spare time she loves spending time with kids, reading, baking, and exploring New York City."
-}, {
-	name: "Ekta Singh",
-	position: "Program Coordinator",
-	linkedIn: null,
-	home: "Edison, NJ",
-	team: "United Engineers",
-	src: "EktaSingh.jpg",
-	bio: "Ekta is a passionate advocate for equal opportunities among all and is a rising third-year student pursuing biological engineering with a minor in biotechnology at Purdue University in West Lafayette, Indiana. She wanted to join STEMchats because as a woman and person of color in STEM, she finds that there needs to be a higher representation of those groups leading in STEM, through increased awareness and literacy of STEM. Outside of STEMchats, you will find her watching documentaries, being a social butterfly, volunteering in her community, and traveling to explore new cultures and hidden artifacts around the world."
-}, {
 	name: "Teddy Smith",
 	position: "Program Coordinator",
 	linkedIn: null,
@@ -336,14 +343,6 @@ let membersObj = [
 	team: "United Engineers",
 	src: "TeddySmith.jpg",
 	bio: "Teddy Smith is an aspiring rocket scientist and current senior at St Joseph High School in Trumbull, Connecticut. He joined STEMchats so he could share his passion for engineering with others and inspire those with interests in STEM. In his spare time, he enjoys building and flying racing drones, RC airplanes, launching model rockets, and snowboarding."
-}, {
-	name: "Haoren Wen",
-	position: "Program Coordinator",
-	linkedIn: null,
-	home: "Guangzhou, China",
-	team: "United Engineers",
-	src: "HaorenWen.jpg",
-	bio: "Haoran is an enthusiast in engineering and is a rising first year student at the Massachusetts Institute of Technology. He joined STEMchats in hopes of providing greater opportunities to first generation, low income students and help inspire a new wave of future engineers. In his free time, he enjoys exercising, playing the piano, and learning about new technologies."
 }, {
 	name: "Amy Xi",
 	position: "Program Coordinator",
@@ -377,14 +376,6 @@ let membersObj = [
 	src: "AngelaEasterling.jpg",
 	bio: "Angela is a passionate neuroscience \"interdisciplinary\" researcher and is a rising second-year student at the Harriet L. Wilkes Honors College in Jupiter, Florida. She joined STEMchats because as a former high school student, she experienced first-hand stem inequities in both her education and the opportunities she was able to pursue due to geographic and economic barriers. She is passionate about inclusivity and mentorship in STEM, encouraging undergraduate student research and volunteer involvement in her college community.  In her free time, she enjoys listening to lofi and podcasts, meeting new people and learning about new things, and yes, drinking tea."
 }, {
-	name: "Abigail Jiang",
-	position: "Program Coordinator",
-	linkedIn: "abigailyjiang/",
-	home: "Camas, WA",
-	team: "i-STEM Scholars",
-	src: "AbigailJiang.jpg",
-	bio: "Abigail is a scientist, activist, and a rising second-year student at Caltech studying Materials Science with a focus on Physics. She joined STEMchats to create tangible community impact and empower youth, specifically by providing quality educational opportunities alongside personal mentorship. She is passionate about scientific research, peer mental health advising, and sustainable living. In her free time, she loves hiking, photographing the world, and exploring museums."
-}, {
 	name: "Daniel Low",
 	position: "Program Coordinator",
 	linkedIn: null,
@@ -402,251 +393,6 @@ let membersObj = [
 	bio: "Grace Pluemacher is a passionate researcher and a rising senior at the Marine Academy of Technology and Environmental Science. She joined STEMchats to inspire future students, especially women, to explore fields in STEM through independent research. In her free time, she enjoys playing various sports, watching Netflix and playing the drums."
 }
 ];
-
-const url = "/images/headshots/";
-const team = document.getElementById("team");
-const department = document.getElementById("department");
-const animate = document.getElementById("team_container");
-
-//create all the team members
-createMembers = (members) => {
-  members.forEach(function(value, i) {
-    //create card
-    createCard = () => {
-      divOne = document.createElement("div");
-      divOne.className="col-md-4";
-      divTwo = document.createElement("div");
-      divTwo.className="card teamcard";
-      img = document.createElement("img");
-      img.className="modal-trigger card-img-top teamcard-img";
-			img.setAttribute("onClick", "removeAnimate()"); // remove aos animation/styling for modals
-      img.setAttribute("alt", members[i].name);
-      img.setAttribute("data-toggle", "modal");
-      img.setAttribute("src", url + members[i].src);
-      img.setAttribute("data-target", "#modal" + i); // the specific modal trigger
-			img.setAttribute("loading", "lazy");
-      divThree = document.createElement("div");
-      divThree.className="card-body teamcard-body";
-      title = document.createElement("h3");
-      title.className="card-title teamcard-title";
-      title.textContent = members[i].name;
-      desc = document.createElement("h3");
-      desc.className="card-text teamcard-description";
-      desc.textContent = members[i].position;
-      divThree.appendChild(title);
-      divThree.appendChild(desc);
-      divTwo.appendChild(img);
-      divTwo.appendChild(divThree);
-      divOne.appendChild(divTwo);
-      return divOne;
-    }
-    //create modal
-    createModal = () => {
-      modal = document.createElement("div");
-      modal.id="modal"+i; //the specific modal id
-      modal.className="modal fade";
-      modal.setAttribute("tabindex", "-1");
-      // modal.setAttribute("role", "dialog");
-      modal.setAttribute("data-backdrop", "static");
-      modal.setAttribute("data-keyboard", "false");
-      modal.setAttribute("aria-labelledby", "Modal-label");
-      modal.setAttribute("aria-hidden", "true");
-      modalDialog = document.createElement("div");
-      modalDialog.className="modal-dialog modal-dialog-centered";
-      // divTwo.setAttribute("role","document");
-      modalContent = document.createElement("div");
-      modalContent.className="modal-content";
-      modalHeader = document.createElement("div");
-      modalHeader.className="modal-header";
-      button = document.createElement("button");
-      button.className="close";
-			button.setAttribute("onclick", "addAnimate()"); //add aos animation/styling again after exiting modal
-      button.setAttribute("type", "button");
-      button.setAttribute("data-dismiss", "modal");
-      button.setAttribute("aria-label", "Close");
-      span = document.createElement("span");
-      span.setAttribute("aria-hidden", "true");
-      span.textContent="&times;"
-      button.appendChild(span);
-      modalHeader.appendChild(button);
-      modalBody=document.createElement("div");
-      modalBody.className = "modal-body";
-      container=document.createElement("div");
-      container.className="container-fluid";
-      row=document.createElement("div");
-      row.className = "row";
-      col1=document.createElement("div");
-      col1.className="col-md-6 my-auto mx-auto";
-      img=document.createElement("img");
-      img.className="img-fluid";
-      img.setAttribute("alt",members[i].name);
-      img.setAttribute("src", url+members[i].src);
-      col1.appendChild(img);
-      row.appendChild(col1);
-      col2=document.createElement("div");
-      col2.className="left col-lg-6 my-auto";
-      const name=document.createElement("h3");
-      name.className="center name";
-      nameText = document.createTextNode(members[i].name);
-      name.appendChild(nameText);  //create text node + element node for the name
-			//add linkedIn
-			if(typeof members[i].linkedIn === "string") {
-				linkedIn = "<a href=\"https://www.linkedin.com/in/" + members[i].linkedIn + "\" target=\"_blank\"><i class=\"fab fa-linkedin fa-2x\"></i></a>";
-				name.innerHTML += linkedIn;
-			} else {
-				console.log(typeof members[i].linkedIn);
-			}
-      position=document.createElement("p");
-      position.className="center";
-      position.innerHTML="<strong>" + members[i].position + "</strong>";
-      hometown=document.createElement("p");
-      hometown.className="center";
-      hometown.textContent="Hometown: ";
-      home=document.createElement("span");
-      home.textContent=members[i].home;
-      hometown.appendChild(home);
-      bio=document.createElement("p");
-      bio.textContent=members[i].bio;
-      col2.appendChild(name);
-      col2.appendChild(position);
-      col2.appendChild(hometown);
-      col2.appendChild(bio);
-      row.appendChild(col2);
-      container.appendChild(row);
-      modalBody.appendChild(container);
-      modalContent.appendChild(modalHeader);
-      modalContent.appendChild(modalBody);
-      modalDialog.appendChild(modalContent);
-      modal.appendChild(modalDialog);
-      return modal;
-    }
-    team.appendChild(createCard());
-    team.appendChild(createModal());
-  });
-}
-
-//animation on click for the select
-loadAnimate = () => {
-	animate.style.visibility = "hidden";
-	// animate.style.display = "none";
-	window.scrollTo(0, 0);
-	setTimeout(function() {
-			animate.classList.remove("aos-animate");
-			// animate.style.display = "block";
-				setTimeout(function(){
-					animate.style.visibility = "visible";
-					animate.classList.add("aos-animate");
-				}, 600);
-		}, 50);
-}
-
-//remove styling/animation onclick modals
-removeAnimate = () => {
-	animate.removeAttribute("data-aos");
-}
-
-//add aos styling/animation after exiting modal
-addAnimate = () => {
-	setTimeout(function() {
-		animate.setAttribute("data-aos","fade-up");
-	}, 200)
-}
-
-//add the onload delay
-animateOnload = () => {
-	animate.setAttribute("data-aos-delay", "800");
-		setTimeout(function() {
-			animate.removeAttribute("data-aos-delay");
-		}, 500);
-	}
-
-//hide other members
-hide = () => {
-	team.innerHTML = "";
-}
-
-//select Team
-ourTeam = () => {
-	department.innerHTML = "Our Team";
-}
-
-leadership = () => {
- 		let array = membersObj.filter(function(member) {
-		return member.team == "leadership";
-	})
-	department.innerHTML = "Leadership";
-	return array;
-}
-STEMlights = () => {
-		let array = membersObj.filter(function(member) {
-		return member.team == "STEMlights";
-	})
-	department.innerHTML = "STEMlights";
-	return array;
-}
-blueprint = () => {
-			let array = membersObj.filter(function(member) {
-			return member.team == "blueprint";
-		})
-		department.innerHTML = "Blueprint";
-		return array;
-	}
-institute = () => {
-			let array = membersObj.filter(function(member) {
-			return member.team == "STEMchats Institute";
-		})
-		department.innerHTML = "STEMchats Institute";
-		return array;
-	}
-ue = () => {
-			let array = membersObj.filter(function(member) {
-			return member.team == "United Engineers";
-		})
-		department.innerHTML = "United Engineers";
-		return array;
-	}
-scholars = () => {
-			let array = membersObj.filter(function(member) {
-			return member.team == "i-STEM Scholars";
-		})
-		department.innerHTML = "i-STEM Scholars";
-		return array;
-}
-marketing = () => {
-			let array = membersObj.filter(function(member) {
-			return member.team == "marketing";
-		})
-		department.innerHTML = "Marketing";
-		return array;
-	}
-funding = () => {
-		let array = membersObj.filter(function(member) {
-		return member.team == "funding";
-	})
-	department.innerHTML = "Funding";
-	return array;
-}
-dev = () => {
-			let array = membersObj.filter(function(member) {
-			return member.team == "development";
-		})
-		department.innerHTML = "Development";
-		return array;
-	}
-tech = () => {
-		let array = membersObj.filter(function(member) {
-			return member.team == "technology";
-		})
-		department.innerHTML = "Technology";
-		return array;
-	}
-seniorAdvisor = () => {
-		let array = membersObj.filter(function(member) {
-		return member.team == "senior advisors";
-	})
-	department.innerHTML = "Senior Advisors";
-	return array;
-}
 
 //load all at onload
 window.onload = createMembers(membersObj);

@@ -61,10 +61,16 @@
                     <li class="nav-item">
                         <a class = "nav-link" href = "/index.html">HOME</a>
                     </li>
-                    <li class="nav-item">
-                        <a class = "nav-link active" href = "/about/">ABOUT US</a>
+                    <!-- about us dropdown -->
+                    <li class="nav-item active dropdown">
+                      <a class = "dropdown-toggle nav-link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" href = "/about/">ABOUT US</a>
+                      <div class="dropdown-menu">
+                          <!-- <a class="dropdown-item" href="#">Our Story</a> -->
+                          <a class="dropdown-item" href="/about/team/">Our Team</a>
+                          <a class="dropdown-item" href="/about/interns/">Our Interns</a>
+                      </div>
                     </li>
-                <!-- dropdown -->
+                <!-- program dropdown -->
                 <li class="nav-item dropdown">
                   <a class = "dropdown-toggle nav-link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" href = "/programs/">OUR PROGRAMS</a>
                   <div class="dropdown-menu">
@@ -105,7 +111,7 @@
             <div class = "row">
                 <div class = "col-lg-12 team-box text-center">
                     <h1 class = "team-box-title">Our Team</h1>
-                    <p class = "team-box-description">STEMchats is a completely <b>student-led organization</b>. Meet our team of the most creative, diligent, and passionate students across the United States. Click on our team members' profile pictures to learn more about them!</p>
+                    <p class = "team-box-description">STEMchats is a completely <b>student-led organization</b>. Meet our team of the most creative, diligent, and passionate students. Click on our team members' profile pictures to learn more about them!</p>
                     <h1 class = "team-box-title"></h1>
                 </div>
             </div>
@@ -155,13 +161,11 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
-    <!-- Semantic UI -->
-    <!-- <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script> -->
-
     <!--scripts -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script type="text/javascript" src="/scripts/footer.js"></script>
-    <script type="text/javascript" src="/scripts/headshot.js"></script>
+    <script type="text/javascript" src="/scripts/scripts.js"></script>
+    <script type="text/javascript" src="/scripts/teamHeadshot.js"></script>
     <script>
       let team_container = document.getElementById("team_container");
       team_container.style.height="inherit";
