@@ -323,14 +323,6 @@ let internsObj = [
 		bio: "Zainab is a youth advocate and a rising third-year student majoring in business administration. Zainab has taken part in many leadership positions and run many initiatives & campaigns to empower youth in education, STEM, and entrepreneurship fields. She joined STEMchats because she believes in its mission and wants to empower more people to pursue their career in STEM fields, especially the one who is living in the underserved communities. In her free time, she enjoys watching movies, reading books, and debating."
   },
 	{
-		name: "Rachael Patterson",
-		position: "External Development Intern",
-		linkedIn: "rachael-patterson-906b17187/",
-		home: "Chicago, IL",
-		src: "RachaelPatterson.jpg",
-		bio: "Rachael is a rising freshman at the University of Pennsylvania intending to major in Finance and Data Analytics who is passionate about creating a more equitable education system that provides more opportunities for FGLI students. Born in Ghana, West Africa, she joined STEMchats because the mission of the organization resonated with her and she wanted to dedicate her efforts in helping encourage young people to learn about and pursue careers in STEM. In her free time, Rachael loves watching different movies and tv-shows, playing sports, drawing and cooking!"
-  },
-	{
 		name: "Sristi Palimar",
 		position: "External Development Intern",
 		linkedIn: "sristi-palimar-238397188/",
