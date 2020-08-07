@@ -244,6 +244,9 @@
 
 @media screen and (max-width: 479px) {
   /* start of phone styles */
+  .program-box .program-box-text {
+    font-size: 16px;
+  }
   .modal .modal-dialog {
     position: relative;
     width: auto;
