@@ -50,7 +50,7 @@ let membersObj = [
 	home: "Vancouver, Canada",
 	team: "technology",
 	src: "JosephChiang.jpg",
-	bio: "Joseph is an aspiring computer scientist and a high school senior in New York. He joined STEMchats to support and prepare the next and current generation, especially low-income students, for impactful real world opportunities through immersive and relevant programs in STEM. When he is not learning about technology, he enjoys playing chess, writing poetry, and chilling to lofi beats."
+	bio: "Joseph is an aspiring computer scientist and a rising college freshman in Canada. He joined STEMchats to support and prepare the next and current generation, especially low-income students, for impactful real world opportunities through immersive and relevant programs in STEM. When he is not learning about technology, he enjoys playing chess, writing poetry, and chilling to lofi beats."
 }, {
 	name: "Mahir Rahman",
 	position: "Program Lead",
