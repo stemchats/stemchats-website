@@ -22,7 +22,8 @@
 }
 
 .dropdown-toggle {
-  padding: 7px;
+  padding: 10px;
+  border-radius: 5px;
 }
 
 * {
@@ -63,7 +64,7 @@ body {
 }
 
 .navbar-brand {
-  color: black !important;
+  color: black;
   font-size: 28px;
   font-weight: 800;
 }
@@ -96,10 +97,10 @@ body {
 }
 
 .instagram-feed-tag {
-  margin-top: 2em !important;
-  -webkit-box-pack: center !important;
-      -ms-flex-pack: center !important;
-          justify-content: center !important;
+  margin-top: 2em;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 #intro {
