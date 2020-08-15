@@ -79,6 +79,17 @@ body {
   font-size: 18px;
 }
 
+.medium-box-title {
+  font-weight: bold;
+  text-align: center;
+}
+
+.medium-box-subtitle {
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+}
+
 /* buttons */
 .btn-primary {
   font-size: 20px;
@@ -320,11 +331,6 @@ b {
   background-color: white;
 }
 
-.program-box .program-box-title, .program-box .program-box-subtitle {
-  font-weight: bold;
-  text-align: center;
-}
-
 .program-box .program-img {
   max-width: 100%;
   -webkit-box-pack: center;
@@ -469,11 +475,6 @@ b {
 
 .intern {
   padding: 2em;
-}
-
-.intern .intern-title {
-  text-align: center;
-  font-weight: bold;
 }
 
 .intern-img {

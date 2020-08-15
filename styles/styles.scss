@@ -101,6 +101,17 @@ body {
     font-size: $small-font-description;
 }
 
+.medium-box-title{
+    font-weight: bold;
+    text-align: center; 
+}
+
+.medium-box-subtitle{
+    font-size: $small-font-title;
+        font-weight: bold;
+        text-align: center; 
+}
+
 /* buttons */
 .btn-primary {
     font-size: 20px;
@@ -317,10 +328,6 @@ b { // for bolding text
     padding: 2em;
     background-color: white;
 
-    .program-box-title, .program-box-subtitle {
-        font-weight: bold;
-        text-align: center;
-    }
     .program-img {
         max-width: 100%;
         justify-content: center;
@@ -484,11 +491,6 @@ b { // for bolding text
 
 .intern {
     padding: 2em;
-
-    .intern-title {
-        text-align: center;
-        font-weight: bold;
-    }
 }
 
 .intern-img {
