@@ -8,44 +8,11 @@ $small-font-description: 18px;
 $small-padding : 1em;
 
 
-// CONSTANT STYLES
-
-.btn-primary {
-    font-weight: 400;
-    border-radius: 10px;
-    // border-color: white;
-    color: white;
-    font-size: 20px;
-    padding: 0.3em 1.7em 0.3em 1.7em;
-    // background-color: $main-color;
-    border: 1px solid rgba($color: #ff5959, $alpha: 0.0);
-    margin-bottom: 1em;
-    background: linear-gradient(to right, $main-color 50%, white 50%);
-    background-size: 200% 100%;
-    background-position: left bottom;
-    transition: all 0.5s ease;
-
-    .subscribe-button {
-        background: linear-gradient(to right, $main-color 50%, white 50%);
-    }
-
-    &:hover {
-        border: 1px solid $main-color;
-        color:$main-color;
-        background-position: right bottom;
-    }
-}
-
-
-
-// HOME PAGE STYLES
-
 @mixin smallFlexCenter {
     height: 75vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: 'Karla';
 }
 
 @mixin largeFlexCenter {
@@ -53,12 +20,10 @@ $small-padding : 1em;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: 'Karla';
 }
 
 * {
     font-family: $main-font;
-    font-family: 'Karla';
 
     a:hover {
         text-decoration: none;
@@ -75,9 +40,36 @@ body {
     overflow-x: hidden;
 }
 
+
+// CONSTANT STYLES
+
+/* buttons */
+.btn-primary {
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    padding: 0.3em 1.7em;
+    border: 1px solid rgba($color: #ff5959, $alpha: 0.0);
+    margin-bottom: 1em;
+    background: linear-gradient(to right, $main-color 50%, white 50%);
+    background-size: 200% 100%;
+    background-position: left bottom;
+    transition: all 0.5s ease;
+
+    &:hover {
+        border: 1px solid $main-color;
+        color: $main-color;
+        background-position: right bottom;
+    }
+}
+
+
+
+// NAVBAR
+
 .navbar {
     background-color: white;
-    padding-top: 0.25em 2em;
+    padding: 0.25em 2em;
 
     .navbar-nav {
         .nav-item {
@@ -88,22 +80,21 @@ body {
             text-align: left;
         }
     }
-}
 
-.navbar-brand {
-    color: black;
-    font-size: 28px;
-    font-weight: 800;
-}
+    .navbar-brand {
+        font-weight: 800;
+    }
 
-.custom-toggler.navbar-toggler {
-    border-color: white;
-}
+    .custom-toggler.navbar-toggler {
+        border-color: white;
+        outline: none;
+    }
 
-.dropdown-item:hover {
-  color:$main-color;
-  background-color: #ffffff;
-  transition: .3s;
+    .dropdown-item:hover {
+        color:$main-color;
+        background-color: #ffffff;
+        transition: .3s;
+    }
 }
 
 #dropdownSelectTeam {
@@ -115,6 +106,10 @@ body {
   box-shadow: inset 0 0 0 #ddd;
 }
 
+
+
+// HOME PAGE STYLES
+
 .instagram-feed {
     margin-top: 5em;
     padding: 0em 2em 0em 2em;
@@ -124,37 +119,23 @@ body {
     margin-top: 2em;
     justify-content: center;
 }
+
 #intro {
     @include smallFlexCenter;
-    font-family: $main-font;
-    background-color: white;
-    color: black;
     padding: 0em 0em 5em 0em;
-    margin: 0em 0.5em 0em 0.5em;
+    margin: 0em 0.5em;
     height: 100vh;
-    font-family: 'Karla';
 
     text-align: center !important;
 
     .welcome-box-title {
         font-size: $small-font-title;
         font-weight: 800;
-        font-size: 32px;
     }
     .welcome-box-description {
-        font-weight: 400;
-        font-size: 18px;
-        color: black;
+        font-size: $small-font-description;
     }
-    // .welcome-button {
-    //     font-weight: 400;
-    //     border-radius: 10px;
-    //     border-color: white;
-    //     font-size: 20px;
-    //     padding: 0.5em 2em 0.5em 2em;
-    //     background-color: $main-color;
-    //     margin-bottom: 3em;
-    // }
+
     .top-img {
         max-width: 100%;
         margin-top: -2em;
@@ -169,21 +150,23 @@ body {
 .info-section {
     // @include smallFlexCenter;
     text-align: left;
-    padding: 0em 0em 1em 2em;
+    padding-left: 2em;
     justify-content: center;
     align-items: center;
     display: flex;
+
     .section-title {
         margin-top: 3em;
         margin-bottom: 1em;
         font-weight: 600;
     }
+    
     .section-description {
         margin-bottom: 1em;
-        font-size: 18px;
-        font-weight: 400;
+        font-size: $small-font-description;
     }
-    .last-section-description {
+    
+    .section-description:last-child {
         margin-bottom: 5em;
     }
 }
@@ -192,42 +175,22 @@ body {
     background-color: #f8f8f8;
 }
 
-/* Color not working - need to fix*/
-.section-link {
-    color: #ff5959 !important;
-}
+// NEWSLETTER STYLES
 
-//Newsletter Styles
 #newsletter {
     @include smallFlexCenter;
-    font-family: $main-font;
-    background-color: white;
-    color: black;
     padding: 3em 1em 5em 1em;
     margin: 4em 0em 0em 0em;
     height: 100vh;
-
-    text-align: center !important;
-
     margin-top: 7.5em;
 
     .newsletter-box-title {
         font-size: $small-font-title;
-        font-weight: 800;
+        font-weight: bold;
     }
     .newsletter-box-description {
-        font-weight: 400;
         font-size: $small-font-description;
     }
-    // .newsletter-button {
-    //     font-weight: 400;
-    //     border-radius: 10px;
-    //     border-color: white;
-    //     font-size: 20px;
-    //     padding: 0.5em 2em 0.5em 2em;
-    //     background-color: #ff5959;
-    //     margin-bottom: 3em;
-    // }
     .newsletter-img {
         max-width: 100%;
     }
@@ -236,11 +199,9 @@ body {
 // ABOUT US PAGE STYLES
 .aboutus {
     @include smallFlexCenter;
-    font-family: $main-font;
     background-color: white;
-    color: black;
-    padding: 1em 0em 1em 0em;
-    margin: 0em 1em 0em 1em;
+    padding: 1em 0em;
+    margin: 0em 1em;
     height: 100%;
 
     text-align: center !important;
@@ -252,9 +213,7 @@ body {
         margin-bottom: 0.5em;
     }
     .aboutus-box-description {
-        font-weight: 400;
         font-size: $small-font-description;
-        color: black;
     }
 
     .stats-box {
@@ -265,7 +224,6 @@ body {
             color: #4f9da6;
         }
         .stats-box-description {
-            font-weight: 400;
             font-size: 24px;
             color: black;
         }
@@ -273,9 +231,7 @@ body {
 }
 .team {
     @include smallFlexCenter;
-    font-family: $main-font;
     height: 100%;
-
     padding: 1em;
     background-color: white;
     color: black;
@@ -287,21 +243,18 @@ body {
     }
     .team-box-description {
         font-size: $small-font-description;
-        font-weight: 400;
         color: black;
-        // font-size: 18px;
-        margin: 1em 1em 1em 1em;
-
+        margin: 1em;
         text-justify: inter-word;
     }
 
     .team-divider {
-        background-color: #FAFAFA !important;
+        background-color: #FAFAFA;
         text-align: center;
-        font-size: 32px !important;
+        font-size: $small-font-title;
 
         .team-divider-header {
-            color: black !important;
+            color: black;
             font-weight: 800;
         }
     }
@@ -322,23 +275,22 @@ body {
             text-align: center;
         }
         .teamcard-description {
-            font-size: 18px;
+            font-size: $small-font-description;
             color: black;
             text-align: center;
         }
     }
     #team_container {
-      height:2000px; //hide bottom of page before animation
+      height: 2000px; //hide bottom of page before animation
     }
 }
 
 .partners {
     @include smallFlexCenter;
-    font-family: $main-font;
     background-color: white;
     color: black;
-    padding: 1em 1em 5em 1em;
-    margin: 0em 1em 0em 1em;
+    padding: 1em 1em 5em;
+    margin: 0em 1em;
     height: 100%;
 
     text-align: center !important;
@@ -353,7 +305,6 @@ body {
         margin-top: 2em;
     }
     .partners-box-description {
-        font-weight: 400;
         font-size: $small-font-description;
         color: black;
     }
@@ -366,7 +317,6 @@ body {
 
 .breakdown {
     @include smallFlexCenter;
-    font-family: $main-font;
     height: 100%;
 
     padding: 1em;
@@ -381,21 +331,20 @@ body {
     }
     .breakdown-box-description {
         font-size: $small-font-description;
-        font-weight: 400;
         color: black;
-        margin: 1em 0em 1em 0em;
+        margin: 1em 0em;
     }
 
     .breakdown-card {
         padding: 0.5em;
-        margin: 1em 0 1em 0;
+        margin: 1em 0;
         border-radius: 10px;
         .breakdown-card-title {
-            font-weight: 800 !important;
+            font-weight: 800;
             font-size: 36px;
         }
         .breakdown-card-description {
-            font-size: 18px;
+            font-size: $small-font-description;
             color: black;
             // color: rgba(0, 0, 0, 0.7);
         }
@@ -408,7 +357,6 @@ body {
 
 .programs {
     @include smallFlexCenter;
-    font-family: $main-font;
     height: 100%;
 
     padding: 1em;
@@ -425,15 +373,14 @@ body {
     }
     .programs-box-description {
         font-size: $small-font-description;
-        font-weight: 400;
         color: black;
-        margin: 1em 1em 1em 1em;
+        margin: 1em;
     }
 
     .programs-divider {
         background-color: #FAFAFA !important;
         text-align: center;
-        font-size: 32px !important;
+        font-size: $small-font-title;
 
         .programs-divider-header {
             color: black !important;
@@ -443,19 +390,19 @@ body {
 
     .programs-card {
         border-radius: 10px;
-        border: 0px white;ss
+        border: 0px white;
 
         .programs-card-img {
             border-radius: 10px;
             max-width: 50%;
         }
         .programs-card-title {
-            font-weight: 800 !important;
-            font-size: 32px;
+            font-weight: 800;
+            font-size: $small-font-title;
             text-align: center;
         }
         .programs-card-description {
-            font-size: 18px;
+            font-size: $small-font-description;
             color: black;
             text-align: center;
         }
@@ -464,11 +411,7 @@ body {
 
 .program-box {
     // @include smallFlexCenter;
-    font-family: $main-font;
     height: 100%;
-
-    font-family: 'Karla';
-
     padding: 2em;
     background-color: white;
 
@@ -478,7 +421,7 @@ body {
         text-decoration: none;
         border-bottom: 1px solid;
         font-weight: bold;
-      }
+    }
 
     .program-box-title {
         font-weight: 800;
@@ -490,7 +433,7 @@ body {
 
     }
     .program-box-text {
-        font-size: 18px;
+        font-size: $small-font-description;
     }
     .program-img {
         max-width: 100%;
@@ -498,66 +441,84 @@ body {
     }
 }
 
+
+
+
 // FOOTER STYLES
 
 #footer {
     margin-top: 2em;
-  background-color: #f8f8f8;
-  #top {
-    text-align: left;
-    padding-top: 3em;
-  }
-  a {
-    color: $main-color;
-    border-bottom: 1px dashed $main-color;
-    text-decoration: none;
-    transition: all .3s;
-  }
-.contact {
-  a:hover, a:focus {
-    border-bottom: 1px dashed $main-color;
-  }
-  a {
-    border-bottom: 1px dashed #ccc;
-  }
-  i {
-    padding-right: 10px;
-    font-size: 18px;
-    color: #ddd;
-  }
-}
-.links {
-  a {
-    color: #888; border: 0;
-  }
-  a:hover, a:focus {
-    color: #555; margin-left: 3px;
-  }
-}
-.subscribe {
-  p {
-    word-wrap: break-word;
-  }
-}
-.social {
-  margin-top: 2em;
-  a {
-    margin: 0 10px;
-    color: #bbb;
-    border: 0;
-  }
-  a:hover, a:focus {
-    color: $main-color;
-    border: 0;
-  }
-  i {
-    font-size: 24px;
-    vertical-align: middle;
+    background-color: #f8f8f8;
+
+    #top {
+        text-align: left;
+        padding-top: 3em;
     }
-  }
-  #CR {
-    margin: 1em 0 0;
-  }
+    
+    a {
+        color: $main-color;
+        border-bottom: 1px dashed $main-color;
+        text-decoration: none;
+        transition: all .3s;
+    }
+
+    .contact {
+        a:hover, a:focus {
+            border-bottom: 1px dashed $main-color;
+        }
+
+        a {
+            border-bottom: 1px dashed #ccc;
+        }
+
+        i {
+            padding-right: 10px;
+            font-size: $small-font-description;
+            color: #ddd;
+        }
+    }
+    
+    .links {
+        a {
+            color: #888;
+            border: 0;
+        }
+
+        a:hover, a:focus {
+            color: #555;
+            margin-left: 3px;
+        }
+    }
+
+    .subscribe {
+        p {
+            word-wrap: break-word;
+        }
+    }
+
+    .social {
+        margin-top: 2em;
+
+        a {
+            margin: 0 10px;
+            color: #bbb;
+            border: 0;
+        }
+
+        a:hover, a:focus {
+            color: $main-color;
+            border: 0;
+        }
+
+        i {
+            font-size: 24px;
+            vertical-align: middle;
+        }
+    }
+
+    #CR {
+        margin: 1em 0 0;
+    }
 }
 
 .footer-section {
@@ -640,12 +601,11 @@ body {
 // MODAL STYLES END
 
 .culture {
-    font-family: 'Karla';
 
     .culture-box {
         padding: 2em;
         margin: 1em 0em 1em 0em;
-        font-size: 18px;
+        font-size: $small-font-description;
         border-style: solid;
         // border-width: thin;
         border-radius: 10px;
@@ -665,7 +625,7 @@ body {
         font-weight: 800;
     }
     .intern-text {
-        font-size: 18px;
+        font-size: $small-font-description;
     }
 }
 
@@ -673,12 +633,12 @@ body {
     font-weight: 400;
     color: black;
     text-align: center;
-    font-size: 18px !important;
+    font-size: $small-font-description;
     justify-content: center;
 
     .intern-faq-question-header {
-        color: black !important;
-        font-size: 18px;
+        color: black;
+        font-size: $small-font-description;
         font-weight: 800;
     }
 }

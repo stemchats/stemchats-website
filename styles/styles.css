@@ -1,34 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Karla&display=swap");
-.btn-primary {
-  font-weight: 400;
-  border-radius: 10px;
-  color: white;
-  font-size: 20px;
-  padding: 0.3em 1.7em 0.3em 1.7em;
-  border: 1px solid rgba(255, 89, 89, 0);
-  margin-bottom: 1em;
-  background: -webkit-gradient(linear, left top, right top, color-stop(50%, #ff5959), color-stop(50%, white));
-  background: linear-gradient(to right, #ff5959 50%, white 50%);
-  background-size: 200% 100%;
-  background-position: left bottom;
-  -webkit-transition: all 0.5s ease;
-  transition: all 0.5s ease;
-}
-
-.btn-primary .subscribe-button {
-  background: -webkit-gradient(linear, left top, right top, color-stop(50%, #ff5959), color-stop(50%, white));
-  background: linear-gradient(to right, #ff5959 50%, white 50%);
-}
-
-.btn-primary:hover {
-  border: 1px solid #ff5959;
-  color: #ff5959;
-  background-position: right bottom;
-}
-
 * {
   font-family: "Karla", sans-serif;
-  font-family: 'Karla';
 }
 
 * a:hover {
@@ -45,9 +17,31 @@ body {
   overflow-x: hidden;
 }
 
+/* buttons */
+.btn-primary {
+  border-radius: 10px;
+  color: white;
+  font-size: 20px;
+  padding: 0.3em 1.7em;
+  border: 1px solid rgba(255, 89, 89, 0);
+  margin-bottom: 1em;
+  background: -webkit-gradient(linear, left top, right top, color-stop(50%, #ff5959), color-stop(50%, white));
+  background: linear-gradient(to right, #ff5959 50%, white 50%);
+  background-size: 200% 100%;
+  background-position: left bottom;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.btn-primary:hover {
+  border: 1px solid #ff5959;
+  color: #ff5959;
+  background-position: right bottom;
+}
+
 .navbar {
   background-color: white;
-  padding-top: 0.25em 2em;
+  padding: 0.25em 2em;
 }
 
 .navbar .navbar-nav .nav-item {
@@ -60,17 +54,16 @@ body {
   text-align: left;
 }
 
-.navbar-brand {
-  color: black;
-  font-size: 28px;
+.navbar .navbar-brand {
   font-weight: 800;
 }
 
-.custom-toggler.navbar-toggler {
+.navbar .custom-toggler.navbar-toggler {
   border-color: white;
+  outline: none;
 }
 
-.dropdown-item:hover {
+.navbar .dropdown-item:hover {
   color: #ff5959;
   background-color: #ffffff;
   -webkit-transition: .3s;
@@ -111,27 +104,19 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  font-family: 'Karla';
-  font-family: "Karla", sans-serif;
-  background-color: white;
-  color: black;
   padding: 0em 0em 5em 0em;
-  margin: 0em 0.5em 0em 0.5em;
+  margin: 0em 0.5em;
   height: 100vh;
-  font-family: 'Karla';
   text-align: center !important;
 }
 
 #intro .welcome-box-title {
   font-size: 32px;
   font-weight: 800;
-  font-size: 32px;
 }
 
 #intro .welcome-box-description {
-  font-weight: 400;
   font-size: 18px;
-  color: black;
 }
 
 #intro .top-img {
@@ -148,7 +133,7 @@ body {
 
 .info-section {
   text-align: left;
-  padding: 0em 0em 1em 2em;
+  padding-left: 2em;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -169,20 +154,14 @@ body {
 .info-section .section-description {
   margin-bottom: 1em;
   font-size: 18px;
-  font-weight: 400;
 }
 
-.info-section .last-section-description {
+.info-section .section-description:last-child {
   margin-bottom: 5em;
 }
 
 .section-gray-bg {
   background-color: #f8f8f8;
-}
-
-/* Color not working - need to fix*/
-.section-link {
-  color: #ff5959 !important;
 }
 
 #newsletter {
@@ -196,24 +175,18 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  font-family: 'Karla';
-  font-family: "Karla", sans-serif;
-  background-color: white;
-  color: black;
   padding: 3em 1em 5em 1em;
   margin: 4em 0em 0em 0em;
   height: 100vh;
-  text-align: center !important;
   margin-top: 7.5em;
 }
 
 #newsletter .newsletter-box-title {
   font-size: 32px;
-  font-weight: 800;
+  font-weight: bold;
 }
 
 #newsletter .newsletter-box-description {
-  font-weight: 400;
   font-size: 18px;
 }
 
@@ -232,12 +205,9 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  font-family: 'Karla';
-  font-family: "Karla", sans-serif;
   background-color: white;
-  color: black;
-  padding: 1em 0em 1em 0em;
-  margin: 0em 1em 0em 1em;
+  padding: 1em 0em;
+  margin: 0em 1em;
   height: 100%;
   text-align: center !important;
 }
@@ -250,9 +220,7 @@ body {
 }
 
 .aboutus .aboutus-box-description {
-  font-weight: 400;
   font-size: 18px;
-  color: black;
 }
 
 .aboutus .stats-box .stats-box-title {
@@ -263,7 +231,6 @@ body {
 }
 
 .aboutus .stats-box .stats-box-description {
-  font-weight: 400;
   font-size: 24px;
   color: black;
 }
@@ -279,8 +246,6 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  font-family: 'Karla';
-  font-family: "Karla", sans-serif;
   height: 100%;
   padding: 1em;
   background-color: white;
@@ -295,20 +260,19 @@ body {
 
 .team .team-box-description {
   font-size: 18px;
-  font-weight: 400;
   color: black;
-  margin: 1em 1em 1em 1em;
+  margin: 1em;
   text-justify: inter-word;
 }
 
 .team .team-divider {
-  background-color: #FAFAFA !important;
+  background-color: #FAFAFA;
   text-align: center;
-  font-size: 32px !important;
+  font-size: 32px;
 }
 
 .team .team-divider .team-divider-header {
-  color: black !important;
+  color: black;
   font-weight: 800;
 }
 
@@ -351,12 +315,10 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  font-family: 'Karla';
-  font-family: "Karla", sans-serif;
   background-color: white;
   color: black;
-  padding: 1em 1em 5em 1em;
-  margin: 0em 1em 0em 1em;
+  padding: 1em 1em 5em;
+  margin: 0em 1em;
   height: 100%;
   text-align: center !important;
   margin-top: 0em;
@@ -371,7 +333,6 @@ body {
 }
 
 .partners .partners-box-description {
-  font-weight: 400;
   font-size: 18px;
   color: black;
 }
@@ -391,8 +352,6 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  font-family: 'Karla';
-  font-family: "Karla", sans-serif;
   height: 100%;
   padding: 1em;
   color: black;
@@ -407,19 +366,18 @@ body {
 
 .breakdown .breakdown-box-description {
   font-size: 18px;
-  font-weight: 400;
   color: black;
-  margin: 1em 0em 1em 0em;
+  margin: 1em 0em;
 }
 
 .breakdown .breakdown-card {
   padding: 0.5em;
-  margin: 1em 0 1em 0;
+  margin: 1em 0;
   border-radius: 10px;
 }
 
 .breakdown .breakdown-card .breakdown-card-title {
-  font-weight: 800 !important;
+  font-weight: 800;
   font-size: 36px;
 }
 
@@ -446,8 +404,6 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  font-family: 'Karla';
-  font-family: "Karla", sans-serif;
   height: 100%;
   padding: 1em;
   background-color: white;
@@ -464,15 +420,14 @@ body {
 
 .programs .programs-box-description {
   font-size: 18px;
-  font-weight: 400;
   color: black;
-  margin: 1em 1em 1em 1em;
+  margin: 1em;
 }
 
 .programs .programs-divider {
   background-color: #FAFAFA !important;
   text-align: center;
-  font-size: 32px !important;
+  font-size: 32px;
 }
 
 .programs .programs-divider .programs-divider-header {
@@ -485,14 +440,13 @@ body {
   border: 0px white;
 }
 
-.programs .programs-card ss
-.programs-card-img {
+.programs .programs-card .programs-card-img {
   border-radius: 10px;
   max-width: 50%;
 }
 
 .programs .programs-card .programs-card-title {
-  font-weight: 800 !important;
+  font-weight: 800;
   font-size: 32px;
   text-align: center;
 }
@@ -504,9 +458,7 @@ body {
 }
 
 .program-box {
-  font-family: "Karla", sans-serif;
   height: 100%;
-  font-family: 'Karla';
   padding: 2em;
   background-color: white;
 }
@@ -690,10 +642,6 @@ body {
   cursor: pointer;
 }
 
-.culture {
-  font-family: 'Karla';
-}
-
 .culture .culture-box {
   padding: 2em;
   margin: 1em 0em 1em 0em;
@@ -725,14 +673,14 @@ body {
   font-weight: 400;
   color: black;
   text-align: center;
-  font-size: 18px !important;
+  font-size: 18px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
 }
 
 .intern-faq-question .intern-faq-question-header {
-  color: black !important;
+  color: black;
   font-size: 18px;
   font-weight: 800;
 }
