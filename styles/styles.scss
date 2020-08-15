@@ -101,7 +101,6 @@ body {
     font-size: $small-font-description;
 }
 
-
 /* buttons */
 .btn-primary {
     font-size: 20px;
@@ -209,13 +208,6 @@ b { // for bolding text
     padding: 1em 0em;
     margin: 0em 1em;
     text-align: center;
-
-    .aboutus-box-title {
-        font-size: $small-font-title;
-        font-weight: bold;
-        font-size: 42px;
-        margin-bottom: 0.5em;
-    }
 }
 
 .team {
