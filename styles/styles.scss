@@ -31,11 +31,6 @@ $small-padding : 1em;
     }
 }
 
-.dropdown-toggle {
-    padding: 10px;
-    border-radius: 5px;
-}
-
 
 
 // HOME PAGE STYLES
@@ -78,12 +73,10 @@ body {
 .navbar {
     background-color: white;
     padding-top: 0.25em 2em;
-    box-shadow: 0 2px 2px -2px rgba(0,0,0,.2);
 
     .navbar-nav {
         .nav-item {
             color: grey;
-            font-weight: 400;
             font-size: 16px;
             margin: 0em 20em 0 0;
             align-items: center;
