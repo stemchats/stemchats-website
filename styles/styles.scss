@@ -192,12 +192,15 @@ body {
     background-color: #f8f8f8;
 }
 
+<<<<<<< HEAD
 /* Color not working - need to fix*/
 .section-link {
     color: #ff5959 !important;
 }
 
 //Newsletter Styles
+=======
+>>>>>>> 77d720faaa686b792b6d58fe9b3226681098b631
 #newsletter {
     @include smallFlexCenter;
     font-family: $main-font;
