@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Karla&display=swap");
-.btn {
+.btn-primary {
   font-weight: 400;
   border-radius: 10px;
   color: white;
@@ -7,15 +7,20 @@
   padding: 0.3em 1.7em 0.3em 1.7em;
   border: 1px solid rgba(255, 89, 89, 0);
   margin-bottom: 1em;
-  background: -webkit-gradient(linear, left top, right top, color-stop(50%, #ff5959), color-stop(50%, #f8f8f8));
-  background: linear-gradient(to right, #ff5959 50%, #f8f8f8 50%);
+  background: -webkit-gradient(linear, left top, right top, color-stop(50%, #ff5959), color-stop(50%, white));
+  background: linear-gradient(to right, #ff5959 50%, white 50%);
   background-size: 200% 100%;
   background-position: left bottom;
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
 
-.btn:hover {
+.btn-primary .subscribe-button {
+  background: -webkit-gradient(linear, left top, right top, color-stop(50%, #ff5959), color-stop(50%, white));
+  background: linear-gradient(to right, #ff5959 50%, white 50%);
+}
+
+.btn-primary:hover {
   border: 1px solid #ff5959;
   color: #ff5959;
   background-position: right bottom;
