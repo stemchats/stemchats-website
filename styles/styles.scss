@@ -5,7 +5,6 @@ $light-grey : #f8f8f8;
 $main-font :  'Karla', sans-serif;
 $small-font-title: 32px;
 $small-font-description: 18px;
-$small-padding : 1em;
 
 
 @mixin smallFlexCenter {
@@ -27,7 +26,7 @@ $small-padding : 1em;
 
     a:hover {
         text-decoration: none;
-        color:$main-color;
+        color: $main-color;
     }
 }
 
@@ -45,12 +44,12 @@ body {
 
 /* buttons */
 .btn-primary {
-    border-radius: 10px;
-    color: white;
     font-size: 20px;
+    color: white;
     padding: 0.3em 1.7em;
-    border: 1px solid rgba($color: #ff5959, $alpha: 0.0);
     margin-bottom: 1em;
+    border: 1px solid rgba($color: #ff5959, $alpha: 0.0);
+    border-radius: 10px;
     background: linear-gradient(to right, $main-color 50%, white 50%);
     background-size: 200% 100%;
     background-position: left bottom;
@@ -77,12 +76,11 @@ body {
             font-size: 16px;
             margin: 0em 20em 0 0;
             align-items: center;
-            text-align: left;
         }
     }
 
     .navbar-brand {
-        font-weight: 800;
+        font-weight: bold;
     }
 
     .custom-toggler.navbar-toggler {
@@ -91,19 +89,19 @@ body {
     }
 
     .dropdown-item:hover {
-        color:$main-color;
+        color: $main-color;
         background-color: #ffffff;
         transition: .3s;
     }
 }
 
 #dropdownSelectTeam {
-  background-color: $main-color;
-  border-color: $main-color;
-  color: #fff;
+    background-color: $main-color;
+    border-color: $main-color;
+    color: #fff;
 }
 #dropdownSelectTeam:focus {
-  box-shadow: inset 0 0 0 #ddd;
+    box-shadow: inset 0 0 0 #ddd;
 }
 
 
@@ -112,7 +110,7 @@ body {
 
 .instagram-feed {
     margin-top: 5em;
-    padding: 0em 2em 0em 2em;
+    padding: 0em 2em;
 }
 
 .instagram-feed-tag {
@@ -126,11 +124,9 @@ body {
     margin: 0em 0.5em;
     height: 100vh;
 
-    text-align: center !important;
-
     .welcome-box-title {
         font-size: $small-font-title;
-        font-weight: 800;
+        font-weight: bold;
     }
     .welcome-box-description {
         font-size: $small-font-description;
@@ -167,7 +163,7 @@ body {
     }
     
     .section-description:last-child {
-        margin-bottom: 5em;
+        margin-bottom: 6em;
     }
 }
 
@@ -175,14 +171,16 @@ body {
     background-color: #f8f8f8;
 }
 
+
+
+
 // NEWSLETTER STYLES
 
 #newsletter {
     @include smallFlexCenter;
-    padding: 3em 1em 5em 1em;
-    margin: 4em 0em 0em 0em;
+    padding: 3em 1em 5em;
+    margin-top: 4em;
     height: 100vh;
-    margin-top: 7.5em;
 
     .newsletter-box-title {
         font-size: $small-font-title;
@@ -197,6 +195,7 @@ body {
 }
 
 // ABOUT US PAGE STYLES
+
 .aboutus {
     @include smallFlexCenter;
     background-color: white;
@@ -208,7 +207,7 @@ body {
 
     .aboutus-box-title {
         font-size: $small-font-title;
-        font-weight: 800;
+        font-weight: bold;
         font-size: 42px;
         margin-bottom: 0.5em;
     }
@@ -219,7 +218,7 @@ body {
     .stats-box {
         .stats-box-title {
             font-size: $small-font-title;
-            font-weight: 800;
+            font-weight: bold;
             font-size: 120px;
             color: #4f9da6;
         }
@@ -238,7 +237,7 @@ body {
 
     .team-box-title {
         font-size: $small-font-title;
-        font-weight: 800;
+        font-weight: bold;
         font-size: 40px;
     }
     .team-box-description {
@@ -255,7 +254,7 @@ body {
 
         .team-divider-header {
             color: black;
-            font-weight: 800;
+            font-weight: bold;
         }
     }
 
@@ -264,52 +263,22 @@ body {
         margin-bottom: 0em;
         border-radius: 10px;
         border: 1px white;
+        text-align: center;
 
         .teamcard-img {
             border-radius: 15px;
             max-width: 100%;
         }
         .teamcard-title {
-            font-weight: 700 !important;
+            font-weight: bold;
             font-size: 24px;
-            text-align: center;
         }
         .teamcard-description {
             font-size: $small-font-description;
-            color: black;
-            text-align: center;
         }
     }
     #team_container {
       height: 2000px; //hide bottom of page before animation
-    }
-}
-
-.partners {
-    @include smallFlexCenter;
-    background-color: white;
-    color: black;
-    padding: 1em 1em 5em;
-    margin: 0em 1em;
-    height: 100%;
-
-    text-align: center !important;
-
-    margin-top: 0em;
-
-    .partners-box-title {
-        font-size: $small-font-title;
-        font-weight: 800;
-        font-size: 42px;
-        margin-bottom: 0.5em;
-        margin-top: 2em;
-    }
-    .partners-box-description {
-        font-size: $small-font-description;
-        color: black;
-    }
-    .partners-img {
-        max-width: 90%;
     }
 }
 
@@ -325,7 +294,7 @@ body {
 
     .breakdown-box-title {
         font-size: $small-font-title;
-        font-weight: 800;
+        font-weight: bold;
         margin-top: 0em;
         font-size: 40px;
     }
@@ -340,7 +309,7 @@ body {
         margin: 1em 0;
         border-radius: 10px;
         .breakdown-card-title {
-            font-weight: 800;
+            font-weight: bold;
             font-size: 36px;
         }
         .breakdown-card-description {
@@ -367,7 +336,7 @@ body {
 
     .programs-box-title {
         font-size: $small-font-title;
-        font-weight: 800;
+        font-weight: bold;
         margin-top: 0em;
         font-size: 40px;
     }
@@ -384,7 +353,7 @@ body {
 
         .programs-divider-header {
             color: black !important;
-            font-weight: 800;
+            font-weight: bold;
         }
     }
 
@@ -397,7 +366,7 @@ body {
             max-width: 50%;
         }
         .programs-card-title {
-            font-weight: 800;
+            font-weight: bold;
             font-size: $small-font-title;
             text-align: center;
         }
@@ -424,11 +393,11 @@ body {
     }
 
     .program-box-title {
-        font-weight: 800;
+        font-weight: bold;
         text-align: center;
     }
     .program-box-subtitle {
-        font-weight: 800;
+        font-weight: bold;
         text-align: center;
 
     }
@@ -614,7 +583,7 @@ body {
 
     .culture-title {
         text-align: center;
-        font-weight: 800 !important;
+        font-weight: bold !important;
     }
 }
 
@@ -622,7 +591,7 @@ body {
     padding: 2em;
     .intern-title {
         text-align: center;
-        font-weight: 800;
+        font-weight: bold;
     }
     .intern-text {
         font-size: $small-font-description;
@@ -639,7 +608,7 @@ body {
     .intern-faq-question-header {
         color: black;
         font-size: $small-font-description;
-        font-weight: 800;
+        font-weight: bold;
     }
 }
 
