@@ -85,6 +85,10 @@ body {
   text-align: center;
 }
 
+.box-description {
+  font-size: 18px;
+}
+
 b {
   color: #ff5959;
 }
@@ -223,6 +227,11 @@ b {
 
 .team .dropdown-item:hover {
   border: none;
+  color: #ff5959;
+}
+
+.team .dropdown-item:active {
+  background-color: #f8f8f8;
 }
 
 .team .team-box-description {

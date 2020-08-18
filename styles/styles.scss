@@ -102,6 +102,10 @@ body {
         text-align: center; 
 }
 
+.box-description {
+    font-size: $small-font-description;
+}
+
 b { // for bolding text
     color: $main-color;
 }
@@ -214,8 +218,14 @@ b { // for bolding text
     background-color: white;
     color: black;
 
-    .dropdown-item:hover {
-        border: none;
+    .dropdown-item {
+        &:hover {
+            border: none;
+            color: $main-color;
+        }
+        &:active {
+            background-color: $light-grey;
+        }
     }
 
     .team-box-description {
