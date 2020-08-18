@@ -95,6 +95,10 @@ body {
         text-align: center; 
 }
 
+b { // for bolding text
+    color: $main-color;
+}
+
 /* buttons */
 .btn-primary {
     font-size: 20px;
@@ -113,10 +117,6 @@ body {
         color: $main-color;
         background-position: right bottom;
     }
-}
-
-b { // for bolding text
-    color: $main-color;
 }
 
 
