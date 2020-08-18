@@ -34,7 +34,7 @@ $small-font-description: 18px;
         text-decoration: none;
         transition: all .3s;
 
-        &:hover {
+        &:hover, &:active {
             text-decoration: none;
             color: $main-color;
             border-bottom: 1px dashed $main-color;

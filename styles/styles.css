@@ -15,7 +15,7 @@
   transition: all .3s;
 }
 
-* a:hover {
+* a:hover, * a:active {
   text-decoration: none;
   color: #ff5959;
   border-bottom: 1px dashed #ff5959;
