@@ -207,6 +207,10 @@ b { // for bolding text
     background-color: white;
     color: black;
 
+    .dropdown-item:hover {
+        border: none;
+    }
+
     .team-box-description {
         font-size: $small-font-description;
         margin: 1em;
@@ -457,7 +461,7 @@ b { // for bolding text
 }
 
 .modal-trigger { //hover over image
-     cursor: pointer;
+    cursor: pointer;
 }
 
 
@@ -473,4 +477,4 @@ b { // for bolding text
     margin-top: 0.5em;
     max-width: 100%;
     justify-content: center;
-}
+}} //idk why it wants the extra curly bracket....
