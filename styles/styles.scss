@@ -33,6 +33,13 @@ $small-font-description: 18px;
         border-bottom: 1px dashed #ccc;
         text-decoration: none;
         transition: all .3s;
+
+        &:hover {
+            text-decoration: none;
+            color: $main-color;
+            border-bottom: 1px dashed $main-color;
+        }
+    }
 }
 
 body {
@@ -477,4 +484,4 @@ b { // for bolding text
     margin-top: 0.5em;
     max-width: 100%;
     justify-content: center;
-}} //idk why it wants the extra curly bracket....
+}
