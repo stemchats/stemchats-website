@@ -3,15 +3,13 @@
   font-family: "Karla", sans-serif;
   margin: 0;
   padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 * a {
   color: #ff5959;
   border-bottom: 1px dashed #ccc;
   text-decoration: none;
-  -webkit-transition: all .3s;
   transition: all .3s;
 }
 
@@ -37,14 +35,8 @@ body {
 .info-section {
   text-align: left;
   padding-left: 2em;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
+  justify-content: center;
+  align-items: center;
   display: flex;
 }
 
@@ -101,11 +93,9 @@ b {
   margin-bottom: 1em;
   border: 1px solid rgba(255, 89, 89, 0);
   border-radius: 10px;
-  background: -webkit-gradient(linear, left top, right top, color-stop(50%, #ff5959), color-stop(50%, white));
   background: linear-gradient(to right, #ff5959 50%, white 50%);
   background-size: 200% 100%;
   background-position: left bottom;
-  -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
 
@@ -129,15 +119,12 @@ b {
   color: grey;
   font-size: 16px;
   margin-right: 20em;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
 
 .navbar .dropdown-item:hover {
   color: #ff5959;
   background-color: white;
-  -webkit-transition: .3s;
   transition: .3s;
 }
 
@@ -152,15 +139,9 @@ b {
 
 #intro {
   height: 75vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   padding-bottom: 5em;
   margin: 0em 0.5em;
   height: 100vh;
@@ -187,21 +168,14 @@ b {
 }
 
 #dropdownSelectTeam:focus {
-  -webkit-box-shadow: inset 0 0 0 #ddd;
-          box-shadow: inset 0 0 0 #ddd;
+  box-shadow: inset 0 0 0 #ddd;
 }
 
 .aboutus {
   height: 75vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   background-color: white;
   padding: 1em 0em;
   margin: 0em 1em;
@@ -210,15 +184,9 @@ b {
 
 .team {
   height: 75vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   height: 100%;
   padding: 1em;
   background-color: white;
@@ -228,10 +196,11 @@ b {
 .team .dropdown-item:hover {
   border: none;
   color: #ff5959;
+  background-color: white;
 }
 
 .team .dropdown-item:active {
-  background-color: #f8f8f8;
+  background-color: white;
 }
 
 .team .team-box-description {
@@ -268,15 +237,9 @@ b {
 
 .breakdown {
   height: 75vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   height: 100%;
   padding: 1em;
 }
@@ -299,9 +262,7 @@ b {
 
 .breakdown .breakdown-card .breakdown-card-img-top {
   max-height: 250px;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
 
 .programs {
@@ -341,9 +302,7 @@ b {
 
 .program-box .program-img {
   max-width: 100%;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
 
 #footer {
@@ -452,7 +411,6 @@ b {
   padding-left: 10px;
   font-size: 1.17em;
   color: #ddd;
-  -webkit-transition: all .3s;
   transition: all .3s;
 }
 
@@ -488,8 +446,5 @@ b {
 .intern-img {
   margin-top: 0.5em;
   max-width: 100%;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
-/*# sourceMappingURL=styles.css.map */
