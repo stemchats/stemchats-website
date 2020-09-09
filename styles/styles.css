@@ -457,3 +457,13 @@ b {
   max-width: 100%;
   justify-content: center;
 }
+
+#curator .instagram-feed {
+  margin-top: 5em;
+  padding: 0em 2em 0em 2em;
+}
+
+#curator .instagram-feed-tag {
+  margin-top: 2em !important;
+  justify-content: center !important;
+}

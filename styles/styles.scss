@@ -27,7 +27,6 @@ $small-font-description: 18px;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
     a {
         color: $main-color;
         border-bottom: 1px dashed #ccc;
@@ -507,4 +506,22 @@ b { // for bolding text
     margin-top: 0.5em;
     max-width: 100%;
     justify-content: center;
+}
+
+//CURATOR.IO STYLES
+#curator {
+  // a {
+  //   text-decoration-style: solid !important;
+  //   border: none !important;
+  // }
+
+  .instagram-feed {
+      margin-top: 5em;
+      padding: 0em 2em 0em 2em;
+  }
+
+  .instagram-feed-tag {
+      margin-top: 2em !important;
+      justify-content: center !important;
+  }
 }
