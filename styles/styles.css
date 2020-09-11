@@ -3,13 +3,15 @@
   font-family: "Karla", sans-serif;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 * a {
   color: #ff5959;
   border-bottom: 1px dashed #ccc;
   text-decoration: none;
+  -webkit-transition: all .3s;
   transition: all .3s;
 }
 
@@ -22,6 +24,10 @@
 body {
   padding-top: 5em;
   overflow-x: hidden;
+}
+
+body li {
+  margin-bottom: 0.75rem;
 }
 
 .important {
@@ -37,6 +43,17 @@ body {
   background-color: #f8f8f8;
 }
 
+.center {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
+.margin-bottom {
+  margin-bottom: 2rem;
+}
+
 .program-link {
   font-weight: bold;
 }
@@ -44,8 +61,14 @@ body {
 .info-section {
   text-align: left;
   padding-left: 2em;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
@@ -67,23 +90,36 @@ body {
 .small-box-title {
   font-size: 32px;
   font-weight: bold;
+  text-transform: capitalize;
 }
 
 .large-box-title {
-  font-size: 32px;
   font-weight: bold;
   font-size: 50px;
+  text-transform: capitalize;
 }
 
 .medium-box-title {
   font-weight: bold;
   text-align: center;
+  text-transform: capitalize;
+  font-size: 40px;
+  margin-top: 2rem;
 }
 
 .medium-box-subtitle {
   font-size: 32px;
   font-weight: bold;
   text-align: center;
+  text-transform: capitalize;
+  margin-top: 2rem;
+}
+
+.medium-box-subtitle2 {
+  font-size: 18px;
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
 }
 
 .box-description {
@@ -102,9 +138,11 @@ b {
   margin-bottom: 1em;
   border: 1px solid rgba(255, 89, 89, 0);
   border-radius: 10px;
+  background: -webkit-gradient(linear, left top, right top, color-stop(50%, #ff5959), color-stop(50%, white));
   background: linear-gradient(to right, #ff5959 50%, white 50%);
   background-size: 200% 100%;
   background-position: left bottom;
+  -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
 
@@ -124,16 +162,26 @@ b {
   color: black;
 }
 
+.navbar .navbar-nav {
+  margin-left: auto;
+}
+
 .navbar .navbar-nav .nav-item {
   color: grey;
   font-size: 16px;
-  margin-right: 20em;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar .navbar-nav .nav-item .nav-link {
+  white-space: nowrap;
 }
 
 .navbar .dropdown-item:hover {
   color: #ff5959;
   background-color: white;
+  -webkit-transition: .3s;
   transition: .3s;
 }
 
@@ -148,9 +196,15 @@ b {
 
 #intro {
   height: 75vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   padding-bottom: 5em;
   margin: 0em 0.5em;
   height: 100vh;
@@ -177,14 +231,21 @@ b {
 }
 
 #dropdownSelectTeam:focus {
-  box-shadow: inset 0 0 0 #ddd;
+  -webkit-box-shadow: inset 0 0 0 #ddd;
+          box-shadow: inset 0 0 0 #ddd;
 }
 
 .aboutus {
   height: 75vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   background-color: white;
   padding: 1em 0em;
   margin: 0em 1em;
@@ -193,9 +254,15 @@ b {
 
 .team {
   height: 75vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   height: 100%;
   padding: 1em;
   background-color: white;
@@ -246,9 +313,15 @@ b {
 
 .breakdown {
   height: 75vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   height: 100%;
   padding: 1em;
 }
@@ -271,7 +344,9 @@ b {
 
 .breakdown .breakdown-card .breakdown-card-img-top {
   max-height: 250px;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .programs {
@@ -311,7 +386,18 @@ b {
 
 .program-box .program-img {
   max-width: 100%;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.upcoming-event {
+  margin-bottom: 3rem;
+}
+
+.upcoming-event .important {
+  margin-top: 2rem;
 }
 
 #footer {
@@ -420,6 +506,7 @@ b {
   padding-left: 10px;
   font-size: 1.17em;
   color: #ddd;
+  -webkit-transition: all .3s;
   transition: all .3s;
 }
 
@@ -455,7 +542,9 @@ b {
 .intern-img {
   margin-top: 0.5em;
   max-width: 100%;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 #curator .instagram-feed {
@@ -465,5 +554,12 @@ b {
 
 #curator .instagram-feed-tag {
   margin-top: 2em !important;
-  justify-content: center !important;
+  -webkit-box-pack: center !important;
+      -ms-flex-pack: center !important;
+          justify-content: center !important;
 }
+
+ul {
+  padding-left: 6%;
+}
+/*# sourceMappingURL=styles.css.map */

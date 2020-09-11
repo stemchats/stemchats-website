@@ -21,42 +21,43 @@ $small-padding : 1em;
     font-family: 'Karla';
 }
 
-@media only screen and (min-width: 920px) {
-  /*computer */
-  #temp {
-    height:100px;
-  }
+@media only screen and (min-width: 992px) {
+    /*computer */
+    #temp {
+        height:100px;
+    }
     .navbar {
         background-color: white!important;
         padding-top: 10px;
         padding-right: 10em;
         padding-left: 10em;
         box-shadow: 0 0 0 0 rgba(0,0,0,0);
-    }
-    .navbar-brand {
-        color: black !important;
-        font-size: 30px;
-    }
 
-    .navbar .navbar-nav .nav-item {
-        color: black!important;
-        font-weight: 600;
-        padding: 1em;
-        font-size: 14px;
-        margin: -0.2em 1em -0.2em 1em;
-    }
+        .navbar-brand {
+            color: black !important;
+            font-size: 30px;
+        }
 
-    .navbar .navbar-nav .nav-button {
-        background-color: #ff5959;
-        border-radius: 10px;
-        font-size: 20px;
-        margin: 0em;
-        margin-bottom: 0em;
-        margin-left: 1.5em;
-    }
+        .navbar-nav {
+            .nav-button {
+                background-color: #ff5959;
+                border-radius: 10px;
+                font-size: 20px;
+                margin: 0 0 0 1.5em;
+    
+                .nav-button-text {
+                    color: white !important;
+                }
+            }
 
-    .navbar .navbar-nav .nav-button .nav-button-text {
-        color: white !important;
+            .nav-item {
+                color: black!important;
+                font-weight: 600;
+                padding: 1em;
+                font-size: 14px;
+                margin: -0.2em 1em -0.2em 1em;
+            }
+        }
     }
 
     #intro {
@@ -260,20 +261,54 @@ $small-padding : 1em;
 
 @media screen and (max-width: 991px) {
 /* start of large tablet styles */
-   .center { /* for text */
-     text-align:center;
-   }
-  .left {
-    text-align:left;
-  }
-  .name {
-    padding-top: 10px;
-  }
-  .modal:before { //scroll modal
-    content: '';
-    display: inline-block;
-    // height: 10%;
-  }
+    .navbar-brand {
+        color: black !important;
+        font-size: 30px;
+    }
+    
+    .navbar-nav {
+        .nav-link {
+            float: right;
+        }
+
+        .dropdown-menu {
+            text-align: right;
+            border: none;
+    
+            .dropdown-item {
+                padding: .35rem 1rem;
+
+                &:first-child {
+                    margin-top: 2.25rem;
+                }
+    
+                &:hover {
+                    color: $main-color;
+                    background-color: white;
+                    transform: translateX(-7%);
+                    transition: .3s;
+                }
+            }
+        }
+    }
+
+    .center { /* for text */
+        text-align:center;
+    }
+
+    .left {
+        text-align:left;
+    }
+
+    .name {
+        padding-top: 10px;
+    }
+
+    .modal:before { //scroll modal
+        content: '';
+        display: inline-block;
+        // height: 10%;
+    }
 }
 
 @media screen and (max-width: 767px) {
