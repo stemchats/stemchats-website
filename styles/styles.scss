@@ -243,10 +243,12 @@ b { // for bolding text
 }
 
 .aboutus {
-    @include smallFlexCenter;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: white;
-    padding: 1em 0em;
-    margin: 0em 1em;
+    padding: 3em 0em 1em;
+    margin: 1em 1em 0;
     text-align: center;
 }
 

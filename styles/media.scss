@@ -11,14 +11,12 @@ $small-padding : 1em;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: 'Karla';
 }
 @mixin largeFlexCenter {
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: 'Karla';
 }
 
 @media only screen and (min-width: 992px) {
@@ -124,18 +122,6 @@ $small-padding : 1em;
 
     // ABOUT US PAGE STYLES
 
-    .aboutus {
-
-        height: 50vh;
-
-        margin-top: 0em;
-        margin-bottom: -7.5em;
-
-        .aboutus-box-description {
-            margin: 0 5em 0.5em 5em;
-        }
-    }
-
     .partners {
         height: 80vh;
 
@@ -152,7 +138,9 @@ $small-padding : 1em;
     }
 
     .team {
-        @include smallFlexCenter;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         font-family: $main-font;
         height: 100%;
 
@@ -259,7 +247,7 @@ $small-padding : 1em;
     }
 }
 
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 992px) {
 /* start of large tablet styles */
     .navbar-brand {
         color: black !important;
