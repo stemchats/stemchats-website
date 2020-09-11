@@ -94,6 +94,13 @@ body {
   text-align: center;
 }
 
+.medium-box-subtitle2 {
+  font-size: 18px;
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+}
+
 .box-description {
   font-size: 18px;
 }
@@ -513,5 +520,9 @@ b {
   -webkit-box-pack: center !important;
       -ms-flex-pack: center !important;
           justify-content: center !important;
+}
+
+ul {
+  padding-left: 6%;
 }
 /*# sourceMappingURL=styles.css.map */
