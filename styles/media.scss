@@ -4,7 +4,6 @@ $main-color : #ff5959;
 $main-font :  'Karla', sans-serif;
 $small-font-title: 32px;
 $small-font-description: 18px;
-$small-padding : 1em;
 
 @mixin smallFlexCenter {
     height: 75vh;
@@ -21,9 +20,6 @@ $small-padding : 1em;
 
 @media only screen and (min-width: 992px) {
     /*computer */
-    #temp {
-        height:100px;
-    }
     .navbar {
         background-color: white!important;
         padding-top: 10px;
@@ -53,7 +49,7 @@ $small-padding : 1em;
                 font-weight: 600;
                 padding: 1em;
                 font-size: 14px;
-                margin: -0.2em 1em -0.2em 1em;
+                margin: -0.2em 1em;
             }
         }
     }
@@ -129,7 +125,7 @@ $small-padding : 1em;
         margin-bottom: 0em;
 
         .partners-box-description {
-            margin: 0 5em 0.5em 5em;
+            margin: 0 5em 0.5em;
 
         }
         .partners-img {
@@ -157,7 +153,7 @@ $small-padding : 1em;
         .team-box-description {
             font-size: $small-font-description;
             font-weight: 400;
-            margin: 1em 12.5em 1em 12.5em;
+            margin: 1em 12.5em;
         }
 
         .team-divider {
@@ -208,8 +204,7 @@ $small-padding : 1em;
         }
 
         .breakdown-box-description {
-            // font-size: 18px;
-            margin: 1em 5em 2em 5em;
+            margin: 1em 5em 2em;
         }
 
         .breakdown-card {
@@ -237,7 +232,7 @@ $small-padding : 1em;
         margin: 5em 0 5em 0;
 
         .programs-box-description {
-            margin: 1em 12.5em 1em 12.5em;
+            margin: 1em 12.5em;
         }
     }
 

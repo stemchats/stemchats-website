@@ -1,8 +1,5 @@
 @media only screen and (min-width: 992px) {
   /*computer */
-  #temp {
-    height: 100px;
-  }
   .navbar {
     background-color: white !important;
     padding-top: 10px;
@@ -29,7 +26,7 @@
     font-weight: 600;
     padding: 1em;
     font-size: 14px;
-    margin: -0.2em 1em -0.2em 1em;
+    margin: -0.2em 1em;
   }
   #intro {
     -webkit-box-flex: row;
@@ -124,7 +121,7 @@
     margin-bottom: 0em;
   }
   .partners .partners-box-description {
-    margin: 0 5em 0.5em 5em;
+    margin: 0 5em 0.5em;
   }
   .partners .partners-img {
     max-width: 80%;
@@ -154,7 +151,7 @@
   .team .team-box-description {
     font-size: 18px;
     font-weight: 400;
-    margin: 1em 12.5em 1em 12.5em;
+    margin: 1em 12.5em;
   }
   .team .team-divider {
     background-color: #FAFAFA !important;
@@ -204,7 +201,7 @@
     margin-top: 0em;
   }
   .breakdown .breakdown-box-description {
-    margin: 1em 5em 2em 5em;
+    margin: 1em 5em 2em;
   }
   .breakdown .breakdown-card {
     padding: 2em;
@@ -225,7 +222,7 @@
     margin: 5em 0 5em 0;
   }
   .programs .programs-box-description {
-    margin: 1em 12.5em 1em 12.5em;
+    margin: 1em 12.5em;
   }
   /* Modals */
   .left {
