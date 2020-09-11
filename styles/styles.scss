@@ -178,11 +178,16 @@ b { // for bolding text
     }
 
     .navbar-nav {
+        margin-left: auto;
+
         .nav-item {
             color: grey;
             font-size: 16px;
-            margin-right: 20em;
             align-items: center;
+
+            .nav-link {
+                white-space: nowrap;
+            }
         }
     }
 
