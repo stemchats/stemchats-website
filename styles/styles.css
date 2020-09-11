@@ -26,6 +26,10 @@ body {
   overflow-x: hidden;
 }
 
+body li {
+  margin-bottom: 0.75rem;
+}
+
 .important {
   padding: 20px;
   border: 1px solid #ff5959;
@@ -37,6 +41,17 @@ body {
 
 .section-gray-bg {
   background-color: #f8f8f8;
+}
+
+.center {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
+.margin-bottom {
+  margin-bottom: 2rem;
 }
 
 .program-link {
@@ -75,23 +90,29 @@ body {
 .small-box-title {
   font-size: 32px;
   font-weight: bold;
+  text-transform: capitalize;
 }
 
 .large-box-title {
-  font-size: 32px;
   font-weight: bold;
   font-size: 50px;
+  text-transform: capitalize;
 }
 
 .medium-box-title {
   font-weight: bold;
   text-align: center;
+  text-transform: capitalize;
+  font-size: 40px;
+  margin-top: 2rem;
 }
 
 .medium-box-subtitle {
   font-size: 32px;
   font-weight: bold;
   text-align: center;
+  text-transform: capitalize;
+  margin-top: 2rem;
 }
 
 .box-description {
@@ -354,6 +375,15 @@ b {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.upcoming-event {
+  margin-bottom: 3rem;
+}
+
+.upcoming-event .important {
+  margin-top: 2rem;
 }
 
 #footer {

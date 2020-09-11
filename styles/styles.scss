@@ -44,6 +44,10 @@ $small-font-description: 18px;
 body {
     padding-top: 5em;
     overflow-x: hidden;
+
+    li {
+        margin-bottom: 0.75rem;
+    }
 }
 
 .important {
@@ -58,6 +62,17 @@ body {
 
 .section-gray-bg {
     background-color: $light-grey;
+}
+
+.center {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+.margin-bottom {
+    margin-bottom: 2rem;
 }
 
 .program-link { // links found in indiv program pages
@@ -90,23 +105,29 @@ body {
 .small-box-title {
     font-size: $small-font-title;
     font-weight: bold;
+    text-transform: capitalize;
 }
 
 .large-box-title {
-    font-size: $small-font-title;
     font-weight: bold;
     font-size: 50px;
+    text-transform: capitalize;
 }
 
 .medium-box-title{
     font-weight: bold;
     text-align: center;
+    text-transform: capitalize;
+    font-size: 40px;
+    margin-top: 2rem;
 }
 
 .medium-box-subtitle{
     font-size: $small-font-title;
-        font-weight: bold;
-        text-align: center;
+    font-weight: bold;
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 2rem;
 }
 
 .box-description {
@@ -336,6 +357,15 @@ b { // for bolding text
     .program-img {
         max-width: 100%;
         justify-content: center;
+        margin-bottom: 1rem;
+    }
+}
+
+.upcoming-event {
+    margin-bottom: 3rem;
+
+    .important { //add this for the header "Upcoming Event"
+        margin-top: 2rem;
     }
 }
 
