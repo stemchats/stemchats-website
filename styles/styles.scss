@@ -130,6 +130,12 @@ body {
     margin-top: 2rem;
 }
 
+.medium-box-subtitle2{
+    font-size: $small-font-description;
+    font-size: 20px;
+    font-weight: bold;
+    color: black; 
+}
 .box-description {
     font-size: $small-font-description;
 }
@@ -554,4 +560,8 @@ b { // for bolding text
       margin-top: 2em !important;
       justify-content: center !important;
   }
+}
+
+ul{
+    padding-left: 6%;
 }
