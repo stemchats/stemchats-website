@@ -236,11 +236,14 @@ b { // for bolding text
         max-width: 100%;
     }
 
-    .arrow {
-        position: absolute;
-        bottom: 5rem;
-        left: 7rem;
+    #arrow {
+        margin-top: 2rem;
         animation: bouncing 1.3s ease-in-out infinite ;
+        transition: 0.2s;
+
+        &.gone {
+            opacity: 0;
+        }
     }
 }
 

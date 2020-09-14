@@ -226,12 +226,16 @@ b {
   max-width: 100%;
 }
 
-#intro .arrow {
-  position: absolute;
-  bottom: 5rem;
-  left: 7rem;
+#intro #arrow {
+  margin-top: 2rem;
   -webkit-animation: bouncing 1.3s ease-in-out infinite;
           animation: bouncing 1.3s ease-in-out infinite;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+#intro #arrow.gone {
+  opacity: 0;
 }
 
 #upcoming {

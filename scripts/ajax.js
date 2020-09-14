@@ -24,3 +24,12 @@ function loadHeader() {
 
 loadFooter();
 loadHeader();
+
+
+
+
+//arrow: black --> transparent
+window.addEventListener("scroll", function() {
+  var arrow = document.querySelector("arrow");
+  arrow.classList.toggle("gone", window.scrollY > 50);
+})
