@@ -288,14 +288,6 @@ let membersObj = [
 	src: "IsabellaSiu.jpg",
 	bio: "Isabella is a senior at Castro Valley High School in California interested in education policy, user interaction, and cognitive science. She enjoys teaching competitive mathematics to middle school students and helping local youth reach new heights in STEM outside of the classroom. Isabella joined STEMchats to advance educational equity and be part of a lively team of innovators, entrepreneurs, and community leaders. In her spare time, she enjoys going wild in Adobe Lightroom, finding good lofi tracks, and poaching eggs."
 }, {
-	name: "Patricia Wei",
-	position: "Program Coordinator",
-	linkedIn: null,
-	home: "San Jose, CA",
-	team: "STEMchats Institute",
-	src: "PatriciaWei.jpg",
-	bio: "Patricia is a first-year student at Stanford University studying computer science, communications, and sociology. She joined STEMchats because she believes every student has potential to excel in STEM and wants them to have the chance to explore STEM. She is passionate about storytelling and is excited to listen to and share stories with students with STEMchats."
-}, {
 	name: "David Zhou",
 	position: "Program Coordinator",
 	linkedIn: "david-zhou-5a8162181/",
@@ -327,14 +319,6 @@ let membersObj = [
 	team: "United Engineers",
 	src: "AyoBravo.jpg",
 	bio: "Ayotzin, better known as Ayo, is a first-year student at the University of Pennsylvania who enjoys giving back to the community and is always willing to take on challenges. When asked about why he joined STEMchats, his response was simple \"because I believe in their goals and I'd like to help make this organization's vision a reality\". Ayo enjoys playing and watching soccer, spending time with his loved ones, and expanding his culinary palate."
-}, {
-	name: "Michael Coyle",
-	position: "Program Coordinator",
-	linkedIn: null,
-	home: "St. Louis, MO",
-	team: "United Engineers",
-	src: "MichaelCoyle.jpg",
-	bio: "Mike is a freshman student at the University of Pennsylvania. He joined STEMchats to spread passion for STEM to a younger generation. In his free time, Mike enjoys skateboarding, taking pictures, and reading fiction."
 }, {
 	name: "Teddy Smith",
 	position: "Program Coordinator",

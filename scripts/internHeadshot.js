@@ -130,14 +130,6 @@ let internsObj = [
 		bio: "Karla is a hardworking Latina and is a rising senior at University City High School in San Diego, California. She joined STEMchats to help break educational barriers in STEM for low-income and minority students as she has faced these challenges herself. She believes everyone, no matter their ethnicity/culture/background, should have an equal opportunity to attain quality education. During her free time, she loves hanging out with friends and family, watching Netflix, listening to music, eating, and playing the violin."
   },
 	{
-		name: "Astha Sinha",
-		position: "United Engineers Intern",
-		linkedIn: "astha-sinha-05624818a/",
-		home: "Chattanooga, TN",
-		src: "AsthaSinha.jpg",
-		bio: "Astha is passionate about expanding opportunities to those in underserved areas, shown through her community service work. She is a student at an all girls school in Chattanooga, TN. She loves learning, but her main interest is in the STEM fields. This is because there are many interdisciplinary fields of study so she doesn't have to pick just one! Though she focuses most of her time and energy into academics, her creative outlet is modern dance. She is part of the dance company Terpsichord."
-  },
-	{
 		name: "Emily Shang",
 		position: "United Engineers Intern",
 		linkedIn: null,
@@ -168,23 +160,6 @@ let internsObj = [
 		home: "Boston, MA",
 		src: "SophiaLin.jpg",
 		bio: "Sophia is a rising senior at Winchester High School in Massachusetts and is passionate about healthcare, education, and social justice. She joined STEMchats to utilize her interests in science to help connect underserved students to various enriching opportunities in STEM. In her free time, Sophia enjoys running, swimming, playing the piano, and learning new languages."
-  },
-	{
-		name: "Julia Starzycka",
-		position: "i-STEM Scholars Intern",
-		linkedIn: "juliastarzycka/",
-		home: "Chicago, IL",
-		src: "JuliaStarzycka.jpg",
-		bio: "Julia is a Teaching of Mathematics major at the University of Illinois at Chicago. She believes in the importance of equality in education and hopes to provide opportunities to students through STEMchats. As a future mathematics teacher, she hopes to inspire and encourage girls, first-generation students, minorities, and other underrepresented groups to pursue STEM fields in their futures and to participate in research. She believes research is continuous learning; research is a cycle that will never end, so it is important to propel it forward in order to learn the most that is possible. When she is not breaking barriers in STEM, she enjoys playing violin, playing tennis, and being in nature."
-  },
-	{
-		name: "Kathleen Bellon Pizarro",
-		position: "i-STEM Scholars Intern",
-		linkedIn: "kbellonpizarro/",
-		home: "College Station, TX",
-		team: "i-STEM Scholars",
-		src: "KathleenBellonPizarro.jpg",
-		bio: "Kathleen is a biology research enthusiast and a rising first-year student at Harvard planning to study Molecular and Cellular Biology. She joined STEMchats to empower other first-generation, low-income students to gain confidence in pursuing STEM-oriented interests and studies. She also strongly believes that work needs to be done to increase access to STEM for all students, regardless of background. In her free time, Kathleen loves to hike, camp, kayak, read sci-fi novels, and knit."
   },
 	{
 		name: "Sophia Tran",
@@ -219,14 +194,6 @@ let internsObj = [
 		bio: "Lucy is a rising second-year at UC Berkeley double-majoring in Computer Science and Business Administration. She joined STEMchats to drive its vision towards making STEM accessible for underrepresented communities and low-income, first generation students. She is excited to see the impact she can create! In her free time she loves to make videos, try new recipes, and find new music."
   },
 	{
-		name: "Mehak Garg",
-		position: "Marketing Intern",
-		linkedIn: "mehak--garg/",
-		home: "Milpitas, CA",
-		src: "MehakGarg.jpg",
-		bio: "Mehak Garg is a current rising senior at Milpitas High School. She is the founder of Coding4Kids, an international initiative dedicated to exposing students from K-12 to coding basics. She is passionate about creating pathways, human-centered design, and the social/legal implications of technology. She joined STEMchats to help provide STEM opportunities to under-resourced communities and dispel common stereotypes. In her free time, she can be found writing case studies for her blog, reading novels, debating on the national circuit, and playing tennis."
-  },
-	{
 		name: "Jenna Tran",
 		position: "Marketing Intern",
 		linkedIn: null,
@@ -249,22 +216,6 @@ let internsObj = [
 		home: "Troy, MI",
 		src: "AbbyLiang.jpg",
 		bio: "Abby is passionate about technology, education, and design. She is driven by the ways that technology can integrate with other fields, valuing the creativity in STEM. She loves the way technology can be used for social good and how she can use her skills to make an impact. She joined STEMchats seeing the importance of STEM and how everyone deserves access to immersive STEM programming. In her free time, she enjoys watching Netflix, designing, and eating ice cream."
-  },
-	{
-		name: "Chi Phan",
-		position: "Marketing Intern",
-		linkedIn: null,
-		home: "Norcross, GA",
-		src: "ChiPhan.jpg",
-		bio: "Chi is a high school senior in Georgia interested in entrepreneurship and medicine. She is excited to embark on STEMchats' mission and help make STEM opportunities and research more accessible to FGLI students. In her free time, she enjoys exploring around the city, reading sci-fi books, and binge-watching Netflix shows."
-  },
-	{
-		name: "Michelle Mar",
-		position: "Funding Intern",
-		linkedIn: "michelle-mar-65a5b41a1/",
-		home: "Valley Village, CA",
-		src: "MichelleMar.jpg",
-		bio: "Michelle is a rising sophomore at UC Berkeley. She has a passion for international relations and studies political science with an intent to apply for law school in the future. Michelle wants to increase access to STEM resources for low-income and minority communities through STEMchats. Michelle loves playing Animal Crossing, watching anime, and trying new foods in her free time."
   },
 	{
 		name: "Haylie Jones",
@@ -373,5 +324,5 @@ let internsObj = [
 ]
 
 //load all at onload
-window.onload = createMembers(internsObj);
-window.onload =	animateOnload();
+// window.onload = createMembers(internsObj);
+// window.onload =	animateOnload();

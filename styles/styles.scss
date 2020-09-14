@@ -91,7 +91,7 @@ body {
       font-size: $small-font-description;
       margin-bottom: 6em;
     }
-    
+
     @include flexCenter();
     text-align: left;
     padding: 0 2em;
@@ -407,10 +407,13 @@ b { // for bolding text
 }
 .program-img {
     width: 100%;
-    max-width: 500px;
+    max-width: 600px; //image width
     justify-content: center;
     margin-top: 3rem;
     margin-bottom: 3rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .upcoming-event {
