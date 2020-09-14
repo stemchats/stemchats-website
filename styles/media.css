@@ -29,9 +29,6 @@
     margin: -0.2em 1em;
   }
   #intro {
-    -webkit-box-flex: row;
-        -ms-flex: row;
-            flex: row;
     height: 100vh;
     display: -webkit-box;
     display: -ms-flexbox;

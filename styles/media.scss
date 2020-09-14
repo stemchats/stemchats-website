@@ -60,7 +60,6 @@ $small-font-description: 18px;
     }
 
     #intro {
-        flex: row;
         @include largeFlexCenter();
         text-align: left !important;
         margin-top: 0em;
