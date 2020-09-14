@@ -4,28 +4,27 @@ $main-color : #ff5959;
 $main-font :  'Karla', sans-serif;
 $small-font-title: 32px;
 $small-font-description: 18px;
-$small-padding : 1em;
 
 @mixin smallFlexCenter {
     height: 75vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: 'Karla';
 }
 @mixin largeFlexCenter {
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: 'Karla';
+}
+@mixin flexCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 991px) {
     /*computer */
-    #temp {
-        height:100px;
-    }
     .navbar {
         background-color: white!important;
         padding-top: 10px;
@@ -55,7 +54,7 @@ $small-padding : 1em;
                 font-weight: 600;
                 padding: 1em;
                 font-size: 14px;
-                margin: -0.2em 1em -0.2em 1em;
+                margin: -0.2em 1em;
             }
         }
     }
@@ -124,18 +123,6 @@ $small-padding : 1em;
 
     // ABOUT US PAGE STYLES
 
-    .aboutus {
-
-        height: 50vh;
-
-        margin-top: 0em;
-        margin-bottom: -7.5em;
-
-        .aboutus-box-description {
-            margin: 0 5em 0.5em 5em;
-        }
-    }
-
     .partners {
         height: 80vh;
 
@@ -143,7 +130,7 @@ $small-padding : 1em;
         margin-bottom: 0em;
 
         .partners-box-description {
-            margin: 0 5em 0.5em 5em;
+            margin: 0 5em;
 
         }
         .partners-img {
@@ -152,7 +139,9 @@ $small-padding : 1em;
     }
 
     .team {
-        @include smallFlexCenter;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         font-family: $main-font;
         height: 100%;
 
@@ -169,10 +158,10 @@ $small-padding : 1em;
         .team-box-description {
             font-size: $small-font-description;
             font-weight: 400;
-            margin: 1em 12.5em 1em 12.5em;
+            margin: 1em 12.5em;
         }
 
-        .team-divider {
+        /*.team-divider {
             background-color: #FAFAFA !important;
             text-align: center;
             font-size: 32px !important;
@@ -181,7 +170,7 @@ $small-padding : 1em;
                 color: black !important;
                 font-weight: 800;
             }
-        }
+        }*/
 
         .teamcard {
             padding: 2em;
@@ -220,8 +209,7 @@ $small-padding : 1em;
         }
 
         .breakdown-box-description {
-            // font-size: 18px;
-            margin: 1em 5em 2em 5em;
+            margin: 1em 5em 2em;
         }
 
         .breakdown-card {
@@ -249,13 +237,38 @@ $small-padding : 1em;
         margin: 5em 0 5em 0;
 
         .programs-box-description {
-            margin: 1em 12.5em 1em 12.5em;
+            margin: 1em 12.5em;
         }
     }
 
     /* Modals */
     .left {
       text-align:left;
+    }
+}
+
+@media screen and (max-width: 1475px) {
+    // reduce padding in navbar
+    .navbar {
+        padding-left: 5em;
+        padding-right: 5em;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    // reduce padding in navbar
+    .navbar {
+        padding-left: 3em;
+        padding-right: 3em;
+
+        .navbar-nav {
+            .nav-item {
+                padding-left: 0;
+                padding-right: 0;
+                margin-right: 1rem;
+                margin-left: 1rem;
+            }
+        }
     }
 }
 
@@ -314,28 +327,32 @@ $small-padding : 1em;
 @media screen and (max-width: 767px) {
 /* start of medium tablet styles */
 
-#temp {
-  height:0px;
-}
-  // .modal:before {
-  //   height: 10%;
-  // }
+    // .modal:before {
+    //   height: 10%;
+    // }
 
-  .modal-header {
-    .close {  //style close button when screen resizes
-      margin: -6px;
+    .modal-header {
+        .close {  //style close button when screen resizes
+        margin: -6px;
+        }
     }
-  }
+
+    #upcoming {
+        img {
+            width: 100%;
+        }
+    }
 }
 
 @media screen and (max-width: 479px) {
 /* start of phone styles */
-  .program-box {
-    .program-box-text {
-      font-size: 16px;
+    .program-box {
+        .program-box-text {
+            font-size: 16px;
+        }
     }
-  }
-  .modal .modal-dialog {
+
+    .modal .modal-dialog {
         position:relative;
         width:auto;
     }

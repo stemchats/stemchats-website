@@ -1,8 +1,5 @@
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 991px) {
   /*computer */
-  #temp {
-    height: 100px;
-  }
   .navbar {
     background-color: white !important;
     padding-top: 10px;
@@ -29,7 +26,7 @@
     font-weight: 600;
     padding: 1em;
     font-size: 14px;
-    margin: -0.2em 1em -0.2em 1em;
+    margin: -0.2em 1em;
   }
   #intro {
     -webkit-box-flex: row;
@@ -45,7 +42,6 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    font-family: 'Karla';
     text-align: left !important;
     margin-top: 0em;
   }
@@ -83,7 +79,6 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    font-family: 'Karla';
     text-align: left !important;
     height: 85vh;
   }
@@ -118,16 +113,7 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    font-family: 'Karla';
     height: 50vh;
-  }
-  .aboutus {
-    height: 50vh;
-    margin-top: 0em;
-    margin-bottom: -7.5em;
-  }
-  .aboutus .aboutus-box-description {
-    margin: 0 5em 0.5em 5em;
   }
   .partners {
     height: 80vh;
@@ -135,13 +121,12 @@
     margin-bottom: 0em;
   }
   .partners .partners-box-description {
-    margin: 0 5em 0.5em 5em;
+    margin: 0 5em;
   }
   .partners .partners-img {
     max-width: 80%;
   }
   .team {
-    height: 75vh;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -151,12 +136,21 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    font-family: 'Karla';
     font-family: "Karla", sans-serif;
     height: 100%;
     padding: 2em;
     background-color: white;
     color: black;
+    /*.team-divider {
+            background-color: #FAFAFA !important;
+            text-align: center;
+            font-size: 32px !important;
+
+            .team-divider-header {
+                color: black !important;
+                font-weight: 800;
+            }
+        }*/
   }
   .team .team-box-title {
     font-size: 32px;
@@ -167,16 +161,7 @@
   .team .team-box-description {
     font-size: 18px;
     font-weight: 400;
-    margin: 1em 12.5em 1em 12.5em;
-  }
-  .team .team-divider {
-    background-color: #FAFAFA !important;
-    text-align: center;
-    font-size: 32px !important;
-  }
-  .team .team-divider .team-divider-header {
-    color: black !important;
-    font-weight: 800;
+    margin: 1em 12.5em;
   }
   .team .teamcard {
     padding: 2em;
@@ -209,7 +194,6 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    font-family: 'Karla';
     height: 100vh;
     margin-top: 4em;
     padding: 0em;
@@ -218,7 +202,7 @@
     margin-top: 0em;
   }
   .breakdown .breakdown-box-description {
-    margin: 1em 5em 2em 5em;
+    margin: 1em 5em 2em;
   }
   .breakdown .breakdown-card {
     padding: 2em;
@@ -239,11 +223,31 @@
     margin: 5em 0 5em 0;
   }
   .programs .programs-box-description {
-    margin: 1em 12.5em 1em 12.5em;
+    margin: 1em 12.5em;
   }
   /* Modals */
   .left {
     text-align: left;
+  }
+}
+
+@media screen and (max-width: 1475px) {
+  .navbar {
+    padding-left: 5em;
+    padding-right: 5em;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .navbar {
+    padding-left: 3em;
+    padding-right: 3em;
+  }
+  .navbar .navbar-nav .nav-item {
+    padding-left: 0;
+    padding-right: 0;
+    margin-right: 1rem;
+    margin-left: 1rem;
   }
 }
 
@@ -292,11 +296,11 @@
 
 @media screen and (max-width: 767px) {
   /* start of medium tablet styles */
-  #temp {
-    height: 0px;
-  }
   .modal-header .close {
     margin: -6px;
+  }
+  #upcoming img {
+    width: 100%;
   }
 }
 
