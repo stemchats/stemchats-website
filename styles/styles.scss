@@ -87,6 +87,11 @@ body {
 }
 
 .info-section {
+    ol {
+      font-size: $small-font-description;
+      margin-bottom: 6em;
+    }
+    
     @include flexCenter();
     text-align: left;
     padding: 0 2em;
@@ -144,7 +149,7 @@ body {
     font-size: $small-font-description;
     font-size: 20px;
     font-weight: bold;
-    color: black; 
+    color: black;
 }
 .box-description {
     font-size: $small-font-description;
