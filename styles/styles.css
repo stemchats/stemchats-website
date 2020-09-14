@@ -381,7 +381,6 @@ b {
 }
 
 .programs {
-  height: 100%;
   padding: 1em;
   background-color: white;
   margin-top: 1em;
@@ -421,8 +420,8 @@ b {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-top: 3rem;
-  margin-bottom: 3rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .upcoming-event {
@@ -436,6 +435,10 @@ b {
 .upcoming-event h4 {
   margin-top: 20px;
   margin-bottom: 20px;
+}
+
+.upcoming-event .program-img {
+  max-width: 100%;
 }
 
 #footer {

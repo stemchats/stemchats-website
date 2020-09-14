@@ -373,7 +373,6 @@ b { // for bolding text
 //PROGRAMS PAGE - ACCORDIAN
 
 .programs {
-    height: 100%;
     padding: 1em;
     background-color: white;
     margin-top: 1em;
@@ -412,8 +411,8 @@ b { // for bolding text
     width: 100%;
     max-width: 500px;
     justify-content: center;
-    margin-top: 3rem;
-    margin-bottom: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 .upcoming-event {
@@ -426,6 +425,10 @@ b { // for bolding text
     h4 {
         margin-top: 20px;
         margin-bottom: 20px;
+    }
+
+    .program-img {
+        max-width: 100%;
     }
 }
 

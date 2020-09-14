@@ -181,7 +181,6 @@
     text-align: center;
   }
   .breakdown {
-    height: 100vh;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -191,7 +190,6 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    height: 100vh;
     margin-top: 4em;
     padding: 0em;
   }
@@ -213,14 +211,10 @@
     font-size: 36px;
   }
   .programs {
-    height: 125vh;
     padding: 0em;
     background-color: white;
     color: black;
     margin: 5em 0 5em 0;
-  }
-  .programs .programs-box-description {
-    margin: 1em 12.5em;
   }
   /* Modals */
   .left {
