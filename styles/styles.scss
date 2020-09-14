@@ -235,6 +235,13 @@ b { // for bolding text
     .top-img {
         max-width: 100%;
     }
+
+    .arrow {
+        margin-top: 4rem;
+        margin-left: 3rem;
+        opacity: 0.5;
+        animation: bouncing 1.3s ease-in-out infinite ;
+    }
 }
 
 #upcoming {
@@ -281,6 +288,7 @@ b { // for bolding text
     padding: 3em 0em 1em;
     margin: 1em 1em 0;
 }
+
 
 
 
@@ -607,4 +615,20 @@ b { // for bolding text
 
 ul{
     padding-left: 6%;
+}
+
+
+
+// ANIMATIONS
+
+@keyframes bouncing {
+    0% {
+        transform: translateY(0%);
+    }
+    50% {
+        transform: translateY(50%);
+    }
+    100% {
+        transform: translateY(0%);
+    }
 }
