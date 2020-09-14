@@ -208,7 +208,7 @@ b {
 }
 
 #intro {
-  height: 100vh;
+  min-height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
