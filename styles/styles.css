@@ -417,9 +417,6 @@ b {
 .program-img {
   width: 100%;
   max-width: 500px;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
