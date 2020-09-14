@@ -195,7 +195,7 @@ b {
 }
 
 #intro {
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -207,11 +207,14 @@ b {
   max-width: 100%;
 }
 
-#intro .arrow {
-  margin-top: 4rem;
-  margin-left: 3rem;
-  opacity: 0.5;
+#intro #arrow {
+  margin-top: 2rem;
   animation: bouncing 1.3s ease-in-out infinite;
+  transition: 0.2s;
+}
+
+#intro #arrow.gone {
+  opacity: 0;
 }
 
 #upcoming {
@@ -336,7 +339,6 @@ b {
 }
 
 .programs {
-  height: 100%;
   padding: 1em;
   background-color: white;
   margin-top: 1em;
@@ -371,9 +373,12 @@ b {
 }
 
 .program-img {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
   width: 100%;
   max-width: 600px;
-  justify-content: center;
   margin-top: 3rem;
   margin-bottom: 3rem;
   display: block;
@@ -392,6 +397,12 @@ b {
 .upcoming-event h4 {
   margin-top: 20px;
   margin-bottom: 20px;
+}
+
+.upcoming-event .program-img {
+  max-width: 100%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 #footer {

@@ -14,7 +14,7 @@ $small-font-description: 18px;
 }
 
 @mixin largeFlexCenter {
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -24,6 +24,13 @@ $small-font-description: 18px;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+@mixin center {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
 }
 
 // BASE STYLES
@@ -236,11 +243,14 @@ b { // for bolding text
         max-width: 100%;
     }
 
-    .arrow {
-        margin-top: 4rem;
-        margin-left: 3rem;
-        opacity: 0.5;
-        animation: bouncing 1.3s ease-in-out infinite ;
+    #arrow {
+        margin-top: 2rem;
+        animation: bouncing 1.3s ease-in-out infinite;
+        transition: 0.2s;
+
+        &.gone {
+            opacity: 0;
+        }
     }
 }
 
@@ -370,7 +380,6 @@ b { // for bolding text
 //PROGRAMS PAGE - ACCORDIAN
 
 .programs {
-    height: 100%;
     padding: 1em;
     background-color: white;
     margin-top: 1em;
@@ -406,9 +415,9 @@ b { // for bolding text
     background-color: white;
 }
 .program-img {
+    @include center;
     width: 100%;
     max-width: 600px; //image width
-    justify-content: center;
     margin-top: 3rem;
     margin-bottom: 3rem;
     display: block;
@@ -426,6 +435,12 @@ b { // for bolding text
     h4 {
         margin-top: 20px;
         margin-bottom: 20px;
+    }
+
+    .program-img {
+        max-width: 100%;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
     }
 }
 

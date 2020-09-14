@@ -29,9 +29,6 @@
     margin: -0.2em 1em;
   }
   #intro {
-    -webkit-box-flex: row;
-        -ms-flex: row;
-            flex: row;
     height: 100vh;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -184,7 +181,6 @@
     text-align: center;
   }
   .breakdown {
-    height: 100vh;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -194,7 +190,6 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    height: 100vh;
     margin-top: 4em;
     padding: 0em;
   }
@@ -216,14 +211,10 @@
     font-size: 36px;
   }
   .programs {
-    height: 125vh;
     padding: 0em;
     background-color: white;
     color: black;
     margin: 5em 0 5em 0;
-  }
-  .programs .programs-box-description {
-    margin: 1em 12.5em;
   }
   /* Modals */
   .left {
@@ -278,9 +269,9 @@
     -webkit-transition: .3s;
     transition: .3s;
   }
-  .center {
-    /* for text */
-    text-align: center;
+  #intro #arrow {
+    left: 6rem;
+    bottom: 4rem;
   }
   .left {
     text-align: left;
@@ -298,6 +289,12 @@
   /* start of medium tablet styles */
   .modal-header .close {
     margin: -6px;
+  }
+  #intro #arrow {
+    bottom: 2rem;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
   }
   #upcoming img {
     width: 100%;

@@ -60,7 +60,6 @@ $small-font-description: 18px;
     }
 
     #intro {
-        flex: row;
         @include largeFlexCenter();
         text-align: left !important;
         margin-top: 0em;
@@ -198,8 +197,7 @@ $small-font-description: 18px;
     // OUR PROGRAMS STYLES
 
     .breakdown {
-        @include largeFlexCenter();
-        height: 100vh;
+        @include flexCenter();
 
         margin-top: 4em;
         padding: 0em;
@@ -228,17 +226,10 @@ $small-font-description: 18px;
     }
 
     .programs {
-        height: 125vh;
-
         padding: 0em;
         background-color: white;
         color: black;
-
         margin: 5em 0 5em 0;
-
-        .programs-box-description {
-            margin: 1em 12.5em;
-        }
     }
 
     /* Modals */
@@ -305,8 +296,9 @@ $small-font-description: 18px;
         }
     }
 
-    .center { /* for text */
-        text-align:center;
+    #intro #arrow {
+        left: 6rem;
+        bottom: 4rem;
     }
 
     .left {
@@ -335,6 +327,12 @@ $small-font-description: 18px;
         .close {  //style close button when screen resizes
         margin: -6px;
         }
+    }
+
+    #intro #arrow {
+        bottom: 2rem;
+        left: 50%;
+        transform: translateX(-50%);
     }
 
     #upcoming {
