@@ -17,8 +17,38 @@ $small-font-description: 18px;
     justify-content: center;
     align-items: center;
 }
+@mixin flexCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-@media only screen and (min-width: 992px) {
+@media screen and (max-width: 1475px) {
+    // reduce padding in navbar
+    .navbar {
+        padding-left: 5em;
+        padding-right: 5em;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    // reduce padding in navbar
+    .navbar {
+        padding-left: 3em;
+        padding-right: 3em;
+
+        .navbar-nav {
+            .nav-item {
+                padding-left: 0;
+                padding-right: 0;
+                margin-right: 1rem;
+                margin-left: 1rem;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 991px) {
     /*computer */
     .navbar {
         background-color: white!important;
@@ -125,7 +155,7 @@ $small-font-description: 18px;
         margin-bottom: 0em;
 
         .partners-box-description {
-            margin: 0 5em 0.5em;
+            margin: 0 5em;
 
         }
         .partners-img {
@@ -156,7 +186,7 @@ $small-font-description: 18px;
             margin: 1em 12.5em;
         }
 
-        .team-divider {
+        /*.team-divider {
             background-color: #FAFAFA !important;
             text-align: center;
             font-size: 32px !important;
@@ -165,7 +195,7 @@ $small-font-description: 18px;
                 color: black !important;
                 font-weight: 800;
             }
-        }
+        }*/
 
         .teamcard {
             padding: 2em;
@@ -313,12 +343,13 @@ $small-font-description: 18px;
 
 @media screen and (max-width: 479px) {
 /* start of phone styles */
-  .program-box {
-    .program-box-text {
-      font-size: 16px;
+    .program-box {
+        .program-box-text {
+            font-size: 16px;
+        }
     }
-  }
-  .modal .modal-dialog {
+
+    .modal .modal-dialog {
         position:relative;
         width:auto;
     }

@@ -1,4 +1,24 @@
-@media only screen and (min-width: 992px) {
+@media screen and (max-width: 1475px) {
+  .navbar {
+    padding-left: 5em;
+    padding-right: 5em;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .navbar {
+    padding-left: 3em;
+    padding-right: 3em;
+  }
+  .navbar .navbar-nav .nav-item {
+    padding-left: 0;
+    padding-right: 0;
+    margin-right: 1rem;
+    margin-left: 1rem;
+  }
+}
+
+@media only screen and (min-width: 991px) {
   /*computer */
   .navbar {
     background-color: white !important;
@@ -121,7 +141,7 @@
     margin-bottom: 0em;
   }
   .partners .partners-box-description {
-    margin: 0 5em 0.5em;
+    margin: 0 5em;
   }
   .partners .partners-img {
     max-width: 80%;
@@ -141,6 +161,16 @@
     padding: 2em;
     background-color: white;
     color: black;
+    /*.team-divider {
+            background-color: #FAFAFA !important;
+            text-align: center;
+            font-size: 32px !important;
+
+            .team-divider-header {
+                color: black !important;
+                font-weight: 800;
+            }
+        }*/
   }
   .team .team-box-title {
     font-size: 32px;
@@ -152,15 +182,6 @@
     font-size: 18px;
     font-weight: 400;
     margin: 1em 12.5em;
-  }
-  .team .team-divider {
-    background-color: #FAFAFA !important;
-    text-align: center;
-    font-size: 32px !important;
-  }
-  .team .team-divider .team-divider-header {
-    color: black !important;
-    font-weight: 800;
   }
   .team .teamcard {
     padding: 2em;
