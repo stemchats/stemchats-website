@@ -23,31 +23,6 @@ $small-font-description: 18px;
     align-items: center;
 }
 
-@media screen and (max-width: 1475px) {
-    // reduce padding in navbar
-    .navbar {
-        padding-left: 5em;
-        padding-right: 5em;
-    }
-}
-
-@media screen and (max-width: 1200px) {
-    // reduce padding in navbar
-    .navbar {
-        padding-left: 3em;
-        padding-right: 3em;
-
-        .navbar-nav {
-            .nav-item {
-                padding-left: 0;
-                padding-right: 0;
-                margin-right: 1rem;
-                margin-left: 1rem;
-            }
-        }
-    }
-}
-
 @media only screen and (min-width: 991px) {
     /*computer */
     .navbar {
@@ -272,7 +247,32 @@ $small-font-description: 18px;
     }
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1475px) {
+    // reduce padding in navbar
+    .navbar {
+        padding-left: 5em;
+        padding-right: 5em;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    // reduce padding in navbar
+    .navbar {
+        padding-left: 3em;
+        padding-right: 3em;
+
+        .navbar-nav {
+            .nav-item {
+                padding-left: 0;
+                padding-right: 0;
+                margin-right: 1rem;
+                margin-left: 1rem;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 991px) {
 /* start of large tablet styles */
     .navbar-brand {
         color: black !important;
@@ -327,18 +327,21 @@ $small-font-description: 18px;
 @media screen and (max-width: 767px) {
 /* start of medium tablet styles */
 
-#temp {
-  height:0px;
-}
-  // .modal:before {
-  //   height: 10%;
-  // }
+    // .modal:before {
+    //   height: 10%;
+    // }
 
-  .modal-header {
-    .close {  //style close button when screen resizes
-      margin: -6px;
+    .modal-header {
+        .close {  //style close button when screen resizes
+        margin: -6px;
+        }
     }
-  }
+
+    #upcoming {
+        img {
+            width: 100%;
+        }
+    }
 }
 
 @media screen and (max-width: 479px) {
