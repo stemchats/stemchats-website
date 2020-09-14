@@ -415,10 +415,14 @@ b {
 }
 
 .program-img {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
   width: 100%;
   max-width: 500px;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
 }
 
 .upcoming-event {
@@ -436,6 +440,8 @@ b {
 
 .upcoming-event .program-img {
   max-width: 100%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 #footer {

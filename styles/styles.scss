@@ -26,6 +26,13 @@ $small-font-description: 18px;
     align-items: center;
 }
 
+@mixin center {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
 // BASE STYLES
 
 * {
@@ -408,10 +415,11 @@ b { // for bolding text
     background-color: white;
 }
 .program-img {
+    @include center;
     width: 100%;
     max-width: 500px;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
 }
 
 .upcoming-event {
@@ -428,6 +436,8 @@ b { // for bolding text
 
     .program-img {
         max-width: 100%;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
     }
 }
 
