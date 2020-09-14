@@ -273,7 +273,6 @@ b {
   background-color: white;
   padding: 3em 0em 1em;
   margin: 1em 1em 0;
-  text-align: center;
 }
 
 .team {
@@ -399,12 +398,14 @@ b {
   background-color: white;
 }
 
-.program-box .program-img {
-  max-width: 100%;
+.program-img {
+  width: 100%;
+  max-width: 500px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-bottom: 1rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
 }
 
 .upcoming-event {

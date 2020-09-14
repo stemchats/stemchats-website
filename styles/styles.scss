@@ -275,7 +275,6 @@ b { // for bolding text
     background-color: white;
     padding: 3em 0em 1em;
     margin: 1em 1em 0;
-    text-align: center;
 }
 
 
@@ -392,12 +391,13 @@ b { // for bolding text
     height: 100%;
     padding: 2em;
     background-color: white;
-
-    .program-img {
-        max-width: 100%;
-        justify-content: center;
-        margin-bottom: 1rem;
-    }
+}
+.program-img {
+    width: 100%;
+    max-width: 500px;
+    justify-content: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
 }
 
 .upcoming-event {
