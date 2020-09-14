@@ -305,8 +305,9 @@ $small-font-description: 18px;
         }
     }
 
-    .center { /* for text */
-        text-align:center;
+    #intro .arrow {
+        left: 6rem;
+        bottom: 4rem;
     }
 
     .left {
@@ -335,6 +336,12 @@ $small-font-description: 18px;
         .close {  //style close button when screen resizes
         margin: -6px;
         }
+    }
+
+    #intro .arrow {
+        bottom: 2rem;
+        left: 50%;
+        transform: translateX(-50%);
     }
 
     #upcoming {

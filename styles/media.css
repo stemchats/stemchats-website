@@ -278,9 +278,9 @@
     -webkit-transition: .3s;
     transition: .3s;
   }
-  .center {
-    /* for text */
-    text-align: center;
+  #intro .arrow {
+    left: 6rem;
+    bottom: 4rem;
   }
   .left {
     text-align: left;
@@ -298,6 +298,12 @@
   /* start of medium tablet styles */
   .modal-header .close {
     margin: -6px;
+  }
+  #intro .arrow {
+    bottom: 2rem;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
   }
   #upcoming img {
     width: 100%;

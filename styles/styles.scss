@@ -237,9 +237,9 @@ b { // for bolding text
     }
 
     .arrow {
-        margin-top: 4rem;
-        margin-left: 3rem;
-        opacity: 0.5;
+        position: absolute;
+        bottom: 5rem;
+        left: 7rem;
         animation: bouncing 1.3s ease-in-out infinite ;
     }
 }
