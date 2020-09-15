@@ -3,13 +3,15 @@
   font-family: "Karla", sans-serif;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 * a {
   color: #ff5959;
   border-bottom: 1px dashed #ccc;
   text-decoration: none;
+  -webkit-transition: all .3s;
   transition: all .3s;
 }
 
@@ -58,9 +60,15 @@ body li {
 }
 
 .info-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   text-align: left;
   padding: 0 2em;
 }
@@ -142,9 +150,11 @@ b {
   margin-bottom: 1em;
   border: 1px solid rgba(255, 89, 89, 0);
   border-radius: 10px;
+  background: -webkit-gradient(linear, left top, right top, color-stop(50%, #ff5959), color-stop(50%, white));
   background: linear-gradient(to right, #ff5959 50%, white 50%);
   background-size: 200% 100%;
   background-position: left bottom;
+  -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
 
@@ -172,7 +182,9 @@ b {
 .navbar .navbar-nav .nav-item {
   color: grey;
   font-size: 16px;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .navbar .navbar-nav .nav-item .nav-link {
@@ -182,6 +194,7 @@ b {
 .navbar .dropdown-item:hover {
   color: #ff5959;
   background-color: white;
+  -webkit-transition: .3s;
   transition: .3s;
 }
 
@@ -196,9 +209,15 @@ b {
 
 #intro {
   min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   padding-bottom: 5em;
   margin: 0em 0.5em;
 }
@@ -209,7 +228,9 @@ b {
 
 #intro #arrow {
   margin-top: 2rem;
-  animation: bouncing 1.3s ease-in-out infinite;
+  -webkit-animation: bouncing 1.3s ease-in-out infinite;
+          animation: bouncing 1.3s ease-in-out infinite;
+  -webkit-transition: 0.2s;
   transition: 0.2s;
 }
 
@@ -252,22 +273,35 @@ b {
 }
 
 #dropdownSelectTeam:focus {
-  box-shadow: inset 0 0 0 #ddd;
+  -webkit-box-shadow: inset 0 0 0 #ddd;
+          box-shadow: inset 0 0 0 #ddd;
 }
 
 .aboutus {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   background-color: white;
   padding: 3em 0em 1em;
   margin: 1em 1em 0;
 }
 
 .team {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   height: 100%;
   padding: 1em;
   background-color: white;
@@ -310,9 +344,15 @@ b {
 }
 
 .breakdown {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   height: 100%;
   padding: 1em;
 }
@@ -335,7 +375,9 @@ b {
 
 .breakdown .breakdown-card .breakdown-card-img-top {
   max-height: 250px;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .programs {
@@ -381,9 +423,6 @@ b {
   max-width: 600px;
   margin-top: 3rem;
   margin-bottom: 3rem;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .upcoming-event {
@@ -511,6 +550,7 @@ b {
   padding-left: 10px;
   font-size: 1.17em;
   color: #ddd;
+  -webkit-transition: all .3s;
   transition: all .3s;
 }
 
@@ -546,7 +586,9 @@ b {
 .intern-img {
   margin-top: 0.5em;
   max-width: 100%;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 #curator .instagram-feed {
@@ -556,21 +598,42 @@ b {
 
 #curator .instagram-feed-tag {
   margin-top: 2em !important;
-  justify-content: center !important;
+  -webkit-box-pack: center !important;
+      -ms-flex-pack: center !important;
+          justify-content: center !important;
 }
 
 ul {
   padding-left: 6%;
 }
 
-@keyframes bouncing {
+@-webkit-keyframes bouncing {
   0% {
-    transform: translateY(0%);
+    -webkit-transform: translateY(0%);
+            transform: translateY(0%);
   }
   50% {
-    transform: translateY(50%);
+    -webkit-transform: translateY(50%);
+            transform: translateY(50%);
   }
   100% {
-    transform: translateY(0%);
+    -webkit-transform: translateY(0%);
+            transform: translateY(0%);
   }
 }
+
+@keyframes bouncing {
+  0% {
+    -webkit-transform: translateY(0%);
+            transform: translateY(0%);
+  }
+  50% {
+    -webkit-transform: translateY(50%);
+            transform: translateY(50%);
+  }
+  100% {
+    -webkit-transform: translateY(0%);
+            transform: translateY(0%);
+  }
+}
+/*# sourceMappingURL=styles.css.map */
