@@ -466,7 +466,7 @@ let membersObj = [
 }, {
 	name: "Tyler Vazquez",
 	position: "Program Coordinator",
-	linkedIn: null,
+	linkedIn: "tyler-vazquez-314a361b3/",
 	home: "Colonie, NY",
 	team: "STEMlights",
 	src: "TylerVazquez.jpg",
