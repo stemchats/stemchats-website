@@ -134,7 +134,7 @@ body {
 .medium-box-title{
     font-weight: bold;
     text-align: center;
-    text-transform: capitalize;
+    // text-transform: capitalize;
     font-size: 40px;
     margin-top: 2rem;
 }
@@ -148,7 +148,7 @@ body {
     font-size: $small-font-title;
     font-weight: bold;
     text-align: center;
-    text-transform: capitalize;
+    // text-transform: capitalize;
     margin-top: 2rem;
 }
 
@@ -351,33 +351,16 @@ b { // for bolding text
 
 // OUR PROGRAMS (OVERVIEW) STYLES
 
-.breakdown {
-    @include flexCenter();
-    height: 100%;
-    padding: 1em;
-
-    .breakdown-box-description {
-        font-size: $small-font-description;
-        margin: 1em 0em;
+#overview {
+  h3 {
+    a {
+      color: #000;
+      border-bottom: 1px dashed #000;
     }
-
-    .breakdown-card {
-        padding: 0.5em;
-        margin: 1em 0;
-        border-radius: 10px;
-
-        .breakdown-card-title {
-            font-weight: bold;
-            font-size: 36px;
-        }
-        .breakdown-card-img-top {
-            max-height: 250px;
-            justify-content: center;
-        }
-    }
+  }
 }
 
-//PROGRAMS PAGE - ACCORDIAN
+//PROGRAM PAGE
 
 .programs {
     padding: 1em;
