@@ -314,11 +314,11 @@ let membersObj = [
 }, {
 	name: "MyCo Le",
 	position: "Technology Coordinator",
-	linkedIn: null,
+	linkedIn: "myco-le/",
 	home: "Baltimore, MD",
 	team: "technology",
 	src: "MyCoLe.jpg",
-	bio: "MyCo is a rising senior at the Bryn Mawr School for Girls in Baltimore, Maryland and an avid believer in self love and individuality. She wants to fight for equitable opportunities so that everyone, no matter their background and especially FGLI and minority students, may be able to find their true passions and pursue happiness. She joined STEMchats to indulge in her own love for STEM and help others do the same. In her free time, she likes to draw, watch anime, listen to J-rock and lo-fi, and browse YouTube for hours on end."
+	bio: "MyCo is a senior at the Bryn Mawr School for Girls in Baltimore, Maryland and an avid believer in self love and individuality. She wants to fight for equitable opportunities so that everyone, no matter their background and especially FGLI and minority students, may be able to find their true passions and pursue happiness. She joined STEMchats to indulge in her own love for STEM and help others do the same. In her free time, she likes to draw, watch anime, listen to J-rock and lo-fi, and browse YouTube for hours on end."
 }, {
 	name: "Sabrina Chang",
 	position: "Technology Coordinator",
