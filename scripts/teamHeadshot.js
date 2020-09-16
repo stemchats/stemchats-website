@@ -60,14 +60,6 @@ let membersObj = [
 	src: "MahirRahman.jpg",
 	bio: "Mahir is a proponent advocate for equitable educational and medicinal opportunities and is an IB senior at Gateway High School in Kissimmee, Florida. He aspires to study Public Health and joined STEMchats to introduce medicinal aspects to the program, to provide awareness towards, and include underprivileged, FGLI (first-generation, low-income), women, & minorities, in a global manner. In his free time, he enjoys reading about politics, exploring fashion and makeup, and listening to music."
 }, {
-	name: "Amanda Edwards",
-	position: "Program Lead",
-	linkedIn: null,
-	home: "Wilmington, NC",
-	team: "STEMlights",
-	src: "AmandaEdwards.jpg",
-	bio: "Amanda is an environmental science activist and currently a senior at Cape Fear Academy in Wilmington, NC. She joined STEMchats as a program coordinator for STEMlights to give underrepresented students the opportunity to pursue STEM careers and spark change in their communities. In her free time, she enjoys travelling, collecting rocks, and listening to all types of music. She will be attending Cornell University in the fall majoring in Environment and Sustainability."
-}, {
 	name: "Alexej Latimer",
 	position: "Program Lead",
 	linkedIn: "alexejlatimer/",
