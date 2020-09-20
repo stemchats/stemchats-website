@@ -240,14 +240,6 @@ let membersObj = [
 	src: "TiffanyHoang.jpg",
 	bio: "Tiffany is an upcoming senior at Garden Grove High School, serving on her Associated Student Body and California Scholarship Federation board. She has an interest in Business and STEM, and hoping to pursue them in higher education. She is excited to be apart of STEMchats to push her passion of making STEM accessible to other girls and low-income, first generation students like herself. She is a proud Vietnamese-American, loves to spend time on TikTok, and try new foods."
 }, {
-	name: "Eleanor Liu",
-	position: "External Development Coordinator",
-	linkedIn: "eleanor-l-58a24b112/",
-	home: "Lexington, KY",
-	team: "development",
-	src: "EleanorLiu.jpg",
-	bio: "Eleanor Liu is a first-year student at Oxford College of Emory University studying business. She is excited to be a part of the STEMchats mission and is passionate about quality public education, enthusiasm attributed to her fortunate experience in an accelerated STEM program during high school and seeing the challenges other students have endured while attending public school throughout her life. Eleanor's favorite shape is the triangle and love music from 88Rising artists."
-}, {
 	name: "Zainab AlRamlawi",
 	position: "External Development Coordinator",
 	linkedIn: "zainab-al-ramlawi-25201a12b/",
