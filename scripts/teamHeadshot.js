@@ -687,6 +687,14 @@ let membersObj = [
 	team: "i-STEM Scholars",
 	src: "VijetaRevankar.jpg",
 	bio: "Vijeta is a rising freshman at the University of Houston in Houston, Texas, where she plans on studying Business Management. She joined STEMchats because of her desire to combine her love of scientific research with her passion for making STEM opportunities more accessible to low-income students. She is committed to making the scientific community more representative of the diversity inherent in communities around the nation and the world. In her downtime, Vijeta enjoys baking, learning new languages, and teaching children how to code."
+}, {
+	name: "Sneha Jaikumar",
+	position: "Program Coordinator",
+	linkedIn: "sneha-jaikumar/",
+	home: "Charlotte, NC",
+	team: "i-STEM Scholars",
+	src: "SnehaJaikumar.jpg",
+	bio: "Sneha is a first year student at the University of North Carolina at Chapel Hill majoring in Computer Science. She joined STEMchats to encourage underrepresented students to pursue a STEM education and engage in research opportunities through impactful and immersive programs. Sneha is passionate about uplifting minorities in computer science, peer mentoring, and taking action to make change. She enjoys traveling, dancing, coding, and impromptu bike rides."
 }
 ];
 
