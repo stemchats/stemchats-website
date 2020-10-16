@@ -119,6 +119,20 @@ body {
     }
 }
 
+.intern-faq-question {
+    font-weight: 400;
+    color: black;
+    text-align: center;
+    font-size: 18px !important;
+    justify-content: center;
+
+    .intern-faq-question-header {
+        color: black !important;
+        font-size: 18px;
+        font-weight: 800;
+    }
+}
+
 .small-box-title {
     font-size: $small-font-title;
     font-weight: bold;
