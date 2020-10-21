@@ -23,6 +23,13 @@ $small-font-description: 18px;
     align-items: center;
 }
 
+@mixin center {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
 @media only screen and (min-width: 991px) {
     /*computer */
     .navbar {
@@ -339,6 +346,11 @@ $small-font-description: 18px;
         img {
             width: 100%;
         }
+    }
+
+    .float {
+        @include center();
+        float: none !important;
     }
 }
 

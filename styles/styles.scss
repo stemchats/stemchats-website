@@ -40,6 +40,7 @@ $small-font-description: 18px;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
     a {
         color: $main-color;
         border-bottom: 1px dashed #ccc;
@@ -72,6 +73,23 @@ body {
     font-size: 16px;
     background: white;
 }
+
+.icons {
+    font-size: 40px;
+
+    a {
+        border: none;
+        color: black;
+        opacity: 0.5;
+
+        &:hover {
+            color: $main-color;
+            opacity: 1;
+        }
+    }
+}
+
+
 // DESIGNS
 
 .section-gray-bg {
@@ -198,6 +216,11 @@ b { // for bolding text
         color: $main-color;
         background-position: right bottom;
     }
+}
+
+.float { //all images with float on them
+    width: 200px;
+    margin: 20px 30px;
 }
 
 

@@ -299,6 +299,13 @@
   #upcoming img {
     width: 100%;
   }
+  .float {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    float: none !important;
+  }
 }
 
 @media screen and (max-width: 479px) {
