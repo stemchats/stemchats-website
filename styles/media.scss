@@ -351,6 +351,7 @@ $small-font-description: 18px;
     .float {
         @include center();
         float: none !important;
+        max-width: 100%;
     }
 }
 
