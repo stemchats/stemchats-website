@@ -198,6 +198,15 @@ b {
   margin: 20px 30px;
 }
 
+.past-speaker {
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+
+.rounded-corners {
+  border-radius: 10px;
+}
+
 .navbar {
   padding: .5rem .5rem .5rem 2rem !important;
   -webkit-box-shadow: 0 0.125rem 1rem rgba(0, 0, 0, 0.075) !important;
