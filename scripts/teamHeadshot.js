@@ -104,7 +104,7 @@ let membersObj = [
 	position: "Program Lead",
 	linkedIn: "lolarustamova/",
 	home: "Brooklyn, NY",
-	team: "United Engineers",
+	team: ["United Engineers", "speaker series"],
 	src: "LolaRustamova.jpg",
 	bio: "Lola is a rising second-year student at Baruch College in New York City. She joined STEMchats because she's passionate about helping disadvantaged students discover and learn more about STEM and provide more opportunities to them. In her spare time she loves spending time with kids, reading, baking, and exploring New York City."
 }, {
@@ -112,7 +112,7 @@ let membersObj = [
 	position: "Program Lead",
 	linkedIn: "abigailyjiang/",
 	home: "Camas, WA",
-	team: "i-STEM Scholars",
+	team: ["i-STEM Scholars", "speaker series"],
 	src: "AbigailJiang.jpg",
 	bio: "Abigail is a scientist, activist, and a rising second-year student at Caltech studying Materials Science with a focus on Physics. She joined STEMchats to create tangible community impact and empower youth, specifically by providing quality educational opportunities alongside personal mentorship. She is passionate about scientific research, peer mental health advising, and sustainable living. In her free time, she loves hiking, photographing the world, and exploring museums."
 }, {
@@ -244,7 +244,7 @@ let membersObj = [
 	position: "External Development Coordinator",
 	linkedIn: "zainab-al-ramlawi-25201a12b/",
 	home: "Gaza, Palestine",
-	team: "development",
+	team: ["development", "speaker series"],
 	src: "ZainabAlRamlawi.jpg",
 	bio: "Zainab is a youth advocate and a rising third-year student majoring in business administration. Zainab has taken part in many leadership positions and run many initiatives & campaigns to empower youth in education, STEM, and entrepreneurship fields. She joined STEMchats because she believes in its mission and wants to empower more people to pursue their career in STEM fields, especially the one who is living in the underserved communities. In her free time, she enjoys watching movies, reading books, and debating."
 }, {
@@ -252,7 +252,7 @@ let membersObj = [
 	position: "External Development Coordinator",
 	linkedIn: "sristi-palimar-238397188/",
 	home: "Irvine, CA",
-	team: "development",
+	team: ["development", "speaker series"],
 	src: "SristiPalimar.jpg",
 	bio: "Sristi is a rising senior at Woodbridge High School in southern California. As an ally to underrepresented minorities, Sristi strives to uplift marginalized youth in her community. She strongly believes that all students deserve the opportunity to extend their learning outside of the classroom, and is committed to supporting those who lack the resources to fulfill their educational potential. Sristi joined STEMchats to broaden the scope of her advocacy, and support underserved students in pursuing STEM opportunities across the nation. She hopes that her impact will inspire young women of color to find confidence in challenging adversity. In her free time, Sristi enjoys volunteering, painting, journaling, and trying new foods!"
 }, {
@@ -412,7 +412,7 @@ let membersObj = [
 	position: "Program Coordinator",
 	linkedIn: "chloe-kim-8a158919a/",
 	home: "Las Vegas, NV",
-	team: "STEMlights",
+	team: ["STEMlights", "speaker series"],
 	src: "ChloeKim.jpg",
 	bio: "Chloe is a dedicated proponent of equity in healthcare and is a rising senior at Ed W Clark High School in Las Vegas, Nevada, working to pursue a career in public health. She joined STEMchats to help support other students and break the glass ceiling that prevents many historically disadvantaged groups from receiving opportunities in STEM. In her free time, she loves to listen/create music, philosophize, and chill with her friends and family."
 }, {
@@ -484,7 +484,7 @@ let membersObj = [
 	position: "Program Coordinator",
 	linkedIn: "bluansing/",
 	home: "San Diego, CA",
-	team: "STEMchats Institute",
+	team: ["STEMchats Institute", "speaker series"],
 	src: "BiancaMoniqueLuansing.jpg",
 	bio: "Bianca is a rising third-year undergraduate at the University of California, Berkeley studying Physics, Astrophysics, and South and Southeast Asian Studies. She joined STEMchats to serve as a mentor for students who identify as low-income, first-generation, minorities and are experiencing a lack of STEM resources, just as she did. In her free time you can find her listening to podcasts, learning new languages, reading in coffee and tea shops, and learning about start-ups from around the world."
 }, {
@@ -636,7 +636,7 @@ let membersObj = [
 	position: "Program Coordinator",
 	linkedIn: null,
 	home: "Melbourne, FL",
-	team: "i-STEM Scholars",
+	team: ["i-STEM Scholars", "speaker series"],
 	src: "AngelaEasterling.jpg",
 	bio: "Angela is a passionate neuroscience \"interdisciplinary\" researcher and is a rising second-year student at the Harriet L. Wilkes Honors College in Jupiter, Florida. She joined STEMchats because as a former high school student, she experienced first-hand stem inequities in both her education and the opportunities she was able to pursue due to geographic and economic barriers. She is passionate about inclusivity and mentorship in STEM, encouraging undergraduate student research and volunteer involvement in her college community.  In her free time, she enjoys listening to lofi and podcasts, meeting new people and learning about new things, and yes, drinking tea."
 }, {

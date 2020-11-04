@@ -177,78 +177,85 @@ ourTeam = () => {
 
 leadership = () => {
  		let array = membersObj.filter(function(member) {
-		return member.team == "leadership";
+		return member.team.indexOf("leadership") !== -1;
 	})
 	department.innerHTML = "Leadership";
 	return array;
 }
 STEMlights = () => {
 		let array = membersObj.filter(function(member) {
-		return member.team == "STEMlights";
+		return member.team.indexOf("STEMlights") !== -1;
 	})
 	department.innerHTML = "STEMlights";
 	return array;
 }
 blueprint = () => {
 			let array = membersObj.filter(function(member) {
-			return member.team == "blueprint";
+			return member.team.indexOf("blueprint") !== -1;
 		})
 		department.innerHTML = "Blueprint";
 		return array;
 	}
 institute = () => {
 			let array = membersObj.filter(function(member) {
-			return member.team == "STEMchats Institute";
+			return member.team.indexOf("STEMchats Institute") !== -1;
 		})
 		department.innerHTML = "STEMchats Institute";
 		return array;
 	}
 ue = () => {
 			let array = membersObj.filter(function(member) {
-			return member.team == "United Engineers";
+			return member.team.indexOf("United Engineers") !== -1;
 		})
 		department.innerHTML = "United Engineers";
 		return array;
 	}
 scholars = () => {
 			let array = membersObj.filter(function(member) {
-			return member.team == "i-STEM Scholars";
+			return member.team.indexOf("i-STEM Scholars") !== -1;
 		})
 		department.innerHTML = "i-STEM Scholars";
 		return array;
 }
 marketing = () => {
 			let array = membersObj.filter(function(member) {
-			return member.team == "marketing";
+			return member.team.indexOf("marketing") !== -1;
 		})
 		department.innerHTML = "Marketing";
 		return array;
 	}
 funding = () => {
 		let array = membersObj.filter(function(member) {
-		return member.team == "funding";
+		return member.team.indexOf("funding") !== -1;
 	})
 	department.innerHTML = "Funding";
 	return array;
 }
 dev = () => {
 			let array = membersObj.filter(function(member) {
-			return member.team == "development";
+			return member.team.indexOf("development") !== -1;
 		})
 		department.innerHTML = "Development";
 		return array;
 	}
 tech = () => {
 		let array = membersObj.filter(function(member) {
-			return member.team == "technology";
+			return member.team.indexOf("technology") !== -1;
 		})
 		department.innerHTML = "Technology";
 		return array;
 	}
 seniorAdvisor = () => {
 		let array = membersObj.filter(function(member) {
-		return member.team == "senior advisors";
+		return member.team.indexOf("senior advisors") !== -1;
 	})
 	department.innerHTML = "Senior Advisors";
 	return array;
+}
+speakerSeries = () => {
+    let array = membersObj.filter(function(member) {
+    return member.team.indexOf("speaker series") !== -1;
+  })
+  department.innerHTML = "Speaker Series";
+  return array;
 }
