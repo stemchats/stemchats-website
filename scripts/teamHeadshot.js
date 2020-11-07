@@ -53,7 +53,7 @@ let membersObj = [
 	bio: "Joseph is an aspiring computer scientist and a rising college freshman in Canada. He joined STEMchats to support and prepare the next and current generation, especially low-income students, for impactful real world opportunities through immersive and relevant programs in STEM. When he is not learning about technology, he enjoys playing chess, writing poetry, and chilling to lofi beats."
 }, {
 	name: "Mahir Rahman",
-	position: "Program Lead",
+	position: "STEMlights Lead",
 	linkedIn: "mahir-rahman-8605201a7/",
 	home: "Kissimmee, FL",
 	team: "STEMlights",
@@ -61,7 +61,7 @@ let membersObj = [
 	bio: "Mahir is a proponent advocate for equitable educational and medicinal opportunities and is an IB senior at Gateway High School in Kissimmee, Florida. He aspires to study Public Health and joined STEMchats to introduce medicinal aspects to the program, to provide awareness towards, and include underprivileged, FGLI (first-generation, low-income), women, & minorities, in a global manner. In his free time, he enjoys reading about politics, exploring fashion and makeup, and listening to music."
 }, {
 	name: "Alexej Latimer",
-	position: "Program Lead",
+	position: "STEMchats Institute Lead",
 	linkedIn: "alexejlatimer/",
 	home: "Sumner, WA",
 	team: "STEMchats Institute",
@@ -69,7 +69,7 @@ let membersObj = [
 	bio: "Alexej is an enthusiastic high school senior with big ideas for education and social reform to increase the quality of life for all world citizens. He enjoys running a digital media lab that focuses on teaching elementary and middle schoolers about technology and bridges the gap between STEM and artistic expression. He’s excited to use STEM to improve the living conditions for people all around the world and while also helping provide educational resources for unrepresented peoples. In his free time, he can be found developing film, exploring (with a camera), spending too much time at coffee or boba cafés, or riding his bike dangerously fast."
 }, {
 	name: "Ege Yalcindag",
-	position: "Program Lead",
+	position: "STEMchats Institute Lead",
 	linkedIn: "selin-yalcindag-13bb80164/",
 	home: "Boston, MA",
 	team: "STEMchats Institute",
@@ -77,7 +77,7 @@ let membersObj = [
 	bio: "Ege is a second-year at the University of Chicago pursuing a Biological Sciences major and French minor. She joined STEMchats because she hopes to make an impact on underrepresented groups in science, especially women. Outside of STEMchats, she is the Creative Director of her a cappella group, works in a neuroscience lab, tutors high school students, and volunteers with inpatient children at the hospital. In her free time, she enjoys drinking tea, painting, and listening to podcasts."
 }, {
 	name: "Jasmine Li",
-	position: "Program Lead",
+	position: "United Engineers Lead",
 	linkedIn: "jasmine-li-66821596/",
 	home: "Philadelphia, PA",
 	team: "United Engineers",
@@ -85,7 +85,7 @@ let membersObj = [
 	bio: "Jasmine is an advocate for equitable education and a rising first-year at Dartmouth College. She joined STEMchats because everyone deserves the opportunity to thrive in STEM regardless of their individual backgrounds. In her free time, she enjoys singing, playing the ukulele, and spending way too long clicking through the endless void that is Youtube."
 }, {
 	name: "Ekta Singh",
-	position: "Program Lead",
+	position: "United Engineers Lead",
 	linkedIn: null,
 	home: "Edison, NJ",
 	team: "United Engineers",
@@ -93,7 +93,7 @@ let membersObj = [
 	bio: "Ekta is a passionate advocate for equal opportunities among all and is a rising third-year student pursuing biological engineering with a minor in biotechnology at Purdue University in West Lafayette, Indiana. She wanted to join STEMchats because as a woman and person of color in STEM, she finds that there needs to be a higher representation of those groups leading in STEM, through increased awareness and literacy of STEM. Outside of STEMchats, you will find her watching documentaries, being a social butterfly, volunteering in her community, and traveling to explore new cultures and hidden artifacts around the world."
 }, {
 	name: "Haoren Wen",
-	position: "Program Lead",
+	position: "United Engineers Lead",
 	linkedIn: null,
 	home: "Guangzhou, China",
 	team: "United Engineers",
@@ -101,7 +101,7 @@ let membersObj = [
 	bio: "Haoran is an enthusiast in engineering and is a rising first year student at the Massachusetts Institute of Technology. He joined STEMchats in hopes of providing greater opportunities to first generation, low income students and help inspire a new wave of future engineers. In his free time, he enjoys exercising, playing the piano, and learning about new technologies."
 }, {
 	name: "Lola Rustamova",
-	position: "Program Lead",
+	position: "United Engineers Lead",
 	linkedIn: "lolarustamova/",
 	home: "Brooklyn, NY",
 	team: ["United Engineers", "speaker series"],
@@ -109,7 +109,7 @@ let membersObj = [
 	bio: "Lola is a rising second-year student at Baruch College in New York City. She joined STEMchats because she's passionate about helping disadvantaged students discover and learn more about STEM and provide more opportunities to them. In her spare time she loves spending time with kids, reading, baking, and exploring New York City."
 }, {
 	name: "Abigail Jiang",
-	position: "Program Lead",
+	position: "i-STEM Scholars Lead",
 	linkedIn: "abigailyjiang/",
 	home: "Camas, WA",
 	team: ["i-STEM Scholars", "speaker series"],
@@ -117,7 +117,7 @@ let membersObj = [
 	bio: "Abigail is a scientist, activist, and a rising second-year student at Caltech studying Materials Science with a focus on Physics. She joined STEMchats to create tangible community impact and empower youth, specifically by providing quality educational opportunities alongside personal mentorship. She is passionate about scientific research, peer mental health advising, and sustainable living. In her free time, she loves hiking, photographing the world, and exploring museums."
 }, {
 	name: "Hana Memon",
-	position: "Program Lead",
+	position: "Blueprint Lead",
 	linkedIn: "hanamemon/",
 	home: "Yardley, PA",
 	team: "blueprint",
