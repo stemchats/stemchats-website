@@ -321,7 +321,7 @@ let membersObj = [
 	bio: "Arjun is an avid supporter of giving minority communities access to and experience with STEM topics, and is a rising highschool junior interested in Physics, Chemistry, and Computer Science. He joined STEMchats to help bring interesting STEM concepts and ideas that he enjoyed to the table for those who haven’t been exposed to it, and wants to support the teaching of STEM for all. Having lived in India and the US, he’s well equipped to understand the struggles of others. In his spare time, Arjun likes to cycle, read, and play videogames."
 }, {
 	name: "Eliza Martin",
-	position: "Program Coordinator",
+	position: "Blueprint Coordinator",
 	linkedIn: null,
 	home: "Sydney, Australia",
 	team: "blueprint",
@@ -329,7 +329,7 @@ let membersObj = [
 	bio: "Eliza is a passionate scientist/innovator and a high school senior from Sydney, Australia. She joined STEMchats to assist others in gaining access to crucial resources to help achieve their STEM goals. In her free time she enjoys playing jazz on her saxophone as well as riding kangaroos and eating Vegemite."
 }, {
 	name: "Anusha Puri",
-	position: "Program Coordinator",
+	position: "Blueprint Coordinator",
 	linkedIn: "anusha-p-04bb59190/",
 	home: "Richmond, VA",
 	team: "blueprint",
