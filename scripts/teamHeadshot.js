@@ -240,6 +240,14 @@ let membersObj = [
 	src: "TiffanyHoang.jpg",
 	bio: "Tiffany is an upcoming senior at Garden Grove High School, serving on her Associated Student Body and California Scholarship Federation board. She has an interest in Business and STEM, and hoping to pursue them in higher education. She is excited to be apart of STEMchats to push her passion of making STEM accessible to other girls and low-income, first generation students like herself. She is a proud Vietnamese-American, loves to spend time on TikTok, and try new foods."
 }, {
+	name: "Téa Chapman",
+	position: "Funding Coordinator",
+	linkedIn: null,
+	home: "Seattle, WA",
+	team: "funding",
+	src: "TeaChapman.jpg",
+	bio: "Téa is a rising Junior at Arizona State University! She is majoring in biochemistry with a background in behavioral neuroscience. She joined STEMchats to help POC students like herself create opportunities to find their passion for science. She is a proud Seattleite that aspires to do research in mental health in the future. She is creative at heart, so when she's not in the research lab she's cooking, crafting, or trying something new. She is excited to join STEMchats to help young minds believe in themselves and the gifts they have to offer to the STEM community."
+}, {
 	name: "Zainab AlRamlawi",
 	position: "External Development Coordinator",
 	linkedIn: "zainab-al-ramlawi-25201a12b/",
@@ -439,6 +447,38 @@ let membersObj = [
 	team: "STEMlights",
 	src: "TylerVazquez.jpg",
 	bio: "Tyler is honored to be an intern for STEMchats! He is a rising junior at Colonie Central High School in Upstate New York, participating in his community through his school's Black Lives Advocacy Club (Co-President and Founder) Drama Club, STEM Club (VP), Global Diversity Club (Secretary), and the Mental Health Awareness Club (Co-President). He also takes part in securing renewable energy resources for upstate New Yorkers through Common Energy as well as directing a student-run Shakespearean theatrical company. He hopes that via STEMchats he'll share his passion for STEM in an intersectional lens."
+}, {
+	name: "Dorcas Gadri",
+	position: "STEMlights Coordinator",
+	linkedIn: "dorcas-gadri-840683175/",
+	home: "Jonesboro, GA",
+	team: "STEMlights",
+	src: "DorcasGadri.jpg",
+	bio: "Dorcas is an advocate for climate action and is concerned about the impact of climate change on human health. She is an AP student at Elite Scholars Academy Magnet School and a part-time college student. As a minority and FGLI student, she believes that her voice is a powerful tool that can bring about positive change. She joined the STEMlights program to educate and empower underserved students in various communities to engage in STEM projects. Besides being a leader in a STEM-focused club at her high school, she loves spending quality time with her family, teaching in her church's children's department, traveling, and watching French movies."
+}, {
+	name: "Iris Li",
+	position: "STEMlights Coordinator",
+	linkedIn: null,
+	home: "Knoxville, TN",
+	team: "STEMlights",
+	src: "IrisLi.jpg",
+	bio: "Iris is a rising junior at Hardin Valley Academy, aspiring to make the world a better place tomorrow. She joined STEMchats to spread knowledge to others who may not have the same opportunities as others in hopes of inspiring them to become fascinated in the STEM fields. She is proudly part of the LGBTQIA+ community and wants to bring more representation to STEM in the community and to bring more of the community into STEM. In her free time, she likes to draw rocket ships and play video games."
+}, {
+	name: "Amy Yang",
+	position: "STEMlights Coordinator",
+	linkedIn: "connectamyyang/",
+	home: "Morehead, KY",
+	team: "STEMlights",
+	src: "AmyYang.jpg",
+	bio: "Amy is an avid learner and a senior at the Craft Academy, located in rural Morehead, KY. She is passionate about social justice as well as the role that journalism can play in both breaking barriers and creating opportunities for under-resourced and underrepresented students. Leading her to STEMlights, she hopes to pursue her passions and in the process, inspire those most deterred by STEM to develop an appreciation for its presence in their daily lives. On any regular day, you can find Amy hiking mountains, perusing the aisles of an organic grocery store, listening to Hidden Brains, or simply deep in thought, reflecting on her time on Earth."
+}, {
+	name: "Collins Kariuki",
+	position: "STEMlights Coordinator",
+	linkedIn: "collins-kariuki-b2b88a1aa/",
+	home: "Nairobi, KE",
+	team: "STEMlights",
+	src: "CollinsKariuki.jpg",
+	bio: "Collins is an ardent advocate for scientific advancements. He's a freshman at Pomona College, planning to double major in Physics and Cognitive Science. He joined STEMChats to expose students from disadvantaged upbringings with opportunities abroad, thus acting as a link to both worlds. Collins aspires to find the intersectionality between Cognition and Physics to help underrepresented African students excel in STEM. Proud of his heritage, he seeks to mentor kids back in Kenya with skills they need to develop their areas at the grassroots level. Collins loves playing soccer, getting stuck in Wikipedia rabbit holes, and STEM Research."
 }, {
 	name: "Karthik Iyer",
 	position: "STEMchats Institute Coordinator",
