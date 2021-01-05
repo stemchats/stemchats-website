@@ -68,6 +68,14 @@ let membersObj = [
 	src: "EgeYalcindag.jpg",
 	bio: "Ege is a second-year at the University of Chicago pursuing a Biological Sciences major and French minor. She joined STEMchats because she hopes to make an impact on underrepresented groups in science, especially women. Outside of STEMchats, she is the Creative Director of her a cappella group, works in a neuroscience lab, tutors high school students, and volunteers with inpatient children at the hospital. In her free time, she enjoys drinking tea, painting, and listening to podcasts."
 }, {
+	name: "Maxximo Ibarra",
+	position: "STEMchats Institute Lead",
+	linkedIn: null,
+	home: "Oklahoma City, OK",
+	team: "STEMchats Institute",
+	src: "MaxximoIbarra.jpg",
+	bio: "Maxx is a rising sophomore studying applied physics at the California Institute of Technology in Pasadena, California. Maxx is a Questbridge college match scholar who is very interested in contributing to a culture of excellence in STEM, and by joining STEMchats he hopes to offer a helping hand to his first-generation or low income peers. Maxx comes from a family with Mexican, White, and Choctaw heritage and hopes to help other minorities gain access to advanced programs in STEM. When he isn't working for educational equity, Maxx likes to play bass guitar, work with wood or other building media, or experiment with CAD and additive manufacturing techniques."
+}, {
 	name: "Jasmine Li",
 	position: "United Engineers Lead",
 	linkedIn: "jasmine-li-66821596/",
@@ -543,14 +551,6 @@ let membersObj = [
 	team: "STEMchats Institute",
 	src: "MaheenMohammed.jpg",
 	bio: "Maheen is a rising senior at Bolingbrook high school interested in the intersection of technology and social good. She volunteers much of her time uplifting her local Muslim community. In school, she actively participates in her Model Un club and her dance club. Through STEMchats, Maheen hopes to inspire and spark interest in STEM in young students of the Chicago area. In her free time, you can find Maheen cuddling with her cat Lyla and cooking new recipes she finds."
-}, {
-	name: "Maxximo Ibarra",
-	position: "STEMchats Institute Coordinator",
-	linkedIn: null,
-	home: "Oklahoma City, OK",
-	team: "STEMchats Institute",
-	src: "MaxximoIbarra.jpg",
-	bio: "Maxx is a rising sophomore studying applied physics at the California Institute of Technology in Pasadena, California. Maxx is a Questbridge college match scholar who is very interested in contributing to a culture of excellence in STEM, and by joining STEMchats he hopes to offer a helping hand to his first-generation or low income peers. Maxx comes from a family with Mexican, White, and Choctaw heritage and hopes to help other minorities gain access to advanced programs in STEM. When he isn't working for educational equity, Maxx likes to play bass guitar, work with wood or other building media, or experiment with CAD and additive manufacturing techniques."
 }, {
 	name: "Alyssa Blanco",
 	position: "STEMchats Institute Coordinator",
