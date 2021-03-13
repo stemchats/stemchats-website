@@ -287,7 +287,44 @@ let membersObj = [
 	team: ["development", "speaker series"],
 	src: "SristiPalimar.jpg",
 	bio: "Sristi is a rising senior at Woodbridge High School in southern California. As an ally to underrepresented minorities, Sristi strives to uplift marginalized youth in her community. She strongly believes that all students deserve the opportunity to extend their learning outside of the classroom, and is committed to supporting those who lack the resources to fulfill their educational potential. Sristi joined STEMchats to broaden the scope of her advocacy, and support underserved students in pursuing STEM opportunities across the nation. She hopes that her impact will inspire young women of color to find confidence in challenging adversity. In her free time, Sristi enjoys volunteering, painting, journaling, and trying new foods!"
-}, {
+}, 
+{	name: "Sai Hruthika Naraharisetti", 
+	position: "External Development Coordinator", 
+	linkedIn: "sai-h-naraharisetti-5a2084195/",
+	home: "Woodstock, MD", 
+	team: ["development", "speaker series"], 
+	src: "SaiNaraharisetti.jpg",
+	bio: "Sai is currently a student at Marriotts Ridge High School. She didn’t consider computer science as a career at first. She wanted to pursue a career where she would have a positive impact on the world and its people. Her freshman year, she took both AP Computer Science Principles and Principals of Java Programming GT. After taking these courses, she felt a new love for computer science that she did not feel for any other field. She is currently a member of an FTC Robotics team that has qualified for the 2020 World Championship in both Maryland and Virginia. She is currently a research intern at the University of Maryland (UMD) where she works on the secure public key infrastructure project. She also partook in a research project with a computer science professor at the University of Maryland and his team of a few other Ph.D. and Master’s students her sophomore year. She aided in the research of the linkage between abnormal breathing patterns and certain respiratory and cardiovascular health conditions. Additionally, she is a co-president of the Model UN club in her school and actively participates in the Future Business Leaders of America (FBLA) club. She has taken AP Computer Science- A her sophomore year to expand her knowledge in Java and is currently taking Advanced Data Structures. Having pursued these courses, she is on the path to completing the Computer Programming Academy. She intends to complete this academy, hoping to major in computer science, with a strong foundation of the fundamentals."
+},
+{
+	name: "Esha Sharma",
+	position: "External Development Coordinator",
+	linkedIn: "esha-sharma-83bb21207/",
+	home: "Glen Allen, VA",
+	team: ["development", "speaker series"],
+	src: "EshaSharma.jpg",
+	bio: "Esha is an aspiring researcher, environmental advocate, and current senior at Mills E. Godwin High School. She joined STEMchats to help extend opportunities to youth that have had minimal exposure to the many worlds of STEM, learn to create equitable educational experiences for underserved students, and expand the scope of impactful scientific research upon real-world issues. In her free time, Esha enjoys writing short stories, growing new plants, hunting for new books to read, and, of course, catnapping every now and then. "
+},
+
+{
+	name: "Audrey Chu",
+	position: "External Development Coordinator",
+	linkedIn: null,
+	home: "New York City, NY",
+	team: ["development", "speaker series"],
+	src: "AudreyChu.jpg",
+	bio: "Audrey is a sophomore at Brooklyn Technical High School in New York with a strong interest in STEM. She joined STEMchats because she supports its mission and hopes to help make STEM educational opportunities accessible to students from underrepresented and underserved communities. In her free time, Audrey enjoys sewing her designs, playing cards, baking, and going on long walks with her dog. "
+},
+{
+	name: "Princess Thompson",
+	position: "External Development Coordinator",
+	linkedIn: "princess-thompson-7906001b0/",
+	home: "Greensboro, NC",
+	team: ["development", "speaker series"],
+	src: "PrincessThompson.jpg",
+	bio: "Princess is a current high school senior at the Middle College at UNCG. She is interested in  Environmental Engineering and Public Policy and joined STEMchats to help make STEM opportunities and education easily accessible to FGLI students. She is passionate about Environmental research and loves sharing STEM activities with children at her local Science Center as an Robotic Ambassador. In her free time, Princess loves read, practice ASL, and listen to podcasts."
+},
+{
 	name: "Anam Ali",
 	position: "Internal Development Coordinator",
 	linkedIn: null,
