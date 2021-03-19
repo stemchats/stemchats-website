@@ -218,6 +218,29 @@ b { // for bolding text
     }
 }
 
+//donate button + iframe
+.donate {
+  border-color: $main-color !important;
+  background-color: $main-color;
+  border-radius: 9%;
+  color: #fff;
+  transition: all 0.5s ease;
+
+  &:focus {
+    outline: none;
+    box-shadow: none;
+  }
+}
+
+.responsive-iframe {
+  position: relative;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;  
+}
+
 .float { //all images with float on them
     width: 200px;
     margin: 20px 30px;

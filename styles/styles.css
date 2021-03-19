@@ -181,6 +181,28 @@ b {
   background-position: right bottom;
 }
 
+.donate {
+  border-color: #ff5959 !important;
+  background-color: #ff5959;
+  border-radius: 9%;
+  color: #fff;
+  transition: all 0.5s ease;
+}
+
+.donate:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.responsive-iframe {
+  position: relative;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+}
+
 .float {
   width: 200px;
   margin: 20px 30px;
