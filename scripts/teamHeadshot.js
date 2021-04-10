@@ -491,14 +491,6 @@ let membersObj = [
 	src: "IrisLi.jpg",
 	bio: "Iris is a rising junior at Hardin Valley Academy, aspiring to make the world a better place tomorrow. She joined STEMchats to spread knowledge to others who may not have the same opportunities as others in hopes of inspiring them to become fascinated in the STEM fields. She is proudly part of the LGBTQIA+ community and wants to bring more representation to STEM in the community and to bring more of the community into STEM. In her free time, she likes to draw rocket ships and play video games."
 }, {
-	name: "Amy Yang",
-	position: "STEMlights Coordinator",
-	linkedIn: "connectamyyang/",
-	home: "Morehead, KY",
-	team: "STEMlights",
-	src: "AmyYang.jpg",
-	bio: "Amy is an avid learner and a senior at the Craft Academy, located in rural Morehead, KY. She is passionate about social justice as well as the role that journalism can play in both breaking barriers and creating opportunities for under-resourced and underrepresented students. Leading her to STEMlights, she hopes to pursue her passions and in the process, inspire those most deterred by STEM to develop an appreciation for its presence in their daily lives. On any regular day, you can find Amy hiking mountains, perusing the aisles of an organic grocery store, listening to Hidden Brains, or simply deep in thought, reflecting on her time on Earth."
-}, {
 	name: "Collins Kariuki",
 	position: "STEMlights Coordinator",
 	linkedIn: "collins-kariuki-b2b88a1aa/",
