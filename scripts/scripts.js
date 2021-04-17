@@ -172,6 +172,7 @@ hide = () => {
 
 //select Team
 function select(team) {
+	console.log(department)
 	department.innerHTML = team;
 }
 leadership = () => {
