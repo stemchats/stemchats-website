@@ -171,91 +171,90 @@ hide = () => {
 }
 
 //select Team
-ourTeam = () => {
-	department.innerHTML = "Our Team";
+function select(team) {
+	department.innerHTML = team;
 }
-
 leadership = () => {
  		let array = membersObj.filter(function(member) {
 		return member.team.indexOf("leadership") !== -1;
 	})
-	department.innerHTML = "Leadership";
+	select("Leadership");
 	return array;
 }
 STEMlights = () => {
 		let array = membersObj.filter(function(member) {
 		return member.team.indexOf("STEMlights") !== -1;
 	})
-	department.innerHTML = "STEMlights";
+	select("STEMlights");
 	return array;
 }
 blueprint = () => {
 			let array = membersObj.filter(function(member) {
 			return member.team.indexOf("blueprint") !== -1;
 		})
-		department.innerHTML = "Blueprint";
+		select("Blueprint");
 		return array;
 	}
 institute = () => {
 			let array = membersObj.filter(function(member) {
 			return member.team.indexOf("STEMchats Institute") !== -1;
 		})
-		department.innerHTML = "STEMchats Institute";
+		select("STEMchats Institute");
 		return array;
 	}
 ue = () => {
 			let array = membersObj.filter(function(member) {
 			return member.team.indexOf("United Engineers") !== -1;
 		})
-		department.innerHTML = "United Engineers";
+		select("United Engineers");
 		return array;
 	}
 scholars = () => {
 			let array = membersObj.filter(function(member) {
 			return member.team.indexOf("i-STEM Scholars") !== -1;
 		})
-		department.innerHTML = "i-STEM Scholars";
+		select("i-STEM Scholars");
 		return array;
 }
 marketing = () => {
 			let array = membersObj.filter(function(member) {
 			return member.team.indexOf("marketing") !== -1;
 		})
-		department.innerHTML = "Marketing";
+		select("Marketing");
 		return array;
 	}
 funding = () => {
 		let array = membersObj.filter(function(member) {
 		return member.team.indexOf("funding") !== -1;
 	})
-	department.innerHTML = "Funding";
+	select("Funding");
 	return array;
 }
 dev = () => {
 			let array = membersObj.filter(function(member) {
 			return member.team.indexOf("development") !== -1;
 		})
-		department.innerHTML = "Development";
+		select("Development");
 		return array;
 	}
 tech = () => {
 		let array = membersObj.filter(function(member) {
 			return member.team.indexOf("technology") !== -1;
 		})
-		department.innerHTML = "Technology";
+		select("Technology");
 		return array;
 	}
 seniorAdvisor = () => {
 		let array = membersObj.filter(function(member) {
 		return member.team.indexOf("senior advisors") !== -1;
 	})
-	department.innerHTML = "Senior Advisors";
+	select("Senior Advisors");
 	return array;
 }
 speakerSeries = () => {
     let array = membersObj.filter(function(member) {
     return member.team.indexOf("speaker series") !== -1;
   })
-  department.innerHTML = "Speaker Series";
+  select("Speaker Series");
   return array;
 }
