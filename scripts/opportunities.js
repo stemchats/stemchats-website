@@ -179,10 +179,10 @@ createOpportunities = (opps) => {
 let opportunitiesObj = [
     {
         title: "Summer Internship Program",
-        category: "Internship",
+        category: "Internship"
     }, {
         title: "Summer Research Program",
-        category: "Research",
+        category: "Research"
     }
 ];
 
