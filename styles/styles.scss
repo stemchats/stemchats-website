@@ -410,7 +410,36 @@ b { // for bolding text
     }
 }
 
+.opportunities{
+    @include flexCenter();
+    height: 100%;
+    padding: 1em;
+    background-color: white;
+    color: black;
 
+    .oppcard {
+        padding: 0.5em;
+        margin-bottom: 0em;
+        border: 1px white;
+        text-align: center;
+
+        .oppcard-img {
+            border-radius: 15px;
+            max-width: 100%;
+        }
+        .oppcard-title {
+            font-weight: bold;
+            font-size: 24px;
+        }
+        .oppcard-description {
+            font-size: $small-font-description;
+        }
+    }
+
+    #opportunities_container{
+        height: 2000px; 
+    }
+}
 
 
 // OUR PROGRAMS (OVERVIEW) STYLES
@@ -485,6 +514,25 @@ b { // for bolding text
         max-width: 100%;
         margin-top: 1rem;
         margin-bottom: 1rem;
+    }
+}
+
+
+
+#opportunities_container {
+    .card {
+        border-radius: 0;
+        border: 0;
+        margin-bottom: 20px;
+        transition: 0.4s;
+
+        .card-title {
+            font-weight: bold;
+        }
+
+        &:hover {
+            box-shadow: 0 0 10px rgba(0,0,0,.3);
+        }
     }
 }
 

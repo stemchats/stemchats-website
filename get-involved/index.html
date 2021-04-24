@@ -14,6 +14,8 @@
 
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/72d227a617.js" SameSite="none Secure" crossorigin="anonymous"></script>
+ <!-- aos animation -->
+ <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <!-- icon -->
     <link rel="apple-touch-icon" sizes="57x57" href="/favicon/apple-icon-57x57.png">
@@ -217,7 +219,17 @@
               </div>
               <div class = col-lg-1>
               </div>
+            </div>
           </div>
+          <!-- <div class = "testing">
+              <a class = "testing" onclick = "loadAnimate(), hide(), createOpportunities(opportunitiesObj)">Opportunities</a>
+          </div> -->
+          <div id="opportunities_container">
+            <div id="opportunities">
+                <!-- all opportunities -->
+
+            </div>
+        </div>
         </div>
 </body>
 <section id="footer">
@@ -237,4 +249,8 @@
   <script type="text/javascript" src="/scripts/ajax.js"></script>
   <script type="text/javascript" src="/scripts/scripts.js"></script>
   <script type="text/javascript" src="/scripts/opportunities.js"></script>
+  <script>
+    let opportunities_container = document.getElementById("opportunities_container");
+    opportunities_container.style.height = "inherit";
+</script>
 </html>
