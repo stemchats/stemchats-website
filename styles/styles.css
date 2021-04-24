@@ -410,6 +410,47 @@ b {
   height: 2000px;
 }
 
+.opportunities {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+  padding: 1em;
+  background-color: white;
+  color: black;
+}
+
+.opportunities .oppcard {
+  padding: 0.5em;
+  margin-bottom: 0em;
+  border: 1px white;
+  text-align: center;
+}
+
+.opportunities .oppcard .oppcard-img {
+  border-radius: 15px;
+  max-width: 100%;
+}
+
+.opportunities .oppcard .oppcard-title {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.opportunities .oppcard .oppcard-description {
+  font-size: 18px;
+}
+
+.opportunities #opportunities_container {
+  height: 2000px;
+}
+
 #overview h3 a {
   color: #000;
   border-bottom: 1px dashed #000;
