@@ -24,7 +24,8 @@ function createCards(num) {
         body.classList.add('card-body', 'oppcard-body');
         opp.appendChild(body);
 
-        var oppName = document.createElement('h2');
+        var oppName = document.createElement('h3');
+        oppName.classList.add('card-title', 'oppcard-title')
         oppName.textContent = "Opportunity " + i;
         body.appendChild(oppName);
 

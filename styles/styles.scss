@@ -519,6 +519,25 @@ b { // for bolding text
 
 
 
+#opportunities_container {
+    .card {
+        border-radius: 0;
+        border: 0;
+        margin-bottom: 20px;
+        transition: 0.4s;
+
+        .card-title {
+            font-weight: bold;
+        }
+
+        &:hover {
+            box-shadow: 0 0 10px rgba(0,0,0,.3);
+        }
+    }
+}
+
+
+
 
 // FOOTER STYLES
 // #footer-img {
