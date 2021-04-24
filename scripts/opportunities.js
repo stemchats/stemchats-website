@@ -32,14 +32,16 @@ createOpportunities = (opps) => {
       divOne.className="col-md-8 center";
       divTwo = document.createElement("div");
       divTwo.className="card oppcard";
-    //   img = document.createElement("img");
-    //   img.className="modal-trigger card-img-top teamcard-img";
-	// 		img.setAttribute("onClick", "removeAnimate()"); // remove aos animation/styling for modals
-    //   img.setAttribute("alt", opps[i].name);
-    //   img.setAttribute("data-toggle", "modal");
-    //   img.setAttribute("src", url + opps[i].src);
-    //   img.setAttribute("data-target", "#modal" + i); // the specific modal trigger
-	// 		img.setAttribute("loading", "lazy");
+
+      // trigger = document.createElement("div");
+      divOne.className="modal-trigger card-img-top teamcard-img";
+      // trigger.setAttribute("onClick", "removeAnimate()"); // remove aos animation/styling for modals
+      // trigger.setAttribute("alt", opps[i].title);
+      divOne.setAttribute("data-toggle", "modal");
+      // trigger.setAttribute("src", url + opps[i].src);
+      divOne.setAttribute("data-target", "#modal" + i); // the specific modal trigger
+      divOne.setAttribute("loading", "lazy");
+
       divThree = document.createElement("div");
       divThree.className="card-body oppcard-body";
       title = document.createElement("h3");
@@ -53,6 +55,7 @@ createOpportunities = (opps) => {
     //   divTwo.appendChild(img);
       divTwo.appendChild(divThree);
       divOne.appendChild(divTwo);
+      console.log(opps[i].title);
       return divOne;
     }
     //create modal
@@ -92,38 +95,26 @@ createOpportunities = (opps) => {
       row.className = "row";
       col1=document.createElement("div");
       col1.className="col-md-8 my-auto mx-auto";
-    //   img=document.createElement("img");
-    //   img.className="img-fluid";
-    //   img.setAttribute("alt",opps[i].title);
-    //   img.setAttribute("src", url+opps[i].src);
-    //   col1.appendChild(img);
       row.appendChild(col1);
-      col2=document.createElement("div");
-      col2.className="left col-lg-6 my-auto";
-      const name=document.createElement("h3");
-      title.className="center name";
-    //   category.className = "center category"; 
-      //ADDS EXTRA TITLE
-    //   nameText = document.createTextNode(opps[i].title);
-    //   title.appendChild(nameText);  //create text node + element node for the name
+      const titleContainer =document.createElement("h3");
+      titleContainer.className="center name";
+      titleContainer.textContent=opps[i].title;
+      col1.appendChild(titleContainer);
 		
       category=document.createElement("p");
       category.className="center";
       category.innerHTML="<strong>" + opps[i].category + "</strong>";
-    //   hometown=document.createElement("p");
-    //   hometown.className="center";
-    //   hometown.textContent="Hometown: ";
-    //   home=document.createElement("span");
-    //   home.textContent=opps[i].home;
-    //   hometown.appendChild(home);
-    //   bio=document.createElement("p");
-    //   bio.textContent=opps[i].bio;
-      col2.appendChild(name);
-    //   col2.appendChild(position);
-    //   col2.appendChild(hometown);
-    //   col2.appendChild(bio);
       row.appendChild(category);
+
+      rowTwo = document.createElement("div");
+      rowTwo.className = "row";
+      description = document.createElement("p");
+      // description.className="center";
+      description.textContent = opps[i].description; 
+      rowTwo.appendChild(description);
+
       container.appendChild(row);
+      container.appendChild(rowTwo);
       modalBody.appendChild(container);
       modalContent.appendChild(modalHeader);
       modalContent.appendChild(modalBody);
@@ -179,10 +170,12 @@ createOpportunities = (opps) => {
 let opportunitiesObj = [
     {
         title: "Summer Internship Program",
-        category: "Internship"
+        category: "Internship",
+        description: "Testing"
     }, {
         title: "Summer Research Program",
-        category: "Research"
+        category: "Research",
+        description: "Testing"
     }
 ];
 
