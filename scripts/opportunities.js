@@ -58,6 +58,48 @@ const opportunities = document.getElementById("opportunities");
 // const department = document.getElementById("department");
 const animate = document.getElementById("opportunities_container");
 
+let faqs = [
+    {
+        question: "Do I have to identify as underrepresented in STEM to apply?",
+        answer: "testing"
+    }, {
+        question: "test",
+        answer: "test"
+    }
+];
+createFAQs = (f) => {
+    f.forEach(function (value, j) {
+
+    div4 = document.createElement("div");
+    faq = document.createElement("div"); 
+    faq.className = "accordion intern-faq"; 
+        card = document.createElement("div");
+        card.className = "card intern-faq-question";
+        q = document.createElement("div");
+        q.className = "card-header intern-faq-question"; 
+        const question =document.createElement("h2");
+        // app.className = "center"; 
+        ques = "<button class=\"btn btn-link intern-faq-question-header\" type=\"button\" data-toggle=\"collapse\" data-target=\"#collapseOne\" aria-expanded=\"false\" aria-controls=\"collapseOne\"> \"" + faqs[j].question + "\"</button>";
+        question.innerHTML += ques;
+        q.appendChild(question); 
+        card.appendChild(q);
+        faq.appendChild(card); 
+
+        // card2 = document.createElement("div"); 
+        // card2.className = "collapse"; 
+        card3 = "<div id=\"collapseOne\" class=\"collapse\" aria-labelledby=\"headingOne\" data-parent=\"#accordionExample\">"
+        faq.innerHTML += card3; 
+        ans = document.createElement("h4");
+        ans.className = "card-body"; 
+        ans.textContent = faqs[j].answer; 
+        // question.appendChild(ques); 
+        // card2.appendChild(ans);
+        faq.appendChild(ans); 
+    div4.appendChild(faq); 
+});
+}
+
+
 //create all the team members
 createOpportunities = (opps) => {
     opps.forEach(function (value, i) {
@@ -158,19 +200,27 @@ createOpportunities = (opps) => {
             div3.appendChild(img);
 
             const app =document.createElement("h6");
-            // app.className = "center"; 
+            app.className = "center"; 
             link = "<a href=\"https://" + opps[i].application + "\" target=\"_blank\"><i class=\"btn btn-primary\">Access Application</i></a>";
 			app.innerHTML += link;
             div3.appendChild(app);
 
-            div4 = document.createElement("div");
-            faq = document.createElement("div"); 
-            faq.className = "accordion intern-faq"; 
-            div3.appendChild(faq); 
-
             container.appendChild(div1);
             container.appendChild(div2);
             container.appendChild(div3);
+
+            
+            if (opps[i].title == "2021 STEMchats Internship Program"){
+                //faq section
+            faq = document.createElement("h3"); 
+            faq.className = "center name"; 
+            faq.textContent = "FAQs";
+            container.appendChild(faq); 
+
+             window.onload = createFAQs(faqs);
+             container.appendChild(div4);
+            }
+
             modalBody.appendChild(container);
             modalContent.appendChild(modalHeader);
             modalContent.appendChild(modalBody);
@@ -178,6 +228,7 @@ createOpportunities = (opps) => {
             modal.appendChild(modalDialog);
             return modal;
         }
+
         opportunities.appendChild(createCard());
         opportunities.appendChild(createModal());
     });
@@ -227,7 +278,7 @@ let opportunitiesObj = [
     {
         title: "2021 STEMchats Internship Program",
         category: "Internship",
-        description: "Thank you for your interest in our Second Annual Internship Program! We encourage you to submit an application to join us this summer! Please make sure to read all parts of the Google Form, the linked Google Docs, and FAQs at the bottom of this page carefully. Please email us at stemchats@stemchats.org if you have any questions! We are excited to provide a summer of engaging and fulfilling work, networking, events, and more as we work towards our mission of shatter barriers in STEM for underrepresented students.",
+        description: "Thank you for your interest in our Second Annual Internship Program! We encourage you to submit an application to join us this summer! Please make sure to read all parts of the Google Form, the linked Google Docs, and FAQs at the bottom of this page carefully. Please email us at " + <a href = 'mailto:stemchats@stemchats.org' target = '_blank'>stemchats@stemchats.org</a> + " if you have any questions! We are excited to provide a summer of engaging and fulfilling work, networking, events, and more as we work towards our mission of shatter barriers in STEM for underrepresented students.",
         src: "/images/internship_shared_workspace.png",
         application: "docs.google.com/forms/d/190P98goeJ2EeC0-GmAsHnR0oW6mm0zfnhnpuX4And_I/viewform?edit_requested=true"
     }
@@ -238,10 +289,18 @@ let opportunitiesObj = [
     // }
 ];
 
+// let faqs = [
+//     {
+//         question: "Do I have to identify as underrepresented in STEM to apply?",
+//         answer: "testing"
+//     }, {
+//         question: "test",
+//         answer: "test"
+//     }
+// ];
+
 window.onload = createOpportunities(opportunitiesObj);
 // window.onload =	animateOnload();
-
-
 
 
 
