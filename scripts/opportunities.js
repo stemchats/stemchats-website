@@ -3,42 +3,42 @@ please push to the separate branch called "test" */
 
 // generate cards
 
-function createCards(num) {
-    /* var desc = [];
+// function createCards(num) {
+//     /* var desc = [];
 
-    for (var i = editions.length - 1; i >= 0; i--) {
-        var children = editions[i].getElementsByTagName("*");
-        for (var j = 0; j < children.length; j++) {
-            if (children[j].className == "card-text") {
-                desc[i] = children[j].textContent;
-            }
-        }
-        editions[i].parentNode.removeChild(editions[i]);
-    } */
+//     for (var i = editions.length - 1; i >= 0; i--) {
+//         var children = editions[i].getElementsByTagName("*");
+//         for (var j = 0; j < children.length; j++) {
+//             if (children[j].className == "card-text") {
+//                 desc[i] = children[j].textContent;
+//             }
+//         }
+//         editions[i].parentNode.removeChild(editions[i]);
+//     } */
 
-    for (var i = 1; i <= num; i++) {
-        var opp = document.createElement('div');
-        opp.classList.add('card', 'modal-trigger', 'oppcard');
-        opp.setAttribute('data-target', '#modal'+(i-1))
-        var body = document.createElement('div');
-        body.classList.add('card-body', 'oppcard-body');
-        opp.appendChild(body);
+//     for (var i = 1; i <= num; i++) {
+//         var opp = document.createElement('div');
+//         opp.classList.add('card', 'modal-trigger', 'oppcard');
+//         opp.setAttribute('data-target', '#modal'+(i-1))
+//         var body = document.createElement('div');
+//         body.classList.add('card-body', 'oppcard-body');
+//         opp.appendChild(body);
 
-        var oppName = document.createElement('h3');
-        oppName.classList.add('card-title', 'oppcard-title')
-        oppName.textContent = "Opportunity " + i;
-        body.appendChild(oppName);
+//         var oppName = document.createElement('h3');
+//         oppName.classList.add('card-title', 'oppcard-title')
+//         oppName.textContent = "Opportunity " + i;
+//         body.appendChild(oppName);
 
-        var descTxt = document.createElement('p');
-        if (desc[num - i]) {
-            descTxt.textContent = desc[num - i - 1];
-        }
-        body.appendChild(descTxt);
+//         var descTxt = document.createElement('p');
+//         if (desc[num - i]) {
+//             descTxt.textContent = desc[num - i - 1];
+//         }
+//         body.appendChild(descTxt);
 
-        opps = document.getElementById("opportunities");
-        opps.appendChild(opp);
-    }
-}
+//         opps = document.getElementById("opportunities");
+//         opps.appendChild(opp);
+//     }
+// }
 
 
 
@@ -122,34 +122,55 @@ createOpportunities = (opps) => {
             span.innerHTML = "&times;"
             button.appendChild(span);
             modalHeader.appendChild(button);
+
             modalBody = document.createElement("div");
             modalBody.className = "modal-body";
             container = document.createElement("div");
             container.className = "container-fluid";
-            row = document.createElement("div");
-            row.className = "row";
-            col1 = document.createElement("div");
-            col1.className = "col-md-8 my-auto mx-auto";
-            row.appendChild(col1);
+            div1 = document.createElement("div");
+            // row.className = "row";
+            // col1 = documecreateElnt.ement("div");
+            // col1.className = "col-md-8 my-auto mx-auto";
+            // row.appendChild(col1);
             const titleContainer = document.createElement("h3");
             titleContainer.className = "center name";
             titleContainer.textContent = opps[i].title;
-            col1.appendChild(titleContainer);
+            div1.appendChild(titleContainer);
 
             category = document.createElement("p");
             category.className = "center";
             category.innerHTML = "<strong>" + opps[i].category + "</strong>";
-            row.appendChild(category);
+            div1.appendChild(category);
 
-            rowTwo = document.createElement("div");
-            rowTwo.className = "row";
+            div2 = document.createElement("div");
+            // rowTwo.className = "row";
             description = document.createElement("p");
             // description.className="center";
             description.textContent = opps[i].description;
-            rowTwo.appendChild(description);
+            div2.appendChild(description);
 
-            container.appendChild(row);
-            container.appendChild(rowTwo);
+            div3 = document.createElement("div");
+            img=document.createElement("img");
+            img.className="img-fluid center";
+            img.setAttribute("alt",opps[i].title);
+            img.setAttribute("src", opps[i].src);
+            // col1.appendChild(img);
+            div3.appendChild(img);
+
+            const app =document.createElement("h6");
+            // app.className = "center"; 
+            link = "<a href=\"https://" + opps[i].application + "\" target=\"_blank\"><i class=\"btn btn-primary\">Access Application</i></a>";
+			app.innerHTML += link;
+            div3.appendChild(app);
+
+            div4 = document.createElement("div");
+            faq = document.createElement("div"); 
+            faq.className = "accordion intern-faq"; 
+            div3.appendChild(faq); 
+
+            container.appendChild(div1);
+            container.appendChild(div2);
+            container.appendChild(div3);
             modalBody.appendChild(container);
             modalContent.appendChild(modalHeader);
             modalContent.appendChild(modalBody);
@@ -204,14 +225,17 @@ createOpportunities = (opps) => {
 
 let opportunitiesObj = [
     {
-        title: "Summer Internship Program",
+        title: "2021 STEMchats Internship Program",
         category: "Internship",
-        description: "Testing"
-    }, {
-        title: "Summer Research Program",
-        category: "Research",
-        description: "Testing"
+        description: "Thank you for your interest in our Second Annual Internship Program! We encourage you to submit an application to join us this summer! Please make sure to read all parts of the Google Form, the linked Google Docs, and FAQs at the bottom of this page carefully. Please email us at stemchats@stemchats.org if you have any questions! We are excited to provide a summer of engaging and fulfilling work, networking, events, and more as we work towards our mission of shatter barriers in STEM for underrepresented students.",
+        src: "/images/internship_shared_workspace.png",
+        application: "docs.google.com/forms/d/190P98goeJ2EeC0-GmAsHnR0oW6mm0zfnhnpuX4And_I/viewform?edit_requested=true"
     }
+    // }, {
+    //     title: "Summer Research Program",
+    //     category: "Research",
+    //     description: "Testing"
+    // }
 ];
 
 window.onload = createOpportunities(opportunitiesObj);
