@@ -129,7 +129,7 @@ createFAQs = (f, container) => {
 
         // card3 = "<div id=\"collapseOne\" class=\"collapse\" aria-labelledby=\"headingOne\" data-parent=\"#accordionExample\">"
         faq.appendChild(card3); 
-        var ans = document.createElement("h4");
+        var ans = document.createElement("p");
         ans.className = "card-body"; 
         ans.innerHTML = j.answer; 
         // question.appendChild(ques); 
@@ -215,12 +215,12 @@ createOpportunities = (opps) => {
             // col1 = documecreateElnt.ement("div");
             // col1.className = "col-md-8 my-auto mx-auto";
             // row.appendChild(col1);
-            const titleContainer = document.createElement("h3");
+            const titleContainer = document.createElement("h2");
             titleContainer.className = "center name";
             titleContainer.innerHTML = opps[i].title;
             div1.appendChild(titleContainer);
 
-            category = document.createElement("p");
+            category = document.createElement("h5");
             category.className = "center";
             category.innerHTML = "<strong>" + opps[i].category + "</strong>";
             div1.appendChild(category);
@@ -242,8 +242,13 @@ createOpportunities = (opps) => {
 
             const app =document.createElement("h6");
             app.className = "center"; 
-            link = "<a href=\"https://" + opps[i].application + "\" target=\"_blank\"><i class=\"btn btn-primary\">Access Application</i></a>";
-			app.innerHTML += link;
+            // link = "<a href=\"https://" + opps[i].application + "\" target=\"_blank\"><i class=\"btn btn-primary\">Access Application</i></a>";
+            link = document.createElement("a");
+            link.setAttribute("href", "https://" + opps[i].application);
+            link.setAttribute("target", "_blank");
+            link.className = "btn btn-primary";
+            link.innerHTML = "Access Application";
+			app.appendChild(link);
             div3.appendChild(app);
 
             container.appendChild(div1);

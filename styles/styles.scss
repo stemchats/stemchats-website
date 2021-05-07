@@ -696,8 +696,10 @@ b { // for bolding text
 // MODAL (OPPORTUNITIES)
 .opport {
     .close {
-        right: 10px;
-        margin: -4px; 
+        right: 20px;
+    }
+    .modal-dialog {
+        width: 900px;
     }
 }
 
