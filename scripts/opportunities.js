@@ -89,9 +89,9 @@ let faqs = [
     },
 ];
 createFAQs = (f, container) => {
+    var count=0;
     f.forEach((j) => {
 
-        var div4 = document.createElement("div");
         var faq = document.createElement("div"); 
         faq.className = "accordion intern-faq"; 
         faq.id = "accordianExample";
@@ -121,22 +121,24 @@ createFAQs = (f, container) => {
 
         // card2 = document.createElement("div"); 
         // card2.className = "collapse"; 
+        var numwords = ['One', 'Two', 'Three', 'Four', 'Five', 'Six', 'Seven', 'Eight', 'Nine', 'Ten'];
+        
         var card3 = document.createElement("div");
-        card3.id = "collapseOne";
+        card3.id = "collapse"+numwords[count];
         card3.className = "collapse";
-        card3.setAttribute("aria-labelledby", "headingOne");
+        card3.setAttribute("aria-labelledby", "heading"+numwords[count]);
         card3.setAttribute("data-parent", "#accordionExample");
 
         // card3 = "<div id=\"collapseOne\" class=\"collapse\" aria-labelledby=\"headingOne\" data-parent=\"#accordionExample\">"
-        faq.appendChild(card3); 
         var ans = document.createElement("p");
         ans.className = "card-body"; 
         ans.innerHTML = j.answer; 
         // question.appendChild(ques); 
         // card2.appendChild(ans);
-        faq.appendChild(ans); 
-        div4.appendChild(faq); 
-        container.appendChild(div4);
+        card3.appendChild(ans); 
+        faq.appendChild(card3); 
+        container.appendChild(faq);
+        count++;
     });
 }
 
@@ -210,7 +212,6 @@ createOpportunities = (opps) => {
             modalBody.className = "modal-body";
             container = document.createElement("div");
             container.className = "container-fluid";
-            div1 = document.createElement("div");
             // row.className = "row";
             // col1 = documecreateElnt.ement("div");
             // col1.className = "col-md-8 my-auto mx-auto";
@@ -218,27 +219,21 @@ createOpportunities = (opps) => {
             const titleContainer = document.createElement("h2");
             titleContainer.className = "center name";
             titleContainer.innerHTML = opps[i].title;
-            div1.appendChild(titleContainer);
 
             category = document.createElement("h5");
             category.className = "center";
             category.innerHTML = "<strong>" + opps[i].category + "</strong>";
-            div1.appendChild(category);
 
-            div2 = document.createElement("div");
             // rowTwo.className = "row";
             description = document.createElement("p");
             // description.className="center";
             description.innerHTML = opps[i].description;
-            div2.appendChild(description);
 
-            div3 = document.createElement("div");
             img=document.createElement("img");
             img.className="img-fluid center";
             img.setAttribute("alt",opps[i].title);
             img.setAttribute("src", opps[i].src);
             // col1.appendChild(img);
-            div3.appendChild(img);
 
             app =document.createElement("div");
             app.className = "center";
@@ -250,11 +245,12 @@ createOpportunities = (opps) => {
             
             // link = "<a href=\"https://" + opps[i].application + "\" target=\"_blank\"><i class=\"btn btn-primary\">Access Application</i></a>";
 			app.appendChild(link);
-            div3.appendChild(app);
 
-            container.appendChild(div1);
-            container.appendChild(div2);
-            container.appendChild(div3);
+            container.appendChild(titleContainer);
+            container.appendChild(category);
+            container.appendChild(description);
+            container.appendChild(img);
+            container.appendChild(app);
 
             
             if (opps[i].title == "2021 STEMchats Internship Program"){
