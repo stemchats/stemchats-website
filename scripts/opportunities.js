@@ -240,7 +240,6 @@ createOpportunities = (opps) => {
             // col1.appendChild(img);
             div3.appendChild(img);
 
-<<<<<<< HEAD
             app =document.createElement("div");
             app.className = "center";
             link = document.createElement("a");
@@ -250,16 +249,6 @@ createOpportunities = (opps) => {
             link.innerHTML = "Access Application"; 
             
             // link = "<a href=\"https://" + opps[i].application + "\" target=\"_blank\"><i class=\"btn btn-primary\">Access Application</i></a>";
-=======
-            const app =document.createElement("h6");
-            app.className = "center"; 
-            // link = "<a href=\"https://" + opps[i].application + "\" target=\"_blank\"><i class=\"btn btn-primary\">Access Application</i></a>";
-            link = document.createElement("a");
-            link.setAttribute("href", "https://" + opps[i].application);
-            link.setAttribute("target", "_blank");
-            link.className = "btn btn-primary";
-            link.innerHTML = "Access Application";
->>>>>>> fdf40dd6d4fa75bb850b399995582eaad3b5cd75
 			app.appendChild(link);
             div3.appendChild(app);
 
