@@ -129,7 +129,7 @@ createFAQs = (f, container) => {
 
         // card3 = "<div id=\"collapseOne\" class=\"collapse\" aria-labelledby=\"headingOne\" data-parent=\"#accordionExample\">"
         faq.appendChild(card3); 
-        var ans = document.createElement("h4");
+        var ans = document.createElement("p");
         ans.className = "card-body"; 
         ans.innerHTML = j.answer; 
         // question.appendChild(ques); 
@@ -215,12 +215,12 @@ createOpportunities = (opps) => {
             // col1 = documecreateElnt.ement("div");
             // col1.className = "col-md-8 my-auto mx-auto";
             // row.appendChild(col1);
-            const titleContainer = document.createElement("h3");
+            const titleContainer = document.createElement("h2");
             titleContainer.className = "center name";
             titleContainer.innerHTML = opps[i].title;
             div1.appendChild(titleContainer);
 
-            category = document.createElement("p");
+            category = document.createElement("h5");
             category.className = "center";
             category.innerHTML = "<strong>" + opps[i].category + "</strong>";
             div1.appendChild(category);
@@ -240,10 +240,16 @@ createOpportunities = (opps) => {
             // col1.appendChild(img);
             div3.appendChild(img);
 
-            const app =document.createElement("h6");
-            app.className = "center"; 
-            link = "<a href=\"https://" + opps[i].application + "\" target=\"_blank\"><i class=\"btn btn-primary\">Access Application</i></a>";
-			app.innerHTML += link;
+            app =document.createElement("div");
+            app.className = "center";
+            link = document.createElement("a");
+            link.className = "btn btn-primary";
+            link.setAttribute("href", opps[i].application); 
+            link.setAttribute("target", "_blank"); 
+            link.innerHTML = "Access Application"; 
+            
+            // link = "<a href=\"https://" + opps[i].application + "\" target=\"_blank\"><i class=\"btn btn-primary\">Access Application</i></a>";
+			app.appendChild(link);
             div3.appendChild(app);
 
             container.appendChild(div1);
@@ -321,7 +327,7 @@ let opportunitiesObj = [
         category: "Internship",
         description: "Thank you for your interest in our Second Annual Internship Program! We encourage you to submit an application to join us this summer! Please make sure to read all parts of the Google Form, the linked Google Docs, and FAQs at the bottom of this page carefully. Please email us at <a href = \"mailto: stemchats@stemchats.org\" target = \"_blank\">stemchats@stemchats.org</a> if you have any questions! We are excited to provide a summer of engaging and fulfilling work, networking, events, and more as we work towards our mission of shatter barriers in STEM for underrepresented students.",
         src: "/images/internship_shared_workspace.png",
-        application: "docs.google.com/forms/d/190P98goeJ2EeC0-GmAsHnR0oW6mm0zfnhnpuX4And_I/viewform?edit_requested=true"
+        application: "https://docs.google.com/forms/d/190P98goeJ2EeC0-GmAsHnR0oW6mm0zfnhnpuX4And_I/viewform?edit_requested=true"
     }
     // }, {
     //     title: "Summer Research Program",
