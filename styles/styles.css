@@ -673,6 +673,14 @@ b {
   cursor: pointer;
 }
 
+.opport .close {
+  right: 20px;
+}
+
+.opport .modal-dialog {
+  width: 900px;
+}
+
 .intern {
   padding: 2em;
 }
