@@ -10,14 +10,6 @@ let membersObj = [
 	src: "NicoleFelixTovar.jpg",
 	bio: "Nicole is a driven advocate for equitable opportunity and is a rising second-year student majoring in Anthropology & Human Biology at Emory University in Atlanta, Georgia. She joined STEMchats to help make opportunities in various STEM disciplines attainable to low income, first-generation youth such as herself. She is proudly Colombian-Ecuadorian and wants to inspire and expose minority communities everywhere to STEM research and immersion pursuits. In her free time, Nicole loves to play tennis, watch and critique movies, nap, and travel."
 }, {
-	name: "Katrina Orevillo",
-	position: "VP of Biz-Development",
-	linkedIn: "korevillo/",
-	home: "Las Vegas, NV",
-	team: "leadership",
-	src: "KatrinaOverillo.jpg",
-	bio: "Katrina is a graphic designer and rising second-year computer science student attending California State University in Long Beach, California. She joined STEMchats to have an active role in pushing for equitable education while engaging her love for STEM. In her free time, she loves to bullet journal, go to concerts, and embark on foodie adventures around the city."
-}, {
 	name: "Amel Saied-Hassan",
 	position: "VP of Programming",
 	linkedIn: "amel-hassan-895615192/",
@@ -49,14 +41,6 @@ let membersObj = [
 	team: "leadership",
 	src: "SnoeCastillo.jpg",
 	bio: "Snoe is a rising second-year majoring in Film/Cinema/Video Studies at San Jose State University. She joined STEMchats because she wanted to help provide the same support and opportunities to minorities and show the potential of the younger generations. In her free time, she enjoys watching animation, editing graphics/videos, and eating asian cuisine."
-}, {
-	name: "Kanokwan Tungkitkancharoen",
-	position: "VP of Biz-Development",
-	linkedIn: "kanotung/",
-	home: "Las Vegas, NV",
-	team: "leadership",
-	src: "KanokwanTungkitkancharoen.jpg",
-	bio: "Kanokwan is an avid maker and a rising 1st-year mechanical engineering student attending the Massachusetts Institute of Technology. She joined STEMchats to be proactive in the fight for social equity for low-income minority students, such as herself. On the usual, you can find her meditating, eating Thai red chili peppers, or on the hunt for writing nooks in the city."
 },
 //leads
 {
@@ -205,6 +189,22 @@ let membersObj = [
 	team: "senior advisors",
 	src: "SashaKolesnikov.jpg",
 	bio: "Sasha is a social justice advocate and a rising second-year student majoring in Environmental Economics & Policy at UC Berkeley in the Bay Area. She joined STEMchats as a first generation, low-income student with a goal of supporting historically disadvantaged groups in STEM and socially responsible organizations. In her free time, she enjoys finding unusual books to read, exploring new places with friends, listening to a variety of podcasts in an attempt to feel smart, and trying anything matcha flavored."
+}, {
+	name: "Katrina Orevillo",
+	position: "Senior Advisor",
+	linkedIn: "korevillo/",
+	home: "Las Vegas, NV",
+	team: "senior advisors",
+	src: "KatrinaOverillo.jpg",
+	bio: "Katrina is a graphic designer and rising second-year computer science student attending California State University in Long Beach, California. She joined STEMchats to have an active role in pushing for equitable education while engaging her love for STEM. In her free time, she loves to bullet journal, go to concerts, and embark on foodie adventures around the city."
+}, {
+	name: "Kanokwan Tungkitkancharoen",
+	position: "Senior Advisor",
+	linkedIn: "kanotung/",
+	home: "Las Vegas, NV",
+	team: "senior advisors",
+	src: "KanokwanTungkitkancharoen.jpg",
+	bio: "Kanokwan is an avid maker and a rising 1st-year mechanical engineering student attending the Massachusetts Institute of Technology. She joined STEMchats to be proactive in the fight for social equity for low-income minority students, such as herself. On the usual, you can find her meditating, eating Thai red chili peppers, or on the hunt for writing nooks in the city."
 },
 //coords
 {
