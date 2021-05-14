@@ -173,13 +173,13 @@ createOpportunities = (opps) => {
             container.appendChild(description);
             container.appendChild(app);
 
-            
+
             if (opps[i].faq){
                 //faq section
-                f = document.createElement("h3"); 
-                f.className = "center name"; 
+                f = document.createElement("h3");
+                f.className = "center name";
                 f.innerHTML = "FAQs";
-                container.appendChild(f); 
+                container.appendChild(f);
 
                 window.onload = createFAQs(opps[i].faq, container);
                 // container.appendChild(div4);
@@ -202,7 +202,7 @@ createFAQs = (f, container) => {
     var count=0;
     var faq = document.createElement("div");
     faq.className = "accordion intern-faq";
-    faq.id = "accordianExample";
+    faq.id = "accordionExample";
 
     f.forEach((q) => {
         //create card
@@ -218,7 +218,7 @@ createFAQs = (f, container) => {
         var question = document.createElement("h2");
         question.className = "mb-0";
 
-        //create header button 
+        //create header button
         var butt = document.createElement("button");
         butt.className = "btn btn-link intern-faq-question-header collapsed";
         butt.setAttribute("type", "button");
@@ -235,29 +235,29 @@ createFAQs = (f, container) => {
         question.appendChild(butt);
         faq.appendChild(card);
 
-        butt.addEventListener("click", function expand(){
-            console.log("clicked");
-            
-            answer.className = "collapsing";
-            answer.setAttribute("style", "height: 404px");
+        // butt.addEventListener("click", function expand(){
+        //     console.log("clicked");
+        //
+        //     answer.className = "collapsing";
+        //     answer.setAttribute("style", "height: 404px");
+        //
+        //     setTimeout(function() {
+        //         answer.removeAttribute("style");
+        //         butt.classList.toggle("collapsed");
+        //
+        //         answer.className = "collapse show";
+        //
+        //         if (butt.getAttribute("aria-expanded") == "false") {
+        //             butt.setAttribute("aria-expanded", "true");
+        //         } else {
+        //             butt.setAttribute("aria-expanded", "false");
+        //             answer.className = "collapse";
+        //         }
+        //     }, 0)
+        // });
 
-            setTimeout(function() {
-                answer.removeAttribute("style");
-                butt.classList.toggle("collapsed");
-
-                answer.className = "collapse show";
-    
-                if (butt.getAttribute("aria-expanded") == "false") {
-                    butt.setAttribute("aria-expanded", "true");
-                } else {
-                    butt.setAttribute("aria-expanded", "false");
-                    answer.className = "collapse";
-                }
-            }, 0)
-        }); 
-
-        // card2 = document.createElement("div"); 
-        // card2.className = "collapse"; 
+        // card2 = document.createElement("div");
+        // card2.className = "collapse";
         var numwords = ['One', 'Two', 'Three', 'Four', 'Five', 'Six', 'Seven', 'Eight', 'Nine', 'Ten'];
 
         //create answer block
@@ -266,7 +266,7 @@ createFAQs = (f, container) => {
         answer.className = "collapse";
         answer.setAttribute("aria-labelledby", "heading"+numwords[count]);
         answer.setAttribute("data-parent", "#accordionExample");
-        
+
         //create answer text
         var ans = document.createElement("p");
         ans.className = "card-body";
