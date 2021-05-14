@@ -42,104 +42,22 @@ please push to the separate branch called "test" */
 
 
 
+// AOS.init(); //animation
+AOS.init({
+    // offset: 200, // offset (in px) from the original trigger point
 
+    easing: 'ease-in-out', // default easing for AOS animations
+    once: false, // whether animation should happen only once - while scrolling down
+    // anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
+});
 
 
 // create modal popup
-// AOS.init({
-//     // offset: 200, // offset (in px) from the original trigger point
 
-//     easing: 'ease-in-out', // default easing for AOS animations
-//     once: false, // whether animation should happen only once - while scrolling down
-//     // anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
-// });
-// const url = "/images/headshots/";
 const opportunities = document.getElementById("opportunities");
-// const department = document.getElementById("department");
 const animate = document.getElementById("opportunities_container");
-
-createFAQs = (f, container) => {
-    var count=0;
-    f.forEach((j) => {
-
-        var faq = document.createElement("div");
-        faq.className = "accordion intern-faq";
-        faq.id = "accordianExample";
-        var card = document.createElement("div");
-        card.className = "intern-faq-question";
-        var q = document.createElement("div");
-        q.className = "card-header intern-faq-question";
-        q.id = "headingOne";
-        var question =document.createElement("h2");
-        question.className = "mb-0";
-        // app.className = "center";
-        var ques = document.createElement("button");
-        ques.className = "btn btn-link intern-faq-question-header collapsed";
-        ques.setAttribute("type", "button");
-        ques.setAttribute("data-toggle", "collapse");
-        ques.setAttribute("data-target", "#collapseOne");
-        ques.setAttribute("aria-expanded", "false");
-        ques.setAttribute("aria-controls", "collapseOne");
-
-
-        // ques = "<button class=\"btn btn-link intern-faq-question-header\" type=\"button\" data-toggle=\"collapse\" data-target=\"#collapseOne\" aria-expanded=\"false\" aria-controls=\"collapseOne\"> \"" + j.question + "\"</button>";
-        ques.innerHTML = j.question;
-        question.appendChild(ques);
-        q.appendChild(question);
-        card.appendChild(q);
-        faq.appendChild(card);
-
-        card.addEventListener("click", expand); 
-
-        // card2 = document.createElement("div"); 
-        // card2.className = "collapse"; 
-        var numwords = ['One', 'Two', 'Three', 'Four', 'Five', 'Six', 'Seven', 'Eight', 'Nine', 'Ten'];
-
-        var card3 = document.createElement("div");
-        card3.id = "collapse"+numwords[count];
-        card3.className = "collapse";
-        card3.setAttribute("aria-labelledby", "heading"+numwords[count]);
-        card3.setAttribute("data-parent", "#accordionExample");
-
-        function expand(){
-            console.log("clicked");
-            // let expanded = false;
-            // if (card3.classList == "collapse show") {
-            //     expanded = true;
-            // } else { expanded = false; }
-            
-            card3.className = "collapsing";
-
-            setTimeout(function() {
-                // if (!expanded) {
-
-                // }
-                ques.classList.toggle("collapsed");
-
-                card3.className = "collapse show";
-    
-                if (ques.getAttribute("aria-expanded") == "false") {
-                    ques.setAttribute("aria-expanded", "true");
-                } else {
-                    ques.setAttribute("aria-expanded", "false");
-                    card3.className = "collapse";
-                }
-            }, 200)
-        }
-
-        // card3 = "<div id=\"collapseOne\" class=\"collapse\" aria-labelledby=\"headingOne\" data-parent=\"#accordionExample\">"
-        var ans = document.createElement("p");
-        ans.className = "card-body";
-        ans.innerHTML = j.answer;
-        // question.appendChild(ques);
-        // card2.appendChild(ans);
-        card3.appendChild(ans);
-        faq.appendChild(card3);
-        container.appendChild(faq);
-        count++;
-    });
-}
-
+const categories = document.getElementById("categories");
+const opps = document.getElementById("opportunities");
 
 //create all the team members
 createOpportunities = (opps) => {
@@ -165,12 +83,17 @@ createOpportunities = (opps) => {
             title = document.createElement("h3");
             title.className = "card-title oppcard-title";
             title.innerHTML = opps[i].title;
-            desc = document.createElement("h3");
-            desc.className = "card-text oppcard-description";
-            desc.innerHTML = opps[i].category;
+            cat = document.createElement("h5");
+            cat.className = "card-text oppcard-description";
+            cat.innerHTML = opps[i].category;
+            divFour = document.createElement("div");
+            desc = document.createElement("p");
+            desc.innerHTML = opps[i].description.substring(0, 130) + "...";
+
+            divFour.appendChild(desc);
             divThree.appendChild(title);
-            divThree.appendChild(desc);
-            //   divTwo.appendChild(img);
+            divThree.appendChild(cat);
+            divThree.appendChild(divFour);
             divTwo.appendChild(divThree);
             divOne.appendChild(divTwo);
             console.log(opps[i].title);
@@ -219,7 +142,7 @@ createOpportunities = (opps) => {
             titleContainer.innerHTML = opps[i].title;
 
             category = document.createElement("h5");
-            category.className = "center";
+            category.className = "center category";
             category.innerHTML = "<strong>" + opps[i].category + "</strong>";
 
             // rowTwo.className = "row";
@@ -242,12 +165,12 @@ createOpportunities = (opps) => {
             link.innerHTML = "Access Application";
 
             // link = "<a href=\"https://" + opps[i].application + "\" target=\"_blank\"><i class=\"btn btn-primary\">Access Application</i></a>";
-			      app.appendChild(link);
+            app.appendChild(link);
 
+            container.appendChild(img);
             container.appendChild(titleContainer);
             container.appendChild(category);
             container.appendChild(description);
-            container.appendChild(img);
             container.appendChild(app);
 
             
@@ -275,20 +198,101 @@ createOpportunities = (opps) => {
     });
 }
 
+createFAQs = (f, container) => {
+    var count=0;
+    var faq = document.createElement("div");
+    faq.className = "accordion intern-faq";
+    faq.id = "accordianExample";
+
+    f.forEach((q) => {
+        //create card
+        var card = document.createElement("div");
+        card.className = "card intern-faq-question";
+
+        //create header card
+        var header = document.createElement("div");
+        header.className = "card-header intern-faq-question";
+        header.id = "headingOne";
+
+        //create question text
+        var question = document.createElement("h2");
+        question.className = "mb-0";
+
+        //create header button 
+        var butt = document.createElement("button");
+        butt.className = "btn btn-link intern-faq-question-header collapsed";
+        butt.setAttribute("type", "button");
+        butt.setAttribute("data-toggle", "collapse");
+        butt.setAttribute("data-target", "#collapseOne");
+        butt.setAttribute("aria-expanded", "false");
+        butt.setAttribute("aria-controls", "collapseOne");
+
+
+        // ques = "<button class=\"btn btn-link intern-faq-question-header\" type=\"button\" data-toggle=\"collapse\" data-target=\"#collapseOne\" aria-expanded=\"false\" aria-controls=\"collapseOne\"> \"" + j.question + "\"</button>";
+        butt.innerHTML = q.question;
+        header.appendChild(question);
+        card.appendChild(header);
+        question.appendChild(butt);
+        faq.appendChild(card);
+
+        butt.addEventListener("click", function expand(){
+            console.log("clicked");
+            
+            answer.className = "collapsing";
+            answer.setAttribute("style", "height: 404px");
+
+            setTimeout(function() {
+                answer.removeAttribute("style");
+                butt.classList.toggle("collapsed");
+
+                answer.className = "collapse show";
+    
+                if (butt.getAttribute("aria-expanded") == "false") {
+                    butt.setAttribute("aria-expanded", "true");
+                } else {
+                    butt.setAttribute("aria-expanded", "false");
+                    answer.className = "collapse";
+                }
+            }, 0)
+        }); 
+
+        // card2 = document.createElement("div"); 
+        // card2.className = "collapse"; 
+        var numwords = ['One', 'Two', 'Three', 'Four', 'Five', 'Six', 'Seven', 'Eight', 'Nine', 'Ten'];
+
+        //create answer block
+        var answer = document.createElement("div");
+        answer.id = "collapse"+numwords[count];
+        answer.className = "collapse";
+        answer.setAttribute("aria-labelledby", "heading"+numwords[count]);
+        answer.setAttribute("data-parent", "#accordionExample");
+        
+        //create answer text
+        var ans = document.createElement("p");
+        ans.className = "card-body";
+        ans.innerHTML = q.answer;
+        answer.appendChild(ans);
+        card.appendChild(answer);
+        count++;
+    });
+    container.appendChild(faq);
+}
+
+
 //animation on click for the select
-// loadAnimate = () => {
-// 	animate.style.visibility = "hidden";
-// 	// animate.style.display = "none";
-// 	window.scrollTo(0, 0);
-// 	setTimeout(function() {
-// 			animate.classList.remove("aos-animate");
-// 			// animate.style.display = "block";
-// 				setTimeout(function(){
-// 					animate.style.visibility = "visible";
-// 					animate.classList.add("aos-animate");
-// 				}, 600);
-// 		}, 50);
-// }
+/* loadAnimate = () => {
+animate.style.visibility = "hidden";
+// animate.style.display = "none";
+window.scrollTo(0, 0);
+setTimeout(function() {
+        animate.classList.remove("aos-animate");
+        // animate.style.display = "block";
+        setTimeout(function(){
+                animate.style.visibility = "visible";
+                animate.classList.add("aos-animate");
+            }, 600);
+    }, 50);
+} */
 
 // //remove styling/animation onclick modals
 // removeAnimate = () => {
@@ -360,20 +364,64 @@ let opportunitiesObj = [
     // }
 ];
 
-// let faqs = [
-//     {
-//         question: "Do I have to identify as underrepresented in STEM to apply?",
-//         answer: "testing"
-//     }, {
-//         question: "test",
-//         answer: "test"
-//     }
-// ];
 
 window.onload = createOpportunities(opportunitiesObj);
 // window.onload =	animateOnload();
 
 
+loadAnimate = () => {
+	animate.style.visibility = "hidden";
+	// animate.style.display = "none";
+	window.scrollTo(0, 0);
+	setTimeout(function() {
+        animate.classList.remove("aos-animate");
+        // animate.style.display = "block";
+            setTimeout(function(){
+                animate.style.visibility = "visible";
+                animate.classList.add("aos-animate");
+            }, 600);
+    }, 50);
+    console.log("animate in");
+}
+
+//hide other members
+hide = () => {
+	opps.innerHTML = "";
+}
+
+//select Category
+function select(categ) {
+	categories.innerHTML = categ;
+	console.log(categories.textContent);
+}
+internship = () => {
+ 		let array = opportunitiesObj.filter(function(opp) {
+		return opp.category.indexOf("Internship") !== -1;
+	})
+	select("Internship");
+	return array;
+}
+programs = () => {
+		let array = opportunitiesObj.filter(function(opp) {
+		return opp.category.indexOf("Programs") !== -1;
+	})
+	select("Programs");
+	return array;
+}
+bizdev = () => {
+        let array = opportunitiesObj.filter(function(opp) {
+        return opp.category.indexOf("Business-Development") !== -1;
+    })
+    select("Business-Development");
+    return array;
+}
+past = () => {
+        let array = opportunitiesObj.filter(function(opp) {
+        return opp.category.indexOf("Past Opportunities") !== -1;
+    })
+    select("Past Opportunities");
+    return array;
+}
 
 
 

@@ -160,10 +160,10 @@ addAnimate = () => {
 //add the onload delay
 animateOnload = () => {
 	animate.setAttribute("data-aos-delay", "800");
-		setTimeout(function() {
-			animate.removeAttribute("data-aos-delay");
-		}, 500);
-	}
+  setTimeout(function() {
+    animate.removeAttribute("data-aos-delay");
+  }, 500);
+}
 
 //hide other members
 hide = () => {
@@ -172,8 +172,8 @@ hide = () => {
 
 //select Team
 function select(team) {
-	console.log(department)
 	department.innerHTML = team;
+	console.log(department.textContent)
 }
 leadership = () => {
  		let array = membersObj.filter(function(member) {

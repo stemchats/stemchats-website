@@ -37,6 +37,7 @@ body li {
   border-radius: 25px;
   font-size: 16px;
   background: white;
+  margin-bottom: 20px;
 }
 
 .icons {
@@ -451,7 +452,7 @@ b {
   height: 2000px;
 }
 
-#opportunities_container .card {
+#opportunities_container .oppcard {
   border-radius: 0;
   border: 0;
   margin-bottom: 20px;
@@ -459,17 +460,35 @@ b {
   transition: 0.4s;
 }
 
-#opportunities_container .card .card-title {
+#opportunities_container .oppcard .card-title {
   font-weight: bold;
 }
 
-#opportunities_container .card:hover {
+#opportunities_container .oppcard:hover {
   -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
           box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
+#opportunities_container .oppcard p {
+  margin-top: 15px;
+  margin-bottom: 0;
+}
+
+#opportunities_container img {
+  margin-top: -40px;
+  margin-bottom: -10px;
+}
+
+#opportunities_container .category {
+  margin-bottom: 20px;
+}
+
+#opportunities_container .btn-primary {
+  margin-bottom: 40px;
+}
+
 .opport .modal-header .close {
-  right: 20px;
+  right: 15px;
 }
 
 .opport .modal-dialog {

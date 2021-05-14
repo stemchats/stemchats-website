@@ -72,6 +72,7 @@ body {
     border-radius: 25px;
     font-size: 16px;
     background: white;
+    margin-bottom: 20px;
 }
 
 .icons {
@@ -447,7 +448,7 @@ b { // for bolding text
 }
 
 #opportunities_container {
-    .card {
+    .oppcard {
         border-radius: 0;
         border: 0;
         margin-bottom: 20px;
@@ -460,13 +461,31 @@ b { // for bolding text
         &:hover {
             box-shadow: 0 0 10px rgba(0,0,0,.3);
         }
+
+        p {
+            margin-top: 15px;
+            margin-bottom: 0;
+        }
+    }
+
+    img {
+        margin-top: -40px;
+        margin-bottom: -10px;
+    }
+
+    .category {
+        margin-bottom: 20px;
+    }
+
+    .btn-primary {
+        margin-bottom: 40px;
     }
 }
 
 // MODAL (OPPORTUNITIES)
 .opport {
     .modal-header .close {
-        right: 20px;
+        right: 15px;
     }
     .modal-dialog {
         width: 900px;

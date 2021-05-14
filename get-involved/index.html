@@ -89,23 +89,23 @@
                                 <div class="team show dropdown">
                                     <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownSelectTeam"
                                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        <span id="department">Select All</span>
+                                        <span id="categories">Categories</span>
                                     </a>
-                                    <div class="dropdown-menu" aria-labelledby="dropdownSelectTeam">
+                                    <div class="dropdown-menu" aria-labelledby="dropdownSelectCateg">
                                         <a class="dropdown-item" href="#"
-                                            onclick="select('Select All')">Select All</a>
+                                            onclick="hide(), select('Select All'), createOpportunities(opportunitiesObj)">Select All</a>
                                         <div class="dropdown-divider"></div>
                                         <a class="dropdown-item" href="#"
-                                            onclick="select('Internship')">Internship</a>
+                                            onclick="hide(), createOpportunities(internship())">Internship</a>
                                         <a class="dropdown-item" href="#"
-                                            onclick="select('Programs')">Programs</a>
+                                            onclick="hide(), createOpportunities(programs())">Programs</a>
                                         <a class="dropdown-item" href="#"
-                                            onclick="select('Business-Development')">Business-Development</a>
+                                            onclick="hide(), createOpportunities(bizdev())">Business-Development</a>
                                         <a class="dropdown-item" href="#"
-                                            onclick="select('Past Opportunities')">Past Opportunities</a>
+                                            onclick="hide(), createOpportunities(past())">Past Opportunities</a>
                                     </div>
-                                  </div>
-                                  </div>
+                                </div>
+                            </div>
                         </div>
                         <div id="opportunities_container" class="col-lg-8">
                             <div id="opportunities">
