@@ -62,17 +62,17 @@ createFAQs = (f, container) => {
     var count=0;
     f.forEach((j) => {
 
-        var faq = document.createElement("div"); 
-        faq.className = "accordion intern-faq"; 
+        var faq = document.createElement("div");
+        faq.className = "accordion intern-faq";
         faq.id = "accordianExample";
         var card = document.createElement("div");
         card.className = "intern-faq-question";
         var q = document.createElement("div");
-        q.className = "card-header intern-faq-question"; 
+        q.className = "card-header intern-faq-question";
         q.id = "headingOne";
         var question =document.createElement("h2");
         question.className = "mb-0";
-        // app.className = "center"; 
+        // app.className = "center";
         var ques = document.createElement("button");
         ques.className = "btn btn-link intern-faq-question-header collapsed";
         ques.setAttribute("type", "button");
@@ -81,20 +81,20 @@ createFAQs = (f, container) => {
         ques.setAttribute("aria-expanded", "false");
         ques.setAttribute("aria-controls", "collapseOne");
 
-        
+
         // ques = "<button class=\"btn btn-link intern-faq-question-header\" type=\"button\" data-toggle=\"collapse\" data-target=\"#collapseOne\" aria-expanded=\"false\" aria-controls=\"collapseOne\"> \"" + j.question + "\"</button>";
         ques.innerHTML = j.question;
         question.appendChild(ques);
-        q.appendChild(question); 
+        q.appendChild(question);
         card.appendChild(q);
-        faq.appendChild(card); 
+        faq.appendChild(card);
 
         card.addEventListener("click", expand); 
 
         // card2 = document.createElement("div"); 
         // card2.className = "collapse"; 
         var numwords = ['One', 'Two', 'Three', 'Four', 'Five', 'Six', 'Seven', 'Eight', 'Nine', 'Ten'];
-        
+
         var card3 = document.createElement("div");
         card3.id = "collapse"+numwords[count];
         card3.className = "collapse";
@@ -129,12 +129,12 @@ createFAQs = (f, container) => {
 
         // card3 = "<div id=\"collapseOne\" class=\"collapse\" aria-labelledby=\"headingOne\" data-parent=\"#accordionExample\">"
         var ans = document.createElement("p");
-        ans.className = "card-body"; 
-        ans.innerHTML = j.answer; 
-        // question.appendChild(ques); 
+        ans.className = "card-body";
+        ans.innerHTML = j.answer;
+        // question.appendChild(ques);
         // card2.appendChild(ans);
-        card3.appendChild(ans); 
-        faq.appendChild(card3); 
+        card3.appendChild(ans);
+        faq.appendChild(card3);
         container.appendChild(faq);
         count++;
     });
@@ -237,12 +237,12 @@ createOpportunities = (opps) => {
             app.className = "center";
             link = document.createElement("a");
             link.className = "btn btn-primary";
-            link.setAttribute("href", opps[i].application); 
-            link.setAttribute("target", "_blank"); 
-            link.innerHTML = "Access Application"; 
-            
+            link.setAttribute("href", opps[i].application);
+            link.setAttribute("target", "_blank");
+            link.innerHTML = "Access Application";
+
             // link = "<a href=\"https://" + opps[i].application + "\" target=\"_blank\"><i class=\"btn btn-primary\">Access Application</i></a>";
-			app.appendChild(link);
+			      app.appendChild(link);
 
             container.appendChild(titleContainer);
             container.appendChild(category);
