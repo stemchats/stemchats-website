@@ -205,6 +205,8 @@ createFAQs = (f, container) => {
     faq.id = "accordionExample";
 
     f.forEach((q) => {
+        var numwords = ['One', 'Two', 'Three', 'Four', 'Five', 'Six', 'Seven', 'Eight', 'Nine', 'Ten'];
+
         //create card
         var card = document.createElement("div");
         card.className = "card intern-faq-question";
@@ -212,7 +214,7 @@ createFAQs = (f, container) => {
         //create header card
         var header = document.createElement("div");
         header.className = "card-header intern-faq-question";
-        header.id = "headingOne";
+        header.id = "heading"+numwords[count];
 
         //create question text
         var question = document.createElement("h2");
@@ -223,9 +225,9 @@ createFAQs = (f, container) => {
         butt.className = "btn btn-link intern-faq-question-header collapsed";
         butt.setAttribute("type", "button");
         butt.setAttribute("data-toggle", "collapse");
-        butt.setAttribute("data-target", "#collapseOne");
+        butt.setAttribute("data-target", "#collapse"+numwords[count]);
         butt.setAttribute("aria-expanded", "false");
-        butt.setAttribute("aria-controls", "collapseOne");
+        butt.setAttribute("aria-controls", "collapse"+numwords[count]);
 
 
         // ques = "<button class=\"btn btn-link intern-faq-question-header\" type=\"button\" data-toggle=\"collapse\" data-target=\"#collapseOne\" aria-expanded=\"false\" aria-controls=\"collapseOne\"> \"" + j.question + "\"</button>";
@@ -258,7 +260,6 @@ createFAQs = (f, container) => {
 
         // card2 = document.createElement("div");
         // card2.className = "collapse";
-        var numwords = ['One', 'Two', 'Three', 'Four', 'Five', 'Six', 'Seven', 'Eight', 'Nine', 'Ten'];
 
         //create answer block
         var answer = document.createElement("div");
