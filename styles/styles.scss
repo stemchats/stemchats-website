@@ -72,6 +72,7 @@ body {
     border-radius: 25px;
     font-size: 16px;
     background: white;
+    margin-bottom: 20px;
 }
 
 .icons {
@@ -413,6 +414,86 @@ b { // for bolding text
 
 
 
+// GET INVOLVED PAGE
+
+.opportunities{
+    @include flexCenter();
+    height: 100%;
+    padding: 1em;
+    background-color: white;
+    color: black;
+
+    .oppcard {
+        padding: 0.5em;
+        margin-bottom: 0em;
+        border: 1px white;
+        text-align: center;
+
+        .oppcard-img {
+            border-radius: 15px;
+            max-width: 100%;
+        }
+        .oppcard-title {
+            font-weight: bold;
+            font-size: 24px;
+        }
+        .oppcard-description {
+            font-size: $small-font-description;
+        }
+    }
+
+    #opportunities_container{
+        height: 2000px; 
+    }
+}
+
+#opportunities_container {
+    .oppcard {
+        border-radius: 0;
+        border: 0;
+        margin-bottom: 20px;
+        transition: 0.4s;
+
+        .card-title {
+            font-weight: bold;
+        }
+
+        &:hover {
+            box-shadow: 0 0 10px rgba(0,0,0,.3);
+        }
+
+        p {
+            margin-top: 15px;
+            margin-bottom: 0;
+        }
+    }
+
+    img {
+        margin-top: -40px;
+        margin-bottom: -10px;
+    }
+
+    .category {
+        margin-bottom: 20px;
+    }
+
+    .btn-primary {
+        margin-bottom: 40px;
+    }
+}
+
+// MODAL (OPPORTUNITIES)
+.opport {
+    .modal-header .close {
+        right: 15px;
+    }
+    .modal-dialog {
+        width: 900px;
+    }
+}
+
+
+
 // OUR PROGRAMS (OVERVIEW) STYLES
 
 #overview {
@@ -486,80 +567,6 @@ b { // for bolding text
         margin-top: 1rem;
         margin-bottom: 1rem;
     }
-}
-
-
-
-
-// FOOTER STYLES
-// #footer-img {
-//   width: 100%;
-//   height: 300px;
-// }
-
-#footer {
-    margin-top: 2em;
-    background-color: $light-grey;
-
-    #top {
-        text-align: left;
-        padding-top: 4em;
-    }
-
-    .contact {
-        i {
-            padding-right: 10px;
-            font-size: $small-font-description;
-            color: #ddd;
-        }
-    }
-
-    .links {
-        a {
-            color: #888;
-            border: 0; //nullifies base anchor link styles
-
-            &:hover, &:focus {
-                color: #555;
-                margin-left: 3px;
-            }
-        }
-    }
-
-    .subscribe {
-        p {
-            word-wrap: break-word;
-        }
-    }
-
-    .social {
-        margin-top: 5em;
-
-        a {
-            margin: 0 10px;
-            color: #bbb;
-            border: 0;
-
-            &:hover, &:focus {
-                color: $main-color;
-                border: 0;
-            }
-        }
-
-        i {
-            font-size: 24px;
-            vertical-align: middle;
-        }
-    }
-
-    #CR {
-        margin: 1em 0 0;
-        font-size: 14px;
-    }
-}
-
-.footer-section {
-    margin: 0.5em;
 }
 
 
@@ -678,6 +685,80 @@ b { // for bolding text
 
 ul{
     padding-left: 6%;
+}
+
+
+
+
+// FOOTER STYLES
+// #footer-img {
+//   width: 100%;
+//   height: 300px;
+// }
+
+#footer {
+    margin-top: 2em;
+    background-color: $light-grey;
+
+    #top {
+        text-align: left;
+        padding-top: 4em;
+    }
+
+    .contact {
+        i {
+            padding-right: 10px;
+            font-size: $small-font-description;
+            color: #ddd;
+        }
+    }
+
+    .links {
+        a {
+            color: #888;
+            border: 0; //nullifies base anchor link styles
+
+            &:hover, &:focus {
+                color: #555;
+                margin-left: 3px;
+            }
+        }
+    }
+
+    .subscribe {
+        p {
+            word-wrap: break-word;
+        }
+    }
+
+    .social {
+        margin-top: 5em;
+
+        a {
+            margin: 0 10px;
+            color: #bbb;
+            border: 0;
+
+            &:hover, &:focus {
+                color: $main-color;
+                border: 0;
+            }
+        }
+
+        i {
+            font-size: 24px;
+            vertical-align: middle;
+        }
+    }
+
+    #CR {
+        margin: 1em 0 0;
+        font-size: 14px;
+    }
+}
+
+.footer-section {
+    margin: 0.5em;
 }
 
 
