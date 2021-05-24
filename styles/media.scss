@@ -321,6 +321,10 @@ $small-font-description: 18px;
         display: inline-block;
         // height: 10%;
     }
+
+    .oppcard {
+        box-shadow: 0 0 8px rgba(0,0,0,.1);
+    }
 }
 
 @media screen and (max-width: 767px) {

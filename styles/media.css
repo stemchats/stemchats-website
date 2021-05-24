@@ -283,6 +283,10 @@
     content: '';
     display: inline-block;
   }
+  .oppcard {
+    -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  }
 }
 
 @media screen and (max-width: 767px) {

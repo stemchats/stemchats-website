@@ -416,37 +416,6 @@ b { // for bolding text
 
 // GET INVOLVED PAGE
 
-.opportunities{
-    @include flexCenter();
-    height: 100%;
-    padding: 1em;
-    background-color: white;
-    color: black;
-
-    .oppcard {
-        padding: 0.5em;
-        margin-bottom: 0em;
-        border: 1px white;
-        text-align: center;
-
-        .oppcard-img {
-            border-radius: 15px;
-            max-width: 100%;
-        }
-        .oppcard-title {
-            font-weight: bold;
-            font-size: 24px;
-        }
-        .oppcard-description {
-            font-size: $small-font-description;
-        }
-    }
-
-    #opportunities_container{
-        height: 2000px; 
-    }
-}
-
 #opportunities_container {
     .oppcard {
         border-radius: 0;
@@ -458,13 +427,20 @@ b { // for bolding text
             font-weight: bold;
         }
 
-        &:hover {
-            box-shadow: 0 0 10px rgba(0,0,0,.3);
-        }
-
         p {
             margin-top: 15px;
             margin-bottom: 0;
+        }
+
+        &-title {
+            font-size: 24px;
+        }
+        &-description {
+            font-size: $small-font-description;
+        }
+
+        &:hover {
+            box-shadow: 0 0 10px rgba(0,0,0,.3);
         }
     }
 
