@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <!-- Bootstrap Meta Tags -->
     <meta charset="utf-8">
@@ -9,11 +10,14 @@
     <meta name="keywords" content="stem, stemchast, stemchats, nonprofit, students, programs">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Archivo&display=swap" rel="stylesheet">
 
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/72d227a617.js" SameSite="none Secure" crossorigin="anonymous"></script>
+    <!-- aos animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <!-- icon -->
     <link rel="apple-touch-icon" sizes="57x57" href="/favicon/apple-icon-57x57.png">
@@ -25,7 +29,7 @@
     <link rel="apple-touch-icon" sizes="144x144" href="/favicon/apple-icon-144x144.png">
     <link rel="apple-touch-icon" sizes="152x152" href="/favicon/apple-icon-152x152.png">
     <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192"  href="/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/favicon/android-icon-192x192.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="96x96" href="/favicon/favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
@@ -35,107 +39,247 @@
     <meta name="theme-color" content="#ffffff">
 
     <!-- Website CSS -->
-    <link rel = "stylesheet" href = "/styles/styles.css"/>
-    <link rel = "stylesheet" href = "/styles/media.css"/>
+    <link rel="stylesheet" href="/styles/styles.css" />
+    <link rel="stylesheet" href="/styles/media.css" />
     <link href='https://fonts.googleapis.com/css?family=Karla:400,400i,700,700i' rel='stylesheet'>
     <title>STEMchats: Get Involved</title>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-172907340-1"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-8B9CVY2J70"></script>
     <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+        window.dataLayer = window.dataLayer || [];
 
-      gtag('config', 'UA-172907340-1');
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-8B9CVY2J70');
     </script>
 </head>
+
 <body>
     <section id="header">
 
     </section>
     <section>
-        <div class = "container intern">
-            <div class = "row flex-column flex-md-row">
+        <div class="container intern">
+          <div class = "row flex-column flex-md-row">
+            <div class = col-lg-1>
+            </div>
+              <div class = col-lg-10>
+                  <div class="important d-flex justify-content-center">
+                    <span>
+                      <em><b>If you'd like to partner with STEMchats, please reach out to: </b></em><a href="mailto:outreach@stemchats.org">outreach@stemchats.org</a>
+                    </span>
+                  </div>
+              </div>
               <div class = col-lg-1>
               </div>
-                <div class = col-lg-10>
-                    <div class="important d-flex justify-content-center">
-                      <span>
-                        <em><b>If you'd like to donate or partner with STEMchats, please reach out to: </b></em><a href="mailto:stemchats.outreach@gmail.com?subject= ' ">stemchats.outreach@gmail.com</a>
-                      </span>
+          </div>
+            <div class="row flex-column flex-md-row">
+                <div class=col-lg-1>
+                </div>
+                <div class=col-lg-10>
+                    <h1 class="large-box-title center">Get Involved</h1>
+                    <div class="row">
+                      <div id="opportunities_container" class="col-lg-8">
+                          <div id="opportunities">
+                              <!-- all opportunities -->
+
+                          </div>
+                      </div>
+                        <div class="col-lg-3">
+                            <!-- <h4 class="small-box-title">Filter</h4> -->
+                            <div class="row justify-content-end">
+                                <div class="team show dropdown">
+                                    <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownSelectTeam"
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <span id="categories">Categories</span>
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="dropdownSelectCateg">
+                                        <a class="dropdown-item" href="#"
+                                            onclick="hide(), select('Select All'), createOpportunities(opportunitiesObj)">Select All</a>
+                                        <div class="dropdown-divider"></div>
+                                        <a class="dropdown-item" href="#"
+                                            onclick="hide(), createOpportunities(internship())">Internship</a>
+                                        <a class="dropdown-item" href="#"
+                                            onclick="hide(), createOpportunities(programs())">Programs</a>
+                                        <a class="dropdown-item" href="#"
+                                            onclick="hide(), createOpportunities(bizdev())">Business-Development</a>
+                                        <a class="dropdown-item" href="#"
+                                            onclick="hide(), createOpportunities(past())">Past Opportunities</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
-                    <h1 class = "medium-box-title">Fall 2020 STEMlights and Funding Application</h1>
-                    <p class="box-description center">
-                      <b>Updated: </b><strong>Applications are now closed, and selected applicants will be contacted with further information! Thank you for applying!</strong>
-                    </p>
                 </div>
-                <div class = col-lg-1>
+                <div class=col-lg-1>
                 </div>
+            </div>
             </div>
           <!--saved FAQs code -->
-          <h1 class = "medium-box-title">Purd.UE</h1>
-          <p class="box-description">
-            The E-Board application cycle for Purd.UE has ended! If you are interested in bringing United Engineers to your school, please do not hesitate to reach out to our team at <b>unitedengineers.stemchats@gmail.com</b>. We are a rapidly growing student-run organization that hopes to meet the great demand for desired STEM literacy amongst all young people, and we would be thrilled to hear from you.
-          </p>
-          <!-- <p class="box-description">We are looking to fill out these available positions for the STEMchats purd.UE Chapter Executive Board: Secretary, Treasurer, Outreach Committee Member (2 positions available), and Volunteer Coordinator. Further role descriptions for each of these positions can be found
-            <a target="_blank" href='https://docs.google.com/document/d/1KLkORfuTHMftr4XmVmqD3zIgVUHtuQNSRa4-LLcrgkk/edit?usp=sharing'>here</a>. <b>Applications open August 22nd, 2020 and close September 12th, 2020 11:59 PM EST.</b>
+          <!-- <h1 class="medium-box-title">2021 STEMchats Internship Program</h1>
+          <p class = "box-description">
+            Thank you for your interest in our Second Annual Internship Program! We encourage you to submit an application to join us this summer! Please make sure to read all parts of the Google Form, the linked Google Docs, and FAQs at the bottom of this page carefully. Please email us at <a href="mailto:stemchats@stemchats.org">stemchats@stemchats.org</a> if you have any questions! We are excited to provide a summer of engaging and fulfilling work, networking, events, and more as we work towards our mission of shatter barriers in STEM for underrepresented students.
           </p>
           <div class="d-flex justify-content-center">
-            <button type = "button" class = "btn btn-primary" target="_blank" onclick = "window.location.href = 'https://forms.gle/evWfKzukZYa48Cwt8'">Access Application</button>
+            <button type = "button" class = "btn btn-primary" onclick = "window.open('https://docs.google.com/forms/d/190P98goeJ2EeC0-GmAsHnR0oW6mm0zfnhnpuX4And_I/viewform?edit_requested=true')">Access Application</button>
+          </div>
+          <img class="program-img" src="/images/internship_shared_workspace.png" alt="internship">
+          <div class = "row flex-column flex-md-row">
+              <div class = col-lg-1>
+              </div>
+              <div class = col-lg-10>
+                  <h2 class = "medium-box-title">FAQs</h2>
+                  <div class="accordion intern-faq" id="accordionExample">
+                      Question 1
+                      <div class="card intern-faq-question">
+                          <div class="card-header intern-faq-question" id="headingOne">
+                              <h2 class="mb-0">
+                                  <button class="btn btn-link intern-faq-question-header" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">Do I have to identify as underrepresented in STEM to apply?</button>
+                              </h2>
+                          </div>
+                          <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                              <div class="card-body">STEMchats’s Mission is to shatter barriers in the STEM fields through impactful programming for all students, especially those who are underserved and underrepresented in STEM. Students underrepresented in the STEM fields are those coming from, but not limited to, first-generation and low-income backgrounds, as well as minorities including women, people of color, LGBTQ+, students with disabilities, students attending rural and/or underfunded high schools. Thus, please keep in mind that preference will be given to students belonging to the aforementioned groups to be a part of our team. Additionally, STEMchats will be evaluating all applications by stripping them of identifying information.</div>
+                              <div class="card-body">EEO Statement: At STEMchats, our mission is to help shatter barriers in the STEM fields for racially, economically, and otherwise underrepresented students. We strive to impact these diverse communities, and to create a diverse team that represents them. STEMchats is committed to being inclusive to applicants and people of all backgrounds to grow together.</div>
+                          </div>
+                      </div>
+
+                      Question 2
+                      <div class="card intern-faq-question">
+                          <div class="card-header intern-faq-question" id="headingTwo">
+                              <h2 class="mb-0">
+                                  <button class="btn btn-link collapsed intern-faq-question-header" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">What do you look for in applicants?</button>
+                              </h2>
+                          </div>
+                          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                              <div class="card-body">STEMchats thrive on its team members’ individuality, but there are characteristics shared by everyone, including a passion for our mission, willingness to learn and take initiative, being a good team player, and having good communication skills. It is equally as important for all of our team members to have these characteristics. Additionally, we consider each applicant’s overall “fit” for each team; you can check out an overview of our team culture <a href="https://tinyurl.com/SCWorkplaceBenefits" target="_blank">here</a>. Make sure to go through our entire website to learn about all that the work that our organization does!</div>
+                          </div>
+                      </div>
+
+                      Question 3
+                      <div class="card intern-faq-question">
+                          <div class="card-header intern-faq-question" id="headingThree">
+                              <h2 class="mb-0">
+                                  <button class="btn btn-link collapsed intern-faq-question-header" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">What is the time commitment for a STEMchats Intern?</button>
+                              </h2>
+                          </div>
+                          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                              <div class="card-body">Though time commitment may vary slightly depending on the week as well as the team, all Interns are expected to contribute a minimum of six hours of their time per week to STEMchats, which includes team meetings, time working on projects, and attending workshops.</div>
+                          </div>
+                      </div>
+
+                      Question 4
+                      <div class="card intern-faq-question">
+                          <div class="card-header intern-faq-question" id="headingFour">
+                              <h2 class="mb-0">
+                                  <button class="btn btn-link collapsed intern-faq-question-header" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">What is the recruitment timeline? When will I know the application decision?</button>
+                              </h2>
+                          </div>
+                          <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+                              <div class="card-body">The application will be open from April 16th to May 24th (closes at 11:59 PM EST). We will release first-round decisions on May 28th, interviews will be held from May 30th to June 4th, and final decisions will be released on June 6th. All selected interns must respond with a final decision by June 8th, 2021 at 11:59pm EST.</div>
+                          </div>
+                      </div>
+
+                      Question 5
+                      <div class="card intern-faq-question">
+                          <div class="card-header intern-faq-question" id="headingFive">
+                              <h2 class="mb-0">
+                                  <button class="btn btn-link collapsed intern-faq-question-header" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">What will you ask during the interview?</button>
+                              </h2>
+                          </div>
+                          <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+                              <div class="card-body">Interview details will be provided in the invitations, but interviews are a casual conversation with a Leadership Team member, the respective Lead of the team to which you applied, or a Senior Advisor who will ask about your application responses, your background and experiences, and interest in STEMchats! There will only be two interviewers present at your interview!</div>
+                          </div>
+                      </div>
+
+                      Question 6
+                      <div class="card intern-faq-question">
+                          <div class="card-header intern-faq-question" id="headingSix">
+                              <h2 class="mb-0">
+                                  <button class="btn btn-link collapsed intern-faq-question-header" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">Are team members paid?</button>
+                              </h2>
+                          </div>
+                          <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionExample">
+                              <div class="card-body">STEMchats team members contribute on a volunteer-basis; unfortunately, we are unable to pay our team members. We aim to be as transparent as possible around this issue because for low-income applicants, we understand that dedicating time to an organization without monetary compensation is a privilege. We hope the work you would do at STEMchats can provide a unique learning experience, and the Leadership Team will provide official verification of hours worked for any team member who requests logged volunteer hours!</div>
+                          </div>
+                      </div>
+
+                      Question 7
+                      <div class="card intern-faq-question">
+                          <div class="card-header intern-faq-question" id="headingSeven">
+                              <h2 class="mb-0">
+                                  <button class="btn btn-link collapsed intern-faq-question-header" type="button" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">What is STEMchats’ submission policy?</button>
+                              </h2>
+                          </div>
+                          <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordionExample">
+                              <div class="card-body">Due to applicant volume and our recruitment timeline, we will not be accepting any late applications. For this reason, if you believe you will be unable to submit your application over Google Forms for technical reasons, please contact us at <a href="mailto:stemchats@stemchats.org">stemchats@stemchats.org</a> BEFORE the 11:59 PM EST deadline on May 24th, 2021.</div>
+                          </div>
+                      </div>
+
+                      Question 8
+                      <div class="card intern-faq-question">
+                          <div class="card-header intern-faq-question" id="headingEight">
+                              <h2 class="mb-0">
+                                  <button class="btn btn-link collapsed intern-faq-question-header" type="button" data-toggle="collapse" data-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">Do I have to have a STEM background to apply?</button>
+                              </h2>
+                          </div>
+                          <div id="collapseEight" class="collapse" aria-labelledby="headingEight" data-parent="#accordionExample">
+                              <div class="card-body">We encourage anyone with an interest in STEM or business-related fields (i.e grant-writing, marketing, outreach etc.) to apply! Since we target students who might not have had extensive opportunities to pursue STEM, we are in no way expecting a deep STEM background. We hope the application allows you to express how your experience and perspective can be of value for STEMchats; we do not have a perfect applicant in mind and many of our current team members did not have a comprehensive STEM background when applying.</div>
+                          </div>
+                      </div>
+
+                      Question 9
+                      <div class="card intern-faq-question">
+                          <div class="card-header intern-faq-question" id="headingNine">
+                              <h2 class="mb-0">
+                                  <button class="btn btn-link collapsed intern-faq-question-header" type="button" data-toggle="collapse" data-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">Am I still eligible to apply If I’m taking a gap year during the 2021-2022 year (or are a part-time student)?</button>
+                              </h2>
+                          </div>
+                          <div id="collapseNine" class="collapse" aria-labelledby="headingNine" data-parent="#accordionExample">
+                              <div class="card-body">Of course. Due to the situation surrounding COVID-19, we will accept applications from anyone who is taking a break from being a student. In fact, we encourage those who will have more free time to apply because it reflects initiative in growing personally and professionally.</div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class = col-lg-1>
+              </div> -->
+            <!-- </div> -->
+          <!-- <div class = "testing">
+              <a class = "testing" onclick = "loadAnimate(), hide(), createOpportunities(opportunitiesObj)">Opportunities</a>
           </div> -->
-          <img class = "program-img" src = "/images/train_dark.png" alt = "purdue train">
-          <h1 class = "medium-box-title">Internship Program</h1>
-          <p class="box-description">STEMchats is elated to have onboarded our 2020 Summer Interns! Check out our Interns page under "About Us" to learn more about them and our Internship program, and stay tuned for more opportunities! 🚀</p>
-          <!-- <p class = "intern-text">We at STEMchats are elated to be onboarding new team members to join us in advancing our mission of shattering barriers in the STEM fields for underrepresented students! For the first time, we will be expanding our team through our STEMchats Internship program. To access the application, you must have a <a class = "intern-link" href = "https://support.google.com/accounts/answer/27441?hl=en">Google Account</a> (Gmail & G-Drive) since our application is on Google Form. The application for our Internship Program will close on <b>June 26, 2020 at 11:59 PM PST</b>. As our Internship program is uniquely designed, please make sure to read the following information thoroughly.</p>
-          <p class = "intern-text"><b>IMPORTANT NOTE</b>: Before you apply, please learn more about the responsibilities of each team in STEMchats <a class = "intern-link" href = "https://bit.ly/3eAK165">here</a>. Additionally, you can also learn more our workplace culture & benefits <a class = "intern-link" href = "https://bit.ly/2ATW7Jc">here</a> as well as the list of the application questions that will be asked <a class = "intern-link" href = "https://bit.ly/2Tpa6gn">here</a> so you can prepare your responses.</p>
-          <div class = "intern-button-box">
-              <button type = "button" class = "btn btn-primary intern-button-box-button" onclick = "window.location.href = 'https://forms.gle/oQ12tFN7kY42Hpwg8'">Access Application</button>
-          </div> -->
-          <img class = "program-img" src = "/images/internship_shared_workspace.png" alt = "internship">
-      </div>
-    </section>
-    <!-- <section class = "culture">
-        <div class = "container">
-            <div class = "row flex-column flex-md-row">
-                <div class = "col-lg-12">
-                    <h2 class = "culture-title">Workplace Culture</h2>
-                </div>
-                <div class = "col-lg-12 culture-box">
-                    <h3>We are <b>Inclusive.</b></h3>
-                    <p>STEMchats thrives on its diversity of backgrounds, experiences, and ideas! This means that we have a zero-tolerance policy on discrimination, hate, or bullying. All of our team members are expected to be inclusive of others on the team and make everyone feel valued regardless of race, ethnicity, sexual orientation, location, sex, gender, or any other factors.</p>
-                </div>
-                <div class = "col-lg-12 culture-box">
-                    <h3>We are <b>Collaborative.</b></h3>
-                    <p>STEMchats relies on teamwork and collaboration between all members of the organization to uphold our founding principles: celebrate, stimulate, innovate. We encourage appropriate collaboration, both within each team and across both programming and business-development departments.</p>
-                    <p>All team members are expected to actively participate in assigned collaborations or work to come up with new ways to work with members outside their direct team. The  Leadership Team does their best to facilitate this kind of interaction through transparency, connection, Slack, and in-person meetups.</p>
-                </div>
-                <div class = "col-lg-12 culture-box">
-                    <h3>We are <b>Encouraging.</b></h3>
-                    <p>STEMchats succeeds thanks to positive energy and reinforcement from everyone on our team! We often hype each other up on social media, on calls, and in our dedicated #random Slack channel. Every team member is encouraged to contribute to discussions with the assurance that their opinions will always be valued. We feel that this is the best way to build up both individual and collective confidence, helping us break out of our shells!</p>
-                    <p>STEMchats works on uplifting underrepresented students while creating a close and supportive network in the process. Our STEMchats team members who are in college are always down to answer any questions about the admissions process. Since many of us are first-generation, low-income (FGLI) college students, we understand the confusion. We are all here to support and encourage one another across personal and professional spheres</p>
-                </div>
-                <div class = "col-lg-12 culture-box">
-                    <h3>We are <b>Laidback.</b></h3>
-                    <p>STEMchats is chill. No, really! Just like most startups and modern GenZ organizations, we love sharing memes over Slack and keeping a light, laidback mood during video calls. We have non-work related channels that every team member can join: #college, #opportunities, #memes, & more.</p>
-                    <p>This doesn’t mean we don’t get our work done. In fact, we’ve found that sometimes getting off-topic ultimately increases our productivity, making any long calls or action items more manageable through building team comradery! We are all friends and hope that everyone on the team can build strong bonds beyond work and geographic location.</p>
-                </div>
-            </div>
-        </div>
-    </section> -->
 </body>
 <section id="footer">
-    <div class = "container">
-      <div id="footerHTML" class = "footer text-center">
-          <!-- insert footer code -->
-      </div>
+    <div class="container">
+        <div id="footerHTML" class="footer text-center">
+            <!-- insert footer code -->
+        </div>
     </div>
-  </section>
-  <!-- Bootstrap Javascript -->
-  <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</section>
+<!-- Bootstrap Javascript -->
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"
+    integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+</script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+</script>
 
   <!--scripts -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script type="text/javascript" src="/scripts/ajax.js"></script>
+  <!-- <script type="text/javascript" src="/scripts/scripts.js"></script> -->
+  <script type="text/javascript" src="/scripts/opportunities.js"></script>
+  <script>
+    let opportunities_container = document.getElementById("opportunities_container");
+    opportunities_container.style.height = "inherit";
+</script>
+<script>
+    // createCards(5);
+</script>
+
 </html>

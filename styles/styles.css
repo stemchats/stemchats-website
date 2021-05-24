@@ -34,10 +34,10 @@ body li {
   padding: 20px;
   border: 1px solid #ff5959;
   text-align: center;
-  margin: -10px 0px 30px 0px;
   border-radius: 25px;
   font-size: 16px;
   background: white;
+  margin-bottom: 20px;
 }
 
 .icons {
@@ -191,6 +191,30 @@ b {
   border: 1px solid #ff5959;
   color: #ff5959;
   background-position: right bottom;
+}
+
+.donate {
+  border-color: #ff5959 !important;
+  background-color: #ff5959;
+  border-radius: 9%;
+  color: #fff;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.donate:focus {
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.responsive-iframe {
+  position: relative;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
 }
 
 .float {
@@ -387,6 +411,90 @@ b {
   height: 2000px;
 }
 
+.opportunities {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+  padding: 1em;
+  background-color: white;
+  color: black;
+}
+
+.opportunities .oppcard {
+  padding: 0.5em;
+  margin-bottom: 0em;
+  border: 1px white;
+  text-align: center;
+}
+
+.opportunities .oppcard .oppcard-img {
+  border-radius: 15px;
+  max-width: 100%;
+}
+
+.opportunities .oppcard .oppcard-title {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.opportunities .oppcard .oppcard-description {
+  font-size: 18px;
+}
+
+.opportunities #opportunities_container {
+  height: 2000px;
+}
+
+#opportunities_container .oppcard {
+  border-radius: 0;
+  border: 0;
+  margin-bottom: 20px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+#opportunities_container .oppcard .card-title {
+  font-weight: bold;
+}
+
+#opportunities_container .oppcard:hover {
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+#opportunities_container .oppcard p {
+  margin-top: 15px;
+  margin-bottom: 0;
+}
+
+#opportunities_container img {
+  margin-top: -40px;
+  margin-bottom: -10px;
+}
+
+#opportunities_container .category {
+  margin-bottom: 20px;
+}
+
+#opportunities_container .btn-primary {
+  margin-bottom: 40px;
+}
+
+.opport .modal-header .close {
+  right: 15px;
+}
+
+.opport .modal-dialog {
+  width: 900px;
+}
+
 #overview h3 a {
   color: #000;
   border-bottom: 1px dashed #000;
@@ -454,64 +562,6 @@ b {
   max-width: 100%;
   margin-top: 1rem;
   margin-bottom: 1rem;
-}
-
-#footer {
-  margin-top: 2em;
-  background-color: #f8f8f8;
-}
-
-#footer #top {
-  text-align: left;
-  padding-top: 4em;
-}
-
-#footer .contact i {
-  padding-right: 10px;
-  font-size: 18px;
-  color: #ddd;
-}
-
-#footer .links a {
-  color: #888;
-  border: 0;
-}
-
-#footer .links a:hover, #footer .links a:focus {
-  color: #555;
-  margin-left: 3px;
-}
-
-#footer .subscribe p {
-  word-wrap: break-word;
-}
-
-#footer .social {
-  margin-top: 5em;
-}
-
-#footer .social a {
-  margin: 0 10px;
-  color: #bbb;
-  border: 0;
-}
-
-#footer .social a:hover, #footer .social a:focus {
-  color: #ff5959;
-  border: 0;
-}
-
-#footer .social i {
-  font-size: 24px;
-  vertical-align: middle;
-}
-
-#footer #CR {
-  margin: 1em 0 0;
-}
-
-.footer-section {
-  margin: 0.5em;
 }
 
 .modal-header {
@@ -617,6 +667,65 @@ b {
 
 ul {
   padding-left: 6%;
+}
+
+#footer {
+  margin-top: 2em;
+  background-color: #f8f8f8;
+}
+
+#footer #top {
+  text-align: left;
+  padding-top: 4em;
+}
+
+#footer .contact i {
+  padding-right: 10px;
+  font-size: 18px;
+  color: #ddd;
+}
+
+#footer .links a {
+  color: #888;
+  border: 0;
+}
+
+#footer .links a:hover, #footer .links a:focus {
+  color: #555;
+  margin-left: 3px;
+}
+
+#footer .subscribe p {
+  word-wrap: break-word;
+}
+
+#footer .social {
+  margin-top: 5em;
+}
+
+#footer .social a {
+  margin: 0 10px;
+  color: #bbb;
+  border: 0;
+}
+
+#footer .social a:hover, #footer .social a:focus {
+  color: #ff5959;
+  border: 0;
+}
+
+#footer .social i {
+  font-size: 24px;
+  vertical-align: middle;
+}
+
+#footer #CR {
+  margin: 1em 0 0;
+  font-size: 14px;
+}
+
+.footer-section {
+  margin: 0.5em;
 }
 
 @-webkit-keyframes bouncing {
