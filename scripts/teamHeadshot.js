@@ -52,6 +52,14 @@ let membersObj = [
 	src: "JosephChiang.jpg",
 	bio: "Joseph is an aspiring computer scientist and a rising college freshman in Canada. He joined STEMchats to support and prepare the next and current generation, especially low-income students, for impactful real world opportunities through immersive and relevant programs in STEM. When he is not learning about technology, he enjoys playing chess, writing poetry, and chilling to lofi beats."
 }, {
+	name: "MyCo Le",
+	position: "Technology Lead",
+	linkedIn: "myco-le/",
+	home: "Baltimore, MD",
+	team: "technology",
+	src: "MyCoLe.jpg",
+	bio: "MyCo is a rising freshman at Rice University in Houston, Texas and an avid believer in self love and individuality. She wants to fight for equitable opportunities so that everyone, no matter their background and especially FGLI and minority students, may be able to find their true passions and pursue happiness. She joined STEMchats to indulge in her own love for STEM and help others do the same. In her free time, she likes to draw, watch anime, listen to J-rock and lo-fi, and browse YouTube for hours on end."
+}, {
 	name: "Alexa Ramirez",
 	position: "Funding Lead",
 	linkedIn: null,
@@ -354,14 +362,6 @@ let membersObj = [
 	team: "technology",
 	src: "AnastasiaDunca.jpg",
 	bio: "Anastasia is a determined student who has a goal of eliminating the digital divide and educational disparity within minority communities around her. She attends West High School as a rising junior and is especially interested in computer science; she plans to major in that in college. Her reason for joining STEMchats is to work with a team that shares the same goal of achieving educational equity globally through providing opportunities in STEM in creative ways! In her free time, she loves to play tennis, watch Netflix, code, and get bubble tea with friends."
-}, {
-	name: "MyCo Le",
-	position: "Technology Coordinator",
-	linkedIn: "myco-le/",
-	home: "Baltimore, MD",
-	team: "technology",
-	src: "MyCoLe.jpg",
-	bio: "MyCo is a senior at the Bryn Mawr School for Girls in Baltimore, Maryland and an avid believer in self love and individuality. She wants to fight for equitable opportunities so that everyone, no matter their background and especially FGLI and minority students, may be able to find their true passions and pursue happiness. She joined STEMchats to indulge in her own love for STEM and help others do the same. In her free time, she likes to draw, watch anime, listen to J-rock and lo-fi, and browse YouTube for hours on end."
 }, {
 	name: "Sabrina Chang",
 	position: "Technology Coordinator",
