@@ -53,3 +53,29 @@
         </div>
     </div>
 </nav>
+
+<script>
+    var menu_check = document.getElementsByClassName("navbar-toggler ml-auto custom-toggler")[0];
+    var mainNav = document.getElementById("mainNav");
+    // click anywhere will close menu icon
+    /* document.body.addEventListener('mouseup', function() {
+            console.log("clicked");
+            if (menu_check.getAttribute("aria-expanded") == "true") {
+                menu_check.setAttribute("aria-expanded", "false");
+                menu_check.classList.toggle("collapsed");
+                setTimeout(() => {
+                    mainNav.classList.remove("collapsing");
+                }, 500);
+                mainNav.classList.remove("collapsed")
+                mainNav.classList.add("collapsing");
+                mainNav.classList.toggle("show");
+            }
+            if (!menu_check.classList.contains("collapsed")) {
+                menu_check.classList.toggle("collapsed");
+            } 
+        }
+    ); */
+
+    const bsCollapse = new bootstrap.Collapse(mainNav)
+    document.body.addEventListener('click', () => { bsCollapse.toggle() })
+</script>
