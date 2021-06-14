@@ -76,6 +76,11 @@
         }
     ); */
 
-    const bsCollapse = new bootstrap.Collapse(mainNav)
-    document.body.addEventListener('click', () => { bsCollapse.toggle() })
+    const bsCollapse = new bootstrap.Collapse(mainNav);
+
+    document.body.addEventListener('click', () => {
+        console.log("clicked");
+        bsCollapse.hide();
+    })
+    bsCollapse.hide();
 </script>
