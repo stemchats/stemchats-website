@@ -77,10 +77,14 @@
     ); */
 
     const bsCollapse = new bootstrap.Collapse(mainNav);
+    let mql = window.matchMedia('(max-width: 991px)');
 
-    document.body.addEventListener('click', () => {
-        console.log("clicked");
+    if (mql.matches) {
+        console.log("matches");
+        document.body.addEventListener('click', () => {
+            console.log("clicked");
+            bsCollapse.hide();
+        })
         bsCollapse.hide();
-    })
-    bsCollapse.hide();
+    }
 </script>
