@@ -74,14 +74,14 @@ let internsObj = [
 	src: "MyangeliaGonzalez.JPG",
 	bio: ""
    }, 
-   {
-	name: "Nafisa Hossain",
-	position: "",
-	linkedIn: '',
-	home: "",
-	src: "NafisaHossain.JPG",
-	bio: ""
-   }, 
+//    {
+// 	name: "Nafisa Hossain",
+// 	position: "",
+// 	linkedIn: '',
+// 	home: "",
+// 	src: "NafisaHossain.JPG",
+// 	bio: ""
+//    }, 
    {
 	name: "Nafisa Hossain",
 	position: "",
