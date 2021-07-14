@@ -50,7 +50,7 @@ let membersObj = [
 	home: "Vancouver, Canada",
 	team: "technology",
 	src: "JosephChiang.jpg",
-	bio: "Joseph is an aspiring computer scientist and a rising college freshman in Canada. He joined STEMchats to support and prepare the next and current generation, especially low-income students, for impactful real world opportunities through immersive and relevant programs in STEM. When he is not learning about technology, he enjoys playing chess, writing poetry, and chilling to lofi beats."
+	bio: "Joseph is an aspiring computer developer and a rising sophomore at University of British Columbia. He joined STEMchats to support and prepare the next generation, especially low-income youth, for practical real world opportunities through immersive and relevant experiences in STEM. When he is not learning about technology, he enjoys writing poetry, exploring hiking trails, and relaxing to lofi beats."
 }, {
 	name: "MyCo Le",
 	position: "Technology Lead",
@@ -187,7 +187,7 @@ let membersObj = [
 	team: ["development", "speaker series"],
 	src: "SristiPalimar.jpg",
 	bio: "Sristi is a rising senior at Woodbridge High School in southern California. As an ally to underrepresented minorities, Sristi strives to uplift marginalized youth in her community. She strongly believes that all students deserve the opportunity to extend their learning outside of the classroom, and is committed to supporting those who lack the resources to fulfill their educational potential. Sristi joined STEMchats to broaden the scope of her advocacy, and support underserved students in pursuing STEM opportunities across the nation. She hopes that her impact will inspire young women of color to find confidence in challenging adversity. In her free time, Sristi enjoys volunteering, painting, journaling, and trying new foods!"
-}, 
+},
 //senior advisors
 {
 	name: "Sanja Kirova",
@@ -237,7 +237,7 @@ let membersObj = [
 	team: "senior advisors",
 	src: "HanaMemon.jpg",
 	bio: "Hana is a rising freshman at the College of New Jersey where she plans to study Computer Science, Business, and Arabic. Hana actively uses her technical skills to empower marginalized communities through technology. Hana first joined STEMchats to give FGLI students a platform to creatively express their scientific interests. Outside of STEMchats, Hana is involved with various other student run nonprofits dedicated towards making the tech industry more inclusive. In her free time, you can find Hana drinking iced coffee and discovering new music on Spotify."
-}, 
+},
 //coords
 {
 	name: "Vivienne Nguyen",
@@ -311,7 +311,7 @@ let membersObj = [
 	team: ["development", "speaker series"],
 	src: "ZainabAlRamlawi.jpg",
 	bio: "Zainab is a youth advocate and a rising third-year student majoring in business administration. Zainab has taken part in many leadership positions and run many initiatives & campaigns to empower youth in education, STEM, and entrepreneurship fields. She joined STEMchats because she believes in its mission and wants to empower more people to pursue their career in STEM fields, especially the one who is living in the underserved communities. In her free time, she enjoys watching movies, reading books, and debating."
-}, {	
+}, {
 	name: "Sai Hruthika Naraharisetti",
 	position: "External Development Coordinator",
 	linkedIn: "sai-h-naraharisetti-5a2084195/",

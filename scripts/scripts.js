@@ -105,7 +105,7 @@ createMembers = (members) => {
       position.innerHTML="<strong>" + members[i].position + "</strong>";
       hometown=document.createElement("p");
       hometown.className="center";
-      hometown.textContent="Hometown: ";
+      hometown.innerHTML="<strong>Hometown:</strong> ";
       home=document.createElement("span");
       home.textContent=members[i].home;
       hometown.appendChild(home);
