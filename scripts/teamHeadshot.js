@@ -318,7 +318,7 @@ let membersObj = [
 	home: "Woodstock, MD",
 	team: ["development", "speaker series"],
 	src: "SaiNaraharisetti.jpg",
-	bio: "Sai is currently a student at Marriotts Ridge High School. She didn’t consider computer science as a career at first. She wanted to pursue a career where she would have a positive impact on the world and its people. Her freshman year, she took both AP Computer Science Principles and Principals of Java Programming GT. After taking these courses, she felt a new love for computer science that she did not feel for any other field. She is currently a member of an FTC Robotics team that has qualified for the 2020 World Championship in both Maryland and Virginia. She is currently a research intern at the University of Maryland (UMD) where she works on the secure public key infrastructure project. She also partook in a research project with a computer science professor at the University of Maryland and his team of a few other Ph.D. and Master’s students her sophomore year. She aided in the research of the linkage between abnormal breathing patterns and certain respiratory and cardiovascular health conditions. Additionally, she is a co-president of the Model UN club in her school and actively participates in the Future Business Leaders of America (FBLA) club. She has taken AP Computer Science- A her sophomore year to expand her knowledge in Java and is currently taking Advanced Data Structures. Having pursued these courses, she is on the path to completing the Computer Programming Academy. She intends to complete this academy, hoping to major in computer science, with a strong foundation of the fundamentals."
+	bio: "Sai is a motivated and hardworking senior at Marriotts Ridge High School. She hopes to double major in computer science and business. She joined STEMchats to help break barriers for monitories in STEM and make more opportunities available to them. In her free time, Sai likes to play volleyball, paint, quill, and watch tv shows."
 },
 {
 	name: "Esha Sharma",
@@ -401,7 +401,7 @@ let membersObj = [
 	home: "Tucson, AZ",
 	team: "blueprint",
 	src: "AprilZhang.jpg",
-	bio: "April is an advocate for equitable opportunity and environmentalism. She is a senior at BASIS Oro Valley in Arizona and aspires to be a biomedical sciences and CS double major. She joined STEMchats to help provide transformative and educational opportunities to low-income, underprivileged, minority students. A driven opponent of animal cruelty, April has been lacto-vegetarian for 6 years and counting. In her free time, she loves to practice piano, meditate with family, play tennis with friends, or be found with a large cup of rose-flavored boba tea."
+	bio: "April is an advocate for equitable opportunity and environmentalism. She is a freshman at University of California, Berkeley as an Electrical Engineering and Computer Science major. She joined STEMchats to help provide transformative and educational opportunities to low-income, underprivileged, minority students. A driven opponent of animal cruelty, April has been lacto-vegetarian for 6 years and counting. In her free time, she loves to practice piano, meditate with family, play tennis with friends, or be found with a large cup of rose-flavored boba tea."
 }, {
 	name: "Audrey Vargas",
 	position: "Blueprint Coordinator",
@@ -465,7 +465,7 @@ let membersObj = [
 	home: "Colonie, NY",
 	team: "STEMlights",
 	src: "TylerVazquez.jpg",
-	bio: "Tyler is honored to be an intern for STEMchats! He is a rising junior at Colonie Central High School in Upstate New York, participating in his community through his school's Black Lives Advocacy Club (Co-President and Founder) Drama Club, STEM Club (VP), Global Diversity Club (Secretary), and the Mental Health Awareness Club (Co-President). He also takes part in securing renewable energy resources for upstate New Yorkers through Common Energy as well as directing a student-run Shakespearean theatrical company. He hopes that via STEMchats he'll share his passion for STEM in an intersectional lens."
+	bio: "Tyler (he/they) is a rising senior at Colonie Central High School in Albany, New York. They are a program coordinator for the STEMLights Newsletter, curating the History x STEM section. He is passionate about theatrical direction, singing, medicine, and social justice."
 }, {
 	name: "Dorcas Gadri",
 	position: "STEMlights Coordinator",
