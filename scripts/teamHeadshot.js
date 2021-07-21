@@ -353,7 +353,7 @@ let membersObj = [
 	home: "Philadelphia, PA",
 	team: "development",
 	src: "AnikaXi.jpg",
-	bio: "Anika is a rising sophomore at Lower Merion High School with a passion for STEM. She joined STEMchats to be able to help others explore their own love for STEM without having to worry about potential barriers preventing them from achieving their goals. In her free time, Anika can be seen playing her viola, practicing calligraphy, watching birds, painting, and taking photos."
+	bio: "Anika is a rising junior at Lower Merion High School with a passion for STEM. She joined STEMchats to be able to help others explore their own love for STEM without having to worry about potential barriers preventing them from achieving their goals. In her free time, Anika can be seen playing her viola, practicing calligraphy, watching birds, painting, and taking photos."
 }, {
 	name: "James Chu",
 	position: "Internal Development Coordinator",
