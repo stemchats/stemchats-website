@@ -259,6 +259,76 @@ b { // for bolding text
 
 
 // NAVBAR
+
+$button-size : 1.6rem;
+$transition: .3s; // increase this to see the transformations in slow-motion
+
+.lines-button {
+    display: inline-block;
+    transition: .3s;
+    cursor: pointer;
+    user-select: none;
+    //padding-bottom: $button-size/2;
+
+    .lines {
+        &:before { top: $button-size/3; }
+        &:after { top: -$button-size/3; }
+    }
+}
+
+@mixin line {
+    display: inline-block;
+    width: $button-size;
+    height: 2px;
+    background: #A2A2A2;
+    border-radius: $button-size/14;
+    transition: $transition;
+}
+
+.lines {
+    //create middle line
+    @include line;
+    position: relative;
+    top: -5px;
+    left: -10px;
+
+    /*create the upper and lower lines as pseudo-elements of the middle line*/
+    &:before, &:after {
+        @include line;
+        position: absolute;
+        left:0;
+        content: '';
+        transform-origin: $button-size/14 center;
+    }
+    &:before {
+        top: $button-size/4;
+    }
+    &:after {
+        top: -$button-size/4;
+    }
+}
+
+.lines-button.x.close .lines {
+    /*hide the middle line*/
+    background: transparent;
+
+    /*overlay the lines by setting both their top values to 0*/
+    &:before, &:after {
+        transform-origin: 50% 50%;
+        top: 0;
+        width: $button-size;
+    }
+
+    // rotate the lines to form the x shape
+    &:before{
+        transform: rotate3d(0,0,1,45deg);
+    }
+    &:after{
+        transform: rotate3d(0,0,1,-45deg);
+    }
+}
+
+
 .navbar {
     padding: .5rem .5rem .5rem 2rem !important;
     box-shadow: 0 .125rem 1rem rgba(0,0,0,.075)!important;
