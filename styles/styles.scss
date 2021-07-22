@@ -279,7 +279,7 @@ $transition: .3s; // increase this to see the transformations in slow-motion
 @mixin line {
     display: inline-block;
     width: $button-size;
-    height: $button-size/15;
+    height: 2px;
     background: #A2A2A2;
     border-radius: $button-size/14;
     transition: $transition;

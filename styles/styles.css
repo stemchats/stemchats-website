@@ -253,7 +253,7 @@ b {
 .lines {
   display: inline-block;
   width: 1.6rem;
-  height: 0.10667rem;
+  height: 2px;
   background: #A2A2A2;
   border-radius: 0.11429rem;
   -webkit-transition: 0.3s;
@@ -267,7 +267,7 @@ b {
 .lines:before, .lines:after {
   display: inline-block;
   width: 1.6rem;
-  height: 0.10667rem;
+  height: 2px;
   background: #A2A2A2;
   border-radius: 0.11429rem;
   -webkit-transition: 0.3s;
