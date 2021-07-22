@@ -271,61 +271,61 @@ $transition: .3s; // increase this to see the transformations in slow-motion
     //padding-bottom: $button-size/2;
 
     .lines {
-      &:before { top: $button-size/3; }
-      &:after { top: -$button-size/3; }
+        &:before { top: $button-size/3; }
+        &:after { top: -$button-size/3; }
     }
 }
 
 @mixin line {
-  display: inline-block;
-  width: $button-size;
-  height: $button-size/15;
-  background: #A2A2A2;
-  border-radius: $button-size/14;
-  transition: $transition;
+    display: inline-block;
+    width: $button-size;
+    height: $button-size/15;
+    background: #A2A2A2;
+    border-radius: $button-size/14;
+    transition: $transition;
 }
 
 .lines {
-
-  //create middle line
-  @include line;
-  position: relative;
-
-  /*create the upper and lower lines as pseudo-elements of the middle line*/
-  &:before, &:after {
+    //create middle line
     @include line;
-    position: absolute;
-    left:0;
-    content: '';
-    transform-origin: $button-size/14 center;
-  }
-  &:before {
-    top: $button-size/4;
-  }
-  &:after {
-    top: -$button-size/4;
-  }
+    position: relative;
+    top: -5px;
+    left: -10px;
+
+    /*create the upper and lower lines as pseudo-elements of the middle line*/
+    &:before, &:after {
+        @include line;
+        position: absolute;
+        left:0;
+        content: '';
+        transform-origin: $button-size/14 center;
+    }
+    &:before {
+        top: $button-size/4;
+    }
+    &:after {
+        top: -$button-size/4;
+    }
 }
 
 .lines-button.x.close .lines {
+    /*hide the middle line*/
+    background: transparent;
 
-  /*hide the middle line*/
-  background: transparent;
+    /*overlay the lines by setting both their top values to 0*/
+    &:before, &:after {
+        transform-origin: 50% 50%;
+        top: 0;
+        width: $button-size;
+    }
 
-  /*overlay the lines by setting both their top values to 0*/
-  &:before, &:after {
-    transform-origin: 50% 50%;
-    top:0;
-    width: $button-size;
-  }
-
-  // rotate the lines to form the x shape
-  &:before{
-    transform: rotate3d(0,0,1,45deg);
-  }
-  &:after{
-    transform: rotate3d(0,0,1,-45deg);
-  }
+    // rotate the lines to form the x shape
+    &:before{
+        transform: rotate3d(0,0,1,45deg);
+    }
+    &:after{
+        transform: rotate3d(0,0,1,-45deg);
+    }
 }
 
 
