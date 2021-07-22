@@ -64,12 +64,12 @@
     const lines = document.getElementsByClassName("lines-button");
     const linesToggle = [...lines];
     linesToggle[0].addEventListener("click", () => {
-      if(linesToggle[0].classList.contains("close")) {
-        linesToggle[0].classList.remove("close");
-      } else {
-        linesToggle[0].classList.add("close");
-      }
-      //console.log(linesToggle[0]);
+        if(linesToggle[0].classList.contains("close")) {
+            linesToggle[0].classList.remove("close");
+        } else {
+            linesToggle[0].classList.add("close");
+        }
+        //console.log(linesToggle[0]);
     });
 
     // click anywhere will close menu icon
