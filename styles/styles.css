@@ -242,6 +242,11 @@ b {
           user-select: none;
 }
 
+.lines-button .lines {
+  margin-left: 50%;
+  margin-right: 2rem;
+}
+
 .lines-button .lines:before {
   top: 0.53333rem;
 }

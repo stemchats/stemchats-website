@@ -271,6 +271,9 @@ $transition: .3s; // increase this to see the transformations in slow-motion
     //padding-bottom: $button-size/2;
 
     .lines {
+        margin-left: 50%;
+        margin-right: 2rem;
+        
         &:before { top: $button-size/3; }
         &:after { top: -$button-size/3; }
     }
