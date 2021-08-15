@@ -403,14 +403,6 @@ let membersObj = [
 	src: "IsabelRamos.jpg",
 	bio: "Isabel is a second generation Mexican-American who has recently decided to take a gap year but plans on enrolling at Pomona College in Claremont, California next year. Though somewhat undecided on her college major, she is interested in Cognitive Science, Biology, and Computer Science. She joined STEMchats because she recognized the vast inequities in STEM education within her own community and also wanted to raise awareness between the intersection of science and society. A fun fact about her is in elementary school she conducted an 'experiment' testing her hypothesis that energy drinks would make plants grow faster: spoiler they don't. Since then her love of science has only continued to grow."
 }, {
-	name: "Amberley Martinez",
-	position: "STEMlights Coordinator",
-	linkedIn: null,
-	home: "Irvine, CA",
-	team: "STEMlights",
-	src: "AmberleyMartinez.jpg",
-	bio: "Amberley is an aspiring local activist and a rising senior at University High School. As a staff writer for a literary magazine and member of robotics, satellite, and aviation STEM teams, Amberley hopes to combine her love for science and the humanities as well as her passion for social justice so she can simultaneously expose technology to underrepresented students and use it to improve others' lives. In her free time, Amberley enjoys reading (and crying over) books, watching and creating films, playing soccer, exploring the night sky with a telescope, and debating with her conservative parents."
-}, {
 	name: "Eric Bebenov",
 	position: "STEMlights Coordinator",
 	linkedIn: null,
