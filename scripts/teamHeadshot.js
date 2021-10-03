@@ -6,7 +6,7 @@ let membersObj = [
     position: "Chief Executive Officer",
     linkedIn: "nfelixtovar/",
     home: "Saint Cloud, FL",
-    team: "leadership",
+    team: "Leadership",
     src: "NicoleFelixTovar.jpg",
     bio: "Nicole is a driven advocate for equitable opportunity and is a rising second-year student majoring in Anthropology & Human Biology at Emory University in Atlanta, Georgia. She joined STEMchats to help make opportunities in various STEM disciplines attainable to low income, first-generation youth such as herself. She is proudly Colombian-Ecuadorian and wants to inspire and expose minority communities everywhere to STEM research and immersion pursuits. In her free time, Nicole loves to play tennis, watch and critique movies, nap, and travel."
   }, {
@@ -14,7 +14,7 @@ let membersObj = [
     position: "VP of Programming",
     linkedIn: "amel-hassan-895615192/",
     home: "Paterson, NJ",
-    team: "leadership",
+    team: "Leadership",
     src: "AmelSaiedHassan.jpg",
     bio: "Amel is an advocate for opportunities for low-income & minority students and a rising third-year student majoring in Anthropology and Human Biology at Emory University in Atlanta, GA. She joined STEMchats to work to solve the issue of access and representation that many FGLI students and under-represented communities face when looking at research and STEM opportunities.  Outside of STEMchats, Amel enjoys watching shows, listening to all types of music, messing with her five siblings and parents, and cooking new foods!"
   }, {
@@ -22,7 +22,7 @@ let membersObj = [
     position: "VP of Programming",
     linkedIn: "jasmine-li-66821596/",
     home: "Philadelphia, PA",
-    team: "leadership",
+    team: "Leadership",
     src: "JasmineLi.jpg",
     bio: "Jasmine is an advocate for equitable education and a rising first-year at Dartmouth College. She joined STEMchats because everyone deserves the opportunity to thrive in STEM regardless of their individual backgrounds. In her free time, she enjoys singing, playing the ukulele, and spending way too long clicking through the endless void that is Youtube."
   }, {
@@ -30,7 +30,7 @@ let membersObj = [
     position: "VP of Programming",
     linkedIn: "mahir-rahman-8605201a7/",
     home: "Kissimmee, FL",
-    team: "leadership",
+    team: "Leadership",
     src: "MahirRahman.jpg",
     bio: "Mahir is a proponent advocate for equitable educational and medicinal opportunities and is an IB senior at Gateway High School in Kissimmee, Florida. He aspires to study Public Health and joined STEMchats to introduce medicinal aspects to the program, to provide awareness towards, and include underprivileged, FGLI (first-generation, low-income), women, & minorities, in a global manner. In his free time, he enjoys reading about politics, exploring fashion and makeup, and listening to music."
   }, {
@@ -38,7 +38,7 @@ let membersObj = [
     position: "VP of Biz-Development",
     linkedIn: "snoe-castillo/",
     home: "San Jose, CA",
-    team: "leadership",
+    team: "Leadership",
     src: "SnoeCastillo.jpg",
     bio: "Snoe is a rising second-year majoring in Film/Cinema/Video Studies at San Jose State University. She joined STEMchats because she wanted to help provide the same support and opportunities to minorities and show the potential of the younger generations. In her free time, she enjoys watching animation, editing graphics/videos, and eating asian cuisine."
   },
@@ -48,7 +48,7 @@ let membersObj = [
     position: "Technology Lead",
     linkedIn: "joseph-chiang/",
     home: "Vancouver, Canada",
-    team: "technology",
+    team: "Technology",
     src: "JosephChiang.jpg",
     bio: "Joseph is an aspiring computer developer and a rising sophomore at University of British Columbia. He joined STEMchats to support and prepare the next generation, especially low-income youth, for practical real world opportunities through immersive and relevant experiences in STEM. When he is not learning about technology, he enjoys writing poetry, exploring hiking trails, and relaxing to lofi beats."
   }, {
@@ -56,7 +56,7 @@ let membersObj = [
     position: "Technology Lead",
     linkedIn: "myco-le/",
     home: "Baltimore, MD",
-    team: "technology",
+    team: "Technology",
     src: "MyCoLe.jpg",
     bio: "MyCo is a rising freshman at Rice University in Houston, Texas and an avid believer in self love and individuality. She wants to fight for equitable opportunities so that everyone, no matter their background and especially FGLI and minority students, may be able to find their true passions and pursue happiness. She joined STEMchats to indulge in her own love for STEM and help others do the same. In her free time, she likes to draw, watch anime, listen to J-rock and lo-fi, and browse YouTube for hours on end."
   }, {
@@ -64,7 +64,7 @@ let membersObj = [
     position: "Funding Lead",
     linkedIn: null,
     home: "El Paso, TX",
-    team: "funding",
+    team: "Funding",
     src: "AlexaRamirez.jpg",
     bio: "Alexa is an aspiring tech entrepreneur/aerospace engineer who has a passion for space, and is currently a junior at Clint Early College Academy, TX. She joined STEMchats because as a fellow Latina, she would love to see, and inspire other latinas to pursue engineering and become business owners. In her free time she enjoys learning about space and physics, horseback riding, archery, and dancing."
   }, {
@@ -72,7 +72,7 @@ let membersObj = [
     position: "STEMlights Lead",
     linkedIn: "chloekim-8a158919a/",
     home: "Las Vegas, NV",
-    team: ["STEMlights", "speaker series"],
+    team: ["STEMlights", "Speaker Series"],
     src: "ChloeKim.jpg",
     bio: "Chloe is a dedicated proponent of equity in healthcare and is a rising first year at Brown University, working to pursue a career in public health and/or medicine. She joined STEMchats to help support other students and break the glass ceiling that prevents many historically disadvantaged groups from receiving opportunities in STEM. In her free time, she loves to listen to/create music, philosophize, and chill with her friends and family."
   }, {
@@ -128,7 +128,7 @@ let membersObj = [
     position: "United Engineers Lead",
     linkedIn: "lolarustamova/",
     home: "Brooklyn, NY",
-    team: ["United Engineers", "speaker series"],
+    team: ["United Engineers", "Speaker Series"],
     src: "LolaRustamova.jpg",
     bio: "Lola is a rising second-year student at Baruch College in New York City. She joined STEMchats because she's passionate about helping disadvantaged students discover and learn more about STEM and provide more opportunities to them. In her spare time she loves spending time with kids, reading, baking, and exploring New York City."
   }, {
@@ -136,7 +136,7 @@ let membersObj = [
     position: "i-STEM Scholars Lead",
     linkedIn: "abigailyjiang/",
     home: "Camas, WA",
-    team: ["i-STEM Scholars", "speaker series"],
+    team: ["i-STEM Scholars", "Speaker Series"],
     src: "AbigailJiang.jpg",
     bio: "Abigail is a scientist, activist, and a junior at Caltech studying Materials Science and History/Ethnic Studies. She joined STEMchats to provide underserved students with accessible opportunities for education, mentorship, and inspiration. Abigail is passionate about diversity and inclusion-related advocacy, and they aim to bring an equity-centered lens to the higher education landscape. In her free time, she loves hiking, photographing the world, and exploring museums."
   }, {
@@ -144,7 +144,7 @@ let membersObj = [
     position: "Blueprint Lead",
     linkedIn: "anusha-p-04bb59190/",
     home: "Richmond, VA",
-    team: "blueprint",
+    team: "Blueprint",
     src: "AnushaPuri.jpg",
     bio: "Anusha is a driven researcher and second-year student at the Massachusetts Institute of Technology majoring in Biological Engineering. She joined STEMchats to help others discover the potential of research and to further conversation on real-world scientific issues and their solutions. In her free time, she enjoys playing the piano, writing comedy, and doing trivia."
   }, {
@@ -152,7 +152,7 @@ let membersObj = [
     position: "Blueprint Lead",
     linkedIn: "ginalee2/",
     home: "Great Neck, NY",
-    team: "blueprint",
+    team: "Blueprint",
     src: "GinaLee.jpg",
     bio: "Gina is an advocate for equal educational opportunity and is a rising freshman at Yale University in New Haven, CT. She joined STEMchats because she wants to inspire students from underrepresented backgrounds to discover their passion in STEM. She hopes to help make research and education in the STEM fields attainable for everyone. In her free time, Gina likes fencing, baking sweets, reading new books, and relaxing at coffee shops."
   }, {
@@ -160,7 +160,7 @@ let membersObj = [
     position: "Internal Development Lead",
     linkedIn: null,
     home: "Astoria, NY",
-    team: ["development", "speaker series"],
+    team: ["Development", "Speaker Series"],
     src: "ManvirBhandal.jpg",
     bio: "Manvir is a passionate entrepreneur and a rising second-year student majoring in Financial Economics at Columbia University in NYC. He joined STEMchats to help provide underprivileged students, such as low income, first generation youth, with more opportunities in STEM and to help connect the STEM world with underrepresented groups. In his free time, he enjoys listening to rap, buying and reselling streetwear, and playing basketball."
   }, {
@@ -168,7 +168,7 @@ let membersObj = [
     position: "External Development Lead",
     linkedIn: "sristi-palimar-238397188/",
     home: "Irvine, CA",
-    team: ["development", "speaker series"],
+    team: ["Development", "Speaker Series"],
     src: "SristiPalimar.jpg",
     bio: "Sristi is a rising senior at Woodbridge High School in southern California. As an ally to underrepresented minorities, Sristi strives to uplift marginalized youth in her community. She strongly believes that all students deserve the opportunity to extend their learning outside of the classroom, and is committed to supporting those who lack the resources to fulfill their educational potential. Sristi joined STEMchats to broaden the scope of her advocacy, and support underserved students in pursuing STEM opportunities across the nation. She hopes that her impact will inspire young women of color to find confidence in challenging adversity. In her free time, Sristi enjoys volunteering, painting, journaling, and trying new foods!"
   },
@@ -178,7 +178,7 @@ let membersObj = [
     position: "Senior Advisor",
     linkedIn: "sanja-kirova-cur10u5/",
     home: "Portage, IN",
-    team: "senior advisors",
+    team: "Senior Advisors",
     src: "SanjaKirova.jpg",
     bio: "Sanja is a robotics enthusiast and rising second-year student majoring in Mechanical Engineering at Columbia University in New York, NY. In her junior year of high school, Sanja started She Can Tech, a local computer science and technology program for middle school girls. As part of STEMchats, she is excited about sharing STEM with students from underserved communities. Sanja has been competing in robotics for the past 5 years, and she is part of Columbia’s motorsports (Formula SAE) team. Fun fact: Sanja is vegetarian and does not watch TV. She also enjoys photography, biking, travel, and reading."
   }, {
@@ -186,7 +186,7 @@ let membersObj = [
     position: "Senior Advisor",
     linkedIn: "tatum-wilhelm-203340177/",
     home: "Orange County, CA",
-    team: "senior advisors",
+    team: "Senior Advisors",
     src: "TatumWilhelm.jpg",
     bio: "Tatum is a rising sophomore at the Massachusetts Institute of Technology majoring in Chemical Engineering and minoring in Biomedical Engineering. She joined STEMchats to help inspire and provide equal opportunity to fellow first-generation, low income students through mentorship and leadership. Outside of STEMchats, she is heavily involved in research, rowing, and being outdoors."
   }, {
@@ -194,7 +194,7 @@ let membersObj = [
     position: "Senior Advisor",
     linkedIn: "sasha-kolesnikov-profile/",
     home: "Santa Cruz, CA",
-    team: "senior advisors",
+    team: "Senior Advisors",
     src: "SashaKolesnikov.jpg",
     bio: "Sasha is a social justice advocate and a rising second-year student majoring in Environmental Economics & Policy at UC Berkeley in the Bay Area. She joined STEMchats as a first generation, low-income student with a goal of supporting historically disadvantaged groups in STEM and socially responsible organizations. In her free time, she enjoys finding unusual books to read, exploring new places with friends, listening to a variety of podcasts in an attempt to feel smart, and trying anything matcha flavored."
   }, {
@@ -202,7 +202,7 @@ let membersObj = [
     position: "Senior Advisor",
     linkedIn: "korevillo/",
     home: "Las Vegas, NV",
-    team: "senior advisors",
+    team: "Senior Advisors",
     src: "KatrinaOverillo.jpg",
     bio: "Katrina is a coder/designer/project manager with a passion for accessibility in tech. A third-year CS + American Studies student at CSU Long Beach, she enjoys working at the intersection of code and culture to create products with accessibility and mindfulness at the forefront. Katrina joined STEMchats in 2019 to have an active role in pushing for for equitable education while engaging her love for STEM. In her free time, Katrina enjoys going on scenic hikes, attempting new recipes, playing music, and indulging her sudoku obsession."
   }, {
@@ -210,7 +210,7 @@ let membersObj = [
     position: "Senior Advisor",
     linkedIn: "kanotung/",
     home: "Las Vegas, NV",
-    team: "senior advisors",
+    team: "Senior Advisors",
     src: "KanokwanTungkitkancharoen.jpg",
     bio: "Kanokwan is an avid maker and a rising 1st-year mechanical engineering student attending the Massachusetts Institute of Technology. She joined STEMchats to be proactive in the fight for social equity for low-income minority students, such as herself. On the usual, you can find her meditating, eating Thai red chili peppers, or on the hunt for writing nooks in the city."
   }, {
@@ -218,7 +218,7 @@ let membersObj = [
     position: "Senior Advisor",
     linkedIn: "hanamemon/",
     home: "Yardley, PA",
-    team: "senior advisors",
+    team: "Senior Advisors",
     src: "HanaMemon.jpg",
     bio: "Hana is a rising freshman at the College of New Jersey where she plans to study Computer Science, Business, and Arabic. Hana actively uses her technical skills to empower marginalized communities through technology. Hana first joined STEMchats to give FGLI students a platform to creatively express their scientific interests. Outside of STEMchats, Hana is involved with various other student run nonprofits dedicated towards making the tech industry more inclusive. In her free time, you can find Hana drinking iced coffee and discovering new music on Spotify."
   },
@@ -228,7 +228,7 @@ let membersObj = [
     position: "Marketing Coordinator",
     linkedIn: "vivienne-nguyen-7703b6163/",
     home: "Las Vegas, NV",
-    team: "marketing",
+    team: "Marketing",
     src: "VivienneNguyen.jpg",
     bio: "Vivienne is a rising third-year student majoring in Business Administration at the University of Southern California. She was eager to join STEMchats because she believes in its mission and wants to use her business experience to help expand it to the next level! In her spare time, she enjoys traveling and spending time with her mom and friends."
   }, {
@@ -236,7 +236,7 @@ let membersObj = [
     position: "Marketing Coordinator",
     linkedIn: "lucindacheng/",
     home: "Concord, CA",
-    team: "marketing",
+    team: "Marketing",
     src: "LucyCheng.jpg",
     bio: "Lucy is a rising second-year at UC Berkeley double-majoring in Computer Science and Business Administration. She joined STEMchats to drive its vision towards making STEM accessible for underrepresented communities and low-income, first generation students. She is excited to see the impact she can create! In her free time she loves to make videos, try new recipes, and find new music."
   }, {
@@ -244,7 +244,7 @@ let membersObj = [
     position: "Marketing Coordinator",
     linkedIn: null,
     home: "Houston, TX",
-    team: "marketing",
+    team: "Marketing",
     src: "JennaTran.jpg",
     bio: "Jenna, a rising senior at Klein Collins HS in Spring, TX, is a passionate advocate for equitable opportunities, particularly in the STEM field. As a first-gen Vietnamese-American student, she aspires to pursue mechanical engineering in the future, hoping to foreground and dispel the gender disparities in the engineering workforce, which is why she joined STEMchats. In her free time, she can be found watching TikToks, playing violin, taking photos, experimenting with makeup, or savoring some good boba tea."
   }, {
@@ -252,7 +252,7 @@ let membersObj = [
     position: "Marketing Coordinator",
     linkedIn: "caitlyn-widjaja-762172192/",
     home: "Bothell, WA",
-    team: "marketing",
+    team: "Marketing",
     src: "CaitlynWidjaja.jpg",
     bio: "Caitlyn is an advocate for those underrepresented in fields such as STEM, she believes in equitable education for all and joined STEMchats to help break down barriers in STEM for youth in underserved communities. She is a rising senior at North Creek High School in Bothell, Washington and competes in business competitions through DECA, is a Consultant at JUV Consulting, leads the student led organization Girl STEMinist, and empowers young women to achieve their own version of success with Miss CEO. In her free time, Caitlyn enjoys spending time with friends and family, trying new foods, finding new movies to watch, and drinking boba."
   }, {
@@ -260,7 +260,7 @@ let membersObj = [
     position: "Funding Coordinator",
     linkedIn: null,
     home: "Houston, TX",
-    team: "funding",
+    team: "Funding",
     src: "HaylieJones.jpg",
     bio: "Haylie Jones is a high school senior, a student leader, and a community volunteer residing in the city of Houston, Texas. Haylie is currently pursuing a career in pathology for her passion for discovering various mechanisms of illnesses and diseases. She aspires to create an impact in the world with her medical expertise and knowledge, to help those who are in need of care and treatment. In her free time, she loves playing volleyball, gardening, blogging, and fitness."
   }, {
@@ -268,7 +268,7 @@ let membersObj = [
     position: "Funding Coordinator",
     linkedIn: null,
     home: "Garden Grove, CA",
-    team: "funding",
+    team: "Funding",
     src: "TiffanyHoang.jpg",
     bio: "Tiffany is an upcoming senior at Garden Grove High School, serving on her Associated Student Body and California Scholarship Federation board. She has an interest in Business and STEM, and hoping to pursue them in higher education. She is excited to be apart of STEMchats to push her passion of making STEM accessible to other girls and low-income, first generation students like herself. She is a proud Vietnamese-American, loves to spend time on TikTok, and try new foods."
   }, {
@@ -276,7 +276,7 @@ let membersObj = [
     position: "Funding Coordinator",
     linkedIn: "audrey-vargas-314-av",
     home: "New York City, NY",
-    team: "funding",
+    team: "Funding",
     src: "AudreyChu.jpg",
     bio: "Audrey is a sophomore at Brooklyn Technical High School in New York with a strong interest in STEM. She joined STEMchats because she supports its mission and hopes to help make STEM educational opportunities accessible to students from underrepresented and underserved communities. In her free time, Audrey enjoys sewing her designs, playing cards, baking, and going on long walks with her dog."
   }, {
@@ -284,7 +284,7 @@ let membersObj = [
     position: "External Development Coordinator",
     linkedIn: "zainab-al-ramlawi-25201a12b/",
     home: "Gaza, Palestine",
-    team: ["development", "speaker series"],
+    team: ["Development", "Speaker Series"],
     src: "ZainabAlRamlawi.jpg",
     bio: "Zainab is a youth advocate and a rising third-year student majoring in business administration. Zainab has taken part in many leadership positions and run many initiatives & campaigns to empower youth in education, STEM, and entrepreneurship fields. She joined STEMchats because she believes in its mission and wants to empower more people to pursue their career in STEM fields, especially the one who is living in the underserved communities. In her free time, she enjoys watching movies, reading books, and debating."
   }, {
@@ -292,7 +292,7 @@ let membersObj = [
     position: "External Development Coordinator",
     linkedIn: "sai-h-naraharisetti-5a2084195/",
     home: "Woodstock, MD",
-    team: ["development", "speaker series"],
+    team: ["Development", "Speaker Series"],
     src: "SaiNaraharisetti.jpg",
     bio: "Sai is a motivated and hardworking senior at Marriotts Ridge High School. She hopes to double major in computer science and business. She joined STEMchats to help break barriers for monitories in STEM and make more opportunities available to them. In her free time, Sai likes to play volleyball, paint, quill, and watch tv shows."
   },
@@ -301,7 +301,7 @@ let membersObj = [
     position: "External Development Coordinator",
     linkedIn: "esha-sharma-83bb21207/",
     home: "Glen Allen, VA",
-    team: "development",
+    team: "Development",
     src: "EshaSharma.jpg",
     bio: "Esha is an aspiring researcher, environmental advocate, and current senior at Mills E. Godwin High School. She joined STEMchats to help extend opportunities to youth that have had minimal exposure to the many worlds of STEM, learn to create equitable educational experiences for underserved students, and expand the scope of impactful scientific research upon real-world issues. In her free time, Esha enjoys writing short stories, growing new plants, hunting for new books to read, and, of course, catnapping every now and then. "
   },
@@ -310,7 +310,7 @@ let membersObj = [
     position: "External Development Coordinator",
     linkedIn: "princess-thompson-7906001b0/",
     home: "Greensboro, NC",
-    team: "development",
+    team: "Development",
     src: "PrincessThompson.jpg",
     bio: "Princess is a current high school senior at the Middle College at UNCG. She is interested in  Environmental Engineering and Public Policy and joined STEMchats to help make STEM opportunities and education easily accessible to FGLI students. She is passionate about Environmental research and loves sharing STEM activities with children at her local Science Center as an Robotic Ambassador. In her free time, Princess loves read, practice ASL, and listen to podcasts."
   },
@@ -319,7 +319,7 @@ let membersObj = [
     position: "Internal Development Coordinator",
     linkedIn: null,
     home: "Orefield, PA",
-    team: "development",
+    team: "Development",
     src: "AnamAli.jpg",
     bio: "Anam is a rising senior at Parkland High School in Allentown, Pennsylvania with academic interests in biology (specifically, molecular biology and genetics) and Spanish. She joined STEMchats to support the mission of expanding STEM opportunities in underprivileged backgrounds and join a community of like-minded individuals with a common goal. In her free time, she enjoys making desserts (especially cakes and cupcakes), playing violin, expanding on her Spanish vocabulary, and improving her (rather poor) calligraphy skills."
   }, {
@@ -327,7 +327,7 @@ let membersObj = [
     position: "Internal Development Coordinator",
     linkedIn: null,
     home: "Philadelphia, PA",
-    team: "development",
+    team: "Development",
     src: "AnikaXi.jpg",
     bio: "Anika is a rising junior at Lower Merion High School with a passion for STEM. She joined STEMchats to be able to help others explore their own love for STEM without having to worry about potential barriers preventing them from achieving their goals. In her free time, Anika can be seen playing her viola, practicing calligraphy, watching birds, painting, and taking photos."
   }, {
@@ -335,7 +335,7 @@ let membersObj = [
     position: "Internal Development Coordinator",
     linkedIn: "jamesdchu/",
     home: "New York City, NY",
-    team: "development",
+    team: "Development",
     src: "JamesChu.jpg",
     bio: "James is a rising first-year student at the University of Michigan majoring in Computer Science and minoring in Business. He joined STEMchats because he is passionate about combatting STEM educational inequality and he hopes to help provide STEM opportunities to those from underserved communities. In his free time, he enjoys spending time outdoors, reading, participating in and organizing hackathons, and exploring new cultures, places, and foods."
   }, {
@@ -343,7 +343,7 @@ let membersObj = [
     position: "Technology Coordinator",
     linkedIn: "anastasia-dunca-267a4b1a8/",
     home: "Salt Lake City, UT",
-    team: "technology",
+    team: "Technology",
     src: "AnastasiaDunca.jpg",
     bio: "Anastasia is a determined student who has a goal of eliminating the digital divide and educational disparity within minority communities around her. She attends West High School as a rising junior and is especially interested in computer science; she plans to major in that in college. Her reason for joining STEMchats is to work with a team that shares the same goal of achieving educational equity globally through providing opportunities in STEM in creative ways! In her free time, she loves to play tennis, watch Netflix, code, and get bubble tea with friends."
   }, {
@@ -351,7 +351,7 @@ let membersObj = [
     position: "Technology Coordinator",
     linkedIn: null,
     home: "Plainsboro, NJ",
-    team: "technology",
+    team: "Technology",
     src: "SabrinaChang.jpg",
     bio: "Sabrina is a rising Junior in high school from Princeton, New Jersey, and is passionate about computer science. She joined STEMchats to help provide opportunities and resources to minorities and underrepresented groups to encourage them to pursue careers in STEM. She aims to close the gender gap and broaden the demographics in STEM. Besides computer science, she loves playing tennis and lacrosse, skiing in the winters, and is a huge boba enthusiast! She also loves traveling and hopes to one day be able to visit Greece, Spain, and Thailand!"
   }, {
@@ -359,7 +359,7 @@ let membersObj = [
     position: "Technology Coordinator",
     linkedIn: null,
     home: "Malvern, PA",
-    team: "technology",
+    team: "Technology",
     src: "ArjunBhamra.jpg",
     bio: "Arjun is an avid supporter of giving minority communities access to and experience with STEM topics, and is a rising highschool junior interested in Physics, Chemistry, and Computer Science. He joined STEMchats to help bring interesting STEM concepts and ideas that he enjoyed to the table for those who haven’t been exposed to it, and wants to support the teaching of STEM for all. Having lived in India and the US, he’s well equipped to understand the struggles of others. In his spare time, Arjun likes to cycle, read, and play videogames."
   }, {
@@ -367,7 +367,7 @@ let membersObj = [
     position: "Blueprint Coordinator",
     linkedIn: "bianca-chan-1260071a7/",
     home: "Brooklyn, NY",
-    team: "blueprint",
+    team: "Blueprint",
     src: "BiancaChan.jpg",
     bio: "Bianca is a rising first-year student majoring in Neuroscience & Medical Anthropology at Case Western Reserve University in Ohio, Cleveland. She joined STEMchats to inspire and provide more opportunities in the STEM field for minorities and low income youths like her and hopes to mentor students in academic and college related work. Her parents are from Hong Kong and she hopes she can expand STEMchats to include more students from Hong Kong. In her free time, Bianca loves to go skiing, watch and listen to Kpop and Kdramas, and travel."
   }, {
@@ -375,7 +375,7 @@ let membersObj = [
     position: "Blueprint Coordinator",
     linkedIn: "april-zhang-39922a13/",
     home: "Tucson, AZ",
-    team: "blueprint",
+    team: "Blueprint",
     src: "AprilZhang.jpg",
     bio: "April is an advocate for equitable opportunity and environmentalism. She is a freshman at University of California, Berkeley as an Electrical Engineering and Computer Science major. She joined STEMchats to help provide transformative and educational opportunities to low-income, underprivileged, minority students. A driven opponent of animal cruelty, April has been lacto-vegetarian for 6 years and counting. In her free time, she loves to practice piano, meditate with family, play tennis with friends, or be found with a large cup of rose-flavored boba tea."
   }, {
@@ -383,7 +383,7 @@ let membersObj = [
     position: "Blueprint Coordinator",
     linkedIn: null,
     home: "San Diego, CA",
-    team: "blueprint",
+    team: "Blueprint",
     src: "AudreyVargas.jpg",
     bio: "Audrey is an incoming first-year student at MIT where she intends to major in computational biology. She joined STEMchats to help make STEM opportunities more accessible to students coming from under-resourced communities. In her free time, Audrey enjoys being outdoors and spending time with her loved ones."
   }, {
@@ -391,7 +391,7 @@ let membersObj = [
     position: "Blueprint Coordinator",
     linkedIn: null,
     home: "Little Rock, AR",
-    team: "blueprint",
+    team: "Blueprint",
     src: "SakshiGarg.jpg",
     bio: "Sakshi is a rising freshman at Harvard College where she will be studying History & Science with a focus in Medicine & Society. She joined STEMchats to help address the racial, economic, and gender inequities that pervade STEM while making research more accessible to underrepresented youth. In her free time, Sakshi loves to cook, watch sitcoms, and go on road trips!"
   }, {
