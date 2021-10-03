@@ -11,6 +11,7 @@ const url = "/images/headshots/";
 const team = document.getElementById("team");
 const department = document.getElementById("department");
 const animate = document.getElementById("team_container");
+const dropdownTeams = document.getElementById("dropdownTeams");
 
 //create all the team members
 createMembers = (members) => {
@@ -97,8 +98,6 @@ createMembers = (members) => {
       if (typeof members[i].linkedIn === "string") {
         linkedIn = "<a href=\"https://www.linkedin.com/in/" + members[i].linkedIn + "\" target=\"_blank\"><i class=\"fab fa-linkedin fa-2x\"></i></a>";
         name.innerHTML += linkedIn;
-      } else {
-        console.log(typeof members[i].linkedIn);
       }
       position = document.createElement("p");
       position.className = "center";
@@ -165,97 +164,35 @@ animateOnload = () => {
   }, 500);
 }
 
-//hide other members
+//hide all team members
 hide = () => {
   team.innerHTML = "";
 }
 
-//select Team
+// change dropdown text to selected option
 function select(team) {
   department.innerHTML = team;
-  console.log(department.textContent)
 }
-leadership = () => {
-  let array = membersObj.filter(function(member) {
-    return member.team.indexOf("leadership") !== -1;
-  })
-  select("Leadership");
+
+// filter through membersObj to retreive members of the selected "team" and put them into an array
+function getTeam(team) {
+  let array = membersObj.filter((member) => member.team.indexOf(team) !== -1);
   return array;
 }
-STEMlights = () => {
-  let array = membersObj.filter(function(member) {
-    return member.team.indexOf("STEMlights") !== -1;
-  })
-  select("STEMlights");
-  return array;
-}
-blueprint = () => {
-  let array = membersObj.filter(function(member) {
-    return member.team.indexOf("blueprint") !== -1;
-  })
-  select("Blueprint");
-  return array;
-}
-institute = () => {
-  let array = membersObj.filter(function(member) {
-    return member.team.indexOf("STEMchats Institute") !== -1;
-  })
-  select("STEMchats Institute");
-  return array;
-}
-ue = () => {
-  let array = membersObj.filter(function(member) {
-    return member.team.indexOf("United Engineers") !== -1;
-  })
-  select("United Engineers");
-  return array;
-}
-scholars = () => {
-  let array = membersObj.filter(function(member) {
-    return member.team.indexOf("i-STEM Scholars") !== -1;
-  })
-  select("i-STEM Scholars");
-  return array;
-}
-marketing = () => {
-  let array = membersObj.filter(function(member) {
-    return member.team.indexOf("marketing") !== -1;
-  })
-  select("Marketing");
-  return array;
-}
-funding = () => {
-  let array = membersObj.filter(function(member) {
-    return member.team.indexOf("funding") !== -1;
-  })
-  select("Funding");
-  return array;
-}
-dev = () => {
-  let array = membersObj.filter(function(member) {
-    return member.team.indexOf("development") !== -1;
-  })
-  select("Development");
-  return array;
-}
-tech = () => {
-  let array = membersObj.filter(function(member) {
-    return member.team.indexOf("technology") !== -1;
-  })
-  select("Technology");
-  return array;
-}
-seniorAdvisor = () => {
-  let array = membersObj.filter(function(member) {
-    return member.team.indexOf("senior advisors") !== -1;
-  })
-  select("Senior Advisors");
-  return array;
-}
-speakerSeries = () => {
-  let array = membersObj.filter(function(member) {
-    return member.team.indexOf("speaker series") !== -1;
-  })
-  select("Speaker Series");
-  return array;
-}
+
+const arrayTeams = [...dropdownTeams.querySelectorAll("a")];
+arrayTeams.map(e => {
+  e.addEventListener('click', () => {
+    console.log(e.textContent);
+    loadAnimate(); // add aos animation to member cards
+    hide(); // hide all member cards
+    select(e.textContent);
+    if (e.textContent == "Our Team") {
+      // exception for "Our Team" selection, call full membersObj object instead
+      createMembers(membersObj);
+    } else {
+      // otherwise reveal the selected members given the selected team
+      createMembers(getTeam(e.textContent));
+    }
+  });
+});
