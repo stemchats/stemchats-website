@@ -498,6 +498,24 @@ let membersObj = [
 	team: "STEMlights",
 	src: "CollinsKariuki.jpg",
 	bio: "Collins is an ardent advocate for scientific advancements. He's a freshman at Pomona College, planning to double major in Physics and Cognitive Science. He joined STEMChats to expose students from disadvantaged upbringings with opportunities abroad, thus acting as a link to both worlds. Collins aspires to find the intersectionality between Cognition and Physics to help underrepresented African students excel in STEM. Proud of his heritage, he seeks to mentor kids back in Kenya with skills they need to develop their areas at the grassroots level. Collins loves playing soccer, getting stuck in Wikipedia rabbit holes, and STEM Research."
+}, 
+{
+	name: "Sue Yim",
+	position: "STEMlights Coordinator",
+	linkedIn: null,
+	home: "",
+	team: "STEMlights",
+	src: "SueYim.JPG",
+	bio: "Sue is a rising junior at the Bryn Mawr School in Baltimore, MD. She joined STEMchats to learn more and expand her knowledge on STEM while also getting the opportunity to teach those who are underrepresented in the field. She is also passionate about social justice, equity, and learning. In her free time, Sue enjoys playing sports (field hockey and lacrosse), reading, listening to music, and watching Netflix."
+}, 
+{
+	name: "Dyllan Eslava",
+	position: "STEMlights Coordinator",
+	linkedIn: null,
+	team: "STEMlights",
+	home: "",
+	src: "DyllanEslava.JPG",
+	bio: "Dyllan is a rising senior at Clark High School in Las Vegas, Nevada. He enjoys running, problem solving, playing cello, and traveling. Dyllan joined STEMchats because he is fascinated by the world of STEM. The history and new discoveries in STEM never ceases to amaze Dyllan and he wants others to see the world of STEM through his eyes."
 }, {
 	name: "Karthik Iyer",
 	position: "STEMchats Institute Coordinator",
@@ -634,7 +652,35 @@ let membersObj = [
 	team: "United Engineers",
 	src: "JustinYoo.jpg",
 	bio: "Justin is a rising sophomore in the Engineering Academy at Bergen County Academies and is passionate about anything related with STEM. He joined STEMchats in order to pursue his passion in this field and to open up opportunities for low-income, minority students. He is Korean and is constantly trying to share his culture with others. During his free time, Justin loves to go on runs in the morning, play guitar and basketball, and watch movies with friends."
-}, {
+}, 
+{
+	name: "Elaine Viloria",
+	position: "United Engineers Coordinator",
+	linkedIn: 'elaineviloria/',
+	home: "San Jose, CA",
+	team: "United Engineers",
+	src: "ElaineViloria.JPG",
+	bio: "Elaine is a rising second-year at UC Berkeley intending to major in environmental science and minor in materials science and engineering. She is passionate about creating a sustainable lifestyle that is more accessible to disadvantaged communities. She is heavily influenced by her own East Side San Jose community and Filipinx identity. Elaine joined STEMchats to foster her love for science and social justice and to support students like her that are exploring their interests in STEM fields. In her free time, she loves traveling, watching Parks and Rec, and spending time with her loved ones."
+},
+{
+	name: "Michelle Lee",
+	position: "United Engineers Coordinator",
+	linkedIn: null,
+	home: "Westminster, CA",
+	team: "United Engineers",
+	src: "MichelleLee.JPG",
+	bio: "Michelle is a rising senior at Westminster High School and is passionate about increasing the number of opportunities there are in the STEM field for less fortunate children. She believes that everyone should have a chance in trying their hand in the STEM field regardless of backgrounds. With STEMchats, she hopes to develop more accessible opportunities for communities that may not have a strong STEM background. In her free time, Michelle enjoys listening to music, spending time with friends and family, along with assembling figurines."
+}, 
+{
+	name: "Ryan Bui",
+	position: "United Engineers Coordinator",
+	linkedIn: null,
+	home: "Westminster, CA",
+	team: "United Engineers",
+	src: "RyanBui.JPG",
+	bio: "Ryan is a rising third-year student majoring in Mechanical Engineering at California State University of Long Beach. He joined STEMchats to give back to less fortunate communities as the one he grew up in, and to spread more awareness to the youth of this field. He is a proud Vietnamese-American who wants to help represent the minorities, and help influence their passions/dreams. On Ryan's free time, he likes to exercise, hangout with friends, play with his dog, and play sports. These sports are usually basketball, volleyball, and MMA. "
+}, 
+{
 	name: "Kiara Ortiz",
 	position: "United Engineers Coordinator",
 	linkedIn: "kiara-ortiz/",
