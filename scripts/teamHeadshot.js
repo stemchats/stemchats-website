@@ -757,4 +757,4 @@ let membersObj = [
 
 //load all at onload
 window.onload = createMembers(membersObj);
-window.onload =	animateOnload();
+window.onload = animateOnload();

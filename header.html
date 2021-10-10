@@ -1,7 +1,10 @@
 <nav class = "navbar navbar-expand-lg navbar-light fixed-top bg-white rounded">
     <a class="navbar-brand" href="/">STEMchats</a>
-    <button class = "navbar-toggler ml-auto custom-toggler" type = "button" data-toggle = "collapse" data-target = "#mainNav">
+    <!-- <button class = "navbar-toggler ml-auto custom-toggler" type = "button" data-toggle = "collapse" data-target = "#mainNav">
         <span class = "navbar-toggler-icon my-toggler"></span>
+    </button> -->
+    <button class="lines-button x navbar-toggler ml-auto custom-toggler" type="button" role="button" aria-label="Toggle Navigation" data-toggle = "collapse" data-target = "#mainNav">
+        <span class="lines"></span>
     </button>
     <div class = "collapse navbar-collapse mr-auto" id = "mainNav">
         <div class = "navbar-nav">
@@ -13,10 +16,12 @@
                 <li data-id="2" class="nav-item dropdown">
                   <a class = "dropdown-toggle nav-link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" href = "/about/">ABOUT US</a>
                   <div class="dropdown-menu">
-                      <!-- <a class="dropdown-item" href="#">Our Story</a> -->
                       <a class="dropdown-item" href="/about/story/">Our Story</a>
                       <a class="dropdown-item" href="/about/team/">Our Team</a>
+<<<<<<< HEAD
                       <!-- <a class="dropdown-item" href="/about/interns/">Our Interns</a> -->
+=======
+>>>>>>> 82c3e69cd3fafb61425916a4c764545fa18136f6
                       <a class="dropdown-item" href="/about/interns/">Our Interns</a>
                       <a class="dropdown-item" href="/about/bizdev/">Business Development</a>
                   </div>
@@ -58,6 +63,18 @@
 <script>
     var menu_check = document.getElementsByClassName("navbar-toggler ml-auto custom-toggler")[0];
     var mainNav = document.getElementById("mainNav");
+
+    const lines = document.getElementsByClassName("lines-button");
+    const linesToggle = [...lines];
+    linesToggle[0].addEventListener("click", () => {
+        if(linesToggle[0].classList.contains("close")) {
+            linesToggle[0].classList.remove("close");
+        } else {
+            linesToggle[0].classList.add("close");
+        }
+        //console.log(linesToggle[0]);
+    });
+
     // click anywhere will close menu icon
     /* document.body.addEventListener('mouseup', function() {
             console.log("clicked");
@@ -73,15 +90,19 @@
             }
             if (!menu_check.classList.contains("collapsed")) {
                 menu_check.classList.toggle("collapsed");
-            } 
+            }
         }
     ); */
 
-    const bsCollapse = new bootstrap.Collapse(mainNav);
+    /* const bsCollapse = new bootstrap.Collapse(mainNav);
+    let mql = window.matchMedia('(max-width: 991px)');
 
-    document.body.addEventListener('click', () => {
-        console.log("clicked");
+    if (mql.matches) {
+        console.log("matches");
+        document.body.addEventListener('click', () => {
+            console.log("clicked");
+            bsCollapse.hide();
+        })
         bsCollapse.hide();
-    })
-    bsCollapse.hide();
+    } */
 </script>

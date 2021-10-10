@@ -231,6 +231,90 @@ b {
   border-radius: 10px;
 }
 
+.lines-button {
+  display: inline-block;
+  -webkit-transition: .3s;
+  transition: .3s;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.lines-button .lines {
+  margin-left: 50%;
+  margin-right: 2rem;
+}
+
+.lines-button .lines:before {
+  top: 0.53333rem;
+}
+
+.lines-button .lines:after {
+  top: -0.53333rem;
+}
+
+.lines {
+  display: inline-block;
+  width: 1.6rem;
+  height: 2px;
+  background: #A2A2A2;
+  border-radius: 0.11429rem;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  position: relative;
+  top: -5px;
+  left: -10px;
+  /*create the upper and lower lines as pseudo-elements of the middle line*/
+}
+
+.lines:before, .lines:after {
+  display: inline-block;
+  width: 1.6rem;
+  height: 2px;
+  background: #A2A2A2;
+  border-radius: 0.11429rem;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  position: absolute;
+  left: 0;
+  content: '';
+  -webkit-transform-origin: 0.11429rem center;
+          transform-origin: 0.11429rem center;
+}
+
+.lines:before {
+  top: 0.4rem;
+}
+
+.lines:after {
+  top: -0.4rem;
+}
+
+.lines-button.x.close .lines {
+  /*hide the middle line*/
+  background: transparent;
+  /*overlay the lines by setting both their top values to 0*/
+}
+
+.lines-button.x.close .lines:before, .lines-button.x.close .lines:after {
+  -webkit-transform-origin: 50% 50%;
+          transform-origin: 50% 50%;
+  top: 0;
+  width: 1.6rem;
+}
+
+.lines-button.x.close .lines:before {
+  -webkit-transform: rotate3d(0, 0, 1, 45deg);
+          transform: rotate3d(0, 0, 1, 45deg);
+}
+
+.lines-button.x.close .lines:after {
+  -webkit-transform: rotate3d(0, 0, 1, -45deg);
+          transform: rotate3d(0, 0, 1, -45deg);
+}
+
 .navbar {
   padding: .5rem .5rem .5rem 2rem !important;
   -webkit-box-shadow: 0 0.125rem 1rem rgba(0, 0, 0, 0.075) !important;
