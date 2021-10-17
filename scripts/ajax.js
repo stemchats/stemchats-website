@@ -6,7 +6,7 @@ function loadFooter() {
         this.responseText;
     }
   };
-  request.open("GET", "/footer.html", true);
+  request.open("GET", "/insertables/footer.html", true);
   request.send();
 }
 
@@ -18,7 +18,7 @@ function loadHeader() {
         this.responseText;
     }
   };
-  request.open("GET", "/header.html", true);
+  request.open("GET", "/insertables/header.html", true);
   request.send();
 }
 
