@@ -1,63 +1,10 @@
-/* NOTE: This script file has been linked to the get-involved page, however, since we are not launching this feature yet,
-please push to the separate branch called "test" */
-
-// generate cards
-
-// function createCards(num) {
-//     /* var desc = [];
-
-//     for (var i = editions.length - 1; i >= 0; i--) {
-//         var children = editions[i].getElementsByTagName("*");
-//         for (var j = 0; j < children.length; j++) {
-//             if (children[j].className == "card-text") {
-//                 desc[i] = children[j].innerHTML;
-//             }
-//         }
-//         editions[i].parentNode.removeChild(editions[i]);
-//     } */
-
-//     for (var i = 1; i <= num; i++) {
-//         var opp = document.createElement('div');
-//         opp.classList.add('card', 'modal-trigger', 'oppcard');
-//         opp.setAttribute('data-target', '#modal'+(i-1))
-//         var body = document.createElement('div');
-//         body.classList.add('card-body', 'oppcard-body');
-//         opp.appendChild(body);
-
-//         var oppName = document.createElement('h3');
-//         oppName.classList.add('card-title', 'oppcard-title')
-//         oppName.innerHTML = "Opportunity " + i;
-//         body.appendChild(oppName);
-
-//         var descTxt = document.createElement('p');
-//         if (desc[num - i]) {
-//             descTxt.innerHTML = desc[num - i - 1];
-//         }
-//         body.appendChild(descTxt);
-
-//         opps = document.getElementById("opportunities");
-//         opps.appendChild(opp);
-//     }
-// }
-
-
-
-// AOS.init(); //animation
-AOS.init({
-  // offset: 200, // offset (in px) from the original trigger point
-
-  easing: 'ease-in-out', // default easing for AOS animations
-  once: false, // whether animation should happen only once - while scrolling down
-  // anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
-});
-
-
-// create modal popup
-
+// final variables
 const opportunities = document.getElementById("opportunities");
 const animate = document.getElementById("opportunities_container");
 const categories = document.getElementById("categories");
 const opps = document.getElementById("opportunities");
+const dropdownOpportunities = document.getElementById("dropdownOpportunities");
+
 
 //create all the team members
 createOpportunities = (opps) => {
@@ -229,37 +176,12 @@ createFAQs = (f, container) => {
     butt.setAttribute("aria-expanded", "false");
     butt.setAttribute("aria-controls", "collapse" + numwords[count]);
 
-
     // ques = "<button class=\"btn btn-link intern-faq-question-header\" type=\"button\" data-toggle=\"collapse\" data-target=\"#collapseOne\" aria-expanded=\"false\" aria-controls=\"collapseOne\"> \"" + j.question + "\"</button>";
     butt.innerHTML = q.question;
     header.appendChild(question);
     card.appendChild(header);
     question.appendChild(butt);
     faq.appendChild(card);
-
-    // butt.addEventListener("click", function expand(){
-    //     console.log("clicked");
-    //
-    //     answer.className = "collapsing";
-    //     answer.setAttribute("style", "height: 404px");
-    //
-    //     setTimeout(function() {
-    //         answer.removeAttribute("style");
-    //         butt.classList.toggle("collapsed");
-    //
-    //         answer.className = "collapse show";
-    //
-    //         if (butt.getAttribute("aria-expanded") == "false") {
-    //             butt.setAttribute("aria-expanded", "true");
-    //         } else {
-    //             butt.setAttribute("aria-expanded", "false");
-    //             answer.className = "collapse";
-    //         }
-    //     }, 0)
-    // });
-
-    // card2 = document.createElement("div");
-    // card2.className = "collapse";
 
     //create answer block
     var answer = document.createElement("div");
@@ -278,47 +200,6 @@ createFAQs = (f, container) => {
   });
   container.appendChild(faq);
 }
-
-
-//animation on click for the select
-/* loadAnimate = () => {
-animate.style.visibility = "hidden";
-// animate.style.display = "none";
-window.scrollTo(0, 0);
-setTimeout(function() {
-        animate.classList.remove("aos-animate");
-        // animate.style.display = "block";
-        setTimeout(function(){
-                animate.style.visibility = "visible";
-                animate.classList.add("aos-animate");
-            }, 600);
-    }, 50);
-} */
-
-// //remove styling/animation onclick modals
-// removeAnimate = () => {
-// 	animate.removeAttribute("data-aos");
-// }
-
-// //add aos styling/animation after exiting modal
-// addAnimate = () => {
-// 	setTimeout(function() {
-// 		animate.setAttribute("data-aos","fade-up");
-// 	}, 200)
-// }
-
-// //add the onload delay
-// animateOnload = () => {
-// 	animate.setAttribute("data-aos-delay", "800");
-// 		setTimeout(function() {
-// 			animate.removeAttribute("data-aos-delay");
-// 		}, 500);
-// 	}
-
-// //hide other members
-// hide = () => {
-// 	team.innerHTML = "";
-// }
 
 let opportunitiesObj = [{
     title: "2021 STEMchats Internship Program",
@@ -364,8 +245,6 @@ let opportunitiesObj = [{
 
 
 window.onload = createOpportunities(opportunitiesObj);
-// window.onload =	animateOnload();
-
 
 loadAnimate = () => {
   animate.style.visibility = "hidden";
@@ -382,7 +261,7 @@ loadAnimate = () => {
   console.log("animate in");
 }
 
-//hide other members
+//hide cards
 hide = () => {
   opps.innerHTML = "";
 }
@@ -390,38 +269,25 @@ hide = () => {
 //select Category
 function select(categ) {
   categories.innerHTML = categ;
-  console.log(categories.textContent);
 }
-internship = () => {
-  let array = opportunitiesObj.filter(function(opp) {
-    return opp.category.indexOf("Internship") !== -1;
-  })
-  select("Internship");
-  return array;
-}
-programs = () => {
-  let array = opportunitiesObj.filter(function(opp) {
-    return opp.category.indexOf("Programs") !== -1;
-  })
-  select("Programs");
-  return array;
-}
-bizdev = () => {
-  let array = opportunitiesObj.filter(function(opp) {
-    return opp.category.indexOf("Business-Development") !== -1;
-  })
-  select("Business-Development");
-  return array;
-}
-past = () => {
-  let array = opportunitiesObj.filter(function(opp) {
-    return opp.category.indexOf("Past Opportunities") !== -1;
-  })
-  select("Past Opportunities");
+
+// filter through opportunitiesObj to retrieve selected "opportunity" types and put them into an array
+function getOpportunity(opp) {
+  let array = opportunitiesObj.filter((opportunity) => opportunity.category.indexOf(opp) !== -1);
   return array;
 }
 
-
-
-
-// collection of card objects
+const arrayOpportunities = [...dropdownOpportunities.querySelectorAll("a")];
+arrayOpportunities.map(e => {
+  e.addEventListener('click', () => {
+    hide(); // hide all opportunity cards
+    select(e.textContent);
+    if (e.textContent == "Select All") {
+      // exception for "Select All" selection, call full opportunitiesObj object instead
+      createOpportunities(opportunitiesObj)
+    } else {
+      // otherwise reveal the specified opportunities
+      createOpportunities(getOpportunity(e.textContent));
+    }
+  });
+});
