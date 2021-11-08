@@ -379,6 +379,30 @@ let membersObj = [
 	src: "ArjunBhamra.jpg",
 	bio: "Arjun is an avid supporter of giving minority communities access to and experience with STEM topics, and is a rising highschool junior interested in Physics, Chemistry, and Computer Science. He joined STEMchats to help bring interesting STEM concepts and ideas that he enjoyed to the table for those who haven’t been exposed to it, and wants to support the teaching of STEM for all. Having lived in India and the US, he’s well equipped to understand the struggles of others. In his spare time, Arjun likes to cycle, read, and play videogames."
 }, {
+	name: "Lauryne Assa",
+	position: "Technology Coordinator",
+	linkedIn: 'lauryne-assa/',
+	home: "Nice, FR",
+	team: "Technology",
+	src: "LauryneAssa.JPG",
+	bio: "Lauryne is motivated student interested in all things technology. Whether it's graphic design, video production or programming she loves creating. Looking to pursue an education in computer science & business and further along a career in data science. She joined STEMchats because she was exposed to technology thanks to an organization with similar goals and wants to give back by helping youths that are in the same position she was in. In her free time you can find her reading a thriller book, watching TV shows, baking or working out!"
+}, {
+	name: "Hannah Zhang",
+	position: "Technology Coordinator",
+	linkedIn: null,
+	home: "Tucson, AZ",
+	team: "Technology",
+	src: "HannahZhang.JPG",
+	bio: "Hannah is a high school junior in Tucson, Arizona. With a passion for computer science and climate change activism, she joined STEMchats because she believes in equity for underrepresented, low-income groups. She hopes to provide passionate, capable students with equal opportunities in the STEM field. In her free time, she likes to meet with friends, write poetry, and play with her dogs."
+}, {
+	name: "Estrella Popoca",
+	position: "Technology Coordinator",
+	linkedIn: "Estrella-2021/",
+	home: "Chicago, IL",
+	team: "Technology",
+	src: "EstrellaPopoca.jpg",
+	bio: "Estrella Popoca is currently a 12th grade student attending Proviso Math and Science Academy, and is an aspiring aerospace engineer and CS major! She joined STEMchats to be involved in the movement of providing STEM exposure to minorities, and her personal passion of encouraging women to join STEM and Tech fields. One of her main passions is leading her FRC Robotics Team as a Co-Captain, and working on outreach events in Chicago! Outside of school she loves to hang out with her robotics team, listen to music, and drink boba with her friends!"
+}, {
 	name: "Bianca Chan",
 	position: "Blueprint Coordinator",
 	linkedIn: "bianca-chan-1260071a7/",
@@ -532,14 +556,6 @@ let membersObj = [
 	team: ["STEMchats Institute", "Speaker Series"],
 	src: "BiancaMoniqueLuansing.jpg",
 	bio: "Bianca is a rising third-year undergraduate at the University of California, Berkeley studying Physics, Astrophysics, and South and Southeast Asian Studies. She joined STEMchats to serve as a mentor for students who identify as low-income, first-generation, minorities and are experiencing a lack of STEM resources, just as she did. In her free time you can find her listening to podcasts, learning new languages, reading in coffee and tea shops, and learning about start-ups from around the world."
-}, {
-	name: "Estrella Popoca",
-	position: "STEMchats Institute Coordinator",
-	linkedIn: "Estrella-2021/",
-	home: "Chicago, IL",
-	team: "STEMchats Institute",
-	src: "EstrellaPopoca.jpg",
-	bio: "Estrella Popoca is currently a 12th grade student attending Proviso Math and Science Academy, and is an aspiring aerospace engineer and CS major! She joined STEMchats to be involved in the movement of providing STEM exposure to minorities, and her personal passion of encouraging women to join STEM and Tech fields. One of her main passions is leading her FRC Robotics Team as a Co-Captain, and working on outreach events in Chicago! Outside of school she loves to hang out with her robotics team, listen to music, and drink boba with her friends!"
 }, {
 	name: "Isabella Siu",
 	position: "STEMchats Institute Coordinator",
