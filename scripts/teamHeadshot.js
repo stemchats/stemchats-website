@@ -495,7 +495,7 @@ let membersObj = [
 	name: "Sue Yim",
 	position: "STEMlights Coordinator",
 	linkedIn: null,
-	home: "",
+	home: "Baltimore, MD",
 	team: "STEMlights",
 	src: "SueYim.JPG",
 	bio: "Sue is a rising junior at the Bryn Mawr School in Baltimore, MD. She joined STEMchats to learn more and expand her knowledge on STEM while also getting the opportunity to teach those who are underrepresented in the field. She is also passionate about social justice, equity, and learning. In her free time, Sue enjoys playing sports (field hockey and lacrosse), reading, listening to music, and watching Netflix."
@@ -503,9 +503,9 @@ let membersObj = [
 {
 	name: "Dyllan Eslava",
 	position: "STEMlights Coordinator",
-	linkedIn: null,
+	linkedIn: "dyllan-eslava-1185a4217/",
 	team: "STEMlights",
-	home: "",
+	home: "Las Vegas, NV",
 	src: "DyllanEslava.JPG",
 	bio: "Dyllan is a rising senior at Clark High School in Las Vegas, Nevada. He enjoys running, problem solving, playing cello, and traveling. Dyllan joined STEMchats because he is fascinated by the world of STEM. The history and new discoveries in STEM never ceases to amaze Dyllan and he wants others to see the world of STEM through his eyes."
 }, {
