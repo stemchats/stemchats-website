@@ -384,7 +384,7 @@ let membersObj = [
 	linkedIn: 'lauryne-assa/',
 	home: "Nice, FR",
 	team: "Technology",
-	src: "LauryneAssa.JPG",
+	src: "LauryneAssa.jpg",
 	bio: "Lauryne is motivated student interested in all things technology. Whether it's graphic design, video production or programming she loves creating. Looking to pursue an education in computer science & business and further along a career in data science. She joined STEMchats because she was exposed to technology thanks to an organization with similar goals and wants to give back by helping youths that are in the same position she was in. In her free time you can find her reading a thriller book, watching TV shows, baking or working out!"
 }, {
 	name: "Hannah Zhang",
@@ -392,7 +392,7 @@ let membersObj = [
 	linkedIn: null,
 	home: "Tucson, AZ",
 	team: "Technology",
-	src: "HannahZhang.JPG",
+	src: "HannahZhang.jpg",
 	bio: "Hannah is a high school junior in Tucson, Arizona. With a passion for computer science and climate change activism, she joined STEMchats because she believes in equity for underrepresented, low-income groups. She hopes to provide passionate, capable students with equal opportunities in the STEM field. In her free time, she likes to meet with friends, write poetry, and play with her dogs."
 }, {
 	name: "Estrella Popoca",
