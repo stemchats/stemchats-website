@@ -105,14 +105,14 @@ createOpportunities = (opps) => {
 
       app = document.createElement("div");
       app.className = "center";
-      link = document.createElement("a");
-      link.className = "btn btn-primary";
-      link.setAttribute("href", opps[i].application);
-      link.setAttribute("target", "_blank");
-      link.innerHTML = "Access Application";
+      // link = document.createElement("a");
+      // link.className = "btn btn-primary";
+      // link.setAttribute("href", opps[i].application);
+      // link.setAttribute("target", "_blank");
+      // link.innerHTML = "Access Application";
 
       // link = "<a href=\"https://" + opps[i].application + "\" target=\"_blank\"><i class=\"btn btn-primary\">Access Application</i></a>";
-      app.appendChild(link);
+      // app.appendChild(link);
 
       container.appendChild(img);
       container.appendChild(titleContainer);
@@ -203,7 +203,7 @@ createFAQs = (f, container) => {
 
 let opportunitiesObj = [{
     title: "2021 STEMchats Internship Program",
-    category: "Internship",
+    category: "Past Opportunities",
     description: "Thank you for your interest in our Second Annual Internship Program! We encourage you to submit an application to join us this summer! Please make sure to read all parts of the Google Form, the linked Google Docs, and FAQs at the bottom of this page carefully. Please email us at <a href = \"mailto: stemchats@stemchats.org\" target = \"_blank\">stemchats@stemchats.org</a> if you have any questions! We are excited to provide a summer of engaging and fulfilling work, networking, events, and more as we work towards our mission of shatter barriers in STEM for underrepresented students.",
     src: "/images/internship_shared_workspace.png",
     application: "https://docs.google.com/forms/d/190P98goeJ2EeC0-GmAsHnR0oW6mm0zfnhnpuX4And_I/viewform?edit_requested=true",
